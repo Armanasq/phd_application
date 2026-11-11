@@ -1,6 +1,6 @@
 # Coverage and systematic-review limitations
 
-**Review date:** 11 November 2026. An honest **systematic mapping in progress**, not an exhaustive global repository catalogue, not a completed systematic literature review, and not a probability model.
+**Review date:** 12 November 2026. An honest **systematic mapping in progress**, not an exhaustive global repository catalogue, not a completed systematic literature review, and not a probability model.
 
 ## Actual observed search and screening
 
@@ -18,7 +18,7 @@ Of **63 source-pinned individual review records**, **8** have the fully structur
 
 The 8 deep reports include a scraper with verifiable source-level TLS/eval vulnerabilities, source-first research planner, multi-adapter academic job monitor, current PhD feed, browser/outreach CRM, agentic outreach instructions, supervisor-fit rubric, and a Chinese first-person handbook. Attributions/provenance checked at pinned GitHub commits; neither claim of software security certification nor 2026 admissions outcome is made.
 
-## Formal research limits
+Ten session-specific repository investigation reports were merged into `main` through PR #6 on 12 November. They are additive research artifacts and do not change the canonical 63-row repository register until ownership reconciliation and a separate canonical integration decision are completed.\n\n## Formal research limits
 
 - **Selection bias:** curated Awesome lists and famous PhD guides overrepresent English-language CS and successful US applicants; Chinese and Turkish resource discovery remains incomplete.
 - **Source dependence:** GitHub derivative scrapers and multiple Awesome lists can all repeat one original account or employer vacancy; see [five direct relations](../data/repository_relations.csv).
