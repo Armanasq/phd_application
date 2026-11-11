@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 148. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 152. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -92,8 +92,11 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [KeithBH/phd-positions](https://github.com/KeithBH/phd-positions) | european_industrial_ai_doctoral_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/keithbh__phd-positions.md) |
 | [KhanShaheb34/profreach](https://github.com/KhanShaheb34/profreach) | supervisor_crm | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/khanshaheb34__profreach.md) |
 | [kirankaranth1/ApplicationStatusFetcher](https://github.com/kirankaranth1/ApplicationStatusFetcher) | legacy_selenium_portal_status_automation | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/kirankaranth1__application-status-fetcher.md) |
+| [KnowMe777/scholarship-scraper](https://github.com/KnowMe777/scholarship-scraper) | scholarship_ingestion_prototype | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/knowme777__scholarship-scraper.md) |
+| [knwoke/ScholarshipWebScraper](https://github.com/knwoke/ScholarshipWebScraper) | historical_scholarship_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/knwoke__scholarshipwebscraper.md) |
 | [LimHyungTae/Awesome-PhD-CV](https://github.com/LimHyungTae/Awesome-PhD-CV) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/limhyungtae--awesome-phd-cv.md) |
 | [Lukas-Vasionis/PhD_Positions](https://github.com/Lukas-Vasionis/PhD_Positions) | institutional_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/lukas-vasionis__phd-positions.md) |
+| [MahdiRat/phd-application-tracker](https://github.com/MahdiRat/phd-application-tracker) | application_tracker_prototype | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/mahdirat__phd-application-tracker.md) |
 | [MaryleenAmaizu/ML-AI-Scholarships](https://github.com/MaryleenAmaizu/ML-AI-Scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/maryleenamaizu--ml-ai-scholarships.md) |
 | [mcnuttandrew/vis-phd-positions](https://github.com/mcnuttandrew/vis-phd-positions) | vacancy_datasets | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/mcnuttandrew--vis-phd-positions.md) |
 | [mdsamhussain1996/vidyasetu-scholarship-portal](https://github.com/mdsamhussain1996/vidyasetu-scholarship-portal) | scholarship_evidence_and_review_pipeline | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/mdsamhussain1996__vidyasetu-scholarship-portal.md) |
@@ -128,6 +131,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [siddu1998/Graduate-Admissions](https://github.com/siddu1998/Graduate-Admissions) | personal_admissions_artifact_corpus | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/siddu1998__graduate-admissions.md) |
 | [SihengTao/phd-application-planner](https://github.com/SihengTao/phd-application-planner) | research_planning | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sihengtao__phd-application-planner.md) |
 | [simitii/CS-Grad-School-Applications-Reading-List](https://github.com/simitii/CS-Grad-School-Applications-Reading-List) | historical_admissions_reading_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/simitii__cs-grad-school-applications-reading-list.md) |
+| [ssine/willow](https://github.com/ssine/willow) | historical_graduate_admission_statistics | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ssine__willow.md) |
 | [stealth-startup-2026/scholarship-scraper](https://github.com/stealth-startup-2026/scholarship-scraper) | australia_scholarship_structured_scraping | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stealth-startup-2026__scholarship-scraper.md) |
 | [stevanoryan/scholarship-atlas](https://github.com/stevanoryan/scholarship-atlas) | historical_and_2026_scholarship_aggregation | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stevanoryan__scholarship-atlas.md) |
 | [sushil3710/PHD_Admission_Portal](https://github.com/sushil3710/PHD_Admission_Portal) | institutional_doctoral_admissions_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sushil3710__phd-admission-portal.md) |
