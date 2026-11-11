@@ -4,7 +4,7 @@
 **Working branch:** `research/repository-audit-20261112-0031z-gpt6-a`  
 **Original base commit:** [`c33758e2373e8726ed4d4ba58aaab736d83c43de`](https://github.com/Armanasq/phd_application/commit/c33758e2373e8726ed4d4ba58aaab736d83c43de)  
 **Main branch observed during reconciliation:** [`e821fcdbf572c96b5be617a2626f6def68f8ab3d`](https://github.com/Armanasq/phd_application/commit/e821fcdbf572c96b5be617a2626f6def68f8ab3d)  
-**State:** TWO_UNIQUE_DEEP_STATIC_REVIEWS_READY_FOR_PR; upstream runtime validation NOT performed.
+**State:** MERGED_TO_MAIN via [PR #8](https://github.com/Armanasq/phd_application/pull/8) at commit [`451ec6cd8d25f4b4826c819ca3454873264b5eed`](https://github.com/Armanasq/phd_application/commit/451ec6cd8d25f4b4826c819ca3454873264b5eed); upstream runtime validation NOT performed.
 
 ## Coordination and noninterference
 
@@ -57,9 +57,9 @@ No facts in these reports establish that a supervisor is currently accepting stu
 
 ## Integration plan
 
-- Merge this session's **two unique substantive deep reports** plus its initial provenance note and manifest into `main` via a reviewed PR.
-- Do not upgrade canonical `data/repositories.csv` statuses until the integration has been checked against concurrent canonical-file changes and the project's scripted index generation.
-- After merge, explicitly reconcile the two existing `PRELIMINARY_FOCUSED` records with these source-pinned reports as a separate incremental mainline operation/PR.
+- **COMPLETED:** the two deep reports, provenance note and manifest were merged through [PR #8](https://github.com/Armanasq/phd_application/pull/8). The research-integrity PR workflow and resulting main push workflow passed.
+- **COMPLETED BY PARALLEL INTEGRATION:** the two reports were copied byte-for-byte into `research/repositories/reviews/` and their existing canonical rows promoted to `DEEP_REVIEW_DOCUMENTED` in commit [`ffba448362720cd5bfdcbfb40f117f924c16d70a`](https://github.com/Armanasq/phd_application/commit/ffba448362720cd5bfdcbfb40f117f924c16d70a). Blob SHA equality was verified for both canonical/session copies. This session did not overwrite shared canonical files.
+- **VERIFIED:** canonical `data/repositories.csv` and generated `research/repositories/index.md` both show the two upstreams as `DEEP_REVIEW_DOCUMENTED`; the current index-generation check passed.
 - Do not close issue #3 merely because this small subset is reviewed; the latest canonical inventory still contains hundreds of outstanding candidate/review records.
 - Do not merge unrelated active branches or silently close unrelated issues.
 
