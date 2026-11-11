@@ -117,3 +117,9 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - The previously separately registered houwei1228/PhD_Fit was not duplicated or overwritten; competing agent work preserved. Source session research remains archived under `research/sessions/gpt6-20261112-evidence-43b7/`.
 - Important static findings: sensitive Firestore inline document fallback, Gmail parsing/status/pagination weaknesses, legacy Django credential/configuration risks; no private applicant CSVs or email accounts accessed.
 - Canonical split: **404 = 128 reviewed (42 deep static, 86 preliminary), 102 excluded, 172 untriaged, 2 screened included**. External tests, official opportunity verification and 2026/27 availability checks NOT_PERFORMED.
+
+## 2026-11-12 — Nine scope-verification exclusions
+- Inspected GitHub trees and available README/source files for unrelated backend services, botanical operations, SSL hooking, architecture workshops, machine-learning instructional materials, volumetric scientific visualization and two empty repositories.
+- Registered 5 additional evidence-coded exclusions; 4 previously screened identities were preserved without change. Every still-screened item retains pinned commit/source evidence or a verified GitHub empty-repository API state.
+- This is admissions-scope screening, not a claim that the software is unsuitable for its own purpose. No external code or private content was executed/read.
+- Canonical 404 = 148 reviewed (52 deep static and 96 preliminary) + 128 excluded + 128 untriaged + 0 screened included.
