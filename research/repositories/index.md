@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 67. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 75. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -24,10 +24,18 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [Aghababaei/PhD-Seeker](https://github.com/Aghababaei/PhD-Seeker) | vacancy_scrapers | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/aghababaei__phd-seeker.md) |
 | [aluminium5/ScholarshipScraper](https://github.com/aluminium5/ScholarshipScraper) | scholarship_discovery_and_tracking | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aluminium5__scholarshipscraper.md) |
 | [Ariaeimehr/PHD-Position-Finder](https://github.com/Ariaeimehr/PHD-Position-Finder) | doctoral_vacancy_scraper_demo | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ariaeimehr__phd-position-finder.md) |
+| [arunrathi9/Data-Science-Scholarships](https://github.com/arunrathi9/Data-Science-Scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/arunrathi9__data-science-scholarships.md) |
+| [atomdbc/scholarship_scraper](https://github.com/atomdbc/scholarship_scraper) | multi_source_opportunity_ingestion | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/atomdbc__scholarship_scraper.md) |
 | [BaseLayerAI/academic-job-digest](https://github.com/BaseLayerAI/academic-job-digest) | job_monitoring | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/baselayerai__academic-job-digest.md) |
 | [bchen002/Doctoral-Supervisor-Skill](https://github.com/bchen002/Doctoral-Supervisor-Skill) | agent_supervision_skill | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/bchen002__doctoral-supervisor-skill.md) |
+| [beepboopshru/scholarship-scraper](https://github.com/beepboopshru/scholarship-scraper) | vacancy_scrapers | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/beepboopshru__scholarship-scraper.md) |
+| [binhu02/Collection-of-advice-for-PhD-application](https://github.com/binhu02/Collection-of-advice-for-PhD-application) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/binhu02__collection-of-advice-for-phd-application.md) |
+| [bodzioney/phd-applications](https://github.com/bodzioney/phd-applications) | international_program_faculty_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/bodzioney__phd-applications.md) |
+| [borekda/phd-list](https://github.com/borekda/phd-list) | vacancy_datasets | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/borekda__phd-list.md) |
 | [BrainPhD-CN/handbook](https://github.com/BrainPhD-CN/handbook) | firsthand_multilingual_guide | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/brainphd-cn__handbook.md) |
+| [chinasaokolo/csGraduateApps](https://github.com/chinasaokolo/csGraduateApps) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/chinasaokolo__csGraduateApps.md) |
 | [chinasatokolo/csGraduateFellowships](https://github.com/chinasatokolo/csGraduateFellowships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/chinasatokolo--csgraduatefellowships.md) |
+| [chuyaowang/nl-phd-tracker](https://github.com/chuyaowang/nl-phd-tracker) | netherlands_vacancy_monitor | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/chuyaowang__nl-phd-tracker.md) |
 | [D2Simon/PhDHub](https://github.com/D2Simon/PhDHub) | applicant_crm_ai_workspace | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/d2simon__phdhub.md) |
 | [DanialRamezani/PhD-Hunt](https://github.com/DanialRamezani/PhD-Hunt) | ai_discovery | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/danialramezani--phd-hunt.md) |
 | [danielhafezi/ScholarshipScout](https://github.com/danielhafezi/ScholarshipScout) | vacancy_scrapers | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/danielhafezi--scholarshipscout.md) |
