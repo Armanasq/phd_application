@@ -3,7 +3,7 @@
 **Date:** 2026-11-12
 **Branch:** `research/repository-audit-20261112-0031z-gpt6-b`
 **Base main commit:** `9dc8b670d20497a5412b7ffc599aa4e2a8569fd8`
-**Status:** ONE_NEW_DEEP_STATIC_REVIEW plus ONE_INDEPENDENT_SUPPLEMENT READY_FOR_PR; third-party runtime execution NOT performed.
+**Status:** MERGED_TO_MAIN via [PR #13](https://github.com/Armanasq/phd_application/pull/13), merge commit `6e136cc4821a7b5eaabe871ecaa8fe292433e95c`; third-party runtime execution NOT performed. Canonical registration is separately pending in [PR #14](https://github.com/Armanasq/phd_application/pull/14).
 
 ## Assignment
 
@@ -28,8 +28,8 @@ Before this claim, both entries were `UNTRIAGED` in the canonical candidate CSV 
 - [x] Created isolated branch from exact main commit.
 - [x] Pinned both upstream main commits and Git tree SHAs; examined README, domain model, agent policy, persistence, tests and history.
 - [x] [Command center](fsuitoal-command-center.md) new deep static review, [PhD monitor](mhrnqaruni-monitor-supplement.md) supplemental findings, and [cross-source engineering synthesis](synthesis.md).
-- [ ] Review only this session's changed paths, run GitHub PR Research integrity checks, and merge if clean.
-- [ ] Reconcile canonical review rows/index against fresh main: only the command center remained untriaged at last snapshot. The monitor's canonical `DEEP_REVIEW_DOCUMENTED` report was already merged by a concurrent session; do not create a duplicate row.
+- [x] PR #13 merged to main after passing Research integrity checks; four additive documents, no other session files modified.
+- [ ] Canonical command-center promotion is staged in PR #14 with four atomic files; GitHub CI passed but repeated parallel `main` updates cause merge conflicts, so it remains **OPEN and not merged**. Monitor canonical deep review was already merged by another session; no duplicate row needed.
 
 ## Verified source pins and conclusions
 
@@ -43,3 +43,9 @@ No admissions vacancy was verified; neither third-party source was executed or g
 ## Live parallel-session reconciliation
 
 A fresh canonical check found that `Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor` had already been promoted from `UNTRIAGED` to `DEEP_REVIEW_DOCUMENTED` in another session during this investigation, using the same pinned upstream commit. The overlapping report was removed from this branch's final diff, leaving only an incremental supplement. The command center remained `UNTRIAGED` at that check. This project must not double-count the two parallel review efforts.
+
+## Integration verification and unresolved conflict
+
+- [PR #13](https://github.com/Armanasq/phd_application/pull/13): verified merged to `main`; public Research integrity CI run 43103589250 passed (all steps).
+- [PR #14](https://github.com/Armanasq/phd_application/pull/14): canonical registry/index promotion includes a source-pinned deep report, one candidate state, one reviewed row and deterministic index, built atomically from a base tree. Both the original and conflict-reconciled PR commit passed GitHub CI, but the PR's merge is blocked by concurrent modifications to the same CSV and generated index. Do not misstate its status as merged.
+- [Issue #3](https://github.com/Armanasq/phd_application/issues/3) has an incremental status comment. The broader review program is ongoing; no issue closure is justified by this batch.
