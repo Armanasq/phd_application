@@ -4,7 +4,7 @@
 - Repository: https://github.com/Armanasq/phd_application
 - Working branch: main (per current instruction)
 - Latest observed main baseline before this update: 64ab963cce38105c5ab878a168a894b2bb1118a9
-- Status: second batch source reviews published; canonical integration remains pending
+- Status: first and second batch canonical reconciliation completed on main; expanded source audits and evidence-crosswalk published; global mapping remains incomplete
 - First batch: archna1212/PHD-OPENINGS; Ariaeimehr/PHD-Position-Finder; arbitan/ScholarshipWebsite
 - Second batch: atomdbc/scholarship_scraper; dhcoders/JobsACUK-WebScraper; evamaxfield/phd; D4vidHuang/PhD_scanner
 
@@ -43,17 +43,20 @@ Active branches observed:
 - research/session-gpt6-20261112-01-integration
 - research/repository-audit-gpt6-20261112-0002b (no published manifest observed)
 
-## Current counts and proposed reconciliation
+## Mainline reconciliation snapshot — 2026-11-12
 
-If no other session updates the canonical register before integration, the proposed second-batch disposition would produce:
-- 70 review records: 11 deep static and 59 preliminary;
-- 19 documented exclusions;
-- 315 untriaged candidates;
-- 0 screened-in awaiting first review.
+The prior second-batch proposal has been incorporated into the canonical register. At the inspected mainline checkpoint after the added audits and exclusions, 404 discovered candidates were classified as 152 REVIEW_RECORDED + 143 SCREENED_EXCLUDE + 109 UNTRIAGED + 0 SCREENED_INCLUDE. These are a dated checkpoint, not a live dashboard. Other sessions may advance the register; recompute from the CSVs.
 
-Check: 70 + 19 + 315 = 404.
+Expanded session investigations published:
+- research/repositories/reviews/xujingchen1996__research-app-toolkit.md — deep static audit of multi-host local applicant research and instruction workflows;
+- research/repositories/reviews/sushil3710__phd-admission-portal.md — deep static institution-side admissions security/dataflow audit;
+- research/repositories/reviews/ssine__willow.md — deep static historical applicant-statistics and privacy audit;
+- research/sessions/audit-20261112-0001-7f3c/next-batch/screening-nonadmissions-five.md — five source-backed out-of-scope decisions;
+- research/sessions/audit-20261112-0001-7f3c/next-batch/architecture-and-evidence-crosswalk.md — cross-repo evidence, privacy and workflow architecture synthesis.
 
-Recompute from the live CSVs before integration. Do not apply these counts blindly.
+Other sessions simultaneously excluded six separate unrelated repositories. This session independently excluded K-Graduate/application as a pet-adoption app; no other session branches were altered.
+
+The research-integrity CI detected a stale generated index after concurrent register changes and a broken local Markdown link in the new crosswalk. The index was regenerated at f614b196bbbbe4e71777168ec43785f130edc560; a successful CI run verified that index commit. The crosswalk link was subsequently corrected at 8045cc1fac0eb88c534a3e386dce1b60e71800b6; verify its latest CI run before claiming final status.
 
 ## Outstanding documentation consistency issues
 
