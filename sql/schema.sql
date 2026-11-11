@@ -1,0 +1,12 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE IF NOT EXISTS countries(id TEXT PRIMARY KEY,name TEXT NOT NULL UNIQUE);
+CREATE TABLE IF NOT EXISTS institutions(id TEXT PRIMARY KEY,country_id TEXT NOT NULL REFERENCES countries(id),name TEXT NOT NULL,UNIQUE(country_id,name));
+CREATE TABLE IF NOT EXISTS labs(id TEXT PRIMARY KEY,institution_id TEXT NOT NULL REFERENCES institutions(id),name TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS supervisors(id TEXT PRIMARY KEY,lab_id TEXT REFERENCES labs(id),full_name TEXT NOT NULL,official_url TEXT);
+CREATE TABLE IF NOT EXISTS sources(id TEXT PRIMARY KEY,canonical_url TEXT NOT NULL UNIQUE,source_type TEXT NOT NULL,checked_on TEXT NOT NULL,review_status TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS evidence(id TEXT PRIMARY KEY,source_id TEXT NOT NULL REFERENCES sources(id),claim TEXT NOT NULL,confidence TEXT NOT NULL,checked_on TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS opportunities(id TEXT PRIMARY KEY,institution_id TEXT NOT NULL REFERENCES institutions(id),lab_id TEXT REFERENCES labs(id),supervisor_id TEXT REFERENCES supervisors(id),source_id TEXT NOT NULL REFERENCES sources(id),title TEXT NOT NULL,kind TEXT NOT NULL,deadline_local TEXT,deadline_timezone TEXT,start_date TEXT,decision_date TEXT,funding_start_date TEXT,employment_type TEXT,salary_amount REAL,stipend_amount REAL,tuition_coverage TEXT,status TEXT NOT NULL CHECK(status IN ('open_verified','rolling','upcoming_confirmed','verification_needed','closed')));
+CREATE TABLE IF NOT EXISTS applications(id TEXT PRIMARY KEY,opportunity_id TEXT NOT NULL REFERENCES opportunities(id),state TEXT NOT NULL CHECK(state IN ('DISCOVERED','SCREENED','VERIFIED','SHORTLISTED','PREPARING','READY','APPROVED','SUBMITTED','INTERVIEW','DECISION','OFFER_EVALUATION','ACCEPTED','CLOSED')),submission_reference TEXT,submitted_at TEXT,CHECK(state != 'SUBMITTED' OR (submission_reference IS NOT NULL AND submitted_at IS NOT NULL)));
+CREATE TABLE IF NOT EXISTS application_events(id TEXT PRIMARY KEY,application_id TEXT NOT NULL REFERENCES applications(id),event_type TEXT NOT NULL,occurred_at TEXT NOT NULL,evidence_ref TEXT);
+CREATE TABLE IF NOT EXISTS github_repositories(id TEXT PRIMARY KEY,canonical_url TEXT NOT NULL UNIQUE,inspection_level TEXT NOT NULL,verdict TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS search_runs(id TEXT PRIMARY KEY,query TEXT NOT NULL,source TEXT NOT NULL,run_at TEXT NOT NULL,new_results INTEGER,duplicates INTEGER);
