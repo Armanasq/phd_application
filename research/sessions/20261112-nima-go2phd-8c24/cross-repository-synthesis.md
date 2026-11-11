@@ -26,7 +26,7 @@ Do **not** combine scraped advertisements and user-entered application statuses 
 
 `Official source/allowed feed` -> `bounded acquisition + HTTP/parser status` -> `immutable source snapshot, hash and URL` -> `field-level extracted claims with source span, cycle, locale/timezone` -> `deterministic normalization + non-destructive identity resolution` -> `human or official-source validation` -> `current opportunity index` -> `separate private candidate application workspace` -> `receipt-backed action history`.
 
-Machine retrieval should use Position-Aggregator's demonstrated *structural* idea (position embeddings + chunk vectors + multilingual lexical search fused by RRF), but not assume its result ranking constitutes provenance or funding verification. The prior [PhdInfoHub session supplement](../../2cabbe82/reviews/dxeledx-phdinfohub-supplement.md) offers complementary source evidence and concurrency patterns; its model outputs likewise require deterministic checks and human review.
+Machine retrieval should use Position-Aggregator's demonstrated *structural* idea (position embeddings + chunk vectors + multilingual lexical search fused by RRF), but not assume its result ranking constitutes provenance or funding verification. The prior [PhdInfoHub session supplement](../2cabbe82/reviews/dxeledx-phdinfohub-supplement.md) offers complementary source evidence and concurrency patterns; its model outputs likewise require deterministic checks and human review.
 
 ## Implementation acceptance tests suggested for the main application
 
