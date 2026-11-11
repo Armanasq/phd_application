@@ -20,10 +20,17 @@
 ## Validation gate
 
 - [x] Mainline and candidate states rechecked, distinct session branch/paths reserved.
-- [ ] Inspect complete relevant source files at pinned commits.
-- [ ] Verify GitHub history, issues/PRs, licensing and test evidence.
-- [ ] Record per-repository findings and explicit document-access limitations.
-- [ ] Record cross-repository synthesis and conservative screening proposals.
+- [x] Inspect complete relevant source files at pinned commits; PDF documents unavailable, explicitly blocked.
+- [x] Verify GitHub history, issues/PRs, licensing and test evidence (static/remote metadata only).
+- [x] Record per-repository findings and explicit document-access limitations.
+- [x] Record cross-repository synthesis and conservative screening proposals.
 - [ ] Validate additive diff, CI and merge to main without overwriting concurrent changes.
 
 No secret values or private applicant records may be copied into review outputs. Tests, web crawling and outbound email are not authorized by an audit alone.
+
+## Scope completed
+
+- serdark and realrezi: deep source-level **static** reviews; no upstream runtime.
+- nishanchettri: complete source Markdown read; four external historical offers unverified.
+- neuronalX and renzoe: README/tree read, **6 PDFs unparsed**. Their status is SCREENED_INCLUDE pending document review, not full completion.
+- Cross-repo methods/results synthesized; canonical state remains subject to fresh-main reconciliation and parallel sessions.
