@@ -1,34 +1,39 @@
-# Research workstream status
-As of 2026-11-11. **No claim of completion.** File existence or green CI is not evidence of adequate scholarship.
+# Research execution and evidence status
 
-| Workstream | Current state | Evidence this pass | Remaining gate |
+**Current snapshot:** 11 November 2026. This project is an **ongoing research program**, not a completed systematic review or an accepted admissions application.
+
+| Workstream | State | Evidence accomplished | Completion blocker |
 |---|---|---|---|
-| Global repo discovery | IN PROGRESS | 12 broad first-page queries, 404 deduplicated raw repository identities including false positives; six code searches | page 2+, topic search, language/snowballing, precision and yield report |
-| Individual repo evaluation | IN PROGRESS | 27 preliminary notes and 8 eight-section deep static reviews under research/repositories/reviews/ | all included need required sections, direct citations, full relevant material, issues/releases |
-| Country intelligence (8) | IN PROGRESS | eight baseline notes; time-critical official program leads | independent national dossiers and current source validation |
-| Applicant experiences | IN PROGRESS | selected public anecdotes; no verified cohort dataset | multi-country synthesis, contradiction and survivorship analysis |
-| Funding intelligence | IN PROGRESS | official program/funding sources and heterogeneous lead list | vacancy-specific funding security + international fee/eligibility |
-| Research fit | IN PROGRESS | topic overlap and named lab publication leads | verify applicant CV, supervisor publication fit, current recruiting |
-| Cross-source synthesis | IN PROGRESS | scraper/guide/CRM preliminary comparisons | dependency crosswalk and genuine substantive comparative synthesis |
-| 2026/27 strategy | IN PROGRESS | urgent Swiss funded vacancies and central route leads | document readiness, actual offer timing, eligibility, execution |
-| QA | IN PROGRESS | existing GitHub CI for schema and file consistency | check deep-review fields, references and semantic spot checks |
+| Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 353 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
+| Individual GitHub repository audits | IN PROGRESS | 35 source-pinned review records: 8 structured eight-part static audits, 27 preliminary | remaining 27 detailed, 7 included awaiting review; original links/test execution |
+| Source/repository dependence | EVIDENCE_COLLECTED | 5 evidenced relationships, 21-source ledger, 26 claim records | canonicalize more shared guides and verify original claims independently |
+| Eight country dossiers | EVIDENCE_COLLECTED | All eight source-linked national assessments, including policy and funding contrasts | national lab/vacancy coverage, visas, tuition and 2027 recruiting completeness |
+| Funding and available programs | IN PROGRESS | 20 differentiated leads with official-source and tuition/offer gates | employer form rechecks, offer terms and candidate-specific fee/eligibility |
+| Scientific supervisor matching | EVIDENCE_COLLECTED | Three method/paper-based target lab dossiers; 2023 *Measurement* article externally source-verified | PI availability, verified degree/English, recent papers and novelty audit |
+| Applicant firsthand accounts | IN PROGRESS | Six classified cases, contradictory UK and Norwegian experiences preserved | longitudinal, international multi-source review and population limitations |
+| Cross-source systematic mapping | IN PROGRESS | comparative repo taxonomy, dependence, empirical limits and source-based best practices | more qualified independent studies, formal screening-yield statistics |
+| Immediate 2026 offer analysis | IN PROGRESS | ETH/UZH/Monash employer leads differentiated from 2027 decision cycles | no published guaranteed 2026 offer, interview/document/eligibility bottlenecks |
+| 2027 portfolio and documents | IN PROGRESS | EPFL/UK/UBC/Monash/NZ cases and explicit scientific-fit plan | accepted/eligible package, personal official transcripts, scholarship commitments |
+| Structural QA | VERIFIED (structural only) | GitHub Actions tests and local links, schema/migrations, claim-register and source generation checks | third-party implementation and semantic source verification **not tested** |
 
-## Operational status
-- External supervisor emails: NONE OBSERVED / NOT AUTHORIZED.
-- Application submissions: NONE OBSERVED / NOT AUTHORIZED.
-- Funding awards, interviews, offers: NOT DOCUMENTED.
-- Applicant academic qualification, degree equivalency, language scores, nationality, transcripts, official publications: **NOT FORMALLY VERIFIED** in this public research repository.
-- Search saturation: **NOT ESTABLISHED**.
-- Confirmed 2026 offer: **NONE**.
+## Evidence boundary
 
-## Evidence-grade definitions
-NOT_STARTED → IN_PROGRESS → EVIDENCE_COLLECTED → UNDER_REVIEW → VERIFIED → COMPLETE; BLOCKED records access/eligibility uncertainty. A "documented deep review" can reach EVIDENCE_COLLECTED without independent runtime execution or every linked source being checked.
+The public [source ledger](data/sources.jsonl) contains 21 distinct URLs supporting 26 recorded claim items. **Every ledger record currently reads `independent_recheck: NOT_PERFORMED`**. Primary-official retrieval is a stronger source type than an anecdote, but the dual-source independently confirmed stage is not met.
 
-## Immediate priority, not deferred by OSINT
-1. Validate ETH Soft Robotics and RobotX official application instructions and user documents before November 30 and 27, respectively.
-2. Prepare EPFL EDIC and Oxford December 1/2 dossiers with explicit funding restrictions.
-3. Resolve Norway EURAXESS “expired” conflict at employer portal before treating vacancy as open.
-4. For Canada 2027 intake, evaluate UBC CS December 15 funded PhD route.
-5. Continue country and repository source investigations without overriding verified deadlines.
+**Discovery screening states:** 353 untriaged; 7 screened relevant but unreviewed; 9 excluded with reasons; 35 reviewed. Only eight of the 35 meet the new eight-section *static* review structure. External code behavior has not been validated by actually executing upstream projects.
 
-See [corrective methodology](METHODOLOGY.md), [source policy](SOURCE_POLICY.md), [scope audit](quality/coverage-report.md).
+## Offer and communication status
+
+No application submissions, supervisor emails, funded offers, interviews, or acceptance evidence has been recorded by the workspace. An open admissions channel is not a funding offer. Applicant's published *Measurement* 2023 DOI has been verified at publisher; official degree equivalence, present language scores, accepted-paper ranking, national immigration eligibility and reference willingness are **not formally established**.
+
+## Immediate deadline-driven priorities
+
+- **Before 27 November 2026:** ETH RobotX application and three-group research-fit packet; [official RobotX page](https://robotx.ethz.ch/education/open-positions.html) says final decisions by **15 February 2027**, so remove from the 2026-offer probability group.
+- **Before 30 November 2026:** ETH Soft Robotics employer call, conditional on documented hardware/robot-learning relevance and degree evidence; response aim ≠ offer.
+- **Urgent verification:** UZH Robotics and Perception Group initial deadline passed, states review until positions filled; obtain actual remaining-spot/form status before any classification as open.
+- **1–2 December:** EPFL EDIC central route and Oxford funding consideration. Oxford full international coverage is not guaranteed by program admission.
+- **15 December:** UBC CS application for September 2027, with separately dated transcript and referee requirements.
+- **2027 preparation:** Surrey funded international visual design Jan 17, Monash R1 Feb 28 and Wellington doctoral scholarship March 1; Luxembourg salaried CVI2 portal status still unverified.
+- **Research first:** review any top-ranked-publication requirement against **specific documented rank**, not merely existence of a journal DOI.
+
+See [research method](METHODOLOGY.md), [current opportunity records](data/opportunities.csv), [quality scope report](quality/coverage-report.md), and [candidate-specific plan](strategy/2026-2027-corrected.md).
