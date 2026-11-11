@@ -61,3 +61,12 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - Inspected adamrpah/CSSMA at 8f5b8d14f93716fe2f59c6498c3a30e2b71eb734: computational social science teaching materials, not admissions. Excluded with source evidence.
 - Recomputed canonical register: 404 raw identities = 64 reviewed (8 deep static, 56 preliminary) + 327 untriaged + 2 screened-in + 11 excluded. Other merged session investigations remain supplemental until separately reconciled.
 - Identified a potential source deactivation defect in ScholarTrack: a non-empty scrape with all records rejected for missing deep links can clear previously active rows for that source. Static reasoning only; no runtime repro.
+
+## 2026-11-12 — Five additional verified exclusions
+- Screened allen9408/Web-Application at dbcb6e2921ffcc5c1cdb87b8330d0f8c6a218691: 2017 software-engineering coursework, Bayesian fitting and stock exercises; not admissions.
+- Screened alparslancay/New-Graduated-Recruitment-Application at 52307e289980e34b581d1e7ecc3a8830beed04c0: student-to-company recruitment via C#/MSSQL; not doctoral funding.
+- Screened AHS-CS2/ahs-cs3-classroom-cs_sop_demo-CS_SOP_demo at 6dd9ad9f9a696f985b0c83877941712d3ad937f4: empty README and Java calculator classroom test; SOP keyword collision.
+- Screened Anubhav-01-lang/software-review-dashboard at 090f0d192d5ccee1a60e67f359312153aa159ebf: software product reviews NLP, not academic admissions review.
+- Screened ankurhcu/6S191_MIT_DeepLearning at 2c4966842d8efceeab2916b49d57e8177f6fb2c3: MIT deep learning coursework, not doctoral application guidance.
+- Canonical counts after this transaction: **404** discovered = **67** reviewed (9 deep static, 58 preliminary) + **18** exclusions + **319** untriaged + **0** screened included.
+- Each exclusion has a pinned primary-source URL and its precise scope verdict in `data/exclusions.csv`. No upstream code executed; exclusions are screening decisions, not software-quality audits.

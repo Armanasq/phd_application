@@ -4,8 +4,8 @@
 
 | Workstream | State | Evidence accomplished | Completion blocker |
 |---|---|---|---|
-| Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 327 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
-| Individual GitHub repository audits | IN PROGRESS | 64 source-pinned review records: 8 structured eight-part static audits, 55 preliminary | remaining 56 preliminary reviews to deepen; 2 screened included candidates awaiting further review; original links/test execution |
+| Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 319 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
+| Individual GitHub repository audits | IN PROGRESS | 67 source-pinned review records: 9 structured eight-part static audits, 58 preliminary| deepen 58 preliminary reviews; 0 screened-in awaiting first review; runtime/source verification|
 | Source/repository dependence | EVIDENCE_COLLECTED | 5 evidenced relationships, 21-source ledger, 26 claim records | canonicalize more shared guides and verify original claims independently |
 | Eight country dossiers | EVIDENCE_COLLECTED | All eight source-linked national assessments, including policy and funding contrasts | national lab/vacancy coverage, visas, tuition and 2027 recruiting completeness |
 | Funding and available programs | IN PROGRESS | 20 differentiated leads with official-source and tuition/offer gates | employer form rechecks, offer terms and candidate-specific fee/eligibility |
@@ -20,7 +20,7 @@
 
 The public [source ledger](data/sources.jsonl) contains 21 distinct URLs supporting 26 recorded claim items. **Every ledger record currently reads `independent_recheck: NOT_PERFORMED`**. Primary-official retrieval is a stronger source type than an anecdote, but the dual-source independently confirmed stage is not met.
 
-**Canonical CSV screening states (recomputed 12 November 2026):** 327 untriaged; 2 screened-in awaiting individual review; 11 excluded with reasons; 64 review records (8 deep static and 56 preliminary). These four states account for all 404 unique candidate identities. The 10 session-specific investigations merged in PR #6 are preserved under `research/sessions/2cabbe82/`; they are not yet additional rows in the canonical review register. External code behavior has not been validated by executing upstream projects.
+**Canonical CSV screening states (recomputed 12 November 2026):** 319 untriaged; 0 screened-in awaiting individual review; 18 excluded with reasons; 67 review records (9 deep static and 58 preliminary). These four states account for all 404 unique candidate identities. PR #6 and PR #7 session investigations are preserved, and their individually reconciled reports now contribute to the canonical register only where an explicit review row exists. External projects were not executed in this research pass.
 
 ## Offer and communication status
 
