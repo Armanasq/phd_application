@@ -107,7 +107,7 @@ The crawl log schema contains `execution_time_seconds`, but the inspected loggin
 
 ### 5.1 Hardcoded Supabase service-role credential fallback
 
-Both `crawler/database/supabase_sync.py` and `check_database.py` contain a hardcoded fallback value shaped as a Supabase service-role JWT, after checking environment variables.
+Both `crawler/database/supabase_sync.py` and `check_database.py` contain a hardcoded JWT fallback. Its decoded, unverified payload declares `role: service_role` and issuer `supabase`. No signature verification, authentication request, or exploit attempt was performed; the token must still be treated as exposed credential material until the owner rotates it.
 
 This is credential material in public source, not a public anon key. Validity and exploitability have not been tested and no authentication attempt was made. Treat it as compromised:
 - revoke/rotate the affected service-role key;
@@ -205,3 +205,20 @@ Before any reuse:
 **SECURITY EXPLOITABILITY_NOT_TESTED**.
 
 The two-level scraper is a reusable architectural concept. The current implementation is unsafe for applicant-private data and does not provide trustworthy current-recruitment semantics.
+
+## 11. Pinned implementation evidence anchors
+
+The following paths establish static findings at commit [`8826e96755f4d76854e00725226ff92fed59af18`](https://github.com/zxcgzx/phd-application-tracker/commit/8826e96755f4d76854e00725226ff92fed59af18), without probing the live Supabase service or a university website.
+
+| Finding | Source |
+|---|---|
+| Hardcoded service-role fallback; no credential value reproduced | [`crawler/database/supabase_sync.py`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/crawler/database/supabase_sync.py), [`check_database.py`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/check_database.py) |
+| Permissive RLS, missing ownership, non-null university URL | [`database/schema.sql`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/database/schema.sql), [`database/init_all.sql`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/database/init_all.sql) |
+| Shell `eval` with untrusted workflow input | [`.github/workflows/crawl-manual.yml`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/.github/workflows/crawl-manual.yml#L35-L57) |
+| Unsanitized professor/university HTML templates | [`frontend/js/components/professor-list.js`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/frontend/js/components/professor-list.js#L190-L215), [`frontend/js/components/crawler-manager.js`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/frontend/js/components/crawler-manager.js) |
+| CSV schema mismatch: `college` field and missing university `url` | [`frontend/js/features/import/import-data.js`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/frontend/js/features/import/import-data.js#L350-L390), [`findOrCreateUniversity`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/frontend/js/features/import/import-data.js#L445-L485) |
+| Professor matching and inaccurate insert counters | [`crawler/database/supabase_sync.py`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/crawler/database/supabase_sync.py#L70-L190) |
+| Swallowed per-university failures and zero successful-process exit | [`crawler/main.py`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/crawler/main.py#L120-L228) |
+| Crawler configuration and robots/concurrency intentions | [`crawler/config.yaml`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/crawler/config.yaml), [`crawler/scrapers/two_level_scraper.py`](https://github.com/zxcgzx/phd-application-tracker/blob/8826e96755f4d76854e00725226ff92fed59af18/crawler/scrapers/two_level_scraper.py) |
+
+**Security caveat:** severity is an assessment of code-level exposure, not a claim of proven compromise. No credentials were used, no third-party endpoints were tested, and the upstream repository was not modified.
