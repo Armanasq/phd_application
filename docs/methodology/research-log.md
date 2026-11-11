@@ -105,3 +105,9 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - Added 25 evidence-coded exclusions; 0 concurrently screened candidates were retained without overwriting.
 - Summary and source SHA table: [21-* lineage](../../synthesis/github-discovery-21-manifesto-lineage-20261112.md).
 - Canonical 404 = 100 reviewed (25 deep / 75 preliminary), 72 excluded, 232 untriaged, 0 screened-in.
+
+## 2026-11-12 — Deepened canonical Dutch relocation guide and audited seven versioned forks
+- Read all 13 Markdown chapters in Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad; upgraded the canonical source from preliminary to eight-section deep static (not official visa verification).
+- Compared all seven outstanding same-name repos at pinned Git trees. Four are full HEAD or substantive chapter mirrors of already reviewed material; three have bounded historical editorial differences and were entered as preliminary review rows.
+- Source-blob alignment, reused case dependence, stage-specific documents and migration/health/fee caveats: [Groningen source lineage](../../synthesis/groningen-phd-guide-lineage-20261112.md).
+- No new funded 2026/27 PhD opportunity, acceptance, administrative contact or consular cost was claimed verified.

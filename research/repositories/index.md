@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 106. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 109. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -22,6 +22,8 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [abusufyanvu/6S191_MIT_DeepLearning](https://github.com/abusufyanvu/6S191_MIT_DeepLearning) | technical_learning_resource_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abusufyanvu__6s191-mit-deeplearning.md) |
 | [AdewuyiDaniels/PhD-scholarship-search](https://github.com/AdewuyiDaniels/PhD-scholarship-search) | scholarship_recommender_notebook | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/adewuyidaniels__phd-scholarship-search.md) |
 | [Aghababaei/PhD-Seeker](https://github.com/Aghababaei/PhD-Seeker) | vacancy_scrapers | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/aghababaei__phd-seeker.md) |
+| [AliAIOps/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/AliAIOps/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aliaiops__putting-in-for-a-phd-and-moving-abroad.md) |
+| [alirezazolanvari/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/alirezazolanvari/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/alirezazolanvari__putting-in-for-a-phd-and-moving-abroad.md) |
 | [aluminium5/ScholarshipScraper](https://github.com/aluminium5/ScholarshipScraper) | scholarship_discovery_and_tracking | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aluminium5__scholarshipscraper.md) |
 | [Ariaeimehr/PHD-Position-Finder](https://github.com/Ariaeimehr/PHD-Position-Finder) | doctoral_vacancy_scraper_demo | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ariaeimehr__phd-position-finder.md) |
 | [arunrathi9/Data-Science-Scholarships](https://github.com/arunrathi9/Data-Science-Scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/arunrathi9__data-science-scholarships.md) |
@@ -49,12 +51,13 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [eparrainage/phd](https://github.com/eparrainage/phd) | current_vacancy_feeds | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/eparrainage__phd.md) |
 | [erikpsw/phd-application-pipeline](https://github.com/erikpsw/phd-application-pipeline) | ai_outreach_workflow | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/erikpsw__phd-application-pipeline.md) |
 | [fanyi3017-stack/phd-application-research-agent](https://github.com/fanyi3017-stack/phd-application-research-agent) | ai_workflows | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/fanyi3017-stack--phd-application-research-agent.md) |
+| [Fatemeh-J-RUG/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Fatemeh-J-RUG/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/fatemeh-j-rug__putting-in-for-a-phd-and-moving-abroad.md) |
 | [fengke808-hash/phd-radar](https://github.com/fengke808-hash/phd-radar) | personalized_supervisor_radar | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/fengke808-hash__phd-radar.md) |
 | [glavrentiadis/phd_position_aegis-r](https://github.com/glavrentiadis/phd_position_aegis-r) | historical_doctoral_interview_modeling_task | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/glavrentiadis__phd_position_aegis-r.md) |
 | [Gurudev517/AI-Driven-Academic-Opportunity-Portal-Using-Web-Automation-and-NLP](https://github.com/Gurudev517/AI-Driven-Academic-Opportunity-Portal-Using-Web-Automation-and-NLP) | indian_research_opportunity_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/gurudev517__academic-opportunity-portal.md) |
 | [gwisk/gradguide](https://github.com/gwisk/gradguide) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/gwisk--gradguide.md) |
 | [hassony2/useful-computer-vision-phd-resources](https://github.com/hassony2/useful-computer-vision-phd-resources) | research_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/hassony2--useful-computer-vision-phd-resources.md) |
-| [Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/iran-open-source--putting-in-for-a-phd-and-moving-abroad.md) |
+| [Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad) | firsthand_guides | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/iran-open-source__putting-in-for-a-phd-and-moving-abroad.md) |
 | [Janjs/Web-Scraping-PhD-positions](https://github.com/Janjs/Web-Scraping-PhD-positions) | legacy_msca_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/janjs__web-scraping-phd-positions.md) |
 | [jedyang97/awesome-cs-phd-application-advice](https://github.com/jedyang97/awesome-cs-phd-application-advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/jedyang97--awesome-cs-phd-application-advice.md) |
 | [johnwalle/scholarship-scraper](https://github.com/johnwalle/scholarship-scraper) | scholarship_scraping_demo | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/johnwalle__scholarship-scraper.md) |
