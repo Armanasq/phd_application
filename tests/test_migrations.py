@@ -14,7 +14,8 @@ class MigrationTests(unittest.TestCase):
             db.executescript((ROOT / "sql" / "schema.sql").read_text(encoding="utf-8"))
             first = apply_migrations(db, ROOT / "sql" / "migrations")
             second = apply_migrations(db, ROOT / "sql" / "migrations")
-            self.assertEqual(first, ["001_research_evidence", "002_submission_evidence"])
+            expected = [path.stem for path in sorted((ROOT / "sql" / "migrations").glob("*.sql"))]
+            self.assertEqual(first, expected)
             self.assertEqual(second, [])
             self.assertEqual(db.execute("SELECT count(*) FROM schema_migrations").fetchone()[0], 2)
             self.assertEqual(db.execute("PRAGMA foreign_key_check").fetchall(), [])
