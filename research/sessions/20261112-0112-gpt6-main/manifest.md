@@ -1,7 +1,7 @@
 # Main-branch research session — 2026-11-12
 
 **Target:** `Armanasq/phd_application`, direct commits on `main`.  
-**Status:** FIVE_SOURCE_REVIEWS_PUBLISHED; THREE_CANONICAL_RECONCILIATIONS_PUBLISHED; INTEGRITY_CI_CHECK_PENDING.  
+**Status:** FIVE_SOURCE_REVIEWS_PUBLISHED; THREE_CANONICAL_RECONCILIATIONS_PUBLISHED; STRUCTURAL_CI_PASSED_AT_2026-11-11T21:52:20Z.  
 **Session identifier:** `20261112-0112-gpt6-main`  
 **Observed main at this manifest:** `aaf6dd7d295eac61893f9d36c54a91b5d14a10bc`.
 
@@ -36,3 +36,7 @@ Another session had already audited `imsankalp` at an earlier commit and exclude
 - University opportunity truth, funding, legal eligibility and recruitment status were NOT independently established by these source-code reports.
 - PDF binary contents remain uninspected; their reports are **preliminary**, not deep.
 - GitHub Actions is responsible for research-integrity validation after pushes; a commit acknowledgement is not a test result.
+
+## GitHub Actions validation
+
+The Research integrity workflow completed successfully for main commit [`fa68260072a0d5c6b438c41b8c41f12039356cf9`](https://github.com/Armanasq/phd_application/commit/fa68260072a0d5c6b438c41b8c41f12039356cf9) (run [43106848087](https://github.com/Armanasq/phd_application/actions/runs/43106848087)). This is structural project validation only; it is not live third-party source verification or a security test.
