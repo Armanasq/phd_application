@@ -70,3 +70,11 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - Screened ankurhcu/6S191_MIT_DeepLearning at 2c4966842d8efceeab2916b49d57e8177f6fb2c3: MIT deep learning coursework, not doctoral application guidance.
 - Canonical counts after this transaction: **404** discovered = **67** reviewed (9 deep static, 58 preliminary) + **18** exclusions + **319** untriaged + **0** screened included.
 - Each exclusion has a pinned primary-source URL and its precise scope verdict in `data/exclusions.csv`. No upstream code executed; exclusions are screening decisions, not software-quality audits.
+
+## 2026-11-12 — Four deep static source investigations: outreach integrity, storage, privacy
+- Usaid786467/Global-PhD-Scholarship-Finder-Application-Automator: verified fake faculty-name/email/publication/h-index generation in the advertised professor scraper, connected to user-visible discovery and outbound email queues. Reject fabricated contact records; mock data cannot be admissions evidence.
+- WagnerJon/application-atlas: verified UUID-based event history, versioned/validated backups, atomic restore, previous-data preservation, bounded attachments and CSV formula-injection mitigation in source. Local state is not official admissions confirmation.
+- Tyin-nn/phd-application-manager: verified non-destructive localStorage schema migration, material/recommender tracking, browser-local backup, but deficient typed import validation and unverified cycle-specific dates.
+- rjalfa/PhDAdmission: identified applicant-like directory structure with 1,600 files across 800 per-applicant-like folders; inspected only non-personal code paths. UserController logs all posted parameter values and a fixed administrator email appears in AuthenticationFilter. No applicant content accessed or reproduced.
+- All four are eight-section static reviews with pinned upstream SHAs, explicit source limits, non-execution of tests, risk codes and transfer decisions.
+- Canonical split: **404 = 79 reviewed (16 deep static and 63 preliminary) + 19 excluded + 306 untriaged + 0 screened included**. Canonical index regenerated.

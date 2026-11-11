@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 75. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 79. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -61,6 +61,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [pliang279/awesome-phd-advice](https://github.com/pliang279/awesome-phd-advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/pliang279--awesome-phd-advice.md) |
 | [poloclub/awesome-grad-school](https://github.com/poloclub/awesome-grad-school) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/poloclub--awesome-grad-school.md) |
 | [rednaxela2018/Application_Materials_For_PhD](https://github.com/rednaxela2018/Application_Materials_For_PhD) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/rednaxela2018--application-materials-for-phd.md) |
+| [rjalfa/PhDAdmission](https://github.com/rjalfa/PhDAdmission) | legacy_phd_admissions_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/rjalfa__phdadmission.md) |
 | [shaily99/advice](https://github.com/shaily99/advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/shaily99--advice.md) |
 | [siddu1998/Graduate-Admissions](https://github.com/siddu1998/Graduate-Admissions) | personal_admissions_artifact_corpus | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/siddu1998__graduate-admissions.md) |
 | [SihengTao/phd-application-planner](https://github.com/SihengTao/phd-application-planner) | research_planning | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sihengtao__phd-application-planner.md) |
@@ -69,7 +70,10 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [swadhinbiswas/fundmystudy-scraper](https://github.com/swadhinbiswas/fundmystudy-scraper) | multi_source_opportunity_ingestion | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/swadhinbiswas__fundmystudy-scraper.md) |
 | [Swapnil-Gandhi/SoP-Template](https://github.com/Swapnil-Gandhi/SoP-Template) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/swapnil-gandhi--sop-template.md) |
 | [TSTS09/Grad-Admission-Agent](https://github.com/TSTS09/Grad-Admission-Agent) | multi_source_admissions_agent | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/tsts09__grad-admission-agent.md) |
+| [Tyin-nn/phd-application-manager](https://github.com/Tyin-nn/phd-application-manager) | phd_application_local_workflow | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/tyin-nn__phd-application-manager.md) |
+| [Usaid786467/Global-PhD-Scholarship-Finder-Application-Automator](https://github.com/Usaid786467/Global-PhD-Scholarship-Finder-Application-Automator) | phd_outreach_automation | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/usaid786467__global-phd-scholarship-finder-application-automator.md) |
 | [vsitzmann/phd-master-application-docs](https://github.com/vsitzmann/phd-master-application-docs) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/vsitzmann--phd-master-application-docs.md) |
+| [WagnerJon/application-atlas](https://github.com/WagnerJon/application-atlas) | local_application_tracking | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/wagnerjon__application-atlas.md) |
 | [wenzi-researchlab/phd-fit-radar](https://github.com/wenzi-researchlab/phd-fit-radar) | research_fit_methodology | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/wenzi-researchlab__phd-fit-radar.md) |
 | [womanreading7/PhD-Application-Guide](https://github.com/womanreading7/PhD-Application-Guide) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/womanreading7--phd-application-guide.md) |
 | [xzxLeslie/phd-2027-admissions](https://github.com/xzxLeslie/phd-2027-admissions) | international_program_faculty_directory | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/xzxleslie__phd-2027-admissions.md) |
