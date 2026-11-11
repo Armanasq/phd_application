@@ -2,12 +2,12 @@
 
 **Review date:** 2026-11-12  
 **Upstream:** https://github.com/zhoujasper/phd-atlas  
-**Pinned public commit:** [`8f4318eda901020b61d91abfc0bd463a92e953f6`](https://github.com/zhoujasper/phd-atlas/commit/8f4318eda901020b61d91abfc0bd463a92e953f6)  
+**Pinned public commit:** [`8f4318eda901020b61d91abfc82411943200c70f`](https://github.com/zhoujasper/phd-atlas/commit/8f4318eda901020b61d91abfc82411943200c70f)  
 **Source revision marker:** `347ea3d80056`  
 **Review state:** DEEP_STATIC_REVIEW_COMPLETE; RUNTIME_VALIDATION_NOT_PERFORMED  
 **Applicability:** high for application lifecycle, source-evidence, secure agent integration, local-first persistence, and concurrency architecture.
 
-> The commit SHA above is the public main commit reported by GitHub on 2026-10-13. Its tree SHA is identical. This public repository is a generated public edition, not the full private development source.
+> The commit SHA above is the public main commit reported by GitHub on 2026-10-13. Its Git tree SHA is `47be03f3fb1ca14dfc95dc2cc6a252ac964c9f96`, distinct from its commit SHA. This public repository is a generated public edition, not the full private development source.
 
 ## 1. Scope and evidence boundary
 
@@ -144,9 +144,9 @@ The code defines bounded limits including:
 - up to 500 researcher candidates;
 - up to 8 scholarly works per advisor and 20 recent works per researcher.
 
-The registry requires four source kinds (homepage, research, faculty, doctoral) and is split into ten adapter batches. This is more systematic than a flat university URL list.
+School adapter validation requires four typed seed kinds (faculty, departments, research, doctoral), separately from the school's official root URL. The adapters are organized in ten source batches. This is more systematic than a flat university URL list.
 
-**Geographic gap:** there are no curated registry entries for New Zealand, Norway, Luxembourg, Ireland, or Switzerland. Some may be discovered dynamically through the EU/OTHER OpenAlex/ROR path, but they do not have first-class curated coverage. New Zealand is mapped to OTHER rather than a dedicated region. This makes coverage dependent on dynamic discovery and region selection/caps.
+**Geographic gap:** the pinned curated registry contains no entries for New Zealand, Norway, Luxembourg, or Ireland. Switzerland *is* represented by ETH Zurich and EPFL. Missing countries may be discovered dynamically through broader OpenAlex/ROR discovery, but they lack curated first-class seed coverage. New Zealand is mapped to OTHER rather than a dedicated region. This makes coverage dependent on dynamic discovery and region selection/caps.
 
 ### 5.3 External research sources
 
@@ -228,7 +228,7 @@ The public branch is personal-only. The old `desktop-macos-app` branch is not an
 
 ## 8. Development history, issues, releases, and validation
 
-- Main commit: `8f4318eda901020b61d91abfc0bd463a92e953f6`, 2026-10-13 21:33 UTC.
+- Main commit: `8f4318eda901020b61d91abfc82411943200c70f`, 2026-10-13 21:33 UTC.
 - Public source revision marker: `347ea3d80056`.
 - Latest release returned: `v0.1.6`, published 2026-10-13.
 - Branches: `main`, `desktop-macos-app`.
@@ -278,9 +278,30 @@ The current project already has a source ledger, claims, repository relations, a
 
 ## 10. Final disposition
 
-**DEEP_STATIC_REVIEW_COMPLETE** for the inspected source areas.  
+**DEEP_STATIC_REVIEW_COMPLETE** for the major architecture and security-critical paths enumerated above; this does **not** mean all 1,961 tree entries were individually read.  
 **RUNTIME_VALIDATION_NOT_PERFORMED**.  
 **CURRENT LIVE SOURCE VALIDATION_NOT_PERFORMED**.  
 **NOT A VERIFIED SOURCE OF CURRENT FUNDED VACANCIES**.
 
 The project is a strong engineering reference for personal PhD application management, scoped agent access, and long-running research orchestration. It is not evidence that any discovered position is currently open, fully funded, or suitable for a particular applicant.
+
+## 11. Pinned implementation evidence anchors
+
+The following source references are pinned to the exact public commit; they identify the implementation supporting the principal conclusions, not runtime certification:
+
+| Finding | Inspected source |
+|---|---|
+| Local SQLite schema, tenant revisions and mutation transactions | [`server/storage.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/storage.js) |
+| External snapshot persistence and revision conflict handling | [`server/databaseConnection.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/databaseConnection.js) |
+| Authenticated encryption, key derivation and payload format | [`server/crypto.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/crypto.js) |
+| Codex token/scope policy and middleware wiring | [`server/codexAuthorization.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/codexAuthorization.js), [`server/index.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/index.js) |
+| Discovery agent/research stages and evidence partition | [`server/discover-research.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/discover-research.js), [`server/discover-agent-plan.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/discover-agent-plan.js) |
+| Curated school registry and typed adapter acceptance | [`server/discover-source-registry.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/discover-source-registry.js), [`server/discover-school-adapters/adapter-validator.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/discover-school-adapters/adapter-validator.js) |
+| Scholarly metadata enrichment and institution/name reconciliation | [`server/discover-scholarly-data.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/discover-scholarly-data.js) |
+| Official-source network policy, SSRF and robots controls | [`server/discover-source-crawler.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/discover-source-crawler.js), [`server/pinnedHttpsFetch.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/pinnedHttpsFetch.js) |
+| Publication quality gate and encrypted recovery checkpoints | [`server/discover-quality.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/discover-quality.js), [`server/discover-research-checkpoint.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/discover-research-checkpoint.js) |
+| Client offline storage and replay | [`src/offline.ts`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/src/offline.ts), [`server/offlineReplay.js`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/server/offlineReplay.js) |
+| Desktop IPC/navigation/security | [`desktop/main.mjs`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/desktop/main.mjs), [`desktop/windowPolicy.mjs`](https://github.com/zhoujasper/phd-atlas/blob/8f4318eda901020b61d91abfc82411943200c70f/desktop/windowPolicy.mjs) |
+| Published passing CI for inspected commit | [GitHub Actions run 38471456238](https://github.com/zhoujasper/phd-atlas/actions/runs/38471456238) |
+
+**Evidence hierarchy:** source code and pinned CI establish implementation and tested gate behavior only. They do not independently validate current advertised positions, applicant eligibility, external university page freshness, or a production deployment.
