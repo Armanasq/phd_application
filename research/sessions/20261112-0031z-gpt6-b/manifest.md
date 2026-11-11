@@ -3,7 +3,7 @@
 **Date:** 2026-11-12
 **Branch:** `research/repository-audit-20261112-0031z-gpt6-b`
 **Base main commit:** `9dc8b670d20497a5412b7ffc599aa4e2a8569fd8`
-**Status:** IN_PROGRESS — ownership claimed, no review completed yet.
+**Status:** TWO_SOURCE_PINNED_DEEP_STATIC_REVIEWS_COMPLETE; READY_FOR_PR; runtime execution NOT performed.
 
 ## Assignment
 
@@ -26,7 +26,16 @@ Before this claim, both entries were `UNTRIAGED` in the canonical candidate CSV 
 
 - [x] Checked live canonical queue states and active branch file lists.
 - [x] Created isolated branch from exact main commit.
-- [ ] Pin upstream commits/trees; inspect source/config/tests/history.
-- [ ] Write two source-backed structured review reports.
-- [ ] Validate findings, review change set, and merge through PR.
-- [ ] Reconcile canonical review rows without clobbering other agents' changes.
+- [x] Pinned both upstream main commits and Git tree SHAs; examined README, domain model, agent policy, persistence, tests and history.
+- [x] [Command center](fsuitoal-command-center.md) and [PhD monitor](mhrnqaruni-monitor.md) deep static reviews, with [cross-source engineering synthesis](synthesis.md).
+- [ ] Review only this session's changed paths, run GitHub PR Research integrity checks, and merge if clean.
+- [ ] Reconcile canonical review rows/index against fresh main and the original 404 candidate queue; do not overwrite other agents' changes.
+
+## Verified source pins and conclusions
+
+| Repository | Commit | Git tree | Result |
+|---|---|---|---|
+| `fsuitoal-code/phd-application-command-center` | `ea240bc0189038881306ccd34a5b9cbf525aaebd` | `87cf714b7f0df7f90582955f785529e9597c3668` | Deep static: strong fail-closed data migration; overly broad `*.ac.uk` fetch permission and unverified model-supplied citations; runtime NOT tested |
+| `Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor` | `b5198427c4a53c6ec62cf6cb0f2dc60dce5f9ff9` | `48b24fb9ab305d7ad06c7ce57f29551af289fcbe` | Deep static: strong funding gates/history/review-hash mechanism; no actual source attestation; self-review can satisfy publication; CI source tests passed, live search NOT tested |
+
+No admissions vacancy was verified; neither third-party source was executed or given credentials. All files in this batch are additive and confined to the session-owned folder.
