@@ -2,7 +2,7 @@
 
 ## Review disposition
 - Review depth: deep static review of a reference-curation repository.
-- Upstream snapshot: master at e91d03cc2a57e2c0f9b98ef4f6e5ad8c6d45e2b2.
+- Upstream snapshot: master at 189be53b9299ded95d7a6517b6d5760d4286df70.
 - Repository state: one tracked README; 19 external links; last pushed 2020-03-02.
 - GitHub metadata: 44 stars, no open issues, no pull requests, no declared license.
 - Runtime: not applicable; there is no executable project.
@@ -59,7 +59,7 @@ Convert the reading list into a source registry with:
 Use committee perspectives and applicant experiences to generate questions for verification against official university policies. Never convert an anecdote into a universal admission rule.
 
 ## Evidence and coverage
-- Repository README: https://github.com/simitii/CS-Grad-School-Applications-Reading-List/blob/e91d03cc2a57e2c0f9b98ef4f6e5ad8c6d45e2b2/README.md
+- Repository README: https://github.com/simitii/CS-Grad-School-Applications-Reading-List/blob/189be53b9299ded95d7a6517b6d5760d4286df70/README.md
 - 19 external references inventoried; representative committee, applicant, advisor, writing, and ranking sources examined.
 - No source code, tests, CI, runtime, issue history, or pull-request history exists.
 - Review completed as a static resource-collection review.
