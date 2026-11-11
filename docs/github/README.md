@@ -7,9 +7,9 @@ For canonical navigation use **[research/repositories/index.md](../../research/r
 ## Defensible corpus numbers
 
 - **404** distinct raw discovery strings (includes irrelevant and misleading matches)
-- **79** individually inspected with dated source-revision records
-- **16** source-permalink-linked, eight-section deep *static* reviews; **63** preliminary assessments
-- **19** evidence-coded exclusions, **0** screened candidates awaiting individual review, **306** untriaged
+- **95** individually inspected with dated source-revision records
+- **23** source-permalink-linked, eight-section deep *static* reviews; **72** preliminary assessments
+- **22** evidence-coded exclusions, **0** screened candidates awaiting individual review, **287** untriaged
 - Global search included first-page GitHub repository and code search plus additional Chinese/Turkish/English query families; **no global recall or saturation guarantee**
 
 [Full query/retrieval log](../../data/discovery_log.jsonl) · [Research method](../../METHODOLOGY.md) · [Exclusions](../../data/exclusions.csv) · [Research status](../../RESEARCH_STATUS.md)
@@ -27,4 +27,4 @@ For canonical navigation use **[research/repositories/index.md](../../research/r
 [Data-quality and security findings](failure-register.md) · [Original engineering design recommendations](engineering-lessons.md) · [Independent source relationships](../../synthesis/source-dependency-crosswalk.md)
 
 ## Remaining completion work
-Screen the 306 untriaged records, deep-inspect included source sets and their original links, expand GitHub pages/topics/forks/PRs and non-English research, collect and audit more firsthand cross-country cases, verify current employer job portals, and demonstrate an evidence-based diminishing-yield discovery criterion. No review or country workstream is declared complete from an index file alone. Ten session-specific investigation reports were merged under `research/sessions/2cabbe82/`; these remain supplemental and are not counted as canonical review rows.
+Screen the 287 untriaged records, deep-inspect included source sets and their original links, expand GitHub pages/topics/forks/PRs and non-English research, collect and audit more firsthand cross-country cases, verify current employer job portals, and demonstrate an evidence-based diminishing-yield discovery criterion. No review or country workstream is declared complete from an index file alone. Additional independent-agent investigation reports are preserved under `research/sessions/`. Only explicitly registered source-pinned canonical rows count as reviewed; overlapping session files are not double-counted.

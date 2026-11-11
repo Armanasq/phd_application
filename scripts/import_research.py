@@ -9,6 +9,11 @@ from pathlib import Path
 import sqlite3
 from urllib.parse import urlsplit
 
+if __package__:
+    from .migrations import apply_migrations
+else:
+    from migrations import apply_migrations
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 COUNTRIES = {
@@ -52,8 +57,7 @@ def valid_url(url: str) -> str:
 def prepare(db: sqlite3.Connection) -> None:
     db.execute("PRAGMA foreign_keys = ON")
     db.executescript((ROOT / "sql" / "schema.sql").read_text(encoding="utf-8"))
-    for path in sorted((ROOT / "sql" / "migrations").glob("*.sql")):
-        db.executescript(path.read_text(encoding="utf-8"))
+    apply_migrations(db, ROOT / "sql" / "migrations")
 
 
 def source(db: sqlite3.Connection, url: str, source_type: str, checked_on: str) -> str:

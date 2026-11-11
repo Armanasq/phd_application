@@ -1,12 +1,12 @@
 # Preliminary systematic mapping of open PhD-admissions resources
 
-**Date:** 11 November 2026. **Not a completed systematic literature review.** This is a structured evidence mapping of public repositories and selected official admissions processes. Research questions, retrieval selection and limits: [METHODOLOGY.md](../METHODOLOGY.md).
+**Initial mapping:** 11 November 2026; **canonical ledger reconciled:** 12 November 2026. **Not a completed systematic literature review.** This is a structured evidence mapping of public repositories and selected official admissions processes. Research questions, retrieval selection and limits: [METHODOLOGY.md](../METHODOLOGY.md).
 
 ## Corpus and evidence independence
 
-The global discovery inventory currently contains **404 unique raw candidate names**, including irrelevant names. Direct screening has found **9 excluded** and **2 included-but-not-deep-reviewed**. There are **63 dated repository assessments**: **8** detailed, eight-part static reviews and **55** preliminary inspection notes. These are a small examined subset, not an exhaustive global sample. [Canonical status-tagged index](../research/repositories/index.md) · [Structured candidate queue](../data/github_discovery_candidates.csv) · [Full limitations](../quality/coverage-report.md).
+The global discovery inventory currently contains **404 unique raw candidate names**, including irrelevant names. Direct screening has found **22 excluded** and **0 screened-in without registered review**. There are **88 dated repository assessments**: **20** detailed, eight-part-or-longer static reviews and **68** preliminary inspection notes. These are a small examined subset, not an exhaustive global sample. [Canonical status-tagged index](../research/repositories/index.md) · [Structured candidate queue](../data/github_discovery_candidates.csv) · [Full limitations](../quality/coverage-report.md).
 
-Eight detailed investigations cover:
+The first eight structured investigations cover (see the canonical index for all 20):
 [PhD-Seeker](../research/repositories/reviews/aghababaei__phd-seeker.md),
 [evidence-aware planner](../research/repositories/reviews/sihengtao__phd-application-planner.md),
 [academic-job-digest](../research/repositories/reviews/baselayerai__academic-job-digest.md),
@@ -20,7 +20,7 @@ and [Chinese neuroscience PhD handbook](../research/repositories/reviews/brainph
 
 ## Additional focused repository inspections — 11 November 2026
 
-Twenty more source-pinned investigations have now been added across the latest two batches. These are **preliminary focused reviews**, not upgrades to the eight structured deep audits:
+Twenty more source-pinned investigations have now been added across the latest two batches. These were **preliminary focused reviews when initially registered**; several additional audits have since been upgraded through source-level assessment:
 
 - [0612Leo/phd-application-tracker](../research/repositories/reviews/0612leo__phd-application-tracker.md): local daily journal; imported JSON can inject markup through unescaped history rendering.
 - [A-tavv/phd_position_tracker](../research/repositories/reviews/a-tavv__phd-position-tracker.md): Netherlands vacancy monitor; marks jobs seen before Telegram delivery and has no retryable delivery state.
@@ -33,7 +33,7 @@ Twenty more source-pinned investigations have now been added across the latest t
 - [D2Simon/PhDHub](../research/repositories/reviews/d2simon__phdhub.md): broad local applicant CRM; plaintext credentials, unauthenticated network exposure and SSRF/prompt-injection concerns block public deployment.
 - [DataBizex/academic-application-tracker](../research/repositories/reviews/databizex__academic-application-tracker.md): useful MIT-licensed offline workbook; fixed ranges and misleading composite scoring require correction.
 
-The screening register now records 63 reviewed repositories, 9 exclusions, 2 screened-in candidates awaiting first review and 330 untriaged candidates. Across the latest two batches, 20 additional repositories were individually inspected: 4 previously screened-in candidates and 16 untriaged candidates. The latest batch includes a five-repository duplicate-fork family. No upstream tests were executed.
+At the 12 November 2026 main snapshot, the screening register records 88 reviewed repositories, 22 exclusions, 0 screened-in candidates awaiting registration and 294 untriaged candidates. Across the latest two batches, 20 additional repositories were individually inspected: 4 previously screened-in candidates and 16 untriaged candidates. The latest batch includes a five-repository duplicate-fork family. No upstream tests were executed.
 
 ## Functional taxonomy
 
@@ -61,10 +61,21 @@ The screening register now records 63 reviewed repositories, 9 exclusions, 2 scr
 
 **Research-fit matching needs publication-level methods and formal supervisor capacity.** The Wenzi rubric helps ask rigorous alignment questions but has no performance calibration. Actual lab targets [UZH RPG, ETH RSL and Monash VL4AI](../research/supervisors/index.md) require empirical paper match, applicant-research DOI, funded role, online portal status, and field-specific eligibility before scoring fit.
 
+
+## Additional source-level implementation lessons — 12 November 2026
+
+- [Joky02/AcademiaReach](../research/repositories/reviews/joky02__academiareach.md) exposes useful evidence-first bilingual draft composition but the inspected send endpoints have no direct authorization/approval dependency and SMTP delivery state is not an atomic idempotent claim. Adapt only the verified-human-review workflow and test delivery safety under concurrency.
+- [drPod/phd-application-tracker](../research/repositories/reviews/drpod__phd-application-tracker.md) demonstrates user-scoped Supabase queries but produces public object URLs, deletes previous files before a replacement transaction, and lacks tracked RLS-policy proof. Avoid processing private applicant documents with this storage path.
+- [DianaJoseph08/phd-admissions-srm](../research/repositories/reviews/dianajoseph08__phd-admissions-srm.md) implements institutional stages and capacity gates while its inspected authentication path uses plaintext password comparison, predictable bearer tokens and public file mounting. Never copy account or upload mechanisms; no applicant DB or private documents were opened.
+- [Gurudev517 academic-opportunity portal](../research/repositories/reviews/gurudev517__academic-opportunity-portal.md) disables TLS and records placeholder deadlines/contacts; [Janjs legacy MSCA scraper](../research/repositories/reviews/janjs__web-scraping-phd-positions.md) provides no 2026 vacancy/funding verification. Treat both as anti-patterns rather than live data sources.
+- [zhoujasper/PhD Atlas](../research/repositories/reviews/zhoujasper__phd-atlas.md) offers source-grounded discovery and default-deny agent scopes in a large, self-hosted workspace; review finds browser local-storage HMAC is not confidentiality protection. [zxcgzx supervisor tracker](../research/repositories/reviews/zxcgzx__phd-application-tracker.md) illustrates multi-level crawling but has credential, RLS, import-schema and source-integrity concerns. Both were integrated from an independently authored source audit without modifying that session's branch.
+
+These are source-pinned **static** findings. No third-party source tests, credential probes or current employer vacancy verification were performed. Generated counts derive from the canonical CSV index and will change as parallel sessions add verified work.
+
 ## What can be integrated responsibly
 
 Build an original **adapter → source snapshot → claim evidence → canonical vacancy → employer/current portal → international fee and salary gate → scientific publication match → authorized application state** pipeline. Track contradiction and temporal scope explicitly; preserve raw leads even if a PI is unresolved. Program-status and proof data is modeled by [additive SQLite migration](../sql/migrations/001_research_evidence.sql). Third-party code must be separately license-reviewed, tested and sandboxed; no unsafe tool or credentials are copied.
 
 ## Unresolved review work
 
-Full listing source recrawl/precision tests, 55 further substantive repository audits, screening 340 raw names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.
+Full listing source recrawl/precision tests, 68 further substantive preliminary-review upgrades, screening 294 untriaged candidate names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.

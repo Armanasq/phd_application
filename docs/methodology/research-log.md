@@ -78,3 +78,17 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - rjalfa/PhDAdmission: identified applicant-like directory structure with 1,600 files across 800 per-applicant-like folders; inspected only non-personal code paths. UserController logs all posted parameter values and a fixed administrator email appears in AuthenticationFilter. No applicant content accessed or reproduced.
 - All four are eight-section static reviews with pinned upstream SHAs, explicit source limits, non-execution of tests, risk codes and transfer decisions.
 - Canonical split: **404 = 79 reviewed (16 deep static and 63 preliminary) + 19 excluded + 306 untriaged + 0 screened included**. Canonical index regenerated.
+
+## 2026-11-12 — Four additional preliminary investigations and one exclusion
+- stevanoryan/scholarship-atlas: reviewed full static scholarship dataset design and source/reference/expected-date distinction. 172 entries reported by author; no independent live official validation; browser status cannot prove current opening.
+- zarif98sjs/how-not-to-do-phd-application: analyzed author-declared US CS Fall-2024 process lessons and anecdote limitations.
+- zll-hust/Business2CEEPhD: analyzed historical management/operations research to CEE interdisciplinary PhD transition and adviser/committee funding distinction.
+- ShahriarAbir86/higher-study-analysis-skill: inspected README and packaged artifact inventory; a 'fully verified' generated guide is a claim, not independently sourced evidence.
+- Excluded wonyly13/phd-application-prep because its single README promises nonexistent directories and an undated template placeholder rather than usable data.
+- Canonical 404 = **83 reviewed (16 deep static, 67 preliminary), 20 excluded, 301 untriaged, 0 screened included**.
+
+## 2026-11-12 — Seven source-pinned repository investigations
+- Deep static: Mhrnqaruni's monitor (SQLite migrations, SHA-bound critic review, coverage and fail-closed gates, but source-claimed 'PRIMARY' not externally authenticated), ratulsaha2021 scholarship-agent (explicit send confirmation, but failed/invalid LLM fact checks return empty problems; potentially plaintext SMTP credentials), Sekilloda Hypatia (multiple physics job sources, fuzzy source collisions, non-transactional email outbox).
+- Preliminary: seanxuu/PhD-Seeker is a variant of Aghababaei upstream with several changed code blobs, one scraper path TLS verify=False; Rehmanjeff Scrapy project contains a plainly committed database password in source (secret itself not copied); RZFan NLP PhD list has undated faculty and English/GRE conditions; ZhenbangYou Chinese CS admissions narrative contains historical process advice and institution/cycle-specific claims.
+- All seven upstream revisions pinned, risks documented, third-party runtime and official opportunity verification **NOT PERFORMED**; no mail, calendar, applicant data or unsafe external scripts executed.
+- Canonical split: **404 = 95 reviewed (23 deep static, 72 preliminary) + 22 excluded + 287 untriaged + 0 screened included**.
