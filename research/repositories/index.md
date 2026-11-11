@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 96. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 98. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -40,6 +40,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [DanialRamezani/PhD-Hunt](https://github.com/DanialRamezani/PhD-Hunt) | ai_discovery | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/danialramezani--phd-hunt.md) |
 | [danielhafezi/ScholarshipScout](https://github.com/danielhafezi/ScholarshipScout) | vacancy_scrapers | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/danielhafezi--scholarshipscout.md) |
 | [DataBizex/academic-application-tracker](https://github.com/DataBizex/academic-application-tracker) | offline_excel_application_tracker | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/databizex__academic-application-tracker.md) |
+| [ddsuhaimi/scholarship_scraper](https://github.com/ddsuhaimi/scholarship_scraper) | historical_scholarship_html_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/ddsuhaimi__scholarship_scraper.md) |
 | [DianaJoseph08/phd-admissions-srm](https://github.com/DianaJoseph08/phd-admissions-srm) | institutional_doctoral_admissions_portal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/dianajoseph08__phd-admissions-srm.md) |
 | [drPod/phd-application-tracker](https://github.com/drPod/phd-application-tracker) | supabase_phd_application_tracker | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/drpod__phd-application-tracker.md) |
 | [dxeledx/PhdInfoHub](https://github.com/dxeledx/PhdInfoHub) | scope_bound_admissions_evidence_and_concurrency | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/dxeledx__phdinfohub.md) |
@@ -48,6 +49,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [erikpsw/phd-application-pipeline](https://github.com/erikpsw/phd-application-pipeline) | ai_outreach_workflow | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/erikpsw__phd-application-pipeline.md) |
 | [fanyi3017-stack/phd-application-research-agent](https://github.com/fanyi3017-stack/phd-application-research-agent) | ai_workflows | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/fanyi3017-stack--phd-application-research-agent.md) |
 | [fengke808-hash/phd-radar](https://github.com/fengke808-hash/phd-radar) | personalized_supervisor_radar | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/fengke808-hash__phd-radar.md) |
+| [glavrentiadis/phd_position_aegis-r](https://github.com/glavrentiadis/phd_position_aegis-r) | historical_doctoral_interview_modeling_task | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/glavrentiadis__phd_position_aegis-r.md) |
 | [Gurudev517/AI-Driven-Academic-Opportunity-Portal-Using-Web-Automation-and-NLP](https://github.com/Gurudev517/AI-Driven-Academic-Opportunity-Portal-Using-Web-Automation-and-NLP) | indian_research_opportunity_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/gurudev517__academic-opportunity-portal.md) |
 | [gwisk/gradguide](https://github.com/gwisk/gradguide) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/gwisk--gradguide.md) |
 | [hassony2/useful-computer-vision-phd-resources](https://github.com/hassony2/useful-computer-vision-phd-resources) | research_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/hassony2--useful-computer-vision-phd-resources.md) |

@@ -2,10 +2,10 @@
 
 **Date:** 2026-11-12  
 **Repository:** https://github.com/Armanasq/phd_application  
-**Integration:** direct `main` addition under a session-specific, non-overlapping path.  
+**Integration:** direct `main` addition under a session-specific, non-overlapping path. The ekotwidodo findings are supplemental to the subsequently registered [canonical review](../../research/repositories/reviews/ekotwidodo__awesome-phd-positions.md); they must not be counted as a second independent assessment.  
 **Evidence:** connected GitHub repository metadata, complete recursive trees, upstream commits, issues and file contents. No third-party executable or crawler was run, no credentials were used, and linked destination sites were not independently checked.
 
-The four identities below were UNTRIAGED in the inspected 404-candidate inventory and were absent from the published assignment manifests available at review time. Work in other sessions that is not published cannot be observed. The canonical source-of-truth CSVs are intentionally not modified by this session-specific source report; the integration owner should reconcile them with concurrent work.
+The four identities below were UNTRIAGED in the inspected 404-candidate inventory and were absent from the published assignment manifests available at review time. Work in other sessions that is not published cannot be observed. Initial publication did not change the canonical source-of-truth CSVs. A later coordinated reconciliation registered the two remaining preliminary reviews and one exclusion, while another session independently registered ekotwidodo. Canonical counts are derived exclusively from the current CSVs.
 
 ## 1. ekotwidodo/awesome-phd-positions — portal discovery source
 
@@ -72,4 +72,4 @@ A README+tree relevance inspection is sufficient for exclusion; a line-by-line c
 3. Useful architecture for PhD application intelligence: `source registry -> permitted acquisition -> immutable observation -> field-level claim -> independent source verification -> candidate-specific funding/eligibility gate -> authorized action`.
 4. The three substantive sources provide no independently confirmed 2026–27 vacancy, stipend, tuition or visa facts. No external code execution, live scraping, employer portal interaction or admissions application submission was performed.
 
-**Pending canonical integration:** the four source-level dispositions should be reconciled with `data/github_discovery_candidates.csv`, `data/repositories.csv`, `data/exclusions.csv` and generated indexes by a single owner after checking current `main` and concurrent work. They are not counted as new canonical rows merely because this note has been committed.
+**Canonical reconciliation:** glavrentiadis and ddsuhaimi are preliminary entries; DVT is a documented exclusion; ekotwidodo is the separately registered preliminary entry. None of these records alone establishes independently executed third-party tests, source freshness, current funding or official eligibility.

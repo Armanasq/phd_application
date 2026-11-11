@@ -1,0 +1,9 @@
+# glavrentiadis/phd_position_aegis-r — source-pinned selection-task review
+
+- Pinned upstream commit: [6fc9cf3971a517d6bc04aaaafb38142a6fef2c14](https://github.com/glavrentiadis/phd_position_aegis-r/commit/6fc9cf3971a517d6bc04aaaafb38142a6fef2c14), 2025-11-24.
+- Inspection: README, problem statement, preprocessing Python script, repository tree, metadata/history and issue list. Raw/derived CSV bodies, numerical outputs and upstream runtime not inspected.
+- Review state: PRELIMINARY_FOCUSED; historical applicant selection-task methodology, **not** evidence of current funded recruitment.
+
+The University at Buffalo AEGIS-R Lab's [research interview prompt](https://github.com/glavrentiadis/phd_position_aegis-r/blob/6fc9cf3971a517d6bc04aaaafb38142a6fef2c14/problem_statement.md) requires multivariate ground-motion modeling over at least five frequencies in 0.25–5 Hz, controlling for earthquake magnitude, rupture distance, Vs30 and spatial source/station coordinates. The deliverable is a ten-minute presentation of assumptions, model performance, scenarios and diagnostics. The inspected [preprocessing script](https://github.com/glavrentiadis/phd_position_aegis-r/blob/6fc9cf3971a517d6bc04aaaafb38142a6fef2c14/Analysis/preprocessing/compute_ba18_residuals.py) computes log-amplitude residuals using `BaylessAbrahamson2019` despite a `ba18` filename, and executes working-directory-relative I/O at import time. This benchmark label inconsistency requires validation before scientific reuse.
+
+Transferable to technical PhD interview preparation: bounded task formulation, explicit physics/statistical assumptions, scenario tests, diagnostics, and concise presentation. Do not treat the exercise as a general admissions requirement or current vacancy. No license, tests, empirical execution, applicant outcome or confirmed employer offer was established. [Expanded source review](../../sessions/main-20261112/2026-11-12-independent-source-audit-a9c5.md).
