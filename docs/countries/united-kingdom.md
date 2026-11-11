@@ -1,22 +1,24 @@
-# United Kingdom
-**Research date:** 2026-11-11. **Stage:** initial primary-source assessment, country-wide verification outstanding.
+# United Kingdom — independently sourced country dossier
+**Verified:** 2026-11-11 · **State:** EVIDENCE_COLLECTED; funded vacancy inventory incomplete.
 
-## Recruitment / funding architecture
-UKRI awards are administered through providers, not directly to applicants.
+## Executive assessment
+Dual route: applicant to advertised *funded project studentships* or centralized university/doctoral training centre (CDT/DTP) admission with **competitive scholarship**. International fee status is a hard gate, not a minor financial detail. A prestigious admission offer without awarded international tuition and living support fails the target funding requirement.
 
-## Verified policy or mechanism
-International UKRI studentships may be limited; distinguish fee coverage from stipend.
+## Architecture and cycles
+Universities run DPhil/PhD departments, EPSRC CDTs and project grants. UK Research and Innovation **does not accept individual direct student applications**; applicants apply through participating institutions and their own award mechanisms. [UKRI primary](https://www.ukri.org/apply-for-funding/ukri-funded-studentships/). Funded project vacancies may have mid-year and rolling rounds; university-wide funding deadlines often precede final admission deadline. Do not conflate UKRI funding eligibility with automatic funded selection.
 
-Primary source: https://www.ukri.org/apply-for-funding/ukri-funded-studentships/
+## Verified program and counterexample
+- [Oxford DPhil Computer Science](https://www.ox.ac.uk/admissions/graduate/courses/dphil-computer-science): **2 Dec 2026 12:00 UK time** to be *considered* for Oxford funding; regular final program deadline **2 March 2027**. Expected start **10 Oct 2027**. The page does NOT imply all admitted international students are funded. Applicant must secure scholarship/other full funding separately; no 2026 offer timing published. Funding eligibility currently undecided.
+- [University of Reading Soft Robotics & Embodied Intelligence](https://www.jobs.ac.uk/job/DTP262/phd-studentship-in-soft-robotics-and-embodied-intelligence): real robotics studentship, **15 Jan 2027**, £22,905/year home-fees stipend for 3y, but **limited to candidates qualifying Home/UK/Republic of Ireland fee status**. The lab topic alone does not make it a viable international offer. Listing itself says funding confirmed only by award letter. Preserve this as an **eligibility-gated exclusion**, not funded international Portfolio B.
 
-## Institution discovery targets (not confirmed openings)
-Oxford, Cambridge, Imperial, Edinburgh.
+## Institutions and research fit
+University of Oxford computer vision/robotics, Imperial, UCL, Edinburgh, Bristol, Sheffield, Birmingham and other autonomy teams are discovery targets; **neither faculty match nor current funding has been established merely by listing them.** Research fit requires supervisor's current papers in SLAM, robot learning, perception and active intake, not ranking prestige.
 
-## Scientific fit
-Evaluate current laboratory research on SLAM, sensor fusion, autonomous navigation, AI, robot perception and embodied learning against the applicant's validated research products. Do not equate keywords with funded openings.
+## Eligibility and administrative constraints
+Check UK qualification equivalency, English level/tests/exemptions, application fees, references, proposal/writing sample, supervisor-match instruction, UKRI/department funding for overseas fee gap, English-language offers and student visa sponsor conditions on official websites. Official [student visa](https://www.gov.uk/student-visa). Distinguish research council award from university international-fee top-up.
 
-## Unresolved evidence
-Funded live vacancies, supervisor availability and recent output, degree equivalency, English requirements, nationality-specific restrictions, actual stipend and fees, visa timeline, admissions statistics, offer timing, interview protocol, verified applicant experiences.
+## Competitiveness and applicant accounts
+[Public applicant discussion](https://www.reddit.com/r/AskAcademiaUK/comments/1szr7lb/any_international_phd_students_with_ukri_funding/) raises overseas fee-gap concerns but contains conflicting personal statements; cannot serve as formal UKRI rule. No calibrated UK admissions odds inferred.
 
-## Next action
-Run vacancy-level searches of institution careers pages and official calls; document funding and deadlines before shortlisting.
+## Strategy and unresolved
+Oxford Dec2 is a **program + competitive scholarship pathway**, not verified full-funding offer. Prefer explicitly international-funded project adverts, prove fee coverage and stipend. Need project-level screening, CDT rules, student visa timing, PI literature match, institution interview cycles and cost-of-living models. Not enough evidence for a credible offer **before 31 Dec 2026**.
