@@ -18,3 +18,5 @@ jobs:
       - run: python3 scripts/build_source_ledger.py --check
       - run: python3 scripts/check_links.py
       - run: python3 scripts/bootstrap.py --db .local/phd_intelligence.sqlite
+      - run: python3 scripts/import_research.py --dry-run
+      - run: python3 scripts/import_research.py --db .local/phd_intelligence.sqlite
