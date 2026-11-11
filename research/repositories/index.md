@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 99. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 100. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -57,6 +57,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/iran-open-source--putting-in-for-a-phd-and-moving-abroad.md) |
 | [Janjs/Web-Scraping-PhD-positions](https://github.com/Janjs/Web-Scraping-PhD-positions) | legacy_msca_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/janjs__web-scraping-phd-positions.md) |
 | [jedyang97/awesome-cs-phd-application-advice](https://github.com/jedyang97/awesome-cs-phd-application-advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/jedyang97--awesome-cs-phd-application-advice.md) |
+| [johnwalle/scholarship-scraper](https://github.com/johnwalle/scholarship-scraper) | scholarship_scraping_demo | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/johnwalle__scholarship-scraper.md) |
 | [Joky02/AcademiaReach](https://github.com/Joky02/AcademiaReach) | agentic_professor_research_outreach | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/joky02__academiareach.md) |
 | [KaiserWhoLearns/CS-PhD-Application-fee-waivers](https://github.com/KaiserWhoLearns/CS-PhD-Application-fee-waivers) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/kaiserwholearns--cs-phd-application-fee-waivers.md) |
 | [KhanShaheb34/profreach](https://github.com/KhanShaheb34/profreach) | supervisor_crm | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/khanshaheb34__profreach.md) |
