@@ -2,10 +2,10 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 119. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 121. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
-|---|---|---|---|
+|---|---|---|
 | [0612Leo/phd-application-tracker](https://github.com/0612Leo/phd-application-tracker) | daily_application_journal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/0612leo__phd-application-tracker.md) |
 | [0xshreyash/awesome-phd-scholarships](https://github.com/0xshreyash/awesome-phd-scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/0xshreyash--awesome-phd-scholarships.md) |
 | [1161316199/21-](https://github.com/1161316199/21-) | duplicate_fork_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/1161316199__21.md) |
@@ -50,6 +50,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [DataBizex/academic-application-tracker](https://github.com/DataBizex/academic-application-tracker) | offline_excel_application_tracker | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/databizex__academic-application-tracker.md) |
 | [ddsuhaimi/scholarship_scraper](https://github.com/ddsuhaimi/scholarship_scraper) | historical_scholarship_html_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/ddsuhaimi__scholarship_scraper.md) |
 | [deepak0004/PhD-Admission](https://github.com/deepak0004/PhD-Admission) | legacy_java_phd_application_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/deepak0004__phd-admission.md) |
+| [dhcoders/JobsACUK-WebScraper](https://github.com/dhcoders/JobsACUK-WebScraper) | academic_job_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/dhcoders__jobsacuk-webscraper.md) |
 | [DianaJoseph08/phd-admissions-srm](https://github.com/DianaJoseph08/phd-admissions-srm) | institutional_doctoral_admissions_portal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/dianajoseph08__phd-admissions-srm.md) |
 | [dinglhmds/Search-PhD-Positions](https://github.com/dinglhmds/Search-PhD-Positions) | supervisor_discovery | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/dinglhmds__search-phd-positions.md) |
 | [drPod/phd-application-tracker](https://github.com/drPod/phd-application-tracker) | supabase_phd_application_tracker | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/drpod__phd-application-tracker.md) |
@@ -57,6 +58,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [ekotwidodo/awesome-phd-positions](https://github.com/ekotwidodo/awesome-phd-positions) | country_vacancy_portal_directory | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/ekotwidodo__awesome-phd-positions.md) |
 | [eparrainage/phd](https://github.com/eparrainage/phd) | current_vacancy_feeds | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/eparrainage__phd.md) |
 | [erikpsw/phd-application-pipeline](https://github.com/erikpsw/phd-application-pipeline) | ai_outreach_workflow | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/erikpsw__phd-application-pipeline.md) |
+| [evamaxfield/phd](https://github.com/evamaxfield/phd) | firsthand_doctoral_archive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/evamaxfield__phd.md) |
 | [fanyi3017-stack/phd-application-research-agent](https://github.com/fanyi3017-stack/phd-application-research-agent) | ai_workflows | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/fanyi3017-stack--phd-application-research-agent.md) |
 | [Fatemeh-J-RUG/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Fatemeh-J-RUG/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/fatemeh-j-rug__putting-in-for-a-phd-and-moving-abroad.md) |
 | [fengke808-hash/phd-radar](https://github.com/fengke808-hash/phd-radar) | personalized_supervisor_radar | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/fengke808-hash__phd-radar.md) |
