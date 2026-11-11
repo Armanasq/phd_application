@@ -14,7 +14,7 @@ The author publishes personal graduate application statements for other applican
 
 ## 2. Complete repository structure
 
-The recursive tree contains 32 entries: one README and 31 PDF files organized under 16 directories:
+The recursive tree contains 40 entries: 16 directories and 24 files (one README plus 23 PDFs). The directories comprise 15 institution folders and one Recommendations folder:
 - Brown: one SOP.
 - CMU: two SOPs, including a Fall 2021 version.
 - Columbia: one SOP.
