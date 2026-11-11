@@ -38,7 +38,7 @@ def validate_repositories(tables):
         assert key in candidates, f"reviewed repo absent from discovery: {key}"
         assert r["url"].lower() == "https://github.com/" + key
         assert re.fullmatch("[0-9a-f]{40}", r["snapshot_sha"]), f"bad snapshot SHA: {key}"
-        expected = "docs/github/reviews/" + key.replace("/", "--") + ".md"
+        expected = "docs/github/reviews/" + re.sub(r"[^a-z0-9-]", "-", key.replace("/", "--")) + ".md"
         assert r["review_path"] == expected, f"review path mismatch: {key}"
         assert (ROOT / r["review_path"]).is_file(), f"missing review record: {key}"
         assert candidates[key]["screening_state"] == "REVIEW_RECORDED", key
