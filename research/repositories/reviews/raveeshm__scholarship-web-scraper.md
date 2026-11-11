@@ -1,6 +1,6 @@
 # Focused full-tree static review — RaveeshM/Scholarship-Web-Scraper
 
-**Upstream revision:** `5ee5bf7be12e2c64f964840de0c84d8d708579a7`; **checked:** 2026-11-12. **Review state:** PRELIMINARY_FOCUSED; the complete three-file tree was inspected, including 201? no: the GitHub sample CSV, README and scraper. **Runtime:** NOT_TESTED. **License:** no license file identified; no code-reuse grant verified.
+**Upstream revision:** `5ee5bf7be12e2c64f964840de0c84d8d708579a7`; **checked:** 2026-11-12. **Review state:** PRELIMINARY_FOCUSED; the complete three-file tree was inspected, including the example scholarship CSV, README and scraper. **Runtime:** NOT_TESTED. **License:** no license file identified; no code-reuse grant verified.
 
 ## Purpose, actual implementation and source evidence
 
