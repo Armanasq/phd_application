@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 109. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 110. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -53,6 +53,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [fanyi3017-stack/phd-application-research-agent](https://github.com/fanyi3017-stack/phd-application-research-agent) | ai_workflows | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/fanyi3017-stack--phd-application-research-agent.md) |
 | [Fatemeh-J-RUG/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Fatemeh-J-RUG/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/fatemeh-j-rug__putting-in-for-a-phd-and-moving-abroad.md) |
 | [fengke808-hash/phd-radar](https://github.com/fengke808-hash/phd-radar) | personalized_supervisor_radar | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/fengke808-hash__phd-radar.md) |
+| [fsuitoal-code/phd-application-command-center](https://github.com/fsuitoal-code/phd-application-command-center) | application_trackers | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/fsuitoal-code__phd-application-command-center.md) |
 | [glavrentiadis/phd_position_aegis-r](https://github.com/glavrentiadis/phd_position_aegis-r) | historical_doctoral_interview_modeling_task | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/glavrentiadis__phd_position_aegis-r.md) |
 | [Gurudev517/AI-Driven-Academic-Opportunity-Portal-Using-Web-Automation-and-NLP](https://github.com/Gurudev517/AI-Driven-Academic-Opportunity-Portal-Using-Web-Automation-and-NLP) | indian_research_opportunity_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/gurudev517__academic-opportunity-portal.md) |
 | [gwisk/gradguide](https://github.com/gwisk/gradguide) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/gwisk--gradguide.md) |
