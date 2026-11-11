@@ -4,7 +4,7 @@
 
 ## Corpus and evidence independence
 
-The global discovery inventory currently contains **404 unique raw candidate names**, including irrelevant names. Direct screening has found **9 excluded** and **2 included-but-not-deep-reviewed**. There are **53 dated repository assessments**: **8** detailed, eight-part static reviews and **45** preliminary inspection notes. These are a small examined subset, not an exhaustive global sample. [Canonical status-tagged index](../research/repositories/index.md) · [Structured candidate queue](../data/github_discovery_candidates.csv) · [Full limitations](../quality/coverage-report.md).
+The global discovery inventory currently contains **404 unique raw candidate names**, including irrelevant names. Direct screening has found **9 excluded** and **2 included-but-not-deep-reviewed**. There are **63 dated repository assessments**: **8** detailed, eight-part static reviews and **55** preliminary inspection notes. These are a small examined subset, not an exhaustive global sample. [Canonical status-tagged index](../research/repositories/index.md) · [Structured candidate queue](../data/github_discovery_candidates.csv) · [Full limitations](../quality/coverage-report.md).
 
 Eight detailed investigations cover:
 [PhD-Seeker](../research/repositories/reviews/aghababaei__phd-seeker.md),
@@ -20,7 +20,7 @@ and [Chinese neuroscience PhD handbook](../research/repositories/reviews/brainph
 
 ## Additional focused repository inspections — 11 November 2026
 
-Ten more source-pinned investigations were added. These are **preliminary focused reviews**, not upgrades to the eight structured deep audits:
+Twenty more source-pinned investigations have now been added across the latest two batches. These are **preliminary focused reviews**, not upgrades to the eight structured deep audits:
 
 - [0612Leo/phd-application-tracker](../research/repositories/reviews/0612leo__phd-application-tracker.md): local daily journal; imported JSON can inject markup through unescaped history rendering.
 - [A-tavv/phd_position_tracker](../research/repositories/reviews/a-tavv__phd-position-tracker.md): Netherlands vacancy monitor; marks jobs seen before Telegram delivery and has no retryable delivery state.
@@ -33,7 +33,7 @@ Ten more source-pinned investigations were added. These are **preliminary focuse
 - [D2Simon/PhDHub](../research/repositories/reviews/d2simon__phdhub.md): broad local applicant CRM; plaintext credentials, unauthenticated network exposure and SSRF/prompt-injection concerns block public deployment.
 - [DataBizex/academic-application-tracker](../research/repositories/reviews/databizex__academic-application-tracker.md): useful MIT-licensed offline workbook; fixed ranges and misleading composite scoring require correction.
 
-The screening register now records 53 reviewed repositories, 9 exclusions, 2 screened-in candidates awaiting first review and 340 untriaged candidates. Four previously screened-in candidates in this batch and six untriaged candidates were individually inspected. No upstream tests were executed.
+The screening register now records 63 reviewed repositories, 9 exclusions, 2 screened-in candidates awaiting first review and 330 untriaged candidates. Across the latest two batches, 20 additional repositories were individually inspected: 4 previously screened-in candidates and 16 untriaged candidates. The latest batch includes a five-repository duplicate-fork family. No upstream tests were executed.
 
 ## Functional taxonomy
 
@@ -67,4 +67,4 @@ Build an original **adapter → source snapshot → claim evidence → canonical
 
 ## Unresolved review work
 
-Full listing source recrawl/precision tests, 45 further substantive repository audits, screening 340 raw names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.
+Full listing source recrawl/precision tests, 55 further substantive repository audits, screening 340 raw names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.

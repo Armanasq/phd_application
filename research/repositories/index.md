@@ -2,15 +2,24 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 53. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 63. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
 | [0612Leo/phd-application-tracker](https://github.com/0612Leo/phd-application-tracker) | daily_application_journal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/0612leo__phd-application-tracker.md) |
 | [0xshreyash/awesome-phd-scholarships](https://github.com/0xshreyash/awesome-phd-scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/0xshreyash--awesome-phd-scholarships.md) |
+| [1161316199/21-](https://github.com/1161316199/21-) | duplicate_fork_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/1161316199__21.md) |
+| [1171340562/21-](https://github.com/1171340562/21-) | duplicate_fork_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/1171340562__21.md) |
+| [1262241633/21-](https://github.com/1262241633/21-) | duplicate_fork_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/1262241633__21.md) |
+| [17337162621254271304/21-](https://github.com/17337162621254271304/21-) | duplicate_fork_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/17337162621254271304__21.md) |
 | [A-tavv/phd_position_tracker](https://github.com/A-tavv/phd_position_tracker) | netherlands_vacancy_monitor | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/a-tavv__phd-position-tracker.md) |
 | [AakashKumarMissrani/Twinly-Applications-Assistant-](https://github.com/AakashKumarMissrani/Twinly-Applications-Assistant-) | application_workspace_design | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aakashkumarmissrani__twinly-applications-assistant.md) |
+| [abilcode/rag_task_pnu](https://github.com/abilcode/rag_task_pnu) | general_rag_agent_reference | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abilcode__rag_task_pnu.md) |
+| [abolfazl-yousefi/Academic-Job-Scraper-Project](https://github.com/abolfazl-yousefi/Academic-Job-Scraper-Project) | academic_vacancy_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abolfazl-yousefi__academic-job-scraper-project.md) |
 | [abono200/phd-admissions-platform](https://github.com/abono200/phd-admissions-platform) | admissions_dashboard | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abono200__phd-admissions-platform.md) |
+| [abuhamoud237/phd-admissions](https://github.com/abuhamoud237/phd-admissions) | phd_by_research_workflow_portal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abuhamoud237__phd-admissions.md) |
+| [abusanny/cv](https://github.com/abusanny/cv) | application_documents | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abusanny__cv.md) |
+| [abusufyanvu/6S191_MIT_DeepLearning](https://github.com/abusufyanvu/6S191_MIT_DeepLearning) | technical_learning_resource_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abusufyanvu__6s191-mit-deeplearning.md) |
 | [AdewuyiDaniels/PhD-scholarship-search](https://github.com/AdewuyiDaniels/PhD-scholarship-search) | scholarship_recommender_notebook | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/adewuyidaniels__phd-scholarship-search.md) |
 | [Aghababaei/PhD-Seeker](https://github.com/Aghababaei/PhD-Seeker) | vacancy_scrapers | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/aghababaei__phd-seeker.md) |
 | [BaseLayerAI/academic-job-digest](https://github.com/BaseLayerAI/academic-job-digest) | job_monitoring | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/baselayerai__academic-job-digest.md) |
@@ -55,6 +64,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [yongruiyu/CS_APP_Agent](https://github.com/yongruiyu/CS_APP_Agent) | evidence_scoped_program_research_agent | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/yongruiyu__cs_app_agent.md) |
 | [you27-mohamed/PhD-Hunter](https://github.com/you27-mohamed/PhD-Hunter) | vacancy_scrapers | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/you27-mohamed--phd-hunter.md) |
 | [yurtdisiphdrehberi/yurtdisiphdrehberi](https://github.com/yurtdisiphdrehberi/yurtdisiphdrehberi) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/yurtdisiphdrehberi--yurtdisiphdrehberi.md) |
+| [zaohmeing/21-](https://github.com/zaohmeing/21-) | false_positive_chinese_manifesto | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/zaohmeing__21.md) |
 | [zhanglj37/Tutorial-on-PhD-Application](https://github.com/zhanglj37/Tutorial-on-PhD-Application) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/zhanglj37--tutorial-on-phd-application.md) |
 | [zhijing-jin/nlp-phd-global-equality](https://github.com/zhijing-jin/nlp-phd-global-equality) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/zhijing-jin--nlp-phd-global-equality.md) |
 | [zhoujasper/phd-atlas](https://github.com/zhoujasper/phd-atlas) | application_trackers | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/zhoujasper--phd-atlas.md) |
