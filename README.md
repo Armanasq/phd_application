@@ -8,10 +8,10 @@ Local-first research system for doctoral admissions in Canada, United Kingdom, I
 - [Executive admissions strategy](docs/strategy/executive-2026-2027.md)
 - [Eight preliminary country dossiers](docs/countries/README.md)
 - [Funded opportunity leads](data/opportunities.csv)
-- [GitHub research index and ranked findings](docs/github/README.md)
-- [Thirty repository assessments](docs/github/reviews/)
-- [Reviewed repository register](data/repositories.csv): 30 rows, commit-pinned, each linked to an individual assessment.
-- [Broad GitHub discovery queue](data/github_discovery_candidates.csv): 392 distinct discovery records, **362 untriaged**. Not a claim of 392 audits.
+- [Canonical state-tagged review corpus](research/repositories/index.md) and [global GitHub research index](docs/github/README.md)
+- [35 repository assessments](docs/github/reviews/)
+- [Reviewed repository register](data/repositories.csv): 35 rows, commit-pinned, each linked to an individual assessment.
+- [Broad GitHub discovery queue](data/github_discovery_candidates.csv): 404 distinct raw discovery records; most have not been substantively screened. Not a claim of 392 audits.
 - [GitHub search log](data/github_search_log.csv): 12 query groups, first returned page per query; no global exhaustiveness established.
 - [Key engineering lessons](docs/github/engineering-lessons.md) and [source-based risk register](docs/github/failure-register.md)
 - [Research protocol](docs/methodology/research-protocol.md) and [research log](docs/methodology/research-log.md)
@@ -20,10 +20,10 @@ Local-first research system for doctoral admissions in Canada, United Kingdom, I
 
 ## Current discovery counts
 - 8 preliminary country dossiers
-- 7 first-pass funded/program/position leads; financial terms and actual eligibility may remain unverified
-- 30 individually documented **focused** GitHub reviews; depth varies by repository and is explicit in each report
-- 392 unique initial repository search candidates, including noise; 362 still untriaged
-- 12 logged broad keyword search queries (only page one requested)
+- 15 funded vacancy, program or scholarship leads with distinct funding/fee/offer gates; eligibility remains conditional
+- 35 documented individual GitHub source assessments; 8 structured deep static reviews and 27 preliminary notes
+- 404 raw unique repository search candidates, including unrelated results; unscreened candidates remain
+- 12 earlier broad queries plus 8 second-pass multilingual repository queries and 6 GitHub code queries; not exhaustive
 - 0 applications submitted, supervisors contacted or offers received by this workspace
 
 No repository or historical link is accepted as proof of a current funded vacancy. The initial catalog includes important findings about embedded credentials, misleading funding extraction, outdated scholarship rows, link freshness and dataset deprecation. Read [failure register](docs/github/failure-register.md) before considering external code reuse.

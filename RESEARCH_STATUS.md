@@ -3,8 +3,8 @@ As of 2026-11-11. **No claim of completion.** File existence or green CI is not 
 
 | Workstream | Current state | Evidence this pass | Remaining gate |
 |---|---|---|---|
-| Global repo discovery | IN PROGRESS | 12 broad first-page queries, 392 dedup *unscreened/partially screened* names; six code searches | page 2+, topic search, language/snowballing, precision and yield report |
-| Individual repo evaluation | IN PROGRESS | 30 preliminary short reviews; selected new rigorous reviews under research/repositories/reviews/ | all included need required sections, direct citations, full relevant material, issues/releases |
+| Global repo discovery | IN PROGRESS | 12 broad first-page queries, 404 deduplicated raw repository identities including false positives; six code searches | page 2+, topic search, language/snowballing, precision and yield report |
+| Individual repo evaluation | IN PROGRESS | 27 preliminary notes and 8 eight-section deep static reviews under research/repositories/reviews/ | all included need required sections, direct citations, full relevant material, issues/releases |
 | Country intelligence (8) | IN PROGRESS | eight baseline notes; time-critical official program leads | independent national dossiers and current source validation |
 | Applicant experiences | IN PROGRESS | selected public anecdotes; no verified cohort dataset | multi-country synthesis, contradiction and survivorship analysis |
 | Funding intelligence | IN PROGRESS | official program/funding sources and heterogeneous lead list | vacancy-specific funding security + international fee/eligibility |
