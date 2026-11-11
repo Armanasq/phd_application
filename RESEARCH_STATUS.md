@@ -1,6 +1,6 @@
 # Research execution and evidence status
 
-**Current snapshot:** 11 November 2026. This project is an **ongoing research program**, not a completed systematic review or an accepted admissions application.
+**Current snapshot:** 12 November 2026. This project is an **ongoing research program**, not a completed systematic review or an accepted admissions application.
 
 | Workstream | State | Evidence accomplished | Completion blocker |
 |---|---|---|---|
@@ -20,7 +20,7 @@
 
 The public [source ledger](data/sources.jsonl) contains 21 distinct URLs supporting 26 recorded claim items. **Every ledger record currently reads `independent_recheck: NOT_PERFORMED`**. Primary-official retrieval is a stronger source type than an anecdote, but the dual-source independently confirmed stage is not met.
 
-**Discovery screening states:** 345 untriaged; 7 screened relevant but unreviewed; 9 excluded with reasons; 43 reviewed. Only eight of the 63 meet the new eight-section *static* review structure. External code behavior has not been validated by actually executing upstream projects.
+**Canonical CSV screening states (recomputed 12 November 2026):** 330 untriaged; 2 screened-in awaiting individual review; 9 excluded with reasons; 63 review records (8 deep static and 55 preliminary). These four states account for all 404 unique candidate identities. The 10 session-specific investigations merged in PR #6 are preserved under `research/sessions/2cabbe82/`; they are not yet additional rows in the canonical review register. External code behavior has not been validated by executing upstream projects.
 
 ## Offer and communication status
 
