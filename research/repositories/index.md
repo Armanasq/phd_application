@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 111. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 113. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -65,6 +65,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [johnwalle/scholarship-scraper](https://github.com/johnwalle/scholarship-scraper) | scholarship_scraping_demo | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/johnwalle__scholarship-scraper.md) |
 | [Joky02/AcademiaReach](https://github.com/Joky02/AcademiaReach) | agentic_professor_research_outreach | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/joky02__academiareach.md) |
 | [KaiserWhoLearns/CS-PhD-Application-fee-waivers](https://github.com/KaiserWhoLearns/CS-PhD-Application-fee-waivers) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/kaiserwholearns--cs-phd-application-fee-waivers.md) |
+| [KeithBH/phd-positions](https://github.com/KeithBH/phd-positions) | european_industrial_ai_doctoral_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/keithbh__phd-positions.md) |
 | [KhanShaheb34/profreach](https://github.com/KhanShaheb34/profreach) | supervisor_crm | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/khanshaheb34__profreach.md) |
 | [LimHyungTae/Awesome-PhD-CV](https://github.com/LimHyungTae/Awesome-PhD-CV) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/limhyungtae--awesome-phd-cv.md) |
 | [MaryleenAmaizu/ML-AI-Scholarships](https://github.com/MaryleenAmaizu/ML-AI-Scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/maryleenamaizu--ml-ai-scholarships.md) |
@@ -74,6 +75,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [mjvar/CS-PhD-Application-Tips](https://github.com/mjvar/CS-PhD-Application-Tips) | firsthand_cs_admissions_guide | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/mjvar__cs-phd-application-tips.md) |
 | [monees007/phd_application_tracker](https://github.com/monees007/phd_application_tracker) | mobile_application_capture | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/monees007__phd_application_tracker.md) |
 | [n4t3rusch/ScholarshipWebScraper](https://github.com/n4t3rusch/ScholarshipWebScraper) | scholarship_preference_gui_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/n4t3rusch__scholarshipwebscraper.md) |
+| [Nikhil-Rao20/phdbench](https://github.com/Nikhil-Rao20/phdbench) | candidate_workflow_private_shared_auth | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/nikhil-rao20__phdbench.md) |
 | [NimaaaAI/Position-Aggregator](https://github.com/NimaaaAI/Position-Aggregator) | multisource_academic_vacancy_search | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/nimaaai__position-aggregator.md) |
 | [nishanchettri/PhD-positions-electronic-engineering](https://github.com/nishanchettri/PhD-positions-electronic-engineering) | historical_phd_vacancy_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/nishanchettri__phd-positions-electronic-engineering.md) |
 | [PeiMu/findPhdPositions](https://github.com/PeiMu/findPhdPositions) | supervisor_discovery | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/peimu--findphdpositions.md) |
