@@ -12,6 +12,7 @@ DATA = ROOT / "data"
 EXPECTED = {
     "opportunities.csv": {"id", "country", "institution", "title", "type", "deadline_local", "timezone", "status", "funding", "url", "verified_on", "funding_verification", "international_fee_status", "offer_before_2027"},
     "opportunity_assessments.csv": {"opportunity_id", "funding_gate", "verification_state", "target_portfolio", "official_source", "checked_on"},
+    "application_readiness.csv": {"opportunity_id", "official_source_url", "funding_state", "readiness_state", "approval_status"},
     "repositories.csv": {"repository", "category", "inspection_level", "verdict", "url", "checked_on", "snapshot_sha", "review_path", "review_state", "deep_review_path"},
     "github_discovery_candidates.csv": {"repository", "discovery_queries", "screening_state", "review_record", "discovered_on"},
     "github_search_log.csv": {"date", "surface", "query", "page", "returned_count", "new_unique_records"},
@@ -98,6 +99,14 @@ def validate_opportunities(tables):
     assess_ids = [r["opportunity_id"] for r in checked]
     assert len(assess_ids) == len(set(assess_ids)), "duplicate opportunity assessments"
     assert set(ids) == set(assess_ids), "missing/detached opportunity assessment"
+    ready = tables["application_readiness.csv"]
+    ready_ids = [r["opportunity_id"] for r in ready]
+    assert len(ready_ids) == len(set(ready_ids)), "duplicate readiness records"
+    assert set(ready_ids) <= set(ids), "readiness references untracked opportunity"
+    for record in ready:
+        assert record["approval_status"] == "NOT_AUTHORIZED", "public readiness cannot record authorization"
+        assert record["readiness_state"] not in {"SUBMITTED","SENT","ACCEPTED"}, "unproven external action"
+        assert_https(record["official_source_url"], record["opportunity_id"])
     for r in rows:
         assert r["country"] in COUNTRIES, r["id"]
         assert r["status"] in OPPORTUNITY_STATES, r["id"]

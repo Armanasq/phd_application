@@ -14,7 +14,7 @@
 | Cross-source systematic mapping | IN PROGRESS | comparative repo taxonomy, dependence, empirical limits and source-based best practices | more qualified independent studies, formal screening-yield statistics |
 | Immediate 2026 offer analysis | IN PROGRESS | ETH/UZH/Monash employer leads differentiated from 2027 decision cycles | no published guaranteed 2026 offer, interview/document/eligibility bottlenecks |
 | 2027 portfolio and documents | IN PROGRESS | EPFL/UK/UBC/Monash/NZ cases and explicit scientific-fit plan | accepted/eligible package, personal official transcripts, scholarship commitments |
-| Structural QA | VERIFIED (structural only) | GitHub Actions tests and local links, schema/migrations, claim-register and source generation checks | third-party implementation and semantic source verification **not tested** |
+| Structural QA | VERIFIED (structural only) | GitHub Actions **17 tests passed**, local links, schema/migrations, source generation, idempotent importer with application state preservation | third-party implementation and semantic source verification **not tested** |
 
 ## Evidence boundary
 
@@ -36,4 +36,4 @@ No application submissions, supervisor emails, funded offers, interviews, or acc
 - **2027 preparation:** Surrey funded international visual design Jan 17, Monash R1 Feb 28 and Wellington doctoral scholarship March 1; Luxembourg salaried CVI2 portal status still unverified.
 - **Research first:** review any top-ranked-publication requirement against **specific documented rank**, not merely existence of a journal DOI.
 
-See [research method](METHODOLOGY.md), [current opportunity records](data/opportunities.csv), [quality scope report](quality/coverage-report.md), and [candidate-specific plan](strategy/2026-2027-corrected.md).
+See [deadline-specific readiness and authorization gates](docs/operations/november-2026-readiness.md), [public research importer](docs/architecture/importer.md), and [research method](METHODOLOGY.md), [current opportunity records](data/opportunities.csv), [quality scope report](quality/coverage-report.md), and [candidate-specific plan](strategy/2026-2027-corrected.md).

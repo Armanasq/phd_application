@@ -11,7 +11,7 @@ The objective is a credible **fully funded offer as early as possible**, screeni
 | Purpose | Canonical artifact |
 |---|---|
 | **Actual research status and blockers** | [Research status](RESEARCH_STATUS.md) |
-| 2026–27 application decisions and deadlines | [Corrected application campaign](strategy/2026-2027-corrected.md), [research-fit priority table](strategy/research-fit-priorities.md) |
+| 2026–27 application decisions and deadlines | [Corrected application campaign](strategy/2026-2027-corrected.md), [research-fit priority table](strategy/research-fit-priorities.md), [deadline/approval checklist](docs/operations/november-2026-readiness.md) |
 | Country-specific institutional policy | [Eight country dossiers](docs/countries/README.md) |
 | Officially sourced vacancies, scholarships, programs | [20 opportunity/route leads](data/opportunities.csv) and [individual funding, fee and offer-date gates](data/opportunity_assessments.csv) |
 | Global GitHub reviews | [Canonical repository index](research/repositories/index.md), [35 reviewed record metadata](data/repositories.csv) |
@@ -21,7 +21,7 @@ The objective is a credible **fully funded offer as early as possible**, screeni
 | Researcher and laboratory matching | [Three research-fit dossiers](research/supervisors/index.md) |
 | Applicant experiences and contradictions | [Six evidence-classified public cases](research/applicant-experiences/index.md) |
 | Cross-source findings | [Preliminary systematic mapping](synthesis/repository-systematic-review.md), [country comparison](synthesis/country-comparison.md) |
-| Implementation and source QA | [Relational model](docs/architecture/data-model.md), [coverage and limits](quality/coverage-report.md), [methodology critique](quality/methodology-audit.md) |
+| Implementation and source QA | [Relational model](docs/architecture/data-model.md), [idempotent local importer](docs/architecture/importer.md), [coverage and limits](quality/coverage-report.md), [methodology critique](quality/methodology-audit.md) |
 
 ## Corpus boundaries
 
@@ -87,6 +87,8 @@ python3 scripts/validate_sources.py
 python3 scripts/detect_duplicates.py --fail-on-duplicates
 python3 scripts/check_links.py
 python3 scripts/bootstrap.py --db .local/phd_intelligence.sqlite
+python3 scripts/import_research.py --dry-run
+python3 scripts/import_research.py --db .local/phd_intelligence.sqlite
 ```
 
 Optional discovery uses authenticated GitHub REST search only when explicitly run; credentials are read from `GITHUB_TOKEN` in the environment, never committed:
