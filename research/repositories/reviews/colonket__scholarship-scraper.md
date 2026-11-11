@@ -1,7 +1,7 @@
 # colonket/scholarship-scraper — preliminary source review
 
 **Review date:** 2026-11-12  
-**Pinned upstream revision:** [master](https://github.com/colonket/scholarship-scraper/tree/master) (archived repository; commit SHA not independently captured in this session).  
+**Pinned upstream revision:** [54d90f0eb29d9b86baab4ee808e08883d258cde7](https://github.com/colonket/scholarship-scraper/commit/54d90f0eb29d9b86baab4ee808e08883d258cde7) (archived repository).  
 **Classification:** PRELIMINARY_FOCUSED; full single-script static inspection, no live execution.  
 **Disposition:** historical educational reference only.
 
@@ -11,6 +11,6 @@ The 2019 Python script `schol-scra.py` reads one user-supplied Scholarships.com 
 
 **PhD Atlas transfer:** no direct code reuse. The four-field CSV is a toy extraction baseline; a serious adapter requires structured source policy, bounded requests, parser fixtures, URL normalization, field-level citations, explicitly unknown funding/eligibility states and deduplicated snapshots. Archive status and page-age make live content validation mandatory before treating any listing as current.
 
-**Evidence:** [archived repository](https://github.com/colonket/scholarship-scraper), [scraper source](https://github.com/colonket/scholarship-scraper/blob/master/schol-scra.py), [requirements](https://github.com/colonket/scholarship-scraper/blob/master/requirements.txt).
+**Evidence:** [archived repository](https://github.com/colonket/scholarship-scraper), [scraper source](https://github.com/colonket/scholarship-scraper/blob/54d90f0eb29d9b86baab4ee808e08883d258cde7/schol-scra.py), [requirements](https://github.com/colonket/scholarship-scraper/blob/54d90f0eb29d9b86baab4ee808e08883d258cde7/requirements.txt).
 
 **Validation boundary:** static source inspection only; external source pages and tests were not run.
