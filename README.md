@@ -1,61 +1,71 @@
 # PhD Admissions Intelligence & Execution
 
-**Research baseline:** 2026-11-11 · **Status:** initial evidence-backed research infrastructure, not a completed worldwide search.
+**Research baseline:** 2026-11-11 · **Program status:** ongoing, source-backed but incomplete.
 
-A local-first, source-auditable research workspace for a fully funded PhD campaign across Canada, the United Kingdom, Ireland, Luxembourg, Switzerland, Norway, New Zealand, and Australia. Focus: robotics, state estimation, autonomous systems, navigation, perception, and AI. The **admissions campaign** and **research intelligence process** are separate workflows.
+Local-first research system for doctoral admissions in Canada, United Kingdom, Ireland, Luxembourg, Switzerland, Norway, New Zealand, and Australia. Scientific emphasis: robotics, AI, deep learning, SLAM, navigation, sensor fusion and autonomous systems.
 
-## Read first
+## Entry points
+- [Executive admissions strategy](docs/strategy/executive-2026-2027.md)
+- [Eight preliminary country dossiers](docs/countries/README.md)
+- [Funded opportunity leads](data/opportunities.csv)
+- [GitHub research index and ranked findings](docs/github/README.md)
+- [Thirty repository assessments](docs/github/reviews/)
+- [Reviewed repository register](data/repositories.csv): 30 rows, commit-pinned, each linked to an individual assessment.
+- [Broad GitHub discovery queue](data/github_discovery_candidates.csv): 392 distinct discovery records, **362 untriaged**. Not a claim of 392 audits.
+- [GitHub search log](data/github_search_log.csv): 12 query groups, first returned page per query; no global exhaustiveness established.
+- [Key engineering lessons](docs/github/engineering-lessons.md) and [source-based risk register](docs/github/failure-register.md)
+- [Research protocol](docs/methodology/research-protocol.md) and [research log](docs/methodology/research-log.md)
+- [Relational data architecture](docs/architecture/data-model.md) and [application operations](docs/operations/application-playbook.md)
+- [Public redacted candidate baseline](docs/candidate/profile.md)
 
-- [Executive strategy](docs/strategy/executive-2026-2027.md): immediate deadlines and 2027 parallel route.
-- [Country dossiers](docs/countries/README.md): eight independently maintained country assessments.
-- [Opportunity tracker](data/opportunities.csv): official source, verification state, deadline, funding, research fit and next action. An admission program is not automatically a funded opening.
-- [GitHub discovery inventory](data/repositories.csv) and [audit index](docs/github/README.md): screened resources, inspection level and provenance.
-- [Research protocol](docs/methodology/research-protocol.md) and [search log](data/search_log.csv).
-- [Entity and evidence design](docs/architecture/data-model.md): a durable relational data model with source/claim lineage.
-- [Execution playbook](docs/operations/application-playbook.md): practical application workflow.
-- [Baseline and gaps](docs/candidate/profile.md): self-reported facts separated from formal verification.
+## Current discovery counts
+- 8 preliminary country dossiers
+- 7 first-pass funded/program/position leads; financial terms and actual eligibility may remain unverified
+- 30 individually documented **focused** GitHub reviews; depth varies by repository and is explicit in each report
+- 392 unique initial repository search candidates, including noise; 362 still untriaged
+- 12 logged broad keyword search queries (only page one requested)
+- 0 applications submitted, supervisors contacted or offers received by this workspace
 
-## Architecture
+No repository or historical link is accepted as proof of a current funded vacancy. The initial catalog includes important findings about embedded credentials, misleading funding extraction, outdated scholarship rows, link freshness and dataset deprecation. Read [failure register](docs/github/failure-register.md) before considering external code reuse.
+
+## Structure
 
 ```text
 docs/
-  architecture/     relational design, states, privacy
-  candidate/        evidence-gated applicant baseline
-  countries/        independent country dossiers
-  github/           audit methods and qualified repository reviews
-  methodology/      verification, discovery and decision framework
-  operations/       application, outreach and document workflows
-  strategy/         near-term and 2027 portfolios
-data/               UTF-8 CSV system-of-record seeds and evidence register
-sql/                normalized SQLite schema
-scripts/            stdlib-only validation and local database bootstrap
-tests/              data integrity and workflow checks
-.github/workflows/  validation CI
+  countries/       separate, evidence-aware national dossiers
+  strategy/        immediate and 2027 application portfolios
+  candidate/       redacted candidate and evidence gaps
+  architecture/    data entities and proof requirements
+  methodology/     source protocol and chronological research log
+  operations/      application and authorization states
+  github/          review index, engineering lessons, failure register
+    reviews/       30 source-pinned individual repository assessments
+data/
+  opportunities.csv
+  evidence.csv
+  repositories.csv
+  github_discovery_candidates.csv
+  github_search_log.csv
+sql/               SQLite schema
+scripts/           stdlib-only dataset validation and bootstrap
+tests/             catalog and safety regression tests
+.github/workflows/ validation
 ```
 
-All publicly committed records must omit private documents, IDs, sensitive residence/citizenship information, email correspondence and API credentials. Keep personal application materials in private storage. Machine-readable CSV is a **reviewed seed dataset**, not an automated live feed.
+## Evidence and privacy
+An advertised doctoral employment vacancy is not the same as generic program admission, and scholarship eligibility is not an award. Keep application deadline, decision date, enrollment date and funding start distinct. Record unknown applicant credentials and funding terms as unknown.
 
-## Non-negotiable semantics
+**This repository is public.** Keep passports, transcripts, residence records, private email, referees' contact details, API keys and all applicant-private drafts out of git. Never copy credentials found in third-party code. Search and AI-generated text are untrusted discovery aids. Every high-stakes assertion needs current, official, claim-specific evidence.
 
-- **Date fields are distinct:** application deadline, decision date, enrollment and funding start.
-- **Funding:** confirmed full, partial, conditional, not evidenced; full funding requires tuition + sustainable living support.
-- **Opportunity status:** verified open, published recurring channel, upcoming confirmed, verification needed, closed.
-- **Research status is not submission status.** No application/contact/offer is considered completed without documentary evidence.
-- **Sources:** official current rules override old third-party advice; every high-impact claim retains an inspectable source link and check date.
-- **Uncertainty:** UNKNOWN is preferable to inferred personal eligibility or invented admissions probabilities.
-- **Risk control:** deadlines and advertised jobs should be manually rechecked on the official site before taking action.
-
-## Local workflow
+## Local quality gate
 
 ```sh
 python3 scripts/validate.py
+python3 -m unittest discover -s tests -v
 python3 scripts/bootstrap.py --db .local/phd_intelligence.sqlite
 ```
 
-The database file is a generated local artifact and must not be committed. Python standard library only. The docs, schema and first source records are deliberately incremental; consult [research log](docs/methodology/research-log.md) for inspected scope and unresolved gaps.
+GitHub Actions is configured to run validation and tests; do not infer a green build unless an actual run confirms it.
 
-## Campaign boundaries
-
-This repository supports planning and verification. It does not submit applications, email supervisors, accept offers, or modify external accounts. External communication and submission require explicit user authorization.
-
-**Created:** 2026-11-11. Findings become stale; do not reuse unverified information for decisions.
+## Operating boundary
+Research review and preparation can proceed without outreach. Supervisor emails, applications, commitments, external accounts and any acceptance action require explicit authorization.
