@@ -27,12 +27,12 @@ The following canonical owner/repository identities were untriaged or screened-i
 - [x] Reconstructed canonical discovery/review totals.
 - [x] Inspected live branches, recent commits, issues, PRs, and published coordination evidence.
 - [x] Established session-specific remote branch.
-- [ ] Fetch and inspect every assigned repository at a pinned upstream commit.
-- [ ] Inspect source, tests, dependencies, license, issues/PRs, releases and history.
-- [ ] Execute safe tests where feasible; otherwise document precise blockers.
-- [ ] Produce repository-specific reports with evidence and explicit uninspected scope.
-- [ ] Produce cross-repository synthesis and incremental integration proposal.
-- [ ] Reconcile status documentation inconsistencies in this branch.
+- [x] Fetch and inspect every assigned repository at a pinned upstream commit (Power BI binary contents remain blocked).
+- [x] Inspect source, tests, dependencies, license, issues/PRs, releases and history where accessible; native Power BI binaries remain blocked.
+- [x] Document runtime/test blockers; no local clone available, so tests were not executed.
+- [x] Produce seven repository-specific reports with evidence and explicit uninspected scope (six deep static; one blocked preliminary).
+- [x] Produce cross-repository synthesis and incremental integration proposal.
+- [x] Identify and document status documentation inconsistencies; do not concurrently edit shared canonical status files.
 
 ## Files modified by this session
 - `research/sessions/gpt6-20261111-2031z/progress.md` (this record)
@@ -45,3 +45,16 @@ The following canonical owner/repository identities were untriaged or screened-i
 - Do not claim runtime validation unless commands and results are recorded.
 - Do not execute untrusted crawlers with credentials or publish secrets/private applicant information.
 - Review depth is not upgraded by README/tree inspection alone.
+
+
+## Final batch outcome (2026-11-11)
+- Six deep static reviews: simitii/CS-Grad-School-Applications-Reading-List; siddu1998/Graduate-Admissions; fsuitoal-code/phd-application-command-center; EydlinIlya/BlueSky-PhD-jobs; houwei1228/PhD_Fit; Akshitha-03/Automating_PhD_Group4.
+- One blocked preliminary review: DataBizex/academic-positions-dashboard. Its native .pbix and .xlsx contents require isolated local extraction.
+- Reports: research/sessions/gpt6-20261111-2031z/reviews/*.md (seven files).
+- Synthesis: research/sessions/gpt6-20261111-2031z/cross-repository-synthesis.md.
+- Tests executed: 0. No upstream repository was executed; runtime validation is outstanding.
+- Global discovery status: 404 candidates; 63 canonical review records (8 deep, 55 preliminary) at base snapshot. These seven session reports are not yet integrated into canonical inventory.
+- Proposed canonical changes: mark six as deep static and one as blocked preliminary only after integration and checking concurrent session updates.
+- Existing global status and research-log files have inconsistent historical totals; reconciliation is proposed, not applied.
+- No main branch, existing reviews, issues, or other session artifacts modified.
+- No known competing published claims at start; recheck before merge.
