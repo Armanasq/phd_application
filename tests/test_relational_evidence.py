@@ -2,6 +2,8 @@ import sqlite3
 from pathlib import Path
 import unittest
 
+from scripts.migrations import apply_migrations
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -9,8 +11,7 @@ def make_database():
     db = sqlite3.connect(":memory:")
     db.execute("PRAGMA foreign_keys = ON")
     db.executescript((ROOT/"sql"/"schema.sql").read_text(encoding="utf-8"))
-    for migration in sorted((ROOT/"sql"/"migrations").glob("*.sql")):
-        db.executescript(migration.read_text(encoding="utf-8"))
+    apply_migrations(db, ROOT / "sql" / "migrations")
     return db
 
 
@@ -48,8 +49,7 @@ class RelationalEvidenceTests(unittest.TestCase):
 
     def test_migration_idempotent_for_fresh_local_db(self):
         with make_database() as db:
-            sql=(ROOT/"sql"/"migrations"/"001_research_evidence.sql").read_text(encoding="utf-8")
-            db.executescript(sql)
+            self.assertEqual(apply_migrations(db, ROOT / "sql" / "migrations"), [])
             self.assertEqual(db.execute("PRAGMA foreign_key_check").fetchall(), [])
 
 
