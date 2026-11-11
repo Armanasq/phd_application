@@ -92,3 +92,10 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - Preliminary: seanxuu/PhD-Seeker is a variant of Aghababaei upstream with several changed code blobs, one scraper path TLS verify=False; Rehmanjeff Scrapy project contains a plainly committed database password in source (secret itself not copied); RZFan NLP PhD list has undated faculty and English/GRE conditions; ZhenbangYou Chinese CS admissions narrative contains historical process advice and institution/cycle-specific claims.
 - All seven upstream revisions pinned, risks documented, third-party runtime and official opportunity verification **NOT PERFORMED**; no mail, calendar, applicant data or unsafe external scripts executed.
 - Canonical split: **404 = 95 reviewed (23 deep static, 72 preliminary) + 22 excluded + 287 untriaged + 0 screened included**.
+
+## 2026-11-12 — Verified clone and term-collision screening
+- Inspected 12 separate GitHub candidates (full root trees, selected application files/README, pinned HEAD revisions) from course-mirror and C# assignment lineages. 8 pre-screened candidates were left untouched.
+- Ten MIT 6.S191 clones share exact Git commit `2c4966842d8efceeab2916b49d57e8177f6fb2c3`; one adds a Spark notebook. Eleven excluded as unrelated to admissions.
+- Nine VLazorykOOP C# class labs expose the surname 'Soproniuk', not a graduate SOP; individually screened and excluded.
+- Cross-repository evidence and source pointers: [clone-lineage note](../../synthesis/github-discovery-clone-lineage-20261112.md). Exclusions retained individually in the canonical raw candidate register.
+- Canonical split: **404 = 99 reviewed (24 deep static, 75 preliminary) + 46 excluded + 259 untriaged + 0 screened included**.
