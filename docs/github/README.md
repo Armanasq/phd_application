@@ -1,15 +1,15 @@
 # Global GitHub research — status and navigation
 
-**Dated research baseline:** 11 November 2026. The earlier 30 files in `docs/github/reviews/` are preserved as inspection-history artifacts. They are not the current authoritative review-state index.
+**Dated research baseline:** 12 November 2026. The earlier 30 files in `docs/github/reviews/` are preserved as inspection-history artifacts. They are not the current authoritative review-state index.
 
 For canonical navigation use **[research/repositories/index.md](../../research/repositories/index.md)**, generated from `data/repositories.csv`.
 
 ## Defensible corpus numbers
 
 - **404** distinct raw discovery strings (includes irrelevant and misleading matches)
-- **35** individually inspected with dated source-revision records
-- **8** source-permalink-linked, eight-section deep *static* reviews; **27** preliminary assessments
-- **9** evidence-coded exclusions, **7** screened candidates awaiting deeper review, **353** untriaged
+- **63** individually inspected with dated source-revision records
+- **8** source-permalink-linked, eight-section deep *static* reviews; **55** preliminary assessments
+- **9** evidence-coded exclusions, **2** screened candidates awaiting individual review, **330** untriaged
 - Global search included first-page GitHub repository and code search plus additional Chinese/Turkish/English query families; **no global recall or saturation guarantee**
 
 [Full query/retrieval log](../../data/discovery_log.jsonl) · [Research method](../../METHODOLOGY.md) · [Exclusions](../../data/exclusions.csv) · [Research status](../../RESEARCH_STATUS.md)
@@ -27,4 +27,4 @@ For canonical navigation use **[research/repositories/index.md](../../research/r
 [Data-quality and security findings](failure-register.md) · [Original engineering design recommendations](engineering-lessons.md) · [Independent source relationships](../../synthesis/source-dependency-crosswalk.md)
 
 ## Remaining completion work
-Screen the 353 untriaged records, deep-inspect included source sets and their original links, expand GitHub pages/topics/forks/PRs and non-English research, collect and audit more firsthand cross-country cases, verify current employer job portals, and demonstrate an evidence-based diminishing-yield discovery criterion. No review or country workstream is declared complete from an index file alone.
+Screen the 330 untriaged records, deep-inspect included source sets and their original links, expand GitHub pages/topics/forks/PRs and non-English research, collect and audit more firsthand cross-country cases, verify current employer job portals, and demonstrate an evidence-based diminishing-yield discovery criterion. No review or country workstream is declared complete from an index file alone. Ten session-specific investigation reports were merged under `research/sessions/2cabbe82/`; these remain supplemental and are not counted as canonical review rows.
