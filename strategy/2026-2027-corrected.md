@@ -8,9 +8,14 @@ Publicly self-reported: AI/ML, robotics/autonomy, SLAM/navigation, inertial sens
 | Priority | Route | Funding status and urgent constraint | Latest application | Offer by Dec31 evidence |
 |---|---|---|---|---|
 | A1 | [ETH Soft Robotics](https://jobs.ethz.ch/job/view/JOPG_ethz_d3lDgHgDI4ewDFQ1Fb) | salaried, 18m renewable; **hardware/embodied skill evidence** required | rolling **30 Nov2026** | three-week *feedback goal*, 3 interview stages; offer unconfirmed |
-| A2 | [ETH RobotX](https://jobs.ethz.ch/job/view/JOPG_ethz_zBtPwWHnM0fumyTFso) | fully funded salaried ETH; up to 3 labs, 3 referees | **27 Nov2026** | no published decision date |
+| B-urgent deadline | [ETH RobotX](https://jobs.ethz.ch/job/view/JOPG_ethz_zBtPwWHnM0fumyTFso) | fully funded salaried ETH; up to 3 labs, 3 referees | **27 Nov2026** | [RobotX](https://robotx.ethz.ch/education/open-positions.html) states final decisions by **15 Feb2027** |
 | A3 | [Monash–NVIDIA DistRobot](https://vl4ai.erc.monash.edu/positions/distrobot-phd/) | ~AUD37k & intl tuition waiver; requires relevant top-ranked paper | no published deadline; index labels Open | no published decision date |
-Monash A3 is **blocked on verified paper/degree equivalence**. EPFL, Oxford, UBC apply in late 2026 but do not have evidence of an offer before December 31.
+Monash A3: the candidate's [2023 peer-reviewed Measurement research article](https://www.sciencedirect.com/science/article/pii/S0263224123006693) is **publisher-verified**, but whether that journal satisfies the advertisement's **top-ranked venue** rule remains **unverified**; degree equivalents/transcripts require separate private checking. EPFL, Oxford, UBC apply in late 2026 but do not have evidence of an offer before December 31.
+
+## Additional high-fit salaried Swiss leads
+- [UZH Robotics and Perception Group](https://rpg.ifi.uzh.ch/positions.html) advertises fully funded employment in event/frame/IMU perception and robot navigation; original Oct27 deadline is past but screening continues until filled. **Verify remaining capacity and PhD online form before Portfolio A**, no offer date published.
+- [ETH Robotic Systems Lab](https://rsl.ethz.ch/the-lab/open-positions.html) says continuously recruiting PhDs in perception/navigation with ROS/C++; verify individual funded contract before A.
+- [ETH SIPLAB neuromotor](https://www.jobs.ethz.ch/job/view/JOPG_ethz_fEsJT6dU0XVbGPtHhO) is funded but less direct sensor/vision research alignment and portal must be checked.
 
 ## Portfolio B — 2027 funded admission routes
 - [EPFL EDIC](https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/edic-computer-and-communication-sciences/edic-how-to-apply/): **1 Dec2026** for Sept2027, all admitted financed, competitive selection; no pre-PI agreement.
