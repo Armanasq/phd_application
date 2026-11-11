@@ -14,8 +14,8 @@ The objective is a credible **fully funded offer as early as possible**, screeni
 | 2026–27 application decisions and deadlines | [Corrected application campaign](strategy/2026-2027-corrected.md), [research-fit priority table](strategy/research-fit-priorities.md), [deadline/approval checklist](docs/operations/november-2026-readiness.md) |
 | Country-specific institutional policy | [Eight country dossiers](docs/countries/README.md) |
 | Officially sourced vacancies, scholarships, programs | [20 opportunity/route leads](data/opportunities.csv) and [individual funding, fee and offer-date gates](data/opportunity_assessments.csv) |
-| Global GitHub reviews | [Canonical repository index](research/repositories/index.md), [79 reviewed record metadata](data/repositories.csv) |
-| Global GitHub candidate inventory | [404 raw discovered identities](data/github_discovery_candidates.csv), [19 screened exclusions](data/exclusions.csv) |
+| Global GitHub reviews | [Canonical repository index](research/repositories/index.md), [83 reviewed record metadata](data/repositories.csv) |
+| Global GitHub candidate inventory | [404 raw discovered identities](data/github_discovery_candidates.csv), [20 screened exclusions](data/exclusions.csv) |
 | Transparent search/research method | [Protocol](METHODOLOGY.md), [source policy](SOURCE_POLICY.md), [discovery log](data/discovery_log.jsonl) |
 | Verifiable claims and source independence | [26 claims](data/claim_register.jsonl), [21 canonical source records](data/sources.jsonl), [dependency crosswalk](synthesis/source-dependency-crosswalk.md) |
 | Researcher and laboratory matching | [Three research-fit dossiers](research/supervisors/index.md) |
@@ -28,12 +28,12 @@ The objective is a credible **fully funded offer as early as possible**, screeni
 | Level | Count | Meaning |
 |---|---:|---|
 | Raw GitHub candidate identities | **404** | Unique repository strings from sampled queries and selected referrals; **includes noise** |
-| Reviewed repositories | **79** | A dated, source-revision-specific individual record |
+| Reviewed repositories | **83** | A dated, source-revision-specific individual record |
 | Eight-section deep static reviews | **16** | Inspected relevant code/docs, provenance, method, comparisons and limitations; **runtime tests not executed** |
-| Preliminary bounded reviews | **63** | Not yet satisfying the full research-review contract |
-| Screened exclusions | **19** | Documented exclusion rationale and provenance |
+| Preliminary bounded reviews | **67** | Not yet satisfying the full research-review contract |
+| Screened exclusions | **20** | Documented exclusion rationale and provenance |
 | Included for subsequent review | **2** | Relevant initial screening, individual deep review pending |
-| Untriaged discovery candidates | **306** | No inclusion determination made |
+| Untriaged discovery candidates | **301** | No inclusion determination made |
 | Country dossiers | **8** | Official-source national assessments; not nationwide vacancy exhaustiveness |
 | Program/position/scholarship leads | **20** | Heterogeneous opportunity classes; **not 20 verified funded offers** |
 | Claim records / canonical sources | **26 / 21** | Claim-specific source references; independent semantic recheck still pending |

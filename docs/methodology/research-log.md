@@ -78,3 +78,11 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - rjalfa/PhDAdmission: identified applicant-like directory structure with 1,600 files across 800 per-applicant-like folders; inspected only non-personal code paths. UserController logs all posted parameter values and a fixed administrator email appears in AuthenticationFilter. No applicant content accessed or reproduced.
 - All four are eight-section static reviews with pinned upstream SHAs, explicit source limits, non-execution of tests, risk codes and transfer decisions.
 - Canonical split: **404 = 79 reviewed (16 deep static and 63 preliminary) + 19 excluded + 306 untriaged + 0 screened included**. Canonical index regenerated.
+
+## 2026-11-12 — Four additional preliminary investigations and one exclusion
+- stevanoryan/scholarship-atlas: reviewed full static scholarship dataset design and source/reference/expected-date distinction. 172 entries reported by author; no independent live official validation; browser status cannot prove current opening.
+- zarif98sjs/how-not-to-do-phd-application: analyzed author-declared US CS Fall-2024 process lessons and anecdote limitations.
+- zll-hust/Business2CEEPhD: analyzed historical management/operations research to CEE interdisciplinary PhD transition and adviser/committee funding distinction.
+- ShahriarAbir86/higher-study-analysis-skill: inspected README and packaged artifact inventory; a 'fully verified' generated guide is a claim, not independently sourced evidence.
+- Excluded wonyly13/phd-application-prep because its single README promises nonexistent directories and an undated template placeholder rather than usable data.
+- Canonical 404 = **83 reviewed (16 deep static, 67 preliminary), 20 excluded, 301 untriaged, 0 screened included**.

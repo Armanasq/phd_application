@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 79. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 83. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -62,11 +62,13 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [poloclub/awesome-grad-school](https://github.com/poloclub/awesome-grad-school) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/poloclub--awesome-grad-school.md) |
 | [rednaxela2018/Application_Materials_For_PhD](https://github.com/rednaxela2018/Application_Materials_For_PhD) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/rednaxela2018--application-materials-for-phd.md) |
 | [rjalfa/PhDAdmission](https://github.com/rjalfa/PhDAdmission) | legacy_phd_admissions_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/rjalfa__phdadmission.md) |
+| [ShahriarAbir86/higher-study-analysis-skill](https://github.com/ShahriarAbir86/higher-study-analysis-skill) | higher_education_advice_generation_template | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/shahriarabir86__higher-study-analysis-skill.md) |
 | [shaily99/advice](https://github.com/shaily99/advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/shaily99--advice.md) |
 | [siddu1998/Graduate-Admissions](https://github.com/siddu1998/Graduate-Admissions) | personal_admissions_artifact_corpus | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/siddu1998__graduate-admissions.md) |
 | [SihengTao/phd-application-planner](https://github.com/SihengTao/phd-application-planner) | research_planning | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sihengtao__phd-application-planner.md) |
 | [simitii/CS-Grad-School-Applications-Reading-List](https://github.com/simitii/CS-Grad-School-Applications-Reading-List) | historical_admissions_reading_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/simitii__cs-grad-school-applications-reading-list.md) |
 | [stealth-startup-2026/scholarship-scraper](https://github.com/stealth-startup-2026/scholarship-scraper) | australia_scholarship_structured_scraping | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stealth-startup-2026__scholarship-scraper.md) |
+| [stevanoryan/scholarship-atlas](https://github.com/stevanoryan/scholarship-atlas) | historical_and_2026_scholarship_aggregation | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stevanoryan__scholarship-atlas.md) |
 | [swadhinbiswas/fundmystudy-scraper](https://github.com/swadhinbiswas/fundmystudy-scraper) | multi_source_opportunity_ingestion | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/swadhinbiswas__fundmystudy-scraper.md) |
 | [Swapnil-Gandhi/SoP-Template](https://github.com/Swapnil-Gandhi/SoP-Template) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/swapnil-gandhi--sop-template.md) |
 | [TSTS09/Grad-Admission-Agent](https://github.com/TSTS09/Grad-Admission-Agent) | multi_source_admissions_agent | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/tsts09__grad-admission-agent.md) |
@@ -81,7 +83,9 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [you27-mohamed/PhD-Hunter](https://github.com/you27-mohamed/PhD-Hunter) | vacancy_scrapers | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/you27-mohamed--phd-hunter.md) |
 | [yurtdisiphdrehberi/yurtdisiphdrehberi](https://github.com/yurtdisiphdrehberi/yurtdisiphdrehberi) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/yurtdisiphdrehberi--yurtdisiphdrehberi.md) |
 | [zaohmeing/21-](https://github.com/zaohmeing/21-) | false_positive_chinese_manifesto | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/zaohmeing__21.md) |
+| [zarif98sjs/how-not-to-do-phd-application](https://github.com/zarif98sjs/how-not-to-do-phd-application) | phd_firsthand_application_account | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/zarif98sjs__how-not-to-do-phd-application.md) |
 | [zhanglj37/Tutorial-on-PhD-Application](https://github.com/zhanglj37/Tutorial-on-PhD-Application) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/zhanglj37--tutorial-on-phd-application.md) |
 | [zhijing-jin/nlp-phd-global-equality](https://github.com/zhijing-jin/nlp-phd-global-equality) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/zhijing-jin--nlp-phd-global-equality.md) |
 | [zhoujasper/phd-atlas](https://github.com/zhoujasper/phd-atlas) | application_trackers | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/zhoujasper--phd-atlas.md) |
+| [zll-hust/Business2CEEPhD](https://github.com/zll-hust/Business2CEEPhD) | cross_discipline_phd_application_experience | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/zll-hust__business2ceephd.md) |
 | [zxcgzx/phd-application-tracker](https://github.com/zxcgzx/phd-application-tracker) | application_trackers | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/zxcgzx--phd-application-tracker.md) |
