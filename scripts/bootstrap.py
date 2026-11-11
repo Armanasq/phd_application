@@ -10,4 +10,7 @@ target = pathlib.Path(args.db)
 target.parent.mkdir(parents=True, exist_ok=True)
 with sqlite3.connect(target) as db:
     db.executescript((ROOT/"sql"/"schema.sql").read_text(encoding="utf-8"))
+    for migration in sorted((ROOT / "sql" / "migrations").glob("*.sql")):
+        db.executescript(migration.read_text(encoding="utf-8"))
+    assert db.execute("PRAGMA foreign_key_check").fetchall() == []
 print(target)

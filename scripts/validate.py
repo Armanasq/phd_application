@@ -137,6 +137,8 @@ def main():
     experiences = validate_jsonl("applicant_experiences.jsonl", ("case_id", "date", "source", "finding", "confidence"))
     with sqlite3.connect(":memory:") as db:
         db.executescript((ROOT / "sql" / "schema.sql").read_text(encoding="utf-8"))
+        for migration in sorted((ROOT / "sql" / "migrations").glob("*.sql")):
+            db.executescript(migration.read_text(encoding="utf-8"))
         assert db.execute("PRAGMA foreign_key_check").fetchall() == []
     print(f"PASS: {len(tables['repositories.csv'])} reviewed repos ({deep_count} full-structured static reviews), {len(tables['github_discovery_candidates.csv'])} candidates, {len(tables['opportunities.csv'])} leads, {len(claims)} claim records, {len(experiences)} applicant cases; 8 country dossiers")
 
