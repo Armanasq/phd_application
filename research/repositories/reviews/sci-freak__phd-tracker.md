@@ -1,6 +1,6 @@
 # sci-freak/phd-tracker — pinned source investigation
 
-- Revision: `c716a9396a3d6080077e79878cbc6a40c62d58a7c`
+- Revision: `13afd78b8302674caabd21036f90020aa788aa62`
 - Inspected on: 2026-11-12
 - State: **DEEP_STATIC_READY_FOR_CANONICAL_RECONCILIATION**
 - Tests/builds/deployments/third-party integration: NOT_EXECUTED
@@ -40,9 +40,9 @@ Adopt per-user access controls and shared normalization, but require explicit up
 
 ## Pinned upstream source paths
 
-- [README.md](https://github.com/sci-freak/phd-tracker/blob/c716a9396a3d6080077e79878cbc6a40c62d58a7c/README.md)
-- [src/services/DataService.js](https://github.com/sci-freak/phd-tracker/blob/c716a9396a3d6080077e79878cbc6a40c62d58a7c/src/services/DataService.js)
-- [firestore.rules](https://github.com/sci-freak/phd-tracker/blob/c716a9396a3d6080077e79878cbc6a40c62d58a7c/firestore.rules)
-- [storage.rules](https://github.com/sci-freak/phd-tracker/blob/c716a9396a3d6080077e79878cbc6a40c62d58a7c/storage.rules)
-- [src/hooks/useGuestMerge.js](https://github.com/sci-freak/phd-tracker/blob/c716a9396a3d6080077e79878cbc6a40c62d58a7c/src/hooks/useGuestMerge.js)
-- [packages/shared/test/run-shared-tests.mjs](https://github.com/sci-freak/phd-tracker/blob/c716a9396a3d6080077e79878cbc6a40c62d58a7c/packages/shared/test/run-shared-tests.mjs)
+- [README.md](https://github.com/sci-freak/phd-tracker/blob/13afd78b8302674caabd21036f90020aa788aa62/README.md)
+- [src/services/DataService.js](https://github.com/sci-freak/phd-tracker/blob/13afd78b8302674caabd21036f90020aa788aa62/src/services/DataService.js)
+- [firestore.rules](https://github.com/sci-freak/phd-tracker/blob/13afd78b8302674caabd21036f90020aa788aa62/firestore.rules)
+- [storage.rules](https://github.com/sci-freak/phd-tracker/blob/13afd78b8302674caabd21036f90020aa788aa62/storage.rules)
+- [src/hooks/useGuestMerge.js](https://github.com/sci-freak/phd-tracker/blob/13afd78b8302674caabd21036f90020aa788aa62/src/hooks/useGuestMerge.js)
+- [packages/shared/test/run-shared-tests.mjs](https://github.com/sci-freak/phd-tracker/blob/13afd78b8302674caabd21036f90020aa788aa62/packages/shared/test/run-shared-tests.mjs)
