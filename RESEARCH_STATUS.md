@@ -5,7 +5,7 @@
 | Workstream | State | Evidence accomplished | Completion blocker |
 |---|---|---|---|
 | Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 353 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
-| Individual GitHub repository audits | IN PROGRESS | 35 source-pinned review records: 8 structured eight-part static audits, 27 preliminary | remaining 27 detailed, 7 included awaiting review; original links/test execution |
+| Individual GitHub repository audits | IN PROGRESS | 43 source-pinned review records: 8 structured eight-part static audits, 35 preliminary | remaining 35 preliminary reviews to deepen; 7 screened included candidates awaiting further review; original links/test execution |
 | Source/repository dependence | EVIDENCE_COLLECTED | 5 evidenced relationships, 21-source ledger, 26 claim records | canonicalize more shared guides and verify original claims independently |
 | Eight country dossiers | EVIDENCE_COLLECTED | All eight source-linked national assessments, including policy and funding contrasts | national lab/vacancy coverage, visas, tuition and 2027 recruiting completeness |
 | Funding and available programs | IN PROGRESS | 20 differentiated leads with official-source and tuition/offer gates | employer form rechecks, offer terms and candidate-specific fee/eligibility |
@@ -20,7 +20,7 @@
 
 The public [source ledger](data/sources.jsonl) contains 21 distinct URLs supporting 26 recorded claim items. **Every ledger record currently reads `independent_recheck: NOT_PERFORMED`**. Primary-official retrieval is a stronger source type than an anecdote, but the dual-source independently confirmed stage is not met.
 
-**Discovery screening states:** 353 untriaged; 7 screened relevant but unreviewed; 9 excluded with reasons; 35 reviewed. Only eight of the 35 meet the new eight-section *static* review structure. External code behavior has not been validated by actually executing upstream projects.
+**Discovery screening states:** 353 untriaged; 7 screened relevant but unreviewed; 9 excluded with reasons; 43 reviewed. Only eight of the 43 meet the new eight-section *static* review structure. External code behavior has not been validated by actually executing upstream projects.
 
 ## Offer and communication status
 

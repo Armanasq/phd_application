@@ -4,7 +4,7 @@
 
 ## Corpus and evidence independence
 
-The global discovery inventory currently contains **404 unique raw candidate names**, including irrelevant names. Direct screening has found **9 excluded** and **7 included-but-not-deep-reviewed**. There are **35 dated repository assessments**: **8** detailed, eight-part static reviews and **27** preliminary inspection notes. These are a small examined subset, not an exhaustive global sample. [Canonical status-tagged index](../research/repositories/index.md) · [Structured candidate queue](../data/github_discovery_candidates.csv) · [Full limitations](../quality/coverage-report.md).
+The global discovery inventory currently contains **404 unique raw candidate names**, including irrelevant names. Direct screening has found **9 excluded** and **7 included-but-not-deep-reviewed**. There are **43 dated repository assessments**: **8** detailed, eight-part static reviews and **35** preliminary inspection notes. These are a small examined subset, not an exhaustive global sample. [Canonical status-tagged index](../research/repositories/index.md) · [Structured candidate queue](../data/github_discovery_candidates.csv) · [Full limitations](../quality/coverage-report.md).
 
 Eight detailed investigations cover:
 [PhD-Seeker](../research/repositories/reviews/aghababaei__phd-seeker.md),
@@ -48,4 +48,4 @@ Build an original **adapter → source snapshot → claim evidence → canonical
 
 ## Unresolved review work
 
-Full listing source recrawl/precision tests, 27 further substantive repository audits, screening 353 raw names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.
+Full listing source recrawl/precision tests, 27 further substantive repository audits, screening 345 raw names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.
