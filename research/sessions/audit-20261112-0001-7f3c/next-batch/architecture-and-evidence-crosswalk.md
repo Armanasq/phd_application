@@ -7,7 +7,7 @@ This crosswalk integrates four independently scoped reviewed source projects:
 - [ssine/willow](../../../repositories/reviews/ssine__willow.md) — historical admission-outcome statistics and unrestricted MongoDB API.
 - [sushil3710/PHD_Admission_Portal](../../../repositories/reviews/sushil3710__phd-admission-portal.md) — institution-side admission cycles, document submission, eligibility and decision messaging.
 - [Ariaeimehr/PHD-Position-Finder](../../../repositories/reviews/ariaeimehr__phd-position-finder.md) — vacancy discovery/notification pipeline.
-- [atomdbc/scholarship_scraper](../reviews/atomdbc__scholarship_scraper.md) — general scholarship extraction with browser and LLM.
+- [atomdbc/scholarship_scraper](reviews/atomdbc__scholarship_scraper.md) — general scholarship extraction with browser and LLM.
 
 ## 1. Distinct entities that must not be conflated
 
