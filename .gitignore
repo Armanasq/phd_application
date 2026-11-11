@@ -1,0 +1,10 @@
+.local/
+private/
+secrets/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+__pycache__/
+*.pyc

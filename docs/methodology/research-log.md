@@ -1,0 +1,4 @@
+# Research log
+2026-11-11: Verified initially empty repository. Searched official ETH, EPFL, Oxford, EURAXESS, NTNU, Research Ireland, UKRI, Canada IRCC, Australian RTP and NZ scholarship sources. Identified urgent 2026-11-27/30 and 2026-12-01/02 deadlines. Eight GitHub query groups produced overlapping candidate results; sampled three major guides at README and root level. Confirmed Ireland's former individual scholarship route is closed and replaced with institution-facing Empower.
+Missing: comprehensive country vacancies, full GitHub qualified audits and issues, fully verified candidate documents, supervisor publication analysis, funding sufficiency. No applications submitted, supervisors contacted or offers received.
+Next: verify employer portals and complete all applicant eligibility documents; expand eight-country vacancy discovery; audit qualified repositories individually.

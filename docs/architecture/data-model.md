@@ -1,0 +1,6 @@
+# Research system relational specification
+Authoritative source entities: countries; institutions(country_id); labs(institution_id); supervisors(lab_id); opportunities(institution_id, lab_id nullable, canonical source_id); sources(canonical_url unique); evidence_claims(source_id, claim_type, verified_on, confidence); applications(opportunity_id); application_events(application_id, state, evidence_ref); github_repositories(canonical_url unique); audits(repo_id); search_runs(query, timestamp, source, dedup stats).
+
+Enforce foreign keys and canonical URLs. Keep distinct deadline with source timezone, decision, enrollment and funding-start dates. An unreported field is NULL, not estimated. Store tuition coverage, salary/stipend, contract duration, medical coverage and mandatory fees as separate financial fields.
+Canonical high-stakes facts require checked_on, exact source and status; do not automatically promote snippets to verified. Application SUBMITTED requires submission proof. External communications require human authorization. Private person data must reside outside public git.
+CSV files here are reviewed import seeds, not a live API. Planned local runtime is SQLite with migration tests and optional future read-only dashboard.
