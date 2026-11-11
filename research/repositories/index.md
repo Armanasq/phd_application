@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 95. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 96. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -43,6 +43,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [DianaJoseph08/phd-admissions-srm](https://github.com/DianaJoseph08/phd-admissions-srm) | institutional_doctoral_admissions_portal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/dianajoseph08__phd-admissions-srm.md) |
 | [drPod/phd-application-tracker](https://github.com/drPod/phd-application-tracker) | supabase_phd_application_tracker | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/drpod__phd-application-tracker.md) |
 | [dxeledx/PhdInfoHub](https://github.com/dxeledx/PhdInfoHub) | scope_bound_admissions_evidence_and_concurrency | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/dxeledx__phdinfohub.md) |
+| [ekotwidodo/awesome-phd-positions](https://github.com/ekotwidodo/awesome-phd-positions) | country_vacancy_portal_directory | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/ekotwidodo__awesome-phd-positions.md) |
 | [eparrainage/phd](https://github.com/eparrainage/phd) | current_vacancy_feeds | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/eparrainage__phd.md) |
 | [erikpsw/phd-application-pipeline](https://github.com/erikpsw/phd-application-pipeline) | ai_outreach_workflow | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/erikpsw__phd-application-pipeline.md) |
 | [fanyi3017-stack/phd-application-research-agent](https://github.com/fanyi3017-stack/phd-application-research-agent) | ai_workflows | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/fanyi3017-stack--phd-application-research-agent.md) |
