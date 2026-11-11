@@ -3,7 +3,7 @@
 ## Review disposition
 - Review depth: deep static content review.
 - Upstream snapshot: main at 71d1750175b1cca2bca78fe738765b0c42c58c0a.
-- Repository contents: 40 tracked files, including 20 statements of purpose and 3 recommendation-letter PDFs.
+- Repository contents: 24 tracked files, including 20 statements of purpose and 3 recommendation-letter PDFs.
 - Last pushed: 2023-03-06.
 - GitHub metadata: 303 stars, 32 forks, no issues, no pull requests, no declared license.
 - Runtime: not applicable; this is a document archive.
