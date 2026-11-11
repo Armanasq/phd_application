@@ -13,7 +13,8 @@ class ImportResearchTests(unittest.TestCase):
             with sqlite3.connect(path) as db:
                 first = import_research.run(db)
                 self.assertEqual(first["candidate_repositories"], 404)
-                self.assertEqual(first["repo_audits"], 35)
+                expected_repo_audits = len(import_research.read_csv("repositories.csv"))
+                self.assertEqual(first["repo_audits"], expected_repo_audits)
                 self.assertEqual(first["claims"], 26)
                 self.assertEqual(first["opportunities"], 20)
                 self.assertEqual(first["applicant_cases"], 6)
@@ -25,7 +26,7 @@ class ImportResearchTests(unittest.TestCase):
                 self.assertEqual(second, first)
                 self.assertEqual(db.execute("SELECT count(*) FROM opportunities").fetchone()[0], 20)
                 self.assertEqual(db.execute("SELECT count(*) FROM claim_register").fetchone()[0], 26)
-                self.assertEqual(db.execute("SELECT count(*) FROM repository_audits").fetchone()[0], 35)
+                self.assertEqual(db.execute("SELECT count(*) FROM repository_audits").fetchone()[0], expected_repo_audits)
                 self.assertEqual(db.execute("SELECT count(*) FROM applications").fetchone()[0], 1)
                 self.assertEqual(db.execute("SELECT state FROM applications WHERE id='local-state'").fetchone()[0], "PREPARING")
                 self.assertEqual(db.execute("PRAGMA foreign_key_check").fetchall(), [])
