@@ -26,7 +26,8 @@ class SourceResearchTests(unittest.TestCase):
         self.assertEqual(jobs["usn-systems"]["status"], "verification_needed")
         self.assertEqual(jobs["oxford-cs"]["funding_verification"], "COMPETITIVE_UNAWARDED")
         self.assertIn("HOME_FEE", jobs["reading-robotics-2027"]["funding_verification"])
-        self.assertIn("PAPER", self._load("opportunity_assessments.csv")[7]["formal_eligibility"])
+        assessments = {row["opportunity_id"]: row for row in self._load("opportunity_assessments.csv")}
+        self.assertIn("TOP_RANKED", assessments["monash-distrobot"]["formal_eligibility"])
 
     def test_source_registers_are_unique_and_traceable(self):
         with (ROOT/"data"/"claim_register.jsonl").open(encoding="utf-8") as stream:
