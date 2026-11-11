@@ -1,0 +1,52 @@
+# Deep static review — NimaaaAI/Position-Aggregator
+
+**Pinned revision:** `0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef` (GitHub `main` at inspection 2026-11-12). **Review:** eight-section source-pinned static architecture and code audit. **Execution:** NOT_TESTED; no live vacancy retrieval or data migration run. **License:** no LICENSE file in the inspected 18-blob repository tree; no reuse grant verified.
+
+## 1. Purpose and boundaries
+
+This Python/pgvector application consolidates heterogeneous academic job adverts into local Postgres, classifies doctoral/postdoctoral and other job types, and serves keyword+semantic retrieval with LLM-generated descriptions. It is **not** an international-applicant eligibility checker, verified fully funded PhD database or admissions management system. The README's 21,659 positions, 32,815 chunks and source yields are **author-reported development corpus statistics**, not measurements reproduced by this audit.
+
+## 2. Pipeline, storage and configuration
+
+- [`sites.yml`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/sites.yml) describes five vacancy boards (Academic Positions, AcademicTransfer, jobs.ac.uk, Nature Careers, EURAXESS), sitemap/listing discovery, source ID regex, crawl pacing and field fallback selectors. The five-source count refers to mixed academic jobs, not five official doctoral funding programmes.
+- [`scrape.py`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/scrape.py) fetches HTML to `data/raw/<source>/<source_id>.html`, maintains prior/current URL lists, checks 404 tombstones, and logs disappearing URLs. URLs and content snapshots are persisted separately; no live source validations or pagination-scale metrics were reproduced.
+- [`extract.py`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/extract.py) parses JobPosting JSON-LD or page-specific definition lists, chooses the longest among available body sources, normalizes city/country/type, and upserts the source-scoped key `(source, source_id)` into PostgreSQL. Changes to embedding input invalidate old vectors.
+- [`schema.sql`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/schema.sql) uses `positions`, 768-dimension `pgvector` embeddings, `position_chunks`, multilingual `tsvector(simple)`, computed stopwords, SQL indexes, accounts, sessions and usage logs. Initial SQL and `update.py` assume local Postgres; reproducible migration/versioning and tests are absent from the tracked tree.
+- [`embed.py`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/embed.py) uses multilingual-e5-base for whole adverts and overlap-aware chunks. [`search.py`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/search.py) fuses position-vector, chunk-vector and literal full-text ranks with reciprocal rank fusion, then optionally reranks shortlisted results with BGE.
+- [`ask.py`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/ask.py) limits an LLM answer to retrieved advert context and adds actual URLs from stored results to numbered citations instead of relying on the model to copy URLs. [`chat.py`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/chat.py) provides an admin-activated user session workflow with scrypt password hashes and random session tokens.
+
+## 3. Algorithms and evidence-transfer value
+
+Separate multilingual semantic ranking from **exact** grant/acronym matching. Label `position_type` using multilingual title patterns rather than inferring from general text; retain ISO country codes separately from original board phrasing; preserve source-specific IDs and raw provenance. These are useful patterns for an evidence-first discovery subsystem. RRF's cross-source rank fusion improves recall but does not determine doctoral eligibility, stipend guarantees or exact application deadlines. Source-agnostic `sites.yml` supports adapter independence, but typed schema validation and canonical institution identity are still missing.
+
+## 4. Confirmed source-level defects and policy blockers
+
+1. **Crawler policy:** [`sites.yml`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/sites.yml) explicitly acknowledges EURAXESS robots rules disallowing `/jobs/*` and query URLs while still instructing the crawler to download those URLs. A delay and 429 backoff do not constitute permission. Do **not** adopt this source route without appropriate authorization; use permitted first-party vacancy channels.
+2. **Incorrect closure on sitemap failures:** [`scrape.py`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/scrape.py) checks non-200 for paginated listings, but its *sitemap-index and child-sitemap* branches call `get(...).text` without verifying HTTP 200. `get()` returns non-429 statuses such as 403. A denied/malformed sitemap can yield an empty `urls` while `complete` stays true; the subsequent diff records all previous URLs as `gone` (misleading closures). Fail closed on fetch/index parsing, never infer closure from a partial or unauthorized sweep.
+3. **False duplicate collapses:** [`search.py::collapse`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/search.py) groups solely by normalized `(title, city)`. Its comment claims the source must differ before collapsing, but **the code does not check source equality**. Distinct postings at the same source and city with the same generic job title may be silently collapsed in the response and attached as an alias. The earlier examples explicitly acknowledge same-title distinct jobs; use authoritative requisition identity or verified institution/employer + cycle, not title and city alone.
+4. **Lifecycle claims too strong:** disappearance from a source sitemap is not authoritative closure; `scrape.py` labels URLs closed on absence. `extract.py --archive` nulls full text, embeddings and chunks for date-expired ads while keeping metadata; after renewal/extension or uncertain date semantics, evidence is hard to recover. Preserve immutable raw snapshots and distinguish source disappearance, deadline expiry, employer-confirmed closure.
+5. **Insufficient funded-PhD verification:** source boards, generic `JobPosting` JSON-LD, title heuristics and app answers cannot establish whether a grant covers international tuition, guaranteed stipend, nationality criteria or separate funder deadlines. The system does not implement these critical gates.
+6. **Deployment controls:** README creates a demonstration Postgres role with matching username/password, and [`chat.py`](https://github.com/NimaaaAI/Position-Aggregator/blob/0919cb7ad541b53f85ddb669d62b3c5a0a94f2ef/chat.py) intentionally sets a session cookie without `secure` for localhost HTTP. Do not deploy with those defaults over internet-facing HTTP; use production DB roles, TLS and secure cookies. There is no reproducible project test suite in the tracked tree.
+
+## 5. Concrete engineering changes before reuse
+
+- Verify robots/terms for each adapter; exclude disallowed crawling routes and prefer official open APIs and RSS/sitemap paths.
+- Treat each source refresh as a **coverage transaction**: successful and complete sitemap/listing validation required before any disappearing URL is marked absent; track errors and refresh timestamps. Revalidate actual employer vacancy before a `CLOSED` conclusion.
+- Normalize identity using source requisition IDs and authoritative URLs; preserve multiple same-titled jobs and explicitly relate verified duplicates across sources.
+- Add pytest fixture sets for 403/429/empty/truncated sitemap, changed JSON-LD, short/multi-location ads, rewritten deadlines, duplicate title/city combinations, multilingual titles, and token/permission boundaries.
+- Define source-to-eligibility edges, official funding contract evidence, country eligibility constraints and independent adjudication outside the ranking system.
+- Separate raw source provenance from derived summaries and LLM output with reproducible immutable snapshots, timestamps and hashes.
+
+## 6. Interconnections to previously reviewed systems
+
+- [Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor](https://github.com/Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor) supplies fail-closed funding, deadline and reviewer-hash contracts but does not itself crawl the web. Conceptually combine its verified state machine with only authorized source adapters here.
+- [Aghababaei/PhD-Seeker](https://github.com/Aghababaei/PhD-Seeker), [Gurudev517 academic-opportunity portal](https://github.com/Gurudev517/AI-Driven-Academic-Opportunity-Portal-Using-Web-Automation-and-NLP) and [Janjs historical MSCA script](https://github.com/Janjs/Web-Scraping-PhD-positions) have scraper/evidence issues; this project has stronger structured extraction and hybrid retrieval, but does not resolve official funding trust.
+- [Joky02/AcademiaReach](https://github.com/Joky02/AcademiaReach) models professor outreach, not verified application opportunities. No outbound communication should be triggered from aggregator rankings without an applicant-controlled approval state.
+
+## 7. Verdict and confidence
+
+**ADAPT HYBRID RETRIEVAL, SOURCE ADAPTERS, RRF AND PROVENANCE DESIGN ONLY.** Avoid the EURAXESS disallowed crawler, source-disappearance-as-closure, and the `(title, city)` dedup key. High confidence in the static bug patterns because source paths were inspected at an immutable revision; no performance benchmarking, live employer verification, legal authorization determination, security test or migration execution occurred.
+
+## 8. Validation gaps and closure conditions
+
+Complete static inspection covered the source tree, README, per-board configuration, crawler, extractor, schema, embedding, rank fusion, API, admin authentication and update driver. Verification remains pending for database migration from a clean machine, actual source selectors/API behavior, cross-board precision/recall, failure recovery, credential security, and current authorized vacancy evidence. The repository is **not operationally qualified** until these gates are met; reported source coverage and performance are not independently established.
