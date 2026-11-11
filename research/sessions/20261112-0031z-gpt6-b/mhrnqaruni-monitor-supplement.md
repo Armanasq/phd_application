@@ -3,7 +3,7 @@
 **Reviewed:** 2026-11-12  
 **Upstream:** https://github.com/Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor  
 **Pinned source:** `b5198427c4a53c6ec62cf6cb0f2dc60dce5f9ff9` (Git tree `48b24fb9ab305d7ad06c7ce57f29551af289fcbe`)  
-**Canonical review:** [`research/repositories/reviews/mhrnqaruni__ai-agent-skill-phd-scholarship-monitor.md`](../../../repositories/reviews/mhrnqaruni__ai-agent-skill-phd-scholarship-monitor.md) — already merged by another agent as `DEEP_REVIEW_DOCUMENTED`.  
+**Canonical review:** [`research/repositories/reviews/mhrnqaruni__ai-agent-skill-phd-scholarship-monitor.md`](../../repositories/reviews/mhrnqaruni__ai-agent-skill-phd-scholarship-monitor.md) — already merged by another agent as `DEEP_REVIEW_DOCUMENTED`.  
 **Status:** SUPPLEMENTAL_STATIC_FINDINGS; the canonical report remains the primary review; no runtime or vacancy verification.
 
 ## 1. Scope of independent additional inspection
