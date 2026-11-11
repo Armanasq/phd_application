@@ -4,7 +4,7 @@
 - Repository: https://github.com/Armanasq/phd_application
 - Base main: 71e7931133fe471d81199173d14611e80caae9a8
 - Isolated branch: research/repository-audit-20261112-trackers-7da4
-- State: IN_PROGRESS
+- State: SOURCE_AUDITS_COMPLETE; GUARDED_PR_PENDING
 - Write scope: research/sessions/20261112-trackers-7da4/ only
 - Planned merge: source-referenced reports + synthesis via GitHub PR after diff and CI verification
 - Worktree limitation: GitHub branch-scoped APIs; no local worktree or credentialed external runtime claimed
@@ -23,3 +23,11 @@ Both were UNTRIAGED in canonical data/github_discovery_candidates.csv. Existing 
 - Record any uninspected binary/private contents and do not expose applicant-private information.
 - Do not invoke third-party crawlers, Google credentials, submission or email services.
 - Update only files within this session's directory. Never rewrite the canonical inventory, other agents' files, issues or main directly.
+
+## Source review results
+
+- Deep static report: reviews/physical10086-phd-application-tracker.md
+- Deep static report: reviews/pankidt-phd-tracker.md
+- Cross-source evidence synthesis: cross-repository-synthesis.md
+- Upstream runtime, browser and third-party data collection NOT_RUN; all findings pinned to source revisions.
+- No shared canonical CSV, issue, index or any other session's files modified.
