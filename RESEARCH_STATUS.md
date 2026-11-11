@@ -4,7 +4,7 @@
 
 | Workstream | State | Evidence accomplished | Completion blocker |
 |---|---|---|---|
-| Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 345 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
+| Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 340 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
 | Individual GitHub repository audits | IN PROGRESS | 53 source-pinned review records: 8 structured eight-part static audits, 45 preliminary | remaining 45 preliminary reviews to deepen; 2 screened included candidates awaiting further review; original links/test execution |
 | Source/repository dependence | EVIDENCE_COLLECTED | 5 evidenced relationships, 21-source ledger, 26 claim records | canonicalize more shared guides and verify original claims independently |
 | Eight country dossiers | EVIDENCE_COLLECTED | All eight source-linked national assessments, including policy and funding contrasts | national lab/vacancy coverage, visas, tuition and 2027 recruiting completeness |

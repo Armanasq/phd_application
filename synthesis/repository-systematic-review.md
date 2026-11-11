@@ -67,4 +67,4 @@ Build an original **adapter → source snapshot → claim evidence → canonical
 
 ## Unresolved review work
 
-Full listing source recrawl/precision tests, 35 further substantive repository audits, screening 340 raw names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.
+Full listing source recrawl/precision tests, 45 further substantive repository audits, screening 340 raw names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.
