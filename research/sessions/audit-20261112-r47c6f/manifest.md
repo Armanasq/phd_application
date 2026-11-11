@@ -27,12 +27,20 @@ None of these five identities appears in the current canonical review table or p
 
 - [x] Current `main`, branches, manifests, prior PR integrations, candidate and review CSVs, and issue #3 inspected.
 - [x] Disjoint batch selected; session branch created at pinned `main` SHA.
-- [ ] Inspect source trees and relevant implementations at pinned upstream commits.
-- [ ] Verify development history, issues and PRs, licensing, tests and actual capabilities.
-- [ ] Produce source-pinned per-repository reports, explicit coverage and limitations.
-- [ ] Produce cross-repository synthesis and an incremental inventory proposal.
+- [x] Inspect source trees and relevant implementations at pinned upstream commits.
+- [x] Verify development history, issues and PRs, licensing, tests and actual capabilities (source-level; runtime NOT_TESTED).
+- [x] Produce source-pinned per-repository reports, explicit coverage and limitations.
+- [x] Produce cross-repository synthesis and an incremental inventory proposal.
 - [ ] Validate the branch diff and CI, reconcile upstream changes, then merge safely to `main`.
 
 ## Constraints
 
 Do not claim tests were executed without recorded commands and results. Avoid publishing private applicant material, credentials or personal records; use code and documented public interfaces only. No application submissions or outreach are authorized.
+
+## Completed investigation artifacts
+
+- Five source-pinned, session-scoped individual reports (two technically detailed, one curated source corpus, one historical scraper, one empty-repository exclusion).
+- One cross-repository synthesis with canonical triage proposals, evidence gates and transferability conclusions.
+- 3 proposed canonical source reviews; 2 proposed exclusions.
+- No third-party code, employer site, email server or credential executed; no private applicant files handled.
+- Shared canonical inventory/counts pending integration against latest main; all earlier concurrent work must be preserved.
