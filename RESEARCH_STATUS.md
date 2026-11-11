@@ -4,9 +4,9 @@
 
 | Workstream | State | Evidence accomplished | Completion blocker |
 |---|---|---|---|
-| Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 301 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
-| Individual GitHub repository audits | IN PROGRESS | 83 source-pinned review records: 16 structured eight-part static audits, 67 preliminary| deepen 67 preliminary reviews; 0 screened-in awaiting first review; runtime/source verification|
-| Source/repository dependence | EVIDENCE_COLLECTED | 5 evidenced relationships, 21-source ledger, 26 claim records | canonicalize more shared guides and verify original claims independently |
+| Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 294 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
+| Individual GitHub repository audits | IN PROGRESS | 88 source-pinned review records: 20 structured eight-part static audits, 68 preliminary | deepen 68 preliminary reviews; 0 screened-in awaiting first review; runtime/source verification|
+| Source/repository dependence | EVIDENCE_COLLECTED | 6 evidenced relationships, 21-source ledger, 26 claim records | canonicalize more shared guides and verify original claims independently |
 | Eight country dossiers | EVIDENCE_COLLECTED | All eight source-linked national assessments, including policy and funding contrasts | national lab/vacancy coverage, visas, tuition and 2027 recruiting completeness |
 | Funding and available programs | IN PROGRESS | 20 differentiated leads with official-source and tuition/offer gates | employer form rechecks, offer terms and candidate-specific fee/eligibility |
 | Scientific supervisor matching | EVIDENCE_COLLECTED | Three method/paper-based target lab dossiers; 2023 *Measurement* article externally source-verified | PI availability, verified degree/English, recent papers and novelty audit |
@@ -20,7 +20,7 @@
 
 The public [source ledger](data/sources.jsonl) contains 21 distinct URLs supporting 26 recorded claim items. **Every ledger record currently reads `independent_recheck: NOT_PERFORMED`**. Primary-official retrieval is a stronger source type than an anecdote, but the dual-source independently confirmed stage is not met.
 
-**Canonical CSV screening states (recomputed 12 November 2026):** 301 untriaged; 0 screened-in awaiting individual review; 20 excluded with reasons; 83 review records (16 deep static and 67 preliminary). These states account for all 404 raw candidates. No project tests or official third-party opportunity verification in this batch.
+**Canonical CSV screening states (recomputed 12 November 2026):** 294 untriaged; 0 screened-in awaiting individual review; 22 excluded with reasons; 88 review records (20 deep static and 68 preliminary). These states account for all 404 raw candidates. Repository integrity tests passed on main; external third-party runtime and official-vacancy verification were not performed in this research batch.
 
 ## Offer and communication status
 
