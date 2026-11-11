@@ -2,53 +2,65 @@
 
 - Session ID: audit-20261112-0001-7f3c
 - Repository: https://github.com/Armanasq/phd_application
-- Current working branch: main
-- Latest observed main baseline: 64ab963cce38105c5ab878a168a894b2bb1118a9
-- Status: first batch merged and canonically reconciled; second batch in progress
+- Working branch: main (per current instruction)
+- Latest observed main baseline before this update: 64ab963cce38105c5ab878a168a894b2bb1118a9
+- Status: second batch source reviews published; canonical integration remains pending
 - First batch: archna1212/PHD-OPENINGS; Ariaeimehr/PHD-Position-Finder; arbitan/ScholarshipWebsite
-- Next batch: atomdbc/scholarship_scraper; dhcoders/JobsACUK-WebScraper; evamaxfield/phd; D4vidHuang/PhD_scanner
+- Second batch: atomdbc/scholarship_scraper; dhcoders/JobsACUK-WebScraper; evamaxfield/phd; D4vidHuang/PhD_scanner
 
 ## PR and validation history
 
-PR [#7](https://github.com/Armanasq/phd_application/pull/7) added the first-batch reports and synthesis. It was merged into main at c8132e3e620d20a5bf6dfc39a3f9db9e605f5968 by the repository owner. The PR had no merge conflict; GitHub reported mergeable=true.
+PR [#7](https://github.com/Armanasq/phd_application/pull/7) added the first-batch reports and synthesis. It was merged into main at c8132e3e620d20a5bf6dfc39a3f9db9e605f5968 by the repository owner. GitHub reported mergeable=true; no merge conflict occurred.
 
 The PR workflow passed scripts/validate.py but failed tests/test_import_research.py because the test expected 35 repository audits while the then-current CSV contained 63. This was a stale test expectation, not a conflict caused by the session artifacts. A subsequent mainline commit changed the assertion to derive the expected count from the canonical repositories.csv. No successful post-fix CI run has been observed; do not claim the suite is verified.
 
 ## First-batch results and canonical reconciliation
 
 1. archna1212/PHD-OPENINGS — exact source mirror of Aghababaei/PhD-Seeker; excluded as an independent implementation.
-2. Ariaeimehr/PHD-Position-Finder — deep static review completed; canonical review record now exists at research/repositories/reviews/ariaeimehr__phd-position-finder.md.
+2. Ariaeimehr/PHD-Position-Finder — deep static review completed; canonical review record exists at research/repositories/reviews/ariaeimehr__phd-position-finder.md.
 3. arbitan/ScholarshipWebsite — excluded as an academic-publication keyword collision.
 
 A parallel session reconciled the canonical inventory and relations after these findings. The current main inventory reports 67 review records (9 deep static, 58 preliminary), 18 exclusions, 319 untriaged candidates, and zero screened-in candidates awaiting first review. The candidate inventory remains 404 identities. The canonical relation ledger has six rows, including the PHD-OPENINGS MIRROR_OF relation.
 
 The earlier simitii/siddu assignment was not retained by this session: PR #6 already merged their session reports, and later mainline commits registered them in the canonical inventory. The earlier branch research/repository-audit-20261112-0001-7f3c remains superseded and must not be merged.
 
+## Second-batch results
+
+1. atomdbc/scholarship_scraper — deep static review of the 92-entry FastAPI/SQLAlchemy/Playwright/Next.js platform. Identified missing Playwright dependency, unauthenticated/SSRF-prone URL ingestion, worker/session and retry-state defects, LLM evidence gaps, broken field mappings, and frontend/backend contract issues. Runtime NOT_TESTED.
+2. dhcoders/JobsACUK-WebScraper — deep static review of the only Python script. Identified refresh-unit error, cross-job deadline assignment, missing HTTP timeout/retry, and absent persistence/dedup. Runtime NOT_TESTED.
+3. evamaxfield/phd — preliminary privacy-bounded review of a personal doctoral archive. Interview notes and planning structure inspected; personal CV/statement PDFs not opened or copied.
+4. D4vidHuang/PhD_scanner — excluded as an empty repository; metadata size zero and no branches/content.
+
+Second-batch artifacts are under research/sessions/audit-20261112-0001-7f3c/next-batch/. No canonical CSV, global status, generated index, or shared relation file was modified.
+
 ## Parallel coordination
 
-Visible active assignments were checked before selecting the next batch. The next four repositories are untriaged in the canonical candidate CSV and are not listed in the published scopes of the active sessions inspected. Published coordination cannot reveal unsaved work in other ChatGPT conversations.
+Published active assignments were checked before selecting the second batch. The four repositories were UNTRIAGED in the canonical candidate CSV and were not listed in the published scopes of the active sessions inspected. Published coordination cannot reveal unsaved work in other ChatGPT conversations.
 
-Active branches observed include:
+Active branches observed:
 - research/repository-audit-20261112-0031z-gpt6-a
 - research/repository-audit-gpt6-20261111-2031z
 - research/session-gpt6-20261112-01-integration
 - research/repository-audit-gpt6-20261112-0002b (no published manifest observed)
 
-## Current artifacts
+## Current counts and proposed reconciliation
 
-First batch reports and synthesis are under research/sessions/audit-20261112-0001-7f3c/. Canonical review/exclusion records were added separately by mainline integration; session reports are not counted as additional independent reviews.
+If no other session updates the canonical register before integration, the proposed second-batch disposition would produce:
+- 70 review records: 11 deep static and 59 preliminary;
+- 19 documented exclusions;
+- 315 untriaged candidates;
+- 0 screened-in awaiting first review.
 
-## Outstanding consistency issues
+Check: 70 + 19 + 315 = 404.
+
+Recompute from the live CSVs before integration. Do not apply these counts blindly.
+
+## Outstanding documentation consistency issues
 
 - METHODOLOGY.md and synthesis/repository-systematic-review.md still contain older screening totals.
-- RESEARCH_STATUS.md and synthesis/source-dependency-crosswalk.md still report five repository relations, while data/repository_relations.csv now has six.
+- RESEARCH_STATUS.md and synthesis/source-dependency-crosswalk.md still report five repository relations while data/repository_relations.csv contains six.
 - These are shared consolidated documents. They are recorded for coordinated reconciliation, not independently rewritten while parallel sessions remain active.
 
-## Next batch
+## Validation boundary
 
-- atomdbc/scholarship_scraper — full-stack scholarship ingestion and AI extraction system; deep static review in progress.
-- dhcoders/JobsACUK-WebScraper — single-file Jobs.ac.uk scraper; static review in progress.
-- evamaxfield/phd — personal doctoral archive with application materials and interview/planning notes; privacy-bounded review.
-- D4vidHuang/PhD_scanner — repository metadata reports zero size and no content; verify empty-repository disposition.
-
-No runtime execution, tests, Docker launch, live scraping, or notification delivery is claimed for these repositories.
+All repository reviews are source-level static inspections. No third-party code was cloned or executed. No runtime tests, Docker startup, live scraping, database migration execution, LLM calls, or notification delivery are claimed. No personal contact details, recommendation letters, CV contents, or statement text are reproduced.
