@@ -4,7 +4,7 @@
 
 ## Corpus and evidence independence
 
-The global discovery inventory currently contains **404 unique raw candidate names**, including irrelevant names. Direct screening has found **9 excluded** and **7 included-but-not-deep-reviewed**. There are **43 dated repository assessments**: **8** detailed, eight-part static reviews and **35** preliminary inspection notes. These are a small examined subset, not an exhaustive global sample. [Canonical status-tagged index](../research/repositories/index.md) · [Structured candidate queue](../data/github_discovery_candidates.csv) · [Full limitations](../quality/coverage-report.md).
+The global discovery inventory currently contains **404 unique raw candidate names**, including irrelevant names. Direct screening has found **9 excluded** and **2 included-but-not-deep-reviewed**. There are **53 dated repository assessments**: **8** detailed, eight-part static reviews and **45** preliminary inspection notes. These are a small examined subset, not an exhaustive global sample. [Canonical status-tagged index](../research/repositories/index.md) · [Structured candidate queue](../data/github_discovery_candidates.csv) · [Full limitations](../quality/coverage-report.md).
 
 Eight detailed investigations cover:
 [PhD-Seeker](../research/repositories/reviews/aghababaei__phd-seeker.md),
@@ -15,6 +15,25 @@ Eight detailed investigations cover:
 [PhD application/outreach pipeline](../research/repositories/reviews/erikpsw__phd-application-pipeline.md),
 [Supervisor Fit Radar](../research/repositories/reviews/wenzi-researchlab__phd-fit-radar.md),
 and [Chinese neuroscience PhD handbook](../research/repositories/reviews/brainphd-cn__handbook.md).
+
+
+
+## Additional focused repository inspections — 11 November 2026
+
+Ten more source-pinned investigations were added. These are **preliminary focused reviews**, not upgrades to the eight structured deep audits:
+
+- [0612Leo/phd-application-tracker](../research/repositories/reviews/0612leo__phd-application-tracker.md): local daily journal; imported JSON can inject markup through unescaped history rendering.
+- [A-tavv/phd_position_tracker](../research/repositories/reviews/a-tavv__phd-position-tracker.md): Netherlands vacancy monitor; marks jobs seen before Telegram delivery and has no retryable delivery state.
+- [AakashKumarMissrani/Twinly-Applications-Assistant](../research/repositories/reviews/aakashkumarmissrani__twinly-applications-assistant.md): planning documents only; no runnable implementation.
+- [fengke808-hash/phd-radar](../research/repositories/reviews/fengke808-hash__phd-radar.md): personal mini-program; exposes applicant/supervisor data, uses hard-coded metrics and has an unauthenticated cloud write path.
+- [bchen002/Doctoral-Supervisor-Skill](../research/repositories/reviews/bchen002__doctoral-supervisor-skill.md): useful explicit memory write-gate and session-routing design; tests are manual prompts, not executable tests.
+- [mjvar/CS-PhD-Application-Tips](../research/repositories/reviews/mjvar__cs-phd-application-tips.md): qualitative US/CS applicant experience; not representative or current policy evidence.
+- [abono200/phd-admissions-platform](../research/repositories/reviews/abono200__phd-admissions-platform.md): static US-CS dossiers; unsourced funding guarantees and an uncalibrated probability calculator.
+- [AdewuyiDaniels/PhD-scholarship-search](../research/repositories/reviews/adewuyidaniels__phd-scholarship-search.md): fuzzy field matching over an unpinned external CSV; no funding/eligibility/deadline verification.
+- [D2Simon/PhDHub](../research/repositories/reviews/d2simon__phdhub.md): broad local applicant CRM; plaintext credentials, unauthenticated network exposure and SSRF/prompt-injection concerns block public deployment.
+- [DataBizex/academic-application-tracker](../research/repositories/reviews/databizex__academic-application-tracker.md): useful MIT-licensed offline workbook; fixed ranges and misleading composite scoring require correction.
+
+The screening register now records 53 reviewed repositories, 9 exclusions, 2 screened-in candidates awaiting first review and 340 untriaged candidates. Four previously screened-in candidates in this batch and six untriaged candidates were individually inspected. No upstream tests were executed.
 
 ## Functional taxonomy
 
@@ -48,4 +67,4 @@ Build an original **adapter → source snapshot → claim evidence → canonical
 
 ## Unresolved review work
 
-Full listing source recrawl/precision tests, 35 further substantive repository audits, screening 345 raw names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.
+Full listing source recrawl/precision tests, 35 further substantive repository audits, screening 340 raw names, more GitHub topic and code/maintainer searches, historical + contemporary applicant accounts from all eight target countries, 2027 scholarship funding decisions, and independent semantic source checking. Until completed, the broad systematic synthesis remains **preliminary**.

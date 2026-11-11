@@ -10,11 +10,11 @@ The candidate inventory contains **404** deduplicated repository identities incl
 - 6 code-search query families returning short matches, yielding additional relevant leads but high irrelevant-noise rate.
 - Select extra source-link discoveries and known repo review candidates. All were merged case-insensitively without upgrading discovery to review.
 
-Current screening split: **345 untriaged; 7 screened included for future deep review; 9 exclusions documented; 43 reviewed**. No systematic second-page+ collection or valid global recall denominator has been demonstrated.
+Current screening split: **340 untriaged; 2 screened included for future deep review; 9 exclusions documented; 53 reviewed**. No systematic second-page+ collection or valid global recall denominator has been demonstrated.
 
 ## Audit scope
 
-Of **43 source-pinned individual review records**, **8** have the fully structured eight-section *static* research report, **35** only a bounded preliminary note. Source code, settings, issues/release metadata and methodological failure modes were examined to differing degrees; **no upstream tests were executed in a controlled sandbox** in this research pass. Link to original Markdown note is not equivalent to deep audit or empirical validation.
+Of **53 source-pinned individual review records**, **8** have the fully structured eight-section *static* research report, **45** only a bounded preliminary note. Source code, settings, issues/release metadata and methodological failure modes were examined to differing degrees; **no upstream tests were executed in a controlled sandbox** in this research pass. Link to original Markdown note is not equivalent to deep audit or empirical validation.
 
 The 8 deep reports include a scraper with verifiable source-level TLS/eval vulnerabilities, source-first research planner, multi-adapter academic job monitor, current PhD feed, browser/outreach CRM, agentic outreach instructions, supervisor-fit rubric, and a Chinese first-person handbook. Attributions/provenance checked at pinned GitHub commits; neither claim of software security certification nor 2026 admissions outcome is made.
 
@@ -35,6 +35,6 @@ A documented saturation result needs (a) expanded pages and topic searches, (b) 
 
 ## Outstanding research operations
 
-Research official hiring portals before deadlines; apply evidence gates to employer job pages; inspect user-qualifications privately; add additional relevant applicant accounts and contradictory records; deep-review remaining 35 preliminary included projects and screen 345 untriaged names. Do not claim complete or publication-equivalent systematic review.
+Research official hiring portals before deadlines; apply evidence gates to employer job pages; inspect user-qualifications privately; add additional relevant applicant accounts and contradictory records; deep-review remaining 45 preliminary reviews and screen 340 untriaged names. Do not claim complete or publication-equivalent systematic review.
 
 See [research log](../docs/methodology/research-log.md) and [current status](../RESEARCH_STATUS.md).

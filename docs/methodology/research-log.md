@@ -37,3 +37,12 @@ This log extends—not replaces—the original **392-result/30-note baseline**, 
 
 ### Completion blockers
 No credible search saturation, 353 unscreened candidates, 27 non-deep preliminary reviews, 7 included-for-review records, no representative applicant experience population, incomplete supervisor funding and visa checks, incomplete institutional eligibility. No emails/applications/acceptances undertaken.
+
+
+## 2026-11-11 — Continued repository screening and focused source review
+- Reconciled the live CSV candidate register before screening: 404 canonical candidate identities, 43 previously reviewed, 9 excluded, 6 screened-in awaiting investigation and 346 untriaged.
+- Individually inspected four screened-in candidates (Twinly architecture documents, PhD Radar, Doctoral-Supervisor-Skill and CS-PhD-Application-Tips) and six additional untriaged candidates (0612Leo daily tracker, A-tavv Netherlands monitor, abono200 admissions platform, AdewuyiDaniels notebook, D2Simon PhDHub and DataBizex Excel tracker).
+- Added ten commit-pinned preliminary reviews. The register now contains **53 reviewed**, **9 excluded**, **2 screened-in awaiting first review**, and **340 untriaged**. Of the 53 reviewed records, **8** have the structured eight-part static deep review and **45** remain preliminary.
+- Important implementation findings: notification outbox ordering in A-tavv; import-triggered XSS in the local daily journal; hard-coded analytics and unauthenticated writes in PhD Radar; uncalibrated admission/funding probabilities in static dossiers; unpinned fuzzy scholarship data; PhDHub's network exposure, plaintext secrets, user-controlled URL fetching and untrusted email-to-LLM flow; and fixed Excel ranges plus a funding/urgency composite-score defect.
+- Captured positive patterns separately: explicit memory write gates, source-specific scraping with bounded retries/telemetry, local-first export and supervisor/application workflow decomposition.
+- All ten reviews remain **PRELIMINARY_FOCUSED**. No third-party project was executed; no runtime, test-suite, security or admissions-policy validation is claimed.
