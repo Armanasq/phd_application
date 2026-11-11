@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 64. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 67. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -23,6 +23,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [AdewuyiDaniels/PhD-scholarship-search](https://github.com/AdewuyiDaniels/PhD-scholarship-search) | scholarship_recommender_notebook | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/adewuyidaniels__phd-scholarship-search.md) |
 | [Aghababaei/PhD-Seeker](https://github.com/Aghababaei/PhD-Seeker) | vacancy_scrapers | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/aghababaei__phd-seeker.md) |
 | [aluminium5/ScholarshipScraper](https://github.com/aluminium5/ScholarshipScraper) | scholarship_discovery_and_tracking | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aluminium5__scholarshipscraper.md) |
+| [Ariaeimehr/PHD-Position-Finder](https://github.com/Ariaeimehr/PHD-Position-Finder) | doctoral_vacancy_scraper_demo | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ariaeimehr__phd-position-finder.md) |
 | [BaseLayerAI/academic-job-digest](https://github.com/BaseLayerAI/academic-job-digest) | job_monitoring | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/baselayerai__academic-job-digest.md) |
 | [bchen002/Doctoral-Supervisor-Skill](https://github.com/bchen002/Doctoral-Supervisor-Skill) | agent_supervision_skill | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/bchen002__doctoral-supervisor-skill.md) |
 | [BrainPhD-CN/handbook](https://github.com/BrainPhD-CN/handbook) | firsthand_multilingual_guide | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/brainphd-cn__handbook.md) |
@@ -53,7 +54,9 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [poloclub/awesome-grad-school](https://github.com/poloclub/awesome-grad-school) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/poloclub--awesome-grad-school.md) |
 | [rednaxela2018/Application_Materials_For_PhD](https://github.com/rednaxela2018/Application_Materials_For_PhD) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/rednaxela2018--application-materials-for-phd.md) |
 | [shaily99/advice](https://github.com/shaily99/advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/shaily99--advice.md) |
+| [siddu1998/Graduate-Admissions](https://github.com/siddu1998/Graduate-Admissions) | personal_admissions_artifact_corpus | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/siddu1998__graduate-admissions.md) |
 | [SihengTao/phd-application-planner](https://github.com/SihengTao/phd-application-planner) | research_planning | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sihengtao__phd-application-planner.md) |
+| [simitii/CS-Grad-School-Applications-Reading-List](https://github.com/simitii/CS-Grad-School-Applications-Reading-List) | historical_admissions_reading_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/simitii__cs-grad-school-applications-reading-list.md) |
 | [stealth-startup-2026/scholarship-scraper](https://github.com/stealth-startup-2026/scholarship-scraper) | australia_scholarship_structured_scraping | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stealth-startup-2026__scholarship-scraper.md) |
 | [swadhinbiswas/fundmystudy-scraper](https://github.com/swadhinbiswas/fundmystudy-scraper) | multi_source_opportunity_ingestion | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/swadhinbiswas__fundmystudy-scraper.md) |
 | [Swapnil-Gandhi/SoP-Template](https://github.com/Swapnil-Gandhi/SoP-Template) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/swapnil-gandhi--sop-template.md) |
