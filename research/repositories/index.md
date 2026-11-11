@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 100. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 102. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -68,10 +68,12 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor](https://github.com/Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor) | evidence_first_funded_phd_monitor | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/mhrnqaruni__ai-agent-skill-phd-scholarship-monitor.md) |
 | [mjvar/CS-PhD-Application-Tips](https://github.com/mjvar/CS-PhD-Application-Tips) | firsthand_cs_admissions_guide | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/mjvar__cs-phd-application-tips.md) |
 | [monees007/phd_application_tracker](https://github.com/monees007/phd_application_tracker) | mobile_application_capture | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/monees007__phd_application_tracker.md) |
+| [NimaaaAI/Position-Aggregator](https://github.com/NimaaaAI/Position-Aggregator) | multisource_academic_vacancy_search | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/nimaaai__position-aggregator.md) |
 | [PeiMu/findPhdPositions](https://github.com/PeiMu/findPhdPositions) | supervisor_discovery | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/peimu--findphdpositions.md) |
 | [pliang279/awesome-phd-advice](https://github.com/pliang279/awesome-phd-advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/pliang279--awesome-phd-advice.md) |
 | [poloclub/awesome-grad-school](https://github.com/poloclub/awesome-grad-school) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/poloclub--awesome-grad-school.md) |
 | [ratulsaha2021/scholarship-agent](https://github.com/ratulsaha2021/scholarship-agent) | phd_application_draft_and_email_assistant | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ratulsaha2021__scholarship-agent.md) |
+| [RaveeshM/Scholarship-Web-Scraper](https://github.com/RaveeshM/Scholarship-Web-Scraper) | historical_us_scholarship_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/raveeshm__scholarship-web-scraper.md) |
 | [rednaxela2018/Application_Materials_For_PhD](https://github.com/rednaxela2018/Application_Materials_For_PhD) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/rednaxela2018--application-materials-for-phd.md) |
 | [Rehmanjeff/scrape-phd-positions](https://github.com/Rehmanjeff/scrape-phd-positions) | legacy_scrapy_scholarshipdb_crawler | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/rehmanjeff__scrape-phd-positions.md) |
 | [rjalfa/PhDAdmission](https://github.com/rjalfa/PhDAdmission) | legacy_phd_admissions_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/rjalfa__phdadmission.md) |
