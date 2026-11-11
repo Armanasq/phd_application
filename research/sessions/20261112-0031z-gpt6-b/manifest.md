@@ -3,7 +3,7 @@
 **Date:** 2026-11-12
 **Branch:** `research/repository-audit-20261112-0031z-gpt6-b`
 **Base main commit:** `9dc8b670d20497a5412b7ffc599aa4e2a8569fd8`
-**Status:** MERGED_TO_MAIN via [PR #13](https://github.com/Armanasq/phd_application/pull/13), merge commit `6e136cc4821a7b5eaabe871ecaa8fe292433e95c`; third-party runtime execution NOT performed. Canonical registration is separately pending in [PR #14](https://github.com/Armanasq/phd_application/pull/14).
+**Status:** MERGED_TO_MAIN via [PR #13](https://github.com/Armanasq/phd_application/pull/13), merge commit `6e136cc4821a7b5eaabe871ecaa8fe292433e95c`; third-party runtime execution NOT performed. Canonical registration is now completed on `main`; [PR #14](https://github.com/Armanasq/phd_application/pull/14) was **closed unmerged as redundant** after conflict-resolved mainline commits.
 
 ## Assignment
 
@@ -29,7 +29,7 @@ Before this claim, both entries were `UNTRIAGED` in the canonical candidate CSV 
 - [x] Pinned both upstream main commits and Git tree SHAs; examined README, domain model, agent policy, persistence, tests and history.
 - [x] [Command center](fsuitoal-command-center.md) new deep static review, [PhD monitor](mhrnqaruni-monitor-supplement.md) supplemental findings, and [cross-source engineering synthesis](synthesis.md).
 - [x] PR #13 merged to main after passing Research integrity checks; four additive documents, no other session files modified.
-- [ ] Canonical command-center promotion is staged in PR #14 with four atomic files; GitHub CI passed but repeated parallel `main` updates cause merge conflicts, so it remains **OPEN and not merged**. Monitor canonical deep review was already merged by another session; no duplicate row needed.
+- [x] The command-center review is canonically registered on `main` as `DEEP_REVIEW_DOCUMENTED`: exact report file, reviewed-repository row, candidate `REVIEW_RECORDED` status, and generated index all verified. [Research integrity CI](https://github.com/Armanasq/phd_application/actions/runs/43104697507) passed on the complete reconciled state. [PR #14](https://github.com/Armanasq/phd_application/pull/14) was closed without merging because its changes were independently applied through conflict-resolving mainline commits. The monitor's canonical deep review belongs to another session and was not duplicated.
 
 ## Verified source pins and conclusions
 
@@ -44,8 +44,8 @@ No admissions vacancy was verified; neither third-party source was executed or g
 
 A fresh canonical check found that `Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor` had already been promoted from `UNTRIAGED` to `DEEP_REVIEW_DOCUMENTED` in another session during this investigation, using the same pinned upstream commit. The overlapping report was removed from this branch's final diff, leaving only an incremental supplement. The command center remained `UNTRIAGED` at that check. This project must not double-count the two parallel review efforts.
 
-## Integration verification and unresolved conflict
+## Integration verification and conflict resolution
 
 - [PR #13](https://github.com/Armanasq/phd_application/pull/13): verified merged to `main`; public Research integrity CI run 43103589250 passed (all steps).
-- [PR #14](https://github.com/Armanasq/phd_application/pull/14): canonical registry/index promotion includes a source-pinned deep report, one candidate state, one reviewed row and deterministic index, built atomically from a base tree. Both the original and conflict-reconciled PR commit passed GitHub CI, but the PR's merge is blocked by concurrent modifications to the same CSV and generated index. Do not misstate its status as merged.
+- [PR #14](https://github.com/Armanasq/phd_application/pull/14) **closed, not merged**; its canonical data were reconciled onto `main` incrementally. The source report was added in [`f2221aa`](https://github.com/Armanasq/phd_application/commit/f2221aa99639c58e0dbb228dda0bfe776709395f), the catalog row in [`2ae0388`](https://github.com/Armanasq/phd_application/commit/2ae03881ba4cc8b1a767af276a5bf66a1eef14c8), and the deterministic index completed at [`b3e1a5f`](https://github.com/Armanasq/phd_application/commit/b3e1a5f23275c21d8fcb85d9dc2b1381ac4717ab). The candidate status and catalog are now synchronized, and the completed-state research-integrity workflow passed. Do not present PR #14 as GitHub-merged.
 - [Issue #3](https://github.com/Armanasq/phd_application/issues/3) has an incremental status comment. The broader review program is ongoing; no issue closure is justified by this batch.
