@@ -4,8 +4,8 @@
 
 | Workstream | State | Evidence accomplished | Completion blocker |
 |---|---|---|---|
-| Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 207 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
-| Individual GitHub repository audits | IN PROGRESS | 109 source-pinned review records: 30 structured eight-part static audits, 79 preliminary| deepen 79 preliminary reviews; 2 screened-in awaiting first review; runtime/source verification|
+| Global repository discovery | IN PROGRESS | 404 unique raw candidates, 26 sampled query groups including six GitHub code-search families | 172 untriaged, deeper pagination/topic/fork and independent discovery channels, saturation |
+| Individual GitHub repository audits | IN PROGRESS | 128 source-pinned review records: 42 structured eight-part static audits, 86 preliminary| deepen 86 preliminary reviews; 2 screened-in awaiting first review; runtime/source verification|
 | Source/repository dependence | EVIDENCE_COLLECTED | 6 evidenced relationships, 21-source ledger, 26 claim records | canonicalize more shared guides and verify original claims independently |
 | Eight country dossiers | EVIDENCE_COLLECTED | All eight source-linked national assessments, including policy and funding contrasts | national lab/vacancy coverage, visas, tuition and 2027 recruiting completeness |
 | Funding and available programs | IN PROGRESS | 20 differentiated leads with official-source and tuition/offer gates | employer form rechecks, offer terms and candidate-specific fee/eligibility |
@@ -20,7 +20,7 @@
 
 The public [source ledger](data/sources.jsonl) contains 21 distinct URLs supporting 26 recorded claim items. **Every ledger record currently reads `independent_recheck: NOT_PERFORMED`**. Primary-official retrieval is a stronger source type than an anecdote, but the dual-source independently confirmed stage is not met.
 
-**Canonical CSV screening states (recomputed 12 November 2026):** 207 untriaged; 2 screened-in awaiting individual review; 86 excluded with reasons; 109 review records (30 deep static and 79 preliminary). Partition sum = 404 unique candidate identities.
+**Canonical CSV screening states (recomputed 12 November 2026):** 172 untriaged; 2 screened-in awaiting individual review; 102 excluded with reasons; 128 review records (42 deep static and 86 preliminary). Exactly 404 raw GitHub candidate identities.
 
 ## Offer and communication status
 

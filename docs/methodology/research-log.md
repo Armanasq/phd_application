@@ -111,3 +111,9 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - Compared all seven outstanding same-name repos at pinned Git trees. Four are full HEAD or substantive chapter mirrors of already reviewed material; three have bounded historical editorial differences and were entered as preliminary review rows.
 - Source-blob alignment, reused case dependence, stage-specific documents and migration/health/fee caveats: [Groningen source lineage](../../synthesis/groningen-phd-guide-lineage-20261112.md).
 - No new funded 2026/27 PhD opportunity, acceptance, administrative contact or consular cost was claimed verified.
+
+## 2026-11-12 — Canonical reconciliation of isolated evidence batch 43b7
+- Reconciled 7 still-untriaged identities against live canonical data: 2 eight-section source reviews, 2 privacy-bounded preliminary reviews, 3 evidence-coded exclusions.
+- The previously separately registered houwei1228/PhD_Fit was not duplicated or overwritten; competing agent work preserved. Source session research remains archived under `research/sessions/gpt6-20261112-evidence-43b7/`.
+- Important static findings: sensitive Firestore inline document fallback, Gmail parsing/status/pagination weaknesses, legacy Django credential/configuration risks; no private applicant CSVs or email accounts accessed.
+- Canonical split: **404 = 128 reviewed (42 deep static, 86 preliminary), 102 excluded, 172 untriaged, 2 screened included**. External tests, official opportunity verification and 2026/27 availability checks NOT_PERFORMED.
