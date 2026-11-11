@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 144. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 145. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -128,6 +128,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [simitii/CS-Grad-School-Applications-Reading-List](https://github.com/simitii/CS-Grad-School-Applications-Reading-List) | historical_admissions_reading_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/simitii__cs-grad-school-applications-reading-list.md) |
 | [stealth-startup-2026/scholarship-scraper](https://github.com/stealth-startup-2026/scholarship-scraper) | australia_scholarship_structured_scraping | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stealth-startup-2026__scholarship-scraper.md) |
 | [stevanoryan/scholarship-atlas](https://github.com/stevanoryan/scholarship-atlas) | historical_and_2026_scholarship_aggregation | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stevanoryan__scholarship-atlas.md) |
+| [sushil3710/PHD_Admission_Portal](https://github.com/sushil3710/PHD_Admission_Portal) | institutional_doctoral_admissions_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sushil3710__phd-admission-portal.md) |
 | [swadhinbiswas/fundmystudy-scraper](https://github.com/swadhinbiswas/fundmystudy-scraper) | multi_source_opportunity_ingestion | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/swadhinbiswas__fundmystudy-scraper.md) |
 | [Swapnil-Gandhi/SoP-Template](https://github.com/Swapnil-Gandhi/SoP-Template) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/swapnil-gandhi--sop-template.md) |
 | [TSTS09/Grad-Admission-Agent](https://github.com/TSTS09/Grad-Admission-Agent) | multi_source_admissions_agent | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/tsts09__grad-admission-agent.md) |
