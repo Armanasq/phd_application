@@ -1,13 +1,15 @@
 # Initial source findings — 20261112-0031z-gpt6-a
 
 **Date:** 2026-11-12  
-**State:** IN_PROGRESS; these are partial source observations, not completed audits.  
+**State at capture:** INITIAL_SCOUTING; superseded by the two deep source reports and the previously merged historical-resource investigations.  
 **Isolation:** session-specific branch and directory only.
+
+> This document is retained as an initial investigation log, not the authoritative final review status. The two mature implementation reviews are [`zhoujasper-phd-atlas.md`](zhoujasper-phd-atlas.md) and [`zxcgzx-phd-application-tracker.md`](zxcgzx-phd-application-tracker.md). The reading-list and SOP-corpus reviews were already merged through [PR #6](https://github.com/Armanasq/phd_application/pull/6); redundant drafts from this session were removed.
 
 ## 1. `simitii/CS-Grad-School-Applications-Reading-List`
 
 - Upstream default branch: `master`.
-- Tree SHA: `189be53b9299ded95d7a6517b6d5760d4286df70`; one entry.
+- Commit SHA: `189be53b9299ded95d7a6517b6d5760d4286df70`; Git tree SHA: `37244a3594d1cb04b5466655106a432bf4e2de08`; one tree entry.
 - README blob: `58d7aef8ea0692802fb83e42444e61a27624bdbe`.
 - The only tracked file is a curated 2019-era CS graduate admissions reading list.
 - Topics include general application strategy, admissions reflections, statement-of-purpose writing, historical successful statements, CS rankings, and questions to ask prospective advisers.
@@ -20,7 +22,7 @@
 ## 2. `siddu1998/Graduate-Admissions`
 
 - Upstream default branch: `main`.
-- Tree SHA: `71d1750175b1cca2bca78fe738765b0c42c58c0a`; 40 entries.
+- Commit SHA: `71d1750175b1cca2bca78fe738765b0c42c58c0a`; Git tree SHA: `afbf0d99adafecb942326c5f3f646e8bd34694f9`; 40 entries.
 - README blob: `38f25942a1fa6fd1203e7caee0b0dbb4667df95e`.
 - Contains university-specific statement-of-purpose PDFs for Brown, CMU, Columbia, Cornell, EPFL, Imperial, MIT, Oxford, Purdue, UBC, UCSC, UIUC, UMCP, UNC-Chapel Hill, and USC.
 - Includes multiple MS/PhD examples and application-cycle references to 2020 and 2021.
@@ -34,7 +36,7 @@
 ## 3. `zhoujasper/phd-atlas`
 
 - Upstream default branch: `main`.
-- Tree SHA: `8f4318eda901020b61d91abfc82411943200c70f`; 1,961 entries, not truncated.
+- Commit SHA: `8f4318eda901020b61d91abfc82411943200c70f`; Git tree SHA: `47be03f3fb1ca14dfc95dc2cc6a252ac964c9f96`; 1,961 recursive entries, not truncated.
 - README blob: `2ca9cac2683264cfdacb0f2ea5bc1f5ed880c49f`.
 - README describes a self-hosted, personal-only PhD application workspace. It explicitly says team collaboration is not part of the public distribution.
 - Declared stack: React 19, TypeScript 6, Vite 8, Express 5, Zod, SQLite by default, optional MySQL/MariaDB, PostgreSQL and SQL Server, Vitest, Testing Library, and Playwright.
@@ -49,7 +51,7 @@
 ## 4. `zxcgzx/phd-application-tracker`
 
 - Upstream default branch: `main`.
-- Tree SHA: `8826e96755f4d76854e00725226ff92fed59af18`; 84 entries.
+- Commit SHA: `8826e96755f4d76854e00725226ff92fed59af18`; Git tree SHA: `51db6bdf919b700bc48bad40dbba61b32d36371e`; 84 recursive entries.
 - README blob: `6261924ff1c515d0ca19c6c3c300b9f7301fc961`.
 - Architecture includes configurable university scrapers, a two-level crawler, Supabase synchronization, PostgreSQL schema/RLS, frontend professor management, import, filters, statistics, timelines, and scheduled/manual GitHub Actions.
 - Inspected `crawler/scrapers/base_scraper.py`: request sessions, timeout/retry/delay, apparent-encoding detection, BeautifulSoup/lxml parsing, keyword/sibling extraction, CSS and regex extraction, and research-area normalization/filtering.
@@ -76,4 +78,4 @@
 - Interpretation: applicability and architectural comparisons above.
 - Unknown: runtime behavior, test pass status, production security, current upstream activity, external admissions validity, and completeness of source inspection.
 
-No repository in this note is marked DEEP_REVIEW_COMPLETE.
+This historical first-pass note does not certify completeness. Subsequent deep reviews for PhD Atlas and the supervisor tracker are separately documented; the historical-reading-list review and PDF-corpus inventory are already on `main` via PR #6.
