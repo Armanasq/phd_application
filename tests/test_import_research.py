@@ -18,7 +18,7 @@ class ImportResearchTests(unittest.TestCase):
                 self.assertEqual(first["claims"], 26)
                 self.assertEqual(first["opportunities"], 20)
                 self.assertEqual(first["applicant_cases"], 6)
-                self.assertEqual(first["repo_relations"], 5)
+                self.assertEqual(first["repo_relations"], len(import_research.read_csv("repository_relations.csv")))
                 self.assertEqual(first["verified_publication_records"], 1)
                 db.execute("INSERT INTO applications (id,opportunity_id,state) VALUES ('local-state','eth-robotx','PREPARING')")
                 db.commit()
