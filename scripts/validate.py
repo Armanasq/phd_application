@@ -134,6 +134,12 @@ def main():
         path = ROOT/"docs"/"countries"/f"{slug}.md"
         assert path.is_file() and "http" in path.read_text(encoding="utf-8"), slug
     claims = validate_jsonl("claim_register.jsonl", ("id", "subject", "value", "source_url", "status", "checked_on"))
+    ledger = validate_jsonl("sources.jsonl", ("source_id","canonical_url","claim_ids","claim_statuses","first_checked","last_checked","independent_recheck"))
+    claim_ids = {r["id"] for r in claims}
+    assert {url for row in ledger for url in [row["canonical_url"]]} == {r["source_url"] for r in claims}, "source ledger differs from claims"
+    for source in ledger:
+        assert set(source["claim_ids"]) <= claim_ids, source["source_id"]
+        assert source["independent_recheck"] == "NOT_PERFORMED", "source ledger should not claim independent verification"
     experiences = validate_jsonl("applicant_experiences.jsonl", ("case_id", "date", "source", "finding", "confidence"))
     with sqlite3.connect(":memory:") as db:
         db.executescript((ROOT / "sql" / "schema.sql").read_text(encoding="utf-8"))
