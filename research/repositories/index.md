@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 63. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 64. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -22,6 +22,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [abusufyanvu/6S191_MIT_DeepLearning](https://github.com/abusufyanvu/6S191_MIT_DeepLearning) | technical_learning_resource_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abusufyanvu__6s191-mit-deeplearning.md) |
 | [AdewuyiDaniels/PhD-scholarship-search](https://github.com/AdewuyiDaniels/PhD-scholarship-search) | scholarship_recommender_notebook | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/adewuyidaniels__phd-scholarship-search.md) |
 | [Aghababaei/PhD-Seeker](https://github.com/Aghababaei/PhD-Seeker) | vacancy_scrapers | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/aghababaei__phd-seeker.md) |
+| [aluminium5/ScholarshipScraper](https://github.com/aluminium5/ScholarshipScraper) | scholarship_discovery_and_tracking | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aluminium5__scholarshipscraper.md) |
 | [BaseLayerAI/academic-job-digest](https://github.com/BaseLayerAI/academic-job-digest) | job_monitoring | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/baselayerai__academic-job-digest.md) |
 | [bchen002/Doctoral-Supervisor-Skill](https://github.com/bchen002/Doctoral-Supervisor-Skill) | agent_supervision_skill | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/bchen002__doctoral-supervisor-skill.md) |
 | [BrainPhD-CN/handbook](https://github.com/BrainPhD-CN/handbook) | firsthand_multilingual_guide | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/brainphd-cn__handbook.md) |

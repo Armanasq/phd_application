@@ -10,15 +10,17 @@ The candidate inventory contains **404** deduplicated repository identities incl
 - 6 code-search query families returning short matches, yielding additional relevant leads but high irrelevant-noise rate.
 - Select extra source-link discoveries and known repo review candidates. All were merged case-insensitively without upgrading discovery to review.
 
-Current screening split: **330 untriaged; 2 screened included for future deep review; 9 exclusions documented; 63 reviewed**. No systematic second-page+ collection or valid global recall denominator has been demonstrated.
+Current screening split: **327 untriaged; 2 screened included for future deep review; 11 exclusions documented; 64 reviewed**. No systematic second-page+ collection or valid global recall denominator has been demonstrated.
 
 ## Audit scope
 
-Of **63 source-pinned individual review records**, **8** have the fully structured eight-section *static* research report, **55** only a bounded preliminary note. Source code, settings, issues/release metadata and methodological failure modes were examined to differing degrees; **no upstream tests were executed in a controlled sandbox** in this research pass. Link to original Markdown note is not equivalent to deep audit or empirical validation.
+Of **64 source-pinned individual review records**, **8** have the fully structured eight-section *static* research report, **56** only a bounded preliminary note. Source code, settings, issues/release metadata and methodological failure modes were examined to differing degrees; **no upstream tests were executed in a controlled sandbox** in this research pass. Link to original Markdown note is not equivalent to deep audit or empirical validation.
 
 The 8 deep reports include a scraper with verifiable source-level TLS/eval vulnerabilities, source-first research planner, multi-adapter academic job monitor, current PhD feed, browser/outreach CRM, agentic outreach instructions, supervisor-fit rubric, and a Chinese first-person handbook. Attributions/provenance checked at pinned GitHub commits; neither claim of software security certification nor 2026 admissions outcome is made.
 
-Ten session-specific repository investigation reports were merged into `main` through PR #6 on 12 November. They are additive research artifacts and do not change the canonical 63-row repository register until ownership reconciliation and a separate canonical integration decision are completed.\n\n## Formal research limits
+Ten session-specific repository investigation reports were merged into `main` through PR #6 on 12 November. They are additive research artifacts and do not change the canonical 63-row repository register until ownership reconciliation and a separate canonical integration decision are completed.
+
+## Formal research limits
 
 - **Selection bias:** curated Awesome lists and famous PhD guides overrepresent English-language CS and successful US applicants; Chinese and Turkish resource discovery remains incomplete.
 - **Source dependence:** GitHub derivative scrapers and multiple Awesome lists can all repeat one original account or employer vacancy; see [five direct relations](../data/repository_relations.csv).
@@ -35,6 +37,6 @@ A documented saturation result needs (a) expanded pages and topic searches, (b) 
 
 ## Outstanding research operations
 
-Research official hiring portals before deadlines; apply evidence gates to employer job pages; inspect user-qualifications privately; add additional relevant applicant accounts and contradictory records; deep-review remaining 55 preliminary reviews and screen 330 untriaged names. Do not claim complete or publication-equivalent systematic review.
+Research official hiring portals before deadlines; apply evidence gates to employer job pages; inspect user-qualifications privately; add additional relevant applicant accounts and contradictory records; deep-review remaining 56 preliminary reviews and screen 327 untriaged names. Do not claim complete or publication-equivalent systematic review.
 
 See [research log](../docs/methodology/research-log.md) and [current status](../RESEARCH_STATUS.md).
