@@ -2,10 +2,10 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 121. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 124. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
-|---|---|---|
+|---|---|---|---|
 | [0612Leo/phd-application-tracker](https://github.com/0612Leo/phd-application-tracker) | daily_application_journal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/0612leo__phd-application-tracker.md) |
 | [0xshreyash/awesome-phd-scholarships](https://github.com/0xshreyash/awesome-phd-scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/0xshreyash--awesome-phd-scholarships.md) |
 | [1161316199/21-](https://github.com/1161316199/21-) | duplicate_fork_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/1161316199__21.md) |
@@ -59,6 +59,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [eparrainage/phd](https://github.com/eparrainage/phd) | current_vacancy_feeds | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/eparrainage__phd.md) |
 | [erikpsw/phd-application-pipeline](https://github.com/erikpsw/phd-application-pipeline) | ai_outreach_workflow | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/erikpsw__phd-application-pipeline.md) |
 | [evamaxfield/phd](https://github.com/evamaxfield/phd) | firsthand_doctoral_archive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/evamaxfield__phd.md) |
+| [EydlinIlya/BlueSky-PhD-jobs](https://github.com/EydlinIlya/BlueSky-PhD-jobs) | social_post_phd_opportunity_pipeline | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/eydlinilya__bluesky-phd-jobs.md) |
 | [fanyi3017-stack/phd-application-research-agent](https://github.com/fanyi3017-stack/phd-application-research-agent) | ai_workflows | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/fanyi3017-stack--phd-application-research-agent.md) |
 | [Fatemeh-J-RUG/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Fatemeh-J-RUG/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/fatemeh-j-rug__putting-in-for-a-phd-and-moving-abroad.md) |
 | [fengke808-hash/phd-radar](https://github.com/fengke808-hash/phd-radar) | personalized_supervisor_radar | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/fengke808-hash__phd-radar.md) |
@@ -67,6 +68,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [Gurudev517/AI-Driven-Academic-Opportunity-Portal-Using-Web-Automation-and-NLP](https://github.com/Gurudev517/AI-Driven-Academic-Opportunity-Portal-Using-Web-Automation-and-NLP) | indian_research_opportunity_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/gurudev517__academic-opportunity-portal.md) |
 | [gwisk/gradguide](https://github.com/gwisk/gradguide) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/gwisk--gradguide.md) |
 | [hassony2/useful-computer-vision-phd-resources](https://github.com/hassony2/useful-computer-vision-phd-resources) | research_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/hassony2--useful-computer-vision-phd-resources.md) |
+| [houwei1228/PhD_Fit](https://github.com/houwei1228/PhD_Fit) | local_first_private_phd_application_workspace | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/houwei1228__phd-fit.md) |
 | [Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad) | firsthand_guides | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/iran-open-source__putting-in-for-a-phd-and-moving-abroad.md) |
 | [Janjs/Web-Scraping-PhD-positions](https://github.com/Janjs/Web-Scraping-PhD-positions) | legacy_msca_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/janjs__web-scraping-phd-positions.md) |
 | [jedyang97/awesome-cs-phd-application-advice](https://github.com/jedyang97/awesome-cs-phd-application-advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/jedyang97--awesome-cs-phd-application-advice.md) |
@@ -75,6 +77,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [KaiserWhoLearns/CS-PhD-Application-fee-waivers](https://github.com/KaiserWhoLearns/CS-PhD-Application-fee-waivers) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/kaiserwholearns--cs-phd-application-fee-waivers.md) |
 | [KeithBH/phd-positions](https://github.com/KeithBH/phd-positions) | european_industrial_ai_doctoral_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/keithbh__phd-positions.md) |
 | [KhanShaheb34/profreach](https://github.com/KhanShaheb34/profreach) | supervisor_crm | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/khanshaheb34__profreach.md) |
+| [kirankaranth1/ApplicationStatusFetcher](https://github.com/kirankaranth1/ApplicationStatusFetcher) | legacy_selenium_portal_status_automation | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/kirankaranth1__application-status-fetcher.md) |
 | [LimHyungTae/Awesome-PhD-CV](https://github.com/LimHyungTae/Awesome-PhD-CV) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/limhyungtae--awesome-phd-cv.md) |
 | [MaryleenAmaizu/ML-AI-Scholarships](https://github.com/MaryleenAmaizu/ML-AI-Scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/maryleenamaizu--ml-ai-scholarships.md) |
 | [mcnuttandrew/vis-phd-positions](https://github.com/mcnuttandrew/vis-phd-positions) | vacancy_datasets | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/mcnuttandrew--vis-phd-positions.md) |
