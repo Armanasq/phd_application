@@ -1,57 +1,66 @@
-# Session Research Manifest
+# Session research manifest — 20261112-0031z-gpt6-a
 
-- Session ID: `20261112-0031z-gpt6-a`
-- Branch: `research/repository-audit-20261112-0031z-gpt6-a`
-- Base branch: `main`
-- Base commit: [`c33758e2373e8726ed4d4ba58aaab736d83c43de`](https://github.com/Armanasq/phd_application/commit/c33758e2373e8726ed4d4ba58aaab736d83c43de)
-- Created: 2026-11-12
-- State: IN_PROGRESS
-- Owner: independent ChatGPT research session; private runtime identity not exposed
-- Local worktree: UNAVAILABLE. A local `git ls-remote` attempt failed because the runtime could not resolve github.com. All writes are therefore restricted to this dedicated remote branch through GitHub's branch-scoped API.
-- Main/default branch: READ_ONLY
-- Published coordination baseline: one visible branch (`main`), zero visible pull requests, no published per-repository ownership records found. Other sessions' unsaved/private work remains UNKNOWN.
+**Review date:** 2026-11-12  
+**Working branch:** `research/repository-audit-20261112-0031z-gpt6-a`  
+**Original base commit:** [`c33758e2373e8726ed4d4ba58aaab736d83c43de`](https://github.com/Armanasq/phd_application/commit/c33758e2373e8726ed4d4ba58aaab736d83c43de)  
+**Main branch observed during reconciliation:** [`e821fcdbf572c96b5be617a2626f6def68f8ab3d`](https://github.com/Armanasq/phd_application/commit/e821fcdbf572c96b5be617a2626f6def68f8ab3d)  
+**State:** TWO_UNIQUE_DEEP_STATIC_REVIEWS_READY_FOR_PR; upstream runtime validation NOT performed.
 
-## Assigned repository scope
+## Coordination and noninterference
 
-These four canonical repository identities are claimed by this session on this branch. Do not edit or overwrite other sessions' artifacts.
+- The original branch was created at an earlier main snapshot. It is intentionally not rebased via a force-push.
+- This session may write only under `research/sessions/20261112-0031z-gpt6-a/`.
+- Canonical inventory, generated index, opportunity records, issue status, and other sessions' directories are not modified here.
+- Latest inspection observed merged PR #6 (ten investigations), PR #7 (three investigations), other active session branches, and no open PRs at that instant.
+- The two historical-resource reviews were already merged through [PR #6](https://github.com/Armanasq/phd_application/pull/6), then reconciled to canonical preliminary records by another session. This branch's redundant drafts were removed before PR preparation.
+- Other agents' private, unsaved progress cannot be observed through GitHub; no unpublished ownership or success is inferred.
+- GitHub API connector is used for source inspection and branch-scoped writes. A local `git ls-remote` still fails because `github.com` cannot be DNS-resolved in the code runtime; no local upstream test execution is claimed.
 
-| Repository ID | Canonical URL | Baseline state | Scope |
+## Assigned repository outcomes
+
+| Upstream | Pinned commit | Session disposition | Evidence record |
 |---|---|---|---|
-| `simitii/CS-Grad-School-Applications-Reading-List` | https://github.com/simitii/CS-Grad-School-Applications-Reading-List | SCREENED_INCLUDE; no individual review record | Full source-level investigation and disposition |
-| `siddu1998/Graduate-Admissions` | https://github.com/siddu1998/Graduate-Admissions | SCREENED_INCLUDE; no individual review record | Full source-level investigation and disposition |
-| `zhoujasper/phd-atlas` | https://github.com/zhoujasper/phd-atlas | PRELIMINARY_FOCUSED | Upgrade incomplete preliminary review; inspect implementation and validate claims |
-| `zxcgzx/phd-application-tracker` | https://github.com/zxcgzx/phd-application-tracker | PRELIMINARY_FOCUSED | Upgrade incomplete preliminary review; inspect security-sensitive implementation statically; do not execute or authenticate |
+| `zhoujasper/phd-atlas` | `8f4318eda901020b61d91abfc82411943200c70f` | DEEP_STATIC_REVIEW_COMPLETE for representative major domain, persistence, authorization, discovery, and security-critical implementation paths; runtime NOT_TESTED | [PhD Atlas review](zhoujasper-phd-atlas.md) |
+| `zxcgzx/phd-application-tracker` | `8826e96755f4d76854e00725226ff92fed59af18` | DEEP_STATIC_REVIEW_COMPLETE for crawler, database, frontend, CI and security paths; deployment and exploitability NOT_TESTED | [Supervisor-tracker review](zxcgzx-phd-application-tracker.md) |
+| `simitii/CS-Grad-School-Applications-Reading-List` | `189be53b9299ded95d7a6517b6d5760d4286df70` | Already integrated in main via PR #6; no duplicate review to merge | [Published review](../2cabbe82/reviews/simitii-cs-grad-school-reading-list.md) |
+| `siddu1998/Graduate-Admissions` | `71d1750175b1cca2bca78fe738765b0c42c58c0a` | Already integrated in main via PR #6; PDF body and recommendation-letter contents NOT reviewed | [Published review](../2cabbe82/reviews/siddu1998-graduate-admissions.md) |
 
-## Files and isolation
+## Source-level evidence and method
 
-- Permitted write scope: `research/sessions/20261112-0031z-gpt6-a/` on this branch only.
-- Existing canonical indexes, shared schemas, global ledgers, README, status reports, and all other review files are read-only during this session.
-- No files on `main` are modified.
-- No existing branch, issue, pull request, commit, or other session artifact is modified.
+1. Pin upstream commits and Git tree SHAs separately. GitHub recursive tree lookup with a branch ref returns the branch commit SHA in this connector; the actual Git tree hash comes from the commit object's `commit.tree.sha`.
+2. Inspect current repository README/tree/config/history/issue/PR status and selected critical modules.
+3. Trace claims through actual program code rather than trusting marketing descriptions.
+4. Separate observed implementation, source-level risk, operator recommendation, and untested hypothesis.
+5. No key-bearing code or downloaded recommendation-letter content is redistributed. No credential was authenticated or tested.
+6. The two new reports include commit-pinned GitHub source links for independent inspection.
+7. Runtime validation is not implied by static review or upstream historical CI results.
+8. A passing source-integrity test in `phd_application` cannot independently verify the correctness of third-party implementation claims or university vacancies.
 
-## Investigation protocol
+## Engineering synthesis
 
-For each assigned repository:
-1. Pin the current upstream default-branch commit and capture repository metadata.
-2. Enumerate the full recursive tree; inspect README, docs, configuration, source, tests, schemas, workflows, dependencies, history, issues, and pull requests as available.
-3. Validate documentation claims against implementation; run only when safe and feasible in an isolated environment.
-4. Record architecture, dataflow, algorithms, workflow, evidence, limitations, security/privacy risks, failure modes, transferability, and cross-repository relationships.
-5. Distinguish verified implementation, documentation-only claims, proposals, inferences, and unknowns.
-6. Record exact inspected paths and uninspected scope; do not call static inspection runtime validation.
+PhD Atlas provides reference patterns for:
+- explicit field authority and optimistic revision handling;
+- durable mutation acknowledgements and conflict detection;
+- separated lead-only and official-source evidence in discovery;
+- bounded long-running research with encrypted checkpoints;
+- account- and scope-bound agent credentials, default-deny endpoint policy;
+- guarded official-page crawling and canonical source provenance.
 
-## Progress
+The simpler Supabase tracker provides negative examples:
+- public service-role JWT fallback and permissive read/write RLS;
+- interpolated GitHub Actions input passed to `eval`;
+- stored HTML injection via uncontrolled templates;
+- missing official-source provenance for recruiting/funding;
+- import/schema mismatch and unreliable crawl success accounting.
 
-- [x] Read canonical inventory, review index, candidate queue, exclusions, status, coverage report, research log, failure register, and repository relationship ledger.
-- [x] Reconciled live queue counts: 404 candidates = 63 review records + 330 untriaged + 2 screened include + 9 exclusions; 8 deep static + 55 preliminary.
-- [x] Checked visible GitHub coordination state: only `main`, no visible PRs, issue #3 open and unassigned in the retrieved issue snapshot.
-- [x] Created isolated remote branch from the exact live `main` commit.
-- [ ] Inspect all four assigned upstream repositories.
-- [ ] Write four evidence-backed session-specific investigation records.
-- [ ] Verify all source references and review completion criteria.
-- [ ] Prepare an integration proposal without modifying canonical shared files.
+No facts in these reports establish that a supervisor is currently accepting students, that funding exists, or that an application has been submitted.
 
-## Outstanding dependencies and limitations
+## Integration plan
 
-- No visibility into other ChatGPT conversations' private or unsaved execution state.
-- No local Git worktree due network/DNS failure; remote branch isolation is the available safe write surface.
-- No third-party credentials will be used. Credential-bearing repositories will receive static inspection only.
+- Merge this session's **two unique substantive deep reports** plus its initial provenance note and manifest into `main` via a reviewed PR.
+- Do not upgrade canonical `data/repositories.csv` statuses until the integration has been checked against concurrent canonical-file changes and the project's scripted index generation.
+- After merge, explicitly reconcile the two existing `PRELIMINARY_FOCUSED` records with these source-pinned reports as a separate incremental mainline operation/PR.
+- Do not close issue #3 merely because this small subset is reviewed; the latest canonical inventory still contains hundreds of outstanding candidate/review records.
+- Do not merge unrelated active branches or silently close unrelated issues.
+
+**This session is a bounded research increment, not completion of the 404-repository program.**
