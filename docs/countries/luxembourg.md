@@ -12,6 +12,9 @@ Highly relevant research at University of Luxembourg's **SnT** in radar, autonom
 - [University job directory](https://www.uni.lu/en/about/work/) is primary for current postings.
 - SnT robot perception/SLAM groups: identify from current publications. A separate Uni.lu SLAM postdoc listing is **not a PhD vacancy** and must never be inserted into the candidate PhD opportunity tracker.
 
+## Stronger 2026 employer lead: CVI2 Computer Vision
+[University of Luxembourg Doctoral Researcher in Computer Vision UOL08044](https://www.uni.lu/en/jobs/doctoral-researcher-in-computer-vision/) lists **multiple positions** in Prof Djamila Aouada's **CVI2** group (3D computer vision, multimodal vision-language, real-time generative AI, space-vision applications). A **36-month**, **40-hour/week** fixed-term paid role advertises **EUR 41,976/year gross**, based at Kirchberg. Requires relevant MSc, image/signal processing, applied mathematics, PyTorch/TF, Python/C/C++/MATLAB and **B2 language of thesis**. Application: CV, transcripts, publication list if any, **300-word research statement**, online HR only, applications examined on receipt. **The external recruitment form redirected to an inaccessible recruitmentplatform host**, so vacancy is **verification_needed**, not verified as open, and offer timing is unknown. Compared with SPARC radar, CVI2 visual perception methods provide broader possible candidate match but may be less direct SLAM than advertised robotics.
+
 ## Funding/living/eligibility
 Employer fixed term contract can cover stipend/salary and social contributions, but verify employer paid rate, renewal, take-home vs Luxembourg City housing, degree recognition, language, residence sponsorship and recruitment date. No generic national salary amount asserted. Doctoral studentship without contract can have different financial exposure.
 

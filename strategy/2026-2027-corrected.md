@@ -17,6 +17,10 @@ Monash A3: the candidate's [2023 peer-reviewed Measurement research article](htt
 - [ETH Robotic Systems Lab](https://rsl.ethz.ch/the-lab/open-positions.html) says continuously recruiting PhDs in perception/navigation with ROS/C++; verify individual funded contract before A.
 - [ETH SIPLAB neuromotor](https://www.jobs.ethz.ch/job/view/JOPG_ethz_fEsJT6dU0XVbGPtHhO) is funded but less direct sensor/vision research alignment and portal must be checked.
 
+## Two additional employer-specific leads
+- [Luxembourg SnT CVI2 computer vision UOL08044](https://www.uni.lu/en/jobs/doctoral-researcher-in-computer-vision/): **36-month employed PhD, EUR 41,976 gross/year**, visual AI/multimodal, applications examined on receipt; 300-word statement, B2 thesis language. **Actual external apply portal unavailable to independent checking: verification needed.**
+- [Surrey Smart Optical Design 2027](https://www.surrey.ac.uk/postgraduate/vision-speech-and-signal-processing-phd): international studentship fully waives overseas fees and pays **£21,805/year 2026/27 UKRI rate**; 17 Jan2027 application, April2027 intake. Moderate fit (optical/computational vision not SLAM) but strong financial eligibility. **No evidenced 2026 offer**.
+
 ## Portfolio B — 2027 funded admission routes
 - [EPFL EDIC](https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/edic-computer-and-communication-sciences/edic-how-to-apply/): **1 Dec2026** for Sept2027, all admitted financed, competitive selection; no pre-PI agreement.
 - [UBC CS](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science): **15 Dec2026** for Sept2027; upload transcript **Dec16** and references by **Jan15 2027**, departmental funding package.
