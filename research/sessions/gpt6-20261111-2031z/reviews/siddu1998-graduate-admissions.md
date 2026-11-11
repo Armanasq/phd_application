@@ -2,9 +2,9 @@
 
 ## Review disposition
 - Review depth: deep static content review.
-- Upstream snapshot: main at e37b8d3a6d1a4d9f14a0c5c0b2d0e5f3c7a1b9d2.
+- Upstream snapshot: main at 71d1750175b1cca2bca78fe738765b0c42c58c0a.
 - Repository contents: 40 tracked files, including 20 statements of purpose and 3 recommendation-letter PDFs.
-- Last pushed: 2023-04-17.
+- Last pushed: 2023-03-06.
 - GitHub metadata: 303 stars, 32 forks, no issues, no pull requests, no declared license.
 - Runtime: not applicable; this is a document archive.
 
@@ -61,7 +61,7 @@ Treat this repository as a private qualitative corpus, not a source of admission
 The strongest comparison is between the applicant's own statement versions: identify which claims remain stable, which are adapted, and whether each adaptation changes the research argument rather than only the university names.
 
 ## Evidence and coverage
-- Repository: https://github.com/siddu1998/Graduate-Admissions/tree/e37b8d3a6d1a4d9f14a0c5c0b2d0e5f3c7a1b9d2
+- Repository: https://github.com/siddu1998/Graduate-Admissions/tree/71d1750175b1cca2bca78fe738765b0c42c58c0a
 - README and repository tree inspected.
 - All 20 SOP PDFs inspected for structure, evidence strategy, and fit.
 - 3 LOR PDFs inventoried but deliberately not opened.
