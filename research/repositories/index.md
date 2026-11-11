@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 105. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 106. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -68,6 +68,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor](https://github.com/Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor) | evidence_first_funded_phd_monitor | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/mhrnqaruni__ai-agent-skill-phd-scholarship-monitor.md) |
 | [mjvar/CS-PhD-Application-Tips](https://github.com/mjvar/CS-PhD-Application-Tips) | firsthand_cs_admissions_guide | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/mjvar__cs-phd-application-tips.md) |
 | [monees007/phd_application_tracker](https://github.com/monees007/phd_application_tracker) | mobile_application_capture | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/monees007__phd_application_tracker.md) |
+| [n4t3rusch/ScholarshipWebScraper](https://github.com/n4t3rusch/ScholarshipWebScraper) | scholarship_preference_gui_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/n4t3rusch__scholarshipwebscraper.md) |
 | [NimaaaAI/Position-Aggregator](https://github.com/NimaaaAI/Position-Aggregator) | multisource_academic_vacancy_search | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/nimaaai__position-aggregator.md) |
 | [nishanchettri/PhD-positions-electronic-engineering](https://github.com/nishanchettri/PhD-positions-electronic-engineering) | historical_phd_vacancy_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/nishanchettri__phd-positions-electronic-engineering.md) |
 | [PeiMu/findPhdPositions](https://github.com/PeiMu/findPhdPositions) | supervisor_discovery | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/peimu--findphdpositions.md) |
