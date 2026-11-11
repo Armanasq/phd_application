@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-12  
 **Repository:** https://github.com/Armanasq/phd_application  
-**Integration:** direct `main` addition under a session-specific, non-overlapping path. The ekotwidodo findings are supplemental to the subsequently registered [canonical review](../../research/repositories/reviews/ekotwidodo__awesome-phd-positions.md); they must not be counted as a second independent assessment.  
+**Integration:** direct `main` addition under a session-specific, non-overlapping path. The ekotwidodo findings are supplemental to the subsequently registered [canonical review](../../repositories/reviews/ekotwidodo__awesome-phd-positions.md); they must not be counted as a second independent assessment.  
 **Evidence:** connected GitHub repository metadata, complete recursive trees, upstream commits, issues and file contents. No third-party executable or crawler was run, no credentials were used, and linked destination sites were not independently checked.
 
 The four identities below were UNTRIAGED in the inspected 404-candidate inventory and were absent from the published assignment manifests available at review time. Work in other sessions that is not published cannot be observed. Initial publication did not change the canonical source-of-truth CSVs. A later coordinated reconciliation registered the two remaining preliminary reviews and one exclusion, while another session independently registered ekotwidodo. Canonical counts are derived exclusively from the current CSVs.
