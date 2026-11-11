@@ -99,3 +99,9 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - Nine VLazorykOOP C# class labs expose the surname 'Soproniuk', not a graduate SOP; individually screened and excluded.
 - Cross-repository evidence and source pointers: [clone-lineage note](../../synthesis/github-discovery-clone-lineage-20261112.md). Exclusions retained individually in the canonical raw candidate register.
 - Canonical split: **404 = 99 reviewed (24 deep static, 75 preliminary) + 46 excluded + 259 untriaged + 0 screened included**.
+
+## 2026-11-12 — 21-* Git identity lineage exclusions
+- Evaluated 25 Git identities, including 20 identical-commit single-file essay repositories, four text/image variants, and one empty Git repository.
+- Added 25 evidence-coded exclusions; 0 concurrently screened candidates were retained without overwriting.
+- Summary and source SHA table: [21-* lineage](../../synthesis/github-discovery-21-manifesto-lineage-20261112.md).
+- Canonical 404 = 100 reviewed (25 deep / 75 preliminary), 72 excluded, 232 untriaged, 0 screened-in.
