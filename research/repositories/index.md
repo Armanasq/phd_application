@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 194. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 196. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -141,10 +141,12 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [OpenSIST/OpenSIST.github.io](https://github.com/OpenSIST/OpenSIST.github.io) | self_reported_grad_admissions_platform | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/opensist__opensist-github-io.md) |
 | [owenlikecoding/scholarship-scraper1](https://github.com/owenlikecoding/scholarship-scraper1) | scholarship_discovery_crawler | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/owenlikecoding__scholarship-scraper1.md) |
 | [PankidT/phd_tracker](https://github.com/PankidT/phd_tracker) | google_published_sheet_phd_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/pankidt__phd_tracker.md) |
+| [patsalvatore-draftly/scholarship-scraper](https://github.com/patsalvatore-draftly/scholarship-scraper) | scholarship_crawl_sqlite_control_api | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/patsalvatore-draftly__scholarship-scraper.md) |
 | [PeiMu/findPhdPositions](https://github.com/PeiMu/findPhdPositions) | supervisor_discovery | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/peimu--findphdpositions.md) |
 | [physical10086/phd-application-tracker](https://github.com/physical10086/phd-application-tracker) | quantum_phd_search_and_applicant_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/physical10086__phd-application-tracker.md) |
 | [pliang279/awesome-phd-advice](https://github.com/pliang279/awesome-phd-advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/pliang279--awesome-phd-advice.md) |
 | [poloclub/awesome-grad-school](https://github.com/poloclub/awesome-grad-school) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/poloclub--awesome-grad-school.md) |
+| [psyho/ai-job-scraper](https://github.com/psyho/ai-job-scraper) | academic_job_source_adapter | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/psyho__ai-job-scraper.md) |
 | [putrosm/scholarship-ummanitarian](https://github.com/putrosm/scholarship-ummanitarian) | phd_scholarship_feed_automation | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/putrosm__scholarship-ummanitarian.md) |
 | [RahulShastri003/application-tracker](https://github.com/RahulShastri003/application-tracker) | application_tracker_local_first | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/rahulshastri003__application-tracker.md) |
 | [ratulsaha2021/scholarship-agent](https://github.com/ratulsaha2021/scholarship-agent) | phd_application_draft_and_email_assistant | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ratulsaha2021__scholarship-agent.md) |
