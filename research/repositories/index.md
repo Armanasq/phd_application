@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 178. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 187. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -21,8 +21,10 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [abusanny/cv](https://github.com/abusanny/cv) | application_documents | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abusanny__cv.md) |
 | [abusufyanvu/6S191_MIT_DeepLearning](https://github.com/abusufyanvu/6S191_MIT_DeepLearning) | technical_learning_resource_false_positive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/abusufyanvu__6s191-mit-deeplearning.md) |
 | [AdewuyiDaniels/PhD-scholarship-search](https://github.com/AdewuyiDaniels/PhD-scholarship-search) | scholarship_recommender_notebook | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/adewuyidaniels__phd-scholarship-search.md) |
+| [aditirajnish/scholarship_web_scraper](https://github.com/aditirajnish/scholarship_web_scraper) | historical_scholarship_recipient_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/aditirajnish__scholarship_web_scraper.md) |
 | [Aghababaei/PhD-Seeker](https://github.com/Aghababaei/PhD-Seeker) | vacancy_scrapers | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/aghababaei__phd-seeker.md) |
 | [Akshitha-03/Automating_PhD_Group4](https://github.com/Akshitha-03/Automating_PhD_Group4) | firebase_admissions_workflow_prototype | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/akshitha-03__automating_phd_group4.md) |
+| [AlanWang610/academic-cv-scraper](https://github.com/AlanWang610/academic-cv-scraper) | academic_cv_identity_extraction | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/alanwang610__academic-cv-scraper.md) |
 | [AliAIOps/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/AliAIOps/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aliaiops__putting-in-for-a-phd-and-moving-abroad.md) |
 | [alirezazolanvari/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/alirezazolanvari/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/alirezazolanvari__putting-in-for-a-phd-and-moving-abroad.md) |
 | [aluminium5/ScholarshipScraper](https://github.com/aluminium5/ScholarshipScraper) | scholarship_discovery_and_tracking | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aluminium5__scholarshipscraper.md) |
@@ -46,6 +48,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [chinasatokolo/csGraduateApps](https://github.com/chinasatokolo/csGraduateApps) | underrepresented_applicant_support_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/chinasatokolo__csgraduateapps.md) |
 | [chinasatokolo/csGraduateFellowships](https://github.com/chinasatokolo/csGraduateFellowships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/chinasatokolo--csgraduatefellowships.md) |
 | [chuyaowang/nl-phd-tracker](https://github.com/chuyaowang/nl-phd-tracker) | netherlands_vacancy_monitor | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/chuyaowang__nl-phd-tracker.md) |
+| [CodeBoyPhilo/PhD-Application](https://github.com/CodeBoyPhilo/PhD-Application) | kg_llm_phd_proposal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/codeboyphilo__phd-application.md) |
 | [colonket/scholarship-scraper](https://github.com/colonket/scholarship-scraper) | historical_scholarship_html_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/colonket__scholarship-scraper.md) |
 | [curieuxjy/cv](https://github.com/curieuxjy/cv) | application_documents | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/curieuxjy__cv.md) |
 | [D2Simon/PhDHub](https://github.com/D2Simon/PhDHub) | applicant_crm_ai_workspace | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/d2simon__phdhub.md) |
@@ -59,6 +62,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [DeepanshuGautam/phd_admissions](https://github.com/DeepanshuGautam/phd_admissions) | historical_admissions_php_admin | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/deepanshugautam__phd_admissions.md) |
 | [dhcoders/JobsACUK-WebScraper](https://github.com/dhcoders/JobsACUK-WebScraper) | academic_job_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/dhcoders__jobsacuk-webscraper.md) |
 | [DianaJoseph08/phd-admissions-srm](https://github.com/DianaJoseph08/phd-admissions-srm) | institutional_doctoral_admissions_portal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/dianajoseph08__phd-admissions-srm.md) |
+| [Dieselmarble/PhD-Application](https://github.com/Dieselmarble/PhD-Application) | personal_admissions_documents_and_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/dieselmarble__phd-application.md) |
 | [dinglhmds/Search-PhD-Positions](https://github.com/dinglhmds/Search-PhD-Positions) | supervisor_discovery | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/dinglhmds__search-phd-positions.md) |
 | [do3-173/scholarship_scraper](https://github.com/do3-173/scholarship_scraper) | multimodal_scholarship_extraction | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/do3-173__scholarship_scraper.md) |
 | [drPod/phd-application-tracker](https://github.com/drPod/phd-application-tracker) | supabase_phd_application_tracker | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/drpod__phd-application-tracker.md) |
@@ -84,10 +88,14 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [gwisk/gradguide](https://github.com/gwisk/gradguide) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/gwisk--gradguide.md) |
 | [Hao-Starrr/Graduate-Application-for-CUHKer](https://github.com/Hao-Starrr/Graduate-Application-for-CUHKer) | curated_admissions_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/hao-starrr__graduate-application-for-cuhker.md) |
 | [hassony2/useful-computer-vision-phd-resources](https://github.com/hassony2/useful-computer-vision-phd-resources) | research_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/hassony2--useful-computer-vision-phd-resources.md) |
+| [HauLiang/PhD-Application-Template](https://github.com/HauLiang/PhD-Application-Template) | bilingual_latex_cv_research_proposal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/hauliang__phd-application-template.md) |
 | [HelpLee/CV-Template-for-PhD-Student](https://github.com/HelpLee/CV-Template-for-PhD-Student) | application_documents | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/helplee__cv-template-for-phd-student.md) |
 | [hemanth619/phd_admissions](https://github.com/hemanth619/phd_admissions) | historical_admissions_php_admin | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/hemanth619__phd_admissions.md) |
 | [hermmolly105/Awesome-PhD-CV](https://github.com/hermmolly105/Awesome-PhD-CV) | academic_cv_derivative | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/hermmolly105__awesome-phd-cv.md) |
+| [highwy/Application_Materials_For_PhD](https://github.com/highwy/Application_Materials_For_PhD) | historical_applicant_documents_fork | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/highwy__application-materials-for-phd.md) |
 | [houwei1228/PhD_Fit](https://github.com/houwei1228/PhD_Fit) | local_first_private_phd_application_workspace | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/houwei1228__phd-fit.md) |
+| [hrithiksagar/PhD-fellowship-grants-and-Scholarships](https://github.com/hrithiksagar/PhD-fellowship-grants-and-Scholarships) | binary_only_fellowship_guide | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/hrithiksagar__phd-fellowship-grants-and-scholarships.md) |
+| [ianouhi17-ctrl/phd-application-workbench](https://github.com/ianouhi17-ctrl/phd-application-workbench) | private_phd_application_operations_kit | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ianouhi17-ctrl__phd-application-workbench.md) |
 | [imsankalp/phD-application-tracker](https://github.com/imsankalp/phD-application-tracker) | gmail_linked_application_status_tracking | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/imsankalp__phd-application-tracker.md) |
 | [Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad) | firsthand_guides | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/iran-open-source__putting-in-for-a-phd-and-moving-abroad.md) |
 | [Janjs/Web-Scraping-PhD-positions](https://github.com/Janjs/Web-Scraping-PhD-positions) | legacy_msca_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/janjs__web-scraping-phd-positions.md) |
@@ -103,6 +111,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [kirankaranth1/ApplicationStatusFetcher](https://github.com/kirankaranth1/ApplicationStatusFetcher) | legacy_selenium_portal_status_automation | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/kirankaranth1__application-status-fetcher.md) |
 | [KnowMe777/scholarship-scraper](https://github.com/KnowMe777/scholarship-scraper) | scholarship_ingestion_prototype | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/knowme777__scholarship-scraper.md) |
 | [knwoke/ScholarshipWebScraper](https://github.com/knwoke/ScholarshipWebScraper) | historical_scholarship_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/knwoke__scholarshipwebscraper.md) |
+| [ktwu01/Awesome-Academic-CV](https://github.com/ktwu01/Awesome-Academic-CV) | academic_cv_guides | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ktwu01__awesome-academic-cv.md) |
 | [LimHyungTae/Awesome-PhD-CV](https://github.com/LimHyungTae/Awesome-PhD-CV) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/limhyungtae--awesome-phd-cv.md) |
 | [Lukas-Vasionis/PhD_Positions](https://github.com/Lukas-Vasionis/PhD_Positions) | institutional_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/lukas-vasionis__phd-positions.md) |
 | [MahdiAmrollahi/agentic-rag-persian](https://github.com/MahdiAmrollahi/agentic-rag-persian) | persian_doctoral_policy_rag_notebook | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/mahdiamrollahi__agentic-rag-persian.md) |
