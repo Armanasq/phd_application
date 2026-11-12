@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 196. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 198. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -27,7 +27,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [AlanWang610/academic-cv-scraper](https://github.com/AlanWang610/academic-cv-scraper) | academic_cv_identity_extraction | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/alanwang610__academic-cv-scraper.md) |
 | [AliAIOps/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/AliAIOps/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aliaiops__putting-in-for-a-phd-and-moving-abroad.md) |
 | [alirezazolanvari/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/alirezazolanvari/Putting-in-for-a-PhD-and-moving-abroad) | groningen_historical_phd_admin_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/alirezazolanvari__putting-in-for-a-phd-and-moving-abroad.md) |
-| [aluminium5/ScholarshipScraper](https://github.com/aluminium5/ScholarshipScraper) | scholarship_discovery_and_tracking | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/aluminium5__scholarshipscraper.md) |
+| [aluminium5/ScholarshipScraper](https://github.com/aluminium5/ScholarshipScraper) | scholarship_discovery_and_tracking | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/aluminium5__scholarship-scraper.md) |
 | [Anu-Warrier/CV](https://github.com/Anu-Warrier/CV) | application_documents | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/anu-warrier__cv.md) |
 | [Ariaeimehr/PHD-Position-Finder](https://github.com/Ariaeimehr/PHD-Position-Finder) | doctoral_vacancy_scraper_demo | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ariaeimehr__phd-position-finder.md) |
 | [arunrathi9/Data-Science-Scholarships](https://github.com/arunrathi9/Data-Science-Scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/arunrathi9__data-science-scholarships.md) |
@@ -167,10 +167,12 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [serdark/academic-jobs-scraper](https://github.com/serdark/academic-jobs-scraper) | turkish_academic_jobs_monitor | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/serdark__academic-jobs-scraper.md) |
 | [ShahriarAbir86/higher-study-analysis-skill](https://github.com/ShahriarAbir86/higher-study-analysis-skill) | higher_education_advice_generation_template | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/shahriarabir86__higher-study-analysis-skill.md) |
 | [shaily99/advice](https://github.com/shaily99/advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/shaily99--advice.md) |
+| [shindeswapnil2000-svg/PhD-Tracker.](https://github.com/shindeswapnil2000-svg/PhD-Tracker.) | local_first_application_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/shindeswapnil2000-svg__phd-tracker.md) |
 | [shubhamGoswami/Phd](https://github.com/shubhamGoswami/Phd) | historical_admissions_admin_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/shubhamgoswami__phd.md) |
 | [siddu1998/Graduate-Admissions](https://github.com/siddu1998/Graduate-Admissions) | personal_admissions_artifact_corpus | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/siddu1998__graduate-admissions.md) |
 | [SihengTao/phd-application-planner](https://github.com/SihengTao/phd-application-planner) | research_planning | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sihengtao__phd-application-planner.md) |
 | [simitii/CS-Grad-School-Applications-Reading-List](https://github.com/simitii/CS-Grad-School-Applications-Reading-List) | historical_admissions_reading_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/simitii__cs-grad-school-applications-reading-list.md) |
+| [siyahalp-prog/scholarship-scraper](https://github.com/siyahalp-prog/scholarship-scraper) | multi_source_scholarship_collection | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/siyahalp-prog__scholarship-scraper.md) |
 | [sqykonwnothing/GDIIST-Admissions-2026](https://github.com/sqykonwnothing/GDIIST-Admissions-2026) | historical_2026_joint_phd_call | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sqykonwnothing__gdiist-admissions-2026.md) |
 | [ssine/willow](https://github.com/ssine/willow) | historical_graduate_admission_statistics | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ssine__willow.md) |
 | [stealth-startup-2026/scholarship-scraper](https://github.com/stealth-startup-2026/scholarship-scraper) | australia_scholarship_structured_scraping | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stealth-startup-2026__scholarship-scraper.md) |
