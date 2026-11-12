@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-11  
 **Pinned upstream commit:** [`7b9337280032d748c10fd136cf74ba8e1da7cd68`](https://github.com/swadhinbiswas/fundmystudy-scraper/commit/7b9337280032d748c10fd136cf74ba8e1da7cd68)  
-**Review state:** PRELIMINARY_FOCUSED. Substantive static inspection, not full-file exhaustive review or independent runtime validation.  
+**Review state:** DEEP_REVIEW_DOCUMENTED. Substantive static inspection, not full-file exhaustive review or independent runtime validation.  
 **Applicability:** multi_source_opportunity_ingestion  
 **Primary risk:** pending_autoapproved_no_real_moderation_funding_inferred  
 **Reuse decision:** original methods only; no unreviewed code adoption
@@ -59,3 +59,8 @@ Inspected runner, direct DB API, external adapters and unit tests at pinned revi
 2. Run tests with pinned toolchain in a sandbox; capture commands, fixtures, exit codes and outputs.
 3. Verify each admissions, fee, funding and applicant eligibility claim against authoritative live sources for the correct cycle.
 4. Record conflicting claims, reviewer authorization and revisions; never infer an application was sent or an offer obtained.
+
+
+## Additional pinned source reinspection — 2026-11-12
+
+Pinned `7b9337280032d748c10fd136cf74ba8e1da7cd68`: `src/runner.ts` runs adapter fetch -> validate -> normalize -> source-seeded dedupe -> batches of 50 -> submission with error metrics; `src/db.ts` constructs `opp-${source}-${externalId}` and persistently upserts raw payload, while forcibly converting `status='pending'` to `approved`. `src/api.ts` confirms `approve()` and `reject()` are no-ops, not an independent human review. `src/deduper.ts` scopes URL/title/provider collisions by source; `tests/deduper.test.ts` explicitly asserts that cross-source duplicates are not merged. `src/sources/euraxess.ts` parses listing + up to 20 detail pages, but marks funding `full` whenever the funding-program string is not explicitly 'not funded', including blank text; this is a reproducible semantic risk in the source, not proof of full financial coverage. No current EURAXESS records were fetched, and site authorization/robots restrictions require checking before operating a crawler. Sources: [runner](https://github.com/swadhinbiswas/fundmystudy-scraper/blob/7b9337280032d748c10fd136cf74ba8e1da7cd68/src/runner.ts), [db](https://github.com/swadhinbiswas/fundmystudy-scraper/blob/7b9337280032d748c10fd136cf74ba8e1da7cd68/src/db.ts), [api](https://github.com/swadhinbiswas/fundmystudy-scraper/blob/7b9337280032d748c10fd136cf74ba8e1da7cd68/src/api.ts), [euraxess](https://github.com/swadhinbiswas/fundmystudy-scraper/blob/7b9337280032d748c10fd136cf74ba8e1da7cd68/src/sources/euraxess.ts), [tests](https://github.com/swadhinbiswas/fundmystudy-scraper/blob/7b9337280032d748c10fd136cf74ba8e1da7cd68/tests/deduper.test.ts).

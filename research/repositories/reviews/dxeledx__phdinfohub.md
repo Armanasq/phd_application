@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-11  
 **Pinned upstream commit:** [`832b374b539ad1a3fd775c3b628444b88ba1374e`](https://github.com/dxeledx/PhdInfoHub/commit/832b374b539ad1a3fd775c3b628444b88ba1374e)  
-**Review state:** PRELIMINARY_FOCUSED. Substantive static inspection, not full-file exhaustive review or independent runtime validation.  
+**Review state:** DEEP_REVIEW_DOCUMENTED. Substantive static inspection, not full-file exhaustive review or independent runtime validation.  
 **Applicability:** scope_bound_admissions_evidence_and_concurrency  
 **Primary risk:** institution_scope_specific_implementation_requires_generalization  
 **Reuse decision:** original methods only; no unreviewed code adoption
@@ -56,3 +56,8 @@ Inspected primary evidence extraction, source collection, article isolation, ref
 2. Run tests with pinned toolchain in a sandbox; capture commands, fixtures, exit codes and outputs.
 3. Verify each admissions, fee, funding and applicant eligibility claim against authoritative live sources for the correct cycle.
 4. Record conflicting claims, reviewer authorization and revisions; never infer an application was sent or an offer obtained.
+
+
+## Additional pinned source reinspection — 2026-11-12
+
+Reinspected original commit `832b374b539ad1a3fd775c3b628444b88ba1374e` across `apps/admissions/services/evidence.py` (1,077 lines), `collection.py` (920), `refresh.py` (899), `apps/workbench/services/import_sources.py` (824), and `apps/workbench/tasks.py` (516). The executable source confirms distinct date-role, joint-doctoral-year, special-audience, campus/department and registration-method checks before saving scope-bound windows. `refresh.validate_candidate` verifies fetched-page evidence; revision writes are transactional and older snapshots are refused or diverted to review instead of overwriting newer validated data. Workbench URL import sets explicit 12 MiB general/10 MiB image/3 MiB URL bounds, 50 PDF pages and five redirects, has public-IP/DNS and pinned-address checks; the background job uses execution leases, heartbeats, owner-scoped retry/cancellation and source purging. No current university admissions date or code-runtime correctness is asserted by this static trace. Repository-specific China admissions terminology and scope must be adapted to international program contexts. Source: [evidence](https://github.com/dxeledx/PhdInfoHub/blob/832b374b539ad1a3fd775c3b628444b88ba1374e/apps/admissions/services/evidence.py), [refresh](https://github.com/dxeledx/PhdInfoHub/blob/832b374b539ad1a3fd775c3b628444b88ba1374e/apps/admissions/services/refresh.py), [import_sources](https://github.com/dxeledx/PhdInfoHub/blob/832b374b539ad1a3fd775c3b628444b88ba1374e/apps/workbench/services/import_sources.py), [tasks](https://github.com/dxeledx/PhdInfoHub/blob/832b374b539ad1a3fd775c3b628444b88ba1374e/apps/workbench/tasks.py).

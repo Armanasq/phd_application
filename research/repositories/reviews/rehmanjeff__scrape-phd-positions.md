@@ -1,17 +1,35 @@
-# Rehmanjeff/scrape-phd-positions — source-pinned preliminary review
+# Rehmanjeff/scrape-phd-positions — deep static Scrapy audit
 
-**Upstream revision:** `b086e5cf78ec75d8fdfee8795488fa319747568e`; **inspected:** 2026-11-12; **review:** PRELIMINARY_FOCUSED; **runtime validation:** NOT_PERFORMED; **source action:** READ_ONLY.
+**Pinned revision:** `b086e5cf78ec75d8fdfee8795488fa319747568e` ([Git tree](https://api.github.com/repos/Rehmanjeff/scrape-phd-positions/git/trees/b086e5cf78ec75d8fdfee8795488fa319747568e)); **inspected:** 2026-11-12. **Execution:** NOT_TESTED. Public plaintext connection credential is present upstream; no secret value copied.
 
-## Actual scraper pipeline
+## 1. Purpose and boundaries
 
-The tree has 30 entries, including Scrapy spider, database adapter, settings, cached HTML and JSON, tracked __pycache__/Python 3.9 bytecode and IDE files. There is no root README in the committed tree. PhdSpider.start_requests contains a hard-coded scholarshipdb.net IoT PhD query at page 3. parse extracts a '.position-details' block and follows h4 links plus next-page links, recursively returning dict fields: application link, title, university, country and summary. Selectors depend on old static page structures, with no evidence provenance, typed deadline or funded-status verification. A legacy scraped HTML dump is not a current vacancy.
+Small historical Scrapy project fetching scholarshipdb.net IoT-related PhD ads, not a verified current official university job or application service.
 
-## Critical static security/code quality issue
+## 2. Inventory and architecture
 
-phdPositions/spiders/dbModule.py contains a plaintext PostgreSQL connection password and a fixed local service user; values are **not copied into this review**. It initializes the connection as a top-level side effect, prints DSN/server properties and uses connection in finally although initial connection assignment can fail, risking secondary UnboundLocalError. The spider imports dbModule as an unqualified local module and otherwise does not demonstrate a robust database write path. The spider also accesses detail.css('div::text')[1] without a length check, a possible IndexError. It uses one globally selected heading/apply link for each position-details loop, not per-card, risking wrong associations.
+The pinned tree has 30 entries: Scrapy spider, items, settings, no-op pipeline, database helper, HTML cache and JSON dump, generated Python bytecode. No root README was found. Source modules inventoried and `phdPositions/spiders/phdPosition_spider.py`, `settings.py`, `pipelines.py` inspected; database helper was checked for its connection-side-effect semantics without reproducing credential values.
 
-## Transfer verdict
+## 3. Parser and retrieval dataflow
 
-PRELIMINARY_FOCUSED for anti-pattern study only. Do not run or deploy the source; ensure any still-valid committed credential is revoked by its owner, move secrets to environment/secret store, and use source-owned IDs, official-host verification, safe pagination limits and parser fixtures. No secrets, raw cached vacancy records or private data have been imported.
+`start_requests()` embeds a historical scholarshipdb.net search URL at page 3, then `parse()` iterates `.position-details`, extracts program title, university, country, summary and an apply link, following detail and next-page anchors. It does not extract a typed deadline, degree/financial offer, verified host provenance or applicant eligibility.
 
-Pinned [spider](https://github.com/Rehmanjeff/scrape-phd-positions/blob/b086e5cf78ec75d8fdfee8795488fa319747568e/phdPositions/spiders/phdPosition_spider.py), [database adapter (contains a plaintext credential; don't open casually)](https://github.com/Rehmanjeff/scrape-phd-positions/blob/b086e5cf78ec75d8fdfee8795488fa319747568e/phdPositions/spiders/dbModule.py).
+## 4. Confirmed implementation defects
+
+The spider imports `dbModule` at module import and that helper constructs a PostgreSQL connection with inline authentication. It accesses `detail.css('div::text')[1]` without checking length, risking IndexError. The heading and apply link are taken from full-response selectors rather than the current card, creating cross-post association risks. The `PhdpositionsPipeline.process_item` method only returns its input without validating/upserting, so the apparent DB flow is not a implemented transaction. Source: [spider](https://github.com/Rehmanjeff/scrape-phd-positions/blob/b086e5cf78ec75d8fdfee8795488fa319747568e/phdPositions/spiders/phdPosition_spider.py) and [pipeline](https://github.com/Rehmanjeff/scrape-phd-positions/blob/b086e5cf78ec75d8fdfee8795488fa319747568e/phdPositions/pipelines.py).
+
+## 5. Security and privacy
+
+A hardcoded database password in repository source is a credential-leak risk: revoke/rotate if active, and remove from history. The crawler has no per-source rate-limit/terms policy, bounded source completeness, multi-tenant privacy model or safe deployment authentication. Do not run its connector or sample data unchanged.
+
+## 6. Transfer to global PhD Atlas
+
+A source-specific adapter can preserve university/job ID, fetched time, exact original vacancy URL, full institutional evidence and open-status verification. This project provides only a small historical parsing example. Compare with source-driven collectors with stronger type/provenance gates; never infer full funding from a third-party search result.
+
+## 7. Verdict
+
+**REJECT_AS_PRODUCTION_SOURCE, priority P0.** Static deep inspection of core source modules completed; no evidence of a valid current funded vacancy, acceptance or compliant crawl.
+
+## 8. Testing and validation gaps
+
+Required tests: malformed/empty HTML card, per-card field association, pagination/duplicate identity, HTTP failure handling, credential checks, university-host verification and privacy-safe persistence. No Scrapy execution, actual database connection, exploit, source-terms check or official program verification performed.

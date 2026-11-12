@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-11  
 **Pinned upstream commit:** [`74de7b33e227e94c3af097d03f0a73a6bd16090f`](https://github.com/TSTS09/Grad-Admission-Agent/commit/74de7b33e227e94c3af097d03f0a73a6bd16090f)  
-**Review state:** PRELIMINARY_FOCUSED. Substantive static inspection, not full-file exhaustive review or independent runtime validation.  
+**Review state:** DEEP_REVIEW_DOCUMENTED. Substantive static inspection, not full-file exhaustive review or independent runtime validation.  
 **Applicability:** multi_source_admissions_agent  
 **Primary risk:** unsecured_live_chat_route_and_tests_reference_missing_api  
 **Reuse decision:** original methods only; no unreviewed code adoption
@@ -55,3 +55,8 @@ Files linked below were inspected at the pinned commit. Endpoint/auth conclusion
 2. Run tests with pinned toolchain in a sandbox; capture commands, fixtures, exit codes and outputs.
 3. Verify each admissions, fee, funding and applicant eligibility claim against authoritative live sources for the correct cycle.
 4. Record conflicting claims, reviewer authorization and revisions; never infer an application was sent or an offer obtained.
+
+
+## Additional pinned source reinspection — 2026-11-12
+
+At commit `74de7b33e227e94c3af097d03f0a73a6bd16090f`, `app/main.py` defines `@app.post('/api/v1/chat/query')` taking only `ChatRequest`, with no authentication dependency, and returns model-generated sources and confidence. `tests/test_api/test_chat.py` expects 401 for the same unauthenticated route and tries `/api/v1/auth/login`, but that route is not mounted in the inspected entrypoint; `tests/conftest.py` imports database support paths absent from the 71-entry source tree. `app/core/security.py` contains auth helpers/decorators but their existence does not protect the unwrapped chat route. `realtime_intelligence_agent.py` orchestrates concurrent optional Reddit/Twitter and university/forum retrieval, then passes truncated source excerpts to Gemini for synthesis; it does not field-verify an active funded PI position or applicant eligibility. This establishes a genuine code/tests contract break and source-authority failure, without attempting a live unauthenticated request. Links: [main](https://github.com/TSTS09/Grad-Admission-Agent/blob/74de7b33e227e94c3af097d03f0a73a6bd16090f/app/main.py), [test](https://github.com/TSTS09/Grad-Admission-Agent/blob/74de7b33e227e94c3af097d03f0a73a6bd16090f/tests/test_api/test_chat.py), [agent](https://github.com/TSTS09/Grad-Admission-Agent/blob/74de7b33e227e94c3af097d03f0a73a6bd16090f/app/agents/realtime_intelligence_agent.py). No test suite executed.
