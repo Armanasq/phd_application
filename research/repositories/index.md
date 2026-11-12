@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 165. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 166. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -38,6 +38,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [borekda/phd-list](https://github.com/borekda/phd-list) | vacancy_datasets | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/borekda__phd-list.md) |
 | [BrainPhD-CN/handbook](https://github.com/BrainPhD-CN/handbook) | firsthand_multilingual_guide | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/brainphd-cn__handbook.md) |
 | [bvbvbmnb/scholarship-scraper](https://github.com/bvbvbmnb/scholarship-scraper) | scholarship_discovery_and_tracking | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/bvbvbmnb__scholarship-scraper.md) |
+| [centrixsol/phd-applicant](https://github.com/centrixsol/phd-applicant) | agentic_phd_application_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/centrixsol__phd-applicant.md) |
 | [chapkovski/hnet](https://github.com/chapkovski/hnet) | academic_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/chapkovski__hnet.md) |
 | [chinasaokolo/csGraduateApps](https://github.com/chinasaokolo/csGraduateApps) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/chinasaokolo__csGraduateApps.md) |
 | [chinasatokolo/csGraduateFellowships](https://github.com/chinasatokolo/csGraduateFellowships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/chinasatokolo--csgraduatefellowships.md) |
