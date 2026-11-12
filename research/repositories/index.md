@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 187. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 194. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -96,8 +96,10 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [houwei1228/PhD_Fit](https://github.com/houwei1228/PhD_Fit) | local_first_private_phd_application_workspace | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/houwei1228__phd-fit.md) |
 | [hrithiksagar/PhD-fellowship-grants-and-Scholarships](https://github.com/hrithiksagar/PhD-fellowship-grants-and-Scholarships) | binary_only_fellowship_guide | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/hrithiksagar__phd-fellowship-grants-and-scholarships.md) |
 | [ianouhi17-ctrl/phd-application-workbench](https://github.com/ianouhi17-ctrl/phd-application-workbench) | private_phd_application_operations_kit | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ianouhi17-ctrl__phd-application-workbench.md) |
+| [imranbinyounos/PhdApply](https://github.com/imranbinyounos/PhdApply) | local_first_macos_phd_application_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/imranbinyounos__phdapply.md) |
 | [imsankalp/phD-application-tracker](https://github.com/imsankalp/phD-application-tracker) | gmail_linked_application_status_tracking | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/imsankalp__phd-application-tracker.md) |
 | [Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad](https://github.com/Iran-Open-Source/Putting-in-for-a-PhD-and-moving-abroad) | firsthand_guides | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/iran-open-source__putting-in-for-a-phd-and-moving-abroad.md) |
+| [ishaanbahl6200/scholarship-scraper](https://github.com/ishaanbahl6200/scholarship-scraper) | scholarship_matching_web_app | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ishaanbahl6200__scholarship-scraper.md) |
 | [Janjs/Web-Scraping-PhD-positions](https://github.com/Janjs/Web-Scraping-PhD-positions) | legacy_msca_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/janjs__web-scraping-phd-positions.md) |
 | [JaykishanJ/PhD_Finder](https://github.com/JaykishanJ/PhD_Finder) | multi_omics_vacancy_crawler | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/jaykishanj__phd_finder.md) |
 | [jedyang97/awesome-cs-phd-application-advice](https://github.com/jedyang97/awesome-cs-phd-application-advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/jedyang97--awesome-cs-phd-application-advice.md) |
@@ -107,11 +109,13 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [KaiserWhoLearns/CS-PhD-Application-fee-waivers](https://github.com/KaiserWhoLearns/CS-PhD-Application-fee-waivers) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/kaiserwholearns--cs-phd-application-fee-waivers.md) |
 | [KeithBH/phd-positions](https://github.com/KeithBH/phd-positions) | european_industrial_ai_doctoral_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/keithbh__phd-positions.md) |
 | [KhanShaheb34/profreach](https://github.com/KhanShaheb34/profreach) | supervisor_crm | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/khanshaheb34__profreach.md) |
+| [Khayrulbuet13/AcademicJobScraper](https://github.com/Khayrulbuet13/AcademicJobScraper) | academic_job_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/khayrulbuet13__academicjobscraper.md) |
 | [Kingjose05/physapp](https://github.com/Kingjose05/physapp) | compiled_physics_phd_tracker | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/kingjose05__physapp.md) |
 | [kirankaranth1/ApplicationStatusFetcher](https://github.com/kirankaranth1/ApplicationStatusFetcher) | legacy_selenium_portal_status_automation | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/kirankaranth1__application-status-fetcher.md) |
 | [KnowMe777/scholarship-scraper](https://github.com/KnowMe777/scholarship-scraper) | scholarship_ingestion_prototype | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/knowme777__scholarship-scraper.md) |
 | [knwoke/ScholarshipWebScraper](https://github.com/knwoke/ScholarshipWebScraper) | historical_scholarship_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/knwoke__scholarshipwebscraper.md) |
 | [ktwu01/Awesome-Academic-CV](https://github.com/ktwu01/Awesome-Academic-CV) | academic_cv_guides | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ktwu01__awesome-academic-cv.md) |
+| [ledmands/education_job_scraper](https://github.com/ledmands/education_job_scraper) | education_job_scraper_notification | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ledmands__education-job-scraper.md) |
 | [LimHyungTae/Awesome-PhD-CV](https://github.com/LimHyungTae/Awesome-PhD-CV) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/limhyungtae--awesome-phd-cv.md) |
 | [Lukas-Vasionis/PhD_Positions](https://github.com/Lukas-Vasionis/PhD_Positions) | institutional_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/lukas-vasionis__phd-positions.md) |
 | [MahdiAmrollahi/agentic-rag-persian](https://github.com/MahdiAmrollahi/agentic-rag-persian) | persian_doctoral_policy_rag_notebook | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/mahdiamrollahi__agentic-rag-persian.md) |
@@ -120,8 +124,10 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [MaryleenAmaizu/ML-AI-Scholarships](https://github.com/MaryleenAmaizu/ML-AI-Scholarships) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/maryleenamaizu--ml-ai-scholarships.md) |
 | [mcnuttandrew/vis-phd-positions](https://github.com/mcnuttandrew/vis-phd-positions) | vacancy_datasets | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/mcnuttandrew--vis-phd-positions.md) |
 | [mdsamhussain1996/vidyasetu-scholarship-portal](https://github.com/mdsamhussain1996/vidyasetu-scholarship-portal) | scholarship_evidence_and_review_pipeline | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/mdsamhussain1996__vidyasetu-scholarship-portal.md) |
+| [mdsazzathossain1/GradResearch_AI](https://github.com/mdsazzathossain1/GradResearch_AI) | agentic_professor_research_and_cv_outreach | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/mdsazzathossain1__gradresearch_ai.md) |
 | [Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor](https://github.com/Mhrnqaruni/ai-agent-skill-phd-scholarship-monitor) | evidence_first_funded_phd_monitor | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/mhrnqaruni__ai-agent-skill-phd-scholarship-monitor.md) |
 | [mjvar/CS-PhD-Application-Tips](https://github.com/mjvar/CS-PhD-Application-Tips) | firsthand_cs_admissions_guide | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/mjvar__cs-phd-application-tips.md) |
+| [Mohamed-2030-M/scholarship-scraper](https://github.com/Mohamed-2030-M/scholarship-scraper) | turkish_scholarship_evidence_extractor | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/mohamed-2030-m__scholarship-scraper.md) |
 | [monees007/phd_application_tracker](https://github.com/monees007/phd_application_tracker) | mobile_application_capture | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/monees007__phd_application_tracker.md) |
 | [mukesh14149/PhD-Admissions-Portal](https://github.com/mukesh14149/PhD-Admissions-Portal) | legacy_desktop_admissions_review | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/mukesh14149__phd-admissions-portal.md) |
 | [n4t3rusch/ScholarshipWebScraper](https://github.com/n4t3rusch/ScholarshipWebScraper) | scholarship_preference_gui_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/n4t3rusch__scholarshipwebscraper.md) |
@@ -150,6 +156,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [renzoe/positions_internships_phd_postdoc](https://github.com/renzoe/positions_internships_phd_postdoc) | faculty_historical_recruitment_archive | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/renzoe__positions_internships_phd_postdoc.md) |
 | [repalash/PhD-Portal](https://github.com/repalash/PhD-Portal) | historical_admissions_desktop | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/repalash__phd-portal.md) |
 | [rjalfa/PhDAdmission](https://github.com/rjalfa/PhDAdmission) | legacy_phd_admissions_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/rjalfa__phdadmission.md) |
+| [Rubaid-Ahmed/phd-tracker](https://github.com/Rubaid-Ahmed/phd-tracker) | github_synced_browser_application_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/rubaid-ahmed__phd-tracker.md) |
 | [RZFan525/NLP-PhD-Application-In-The-World](https://github.com/RZFan525/NLP-PhD-Application-In-The-World) | nlp_phd_application_reference_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/rzfan525__nlp-phd-application-in-the-world.md) |
 | [saiPraveenMeda/phdAdmissions2019](https://github.com/saiPraveenMeda/phdAdmissions2019) | historical_django_institutional_admissions_portal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/saipraveenmeda__phdadmissions2019.md) |
 | [sci-freak/phd-tracker](https://github.com/sci-freak/phd-tracker) | cross_platform_phd_application_tracking | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sci-freak__phd-tracker.md) |
