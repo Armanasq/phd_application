@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 198. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 204. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -141,6 +141,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [OpenSIST/OpenSIST.github.io](https://github.com/OpenSIST/OpenSIST.github.io) | self_reported_grad_admissions_platform | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/opensist__opensist-github-io.md) |
 | [owenlikecoding/scholarship-scraper1](https://github.com/owenlikecoding/scholarship-scraper1) | scholarship_discovery_crawler | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/owenlikecoding__scholarship-scraper1.md) |
 | [PankidT/phd_tracker](https://github.com/PankidT/phd_tracker) | google_published_sheet_phd_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/pankidt__phd_tracker.md) |
+| [ParthZanwar01/scholarship-scraper](https://github.com/ParthZanwar01/scholarship-scraper) | automated_scholarship_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/parthzanwar01__scholarship-scraper.md) |
 | [patsalvatore-draftly/scholarship-scraper](https://github.com/patsalvatore-draftly/scholarship-scraper) | scholarship_crawl_sqlite_control_api | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/patsalvatore-draftly__scholarship-scraper.md) |
 | [PeiMu/findPhdPositions](https://github.com/PeiMu/findPhdPositions) | supervisor_discovery | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/peimu--findphdpositions.md) |
 | [physical10086/phd-application-tracker](https://github.com/physical10086/phd-application-tracker) | quantum_phd_search_and_applicant_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/physical10086__phd-application-tracker.md) |
@@ -161,6 +162,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [Rubaid-Ahmed/phd-tracker](https://github.com/Rubaid-Ahmed/phd-tracker) | github_synced_browser_application_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/rubaid-ahmed__phd-tracker.md) |
 | [RZFan525/NLP-PhD-Application-In-The-World](https://github.com/RZFan525/NLP-PhD-Application-In-The-World) | nlp_phd_application_reference_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/rzfan525__nlp-phd-application-in-the-world.md) |
 | [saiPraveenMeda/phdAdmissions2019](https://github.com/saiPraveenMeda/phdAdmissions2019) | historical_django_institutional_admissions_portal | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/saipraveenmeda__phdadmissions2019.md) |
+| [Scholars4Scholars/ScholarshipScraper](https://github.com/Scholars4Scholars/ScholarshipScraper) | legacy_scholarship_html_extractor | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/scholars4scholars__scholarshipscraper.md) |
 | [sci-freak/phd-tracker](https://github.com/sci-freak/phd-tracker) | cross_platform_phd_application_tracking | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sci-freak__phd-tracker.md) |
 | [seanxuu/PhD-Seeker](https://github.com/seanxuu/PhD-Seeker) | legacy_phd_scholarship_scraper_fork_variant | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/seanxuu__phd-seeker.md) |
 | [Sekilloda/FindMeAPhD](https://github.com/Sekilloda/FindMeAPhD) | physics_phd_multisource_monitor | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sekilloda__findmeaphd.md) |
@@ -182,16 +184,20 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [Swapnil-Gandhi/SoP-Template](https://github.com/Swapnil-Gandhi/SoP-Template) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/swapnil-gandhi--sop-template.md) |
 | [syfantid/Greek-CS-Student-Opportunities](https://github.com/syfantid/Greek-CS-Student-Opportunities) | historical_curated_opportunity_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/syfantid__greek-cs-student-opportunities.md) |
 | [TalehMalikov/phd-application-tracker](https://github.com/TalehMalikov/phd-application-tracker) | local_first_phd_application_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/talehmalikov__phd-application-tracker.md) |
+| [tarun14110/system-for-PhD-Admissions](https://github.com/tarun14110/system-for-PhD-Admissions) | institutional_doctoral_admissions_java_servlets | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/tarun14110__system-for-phd-admissions.md) |
 | [tasseff/grfp](https://github.com/tasseff/grfp) | fellowship_application_templates | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/tasseff__grfp.md) |
 | [TSTS09/Grad-Admission-Agent](https://github.com/TSTS09/Grad-Admission-Agent) | multi_source_admissions_agent | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/tsts09__grad-admission-agent.md) |
 | [Tyin-nn/phd-application-manager](https://github.com/Tyin-nn/phd-application-manager) | phd_application_local_workflow | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/tyin-nn__phd-application-manager.md) |
 | [Usaid786467/Global-PhD-Scholarship-Finder-Application-Automator](https://github.com/Usaid786467/Global-PhD-Scholarship-Finder-Application-Automator) | phd_outreach_automation | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/usaid786467__global-phd-scholarship-finder-application-automator.md) |
+| [VenkatSBitra/phd-application-tracker](https://github.com/VenkatSBitra/phd-application-tracker) | firebase_application_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/venkatsbitra__phd-application-tracker.md) |
 | [vsitzmann/phd-master-application-docs](https://github.com/vsitzmann/phd-master-application-docs) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/vsitzmann--phd-master-application-docs.md) |
+| [vsvarapriya/phd_admissions_portal](https://github.com/vsvarapriya/phd_admissions_portal) | legacy_php_admissions_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/vsvarapriya__phd-admissions-portal.md) |
 | [WagnerJon/application-atlas](https://github.com/WagnerJon/application-atlas) | local_application_tracking | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/wagnerjon__application-atlas.md) |
 | [wenzi-researchlab/phd-fit-radar](https://github.com/wenzi-researchlab/phd-fit-radar) | research_fit_methodology | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/wenzi-researchlab__phd-fit-radar.md) |
 | [womanreading7/PhD-Application-Guide](https://github.com/womanreading7/PhD-Application-Guide) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/womanreading7--phd-application-guide.md) |
 | [xujingchen1996/research-app-toolkit](https://github.com/xujingchen1996/research-app-toolkit) | multi_host_phd_application_toolkit | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/xujingchen1996__research-app-toolkit.md) |
 | [xzxLeslie/phd-2027-admissions](https://github.com/xzxLeslie/phd-2027-admissions) | international_program_faculty_directory | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/xzxleslie__phd-2027-admissions.md) |
+| [Yelk11/scholarship_scraper](https://github.com/Yelk11/scholarship_scraper) | scholarship_link_crawler | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/yelk11__scholarship-scraper.md) |
 | [yongruiyu/CS_APP_Agent](https://github.com/yongruiyu/CS_APP_Agent) | evidence_scoped_program_research_agent | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/yongruiyu__cs_app_agent.md) |
 | [you27-mohamed/PhD-Hunter](https://github.com/you27-mohamed/PhD-Hunter) | vacancy_scrapers | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/you27-mohamed--phd-hunter.md) |
 | [yurtdisiphdrehberi/yurtdisiphdrehberi](https://github.com/yurtdisiphdrehberi/yurtdisiphdrehberi) | firsthand_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/yurtdisiphdrehberi--yurtdisiphdrehberi.md) |
