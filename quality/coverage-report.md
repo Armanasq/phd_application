@@ -10,7 +10,7 @@ The candidate inventory contains **404** deduplicated repository identities incl
 - 6 code-search query families returning short matches, yielding additional relevant leads but high irrelevant-noise rate.
 - Select extra source-link discoveries and known repo review candidates. All were merged case-insensitively without upgrading discovery to review.
 
-The current screening split is defined by the [candidate register](../data/github_discovery_candidates.csv), [canonical review records](../data/repositories.csv), and [documented exclusions](../data/exclusions.csv). These are distinct states; review depth must be calculated from the `review_state` column rather than inferred from discovery counts. No systematic second-page+ collection or valid global recall denominator has been demonstrated.
+All 404 discovered identities have recorded screening dispositions as of the dated main snapshot; this is not an exhaustive global search or code audit. The current screening split is defined by the [candidate register](../data/github_discovery_candidates.csv), [canonical review records](../data/repositories.csv), and [documented exclusions](../data/exclusions.csv). These are distinct states; review depth must be calculated from the `review_state` column rather than inferred from discovery counts. No systematic second-page+ collection or valid global recall denominator has been demonstrated.
 
 ## Audit scope
 
@@ -37,6 +37,6 @@ A documented saturation result needs (a) expanded pages and topic searches, (b) 
 
 ## Outstanding research operations
 
-Research official hiring portals before deadlines; apply evidence gates to employer job pages; inspect user qualifications privately; add additional relevant applicant accounts and contradictory records; deepen `PRELIMINARY_FOCUSED` reports and screen `UNTRIAGED` candidates according to the live canonical CSVs. Do not claim a complete or publication-equivalent systematic review.
+Research official hiring portals before deadlines; apply evidence gates to employer job pages; inspect user qualifications privately; add additional relevant applicant accounts and contradictory records; deepen the 119 `PRELIMINARY_FOCUSED` reports, recheck excluded candidate status when upstream evidence changes, and use the live canonical CSVs rather than historical progress counts. Do not claim a complete or publication-equivalent systematic review.
 
 See [research log](../docs/methodology/research-log.md) and [current status](../RESEARCH_STATUS.md).
