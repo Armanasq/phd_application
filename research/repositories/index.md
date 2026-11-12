@@ -51,7 +51,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [CodeBoyPhilo/PhD-Application](https://github.com/CodeBoyPhilo/PhD-Application) | kg_llm_phd_proposal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/codeboyphilo__phd-application.md) |
 | [colonket/scholarship-scraper](https://github.com/colonket/scholarship-scraper) | historical_scholarship_html_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/colonket__scholarship-scraper.md) |
 | [curieuxjy/cv](https://github.com/curieuxjy/cv) | application_documents | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/curieuxjy__cv.md) |
-| [D2Simon/PhDHub](https://github.com/D2Simon/PhDHub) | applicant_crm_ai_workspace | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/d2simon__phdhub.md) |
+| [D2Simon/PhDHub](https://github.com/D2Simon/PhDHub) | applicant_crm_ai_workspace | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/d2simon__phdhub.md) |
 | [DanialRamezani/PhD-Hunt](https://github.com/DanialRamezani/PhD-Hunt) | ai_discovery | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/danialramezani--phd-hunt.md) |
 | [danielhafezi/ScholarshipScout](https://github.com/danielhafezi/ScholarshipScout) | vacancy_scrapers | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/danielhafezi--scholarshipscout.md) |
 | [DataBizex/academic-application-tracker](https://github.com/DataBizex/academic-application-tracker) | offline_excel_application_tracker | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/databizex__academic-application-tracker.md) |
