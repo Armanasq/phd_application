@@ -23,3 +23,40 @@ Compared with the [local-first doctoral tracker](https://github.com/chuyaowang/n
 
 ## Evidence scope and next inspection
 Additional code such as the settings UI, Next.js middleware/SSR, schema migration provisioning and production environment was not independently executed. Read `lib/supabase/middleware.ts`, storage bucket settings and database policies, end-to-end document upload/overwrite/delete tests and running app logs in a private fixture deployment before upgrading to a deep-verified implementation review. Do not ingest or store any personal document data.
+
+
+## 1. Source objective and scope
+
+Additional deep static audit at [`9f04c013a45f1abec598deda4fe6cb5ff78346fc`](https://github.com/drPod/phd-application-tracker/commit/9f04c013a45f1abec598deda4fe6cb5ff78346fc). Determine whether private applicant documents, institution/program state and access controls remain safe across Supabase storage, browser hooks and deletion. Source inspection only, **not** runtime security verification.
+
+## 2. Implementation architecture
+
+Next.js/React application: Supabase Auth session middleware, React Query program/requirement/document hooks, private-program state, storage adapter for CV/SOP/PS/writing samples, link table of assigned program IDs, per-program requirements checklist and a static Playwright UI suite. Reviewed `lib/hooks/useDocuments.ts` (269 lines), `usePrograms.ts` (179), `lib/supabase/storage.ts` (92), `middleware.ts` (71), `components/documents/DocumentsPanel.tsx` (373), `UploadDialog.tsx` (237), `lib/types.ts` (38) and `tests/auth.spec.ts` / `tests/app.spec.ts` (88/36).
+
+## 3. Actual dataflow and custody
+
+Program queries and mutations read `supabase.auth.getUser()` and use `.eq('user_id',user.id)`; document queries have the same owner filter. Upload paths are namespaced under `user.id/`. A saved `documents` row links storage URL and type/status, and `document_programs` stores assigned program IDs. Client-side user filters are a positive measure but are **not a substitute for deployment RLS/storage authorization rules**; none were found in the inspected tracked source or exercised against a real Supabase project.
+
+## 4. Confirmed source-level risks
+
+**P0 conditional privacy risk:** `lib/supabase/storage.uploadFile()` calls `getPublicUrl(data.path)` and stores the result. A publicly configured `documents` bucket would expose sensitive CV/SOP/transcripts to anyone holding the link. Whether the actual bucket is public is **unknown**; this is an insecure interface assumption, not confirmation of an exposed deployment. Require a private bucket with RLS/policies, user-scoped object paths and short-lived signed URLs.
+
+**P1 non-atomic operations:** `useUpdateDocument` replaces `document_programs` assignments by deleting then reinserting rows; partial failure can leave assignments empty. The upload+documents insert+link associations and deletion+storage delete run across multiple independently failing calls without transaction/compensation. `DocumentsPanel` catches storage deletion failures and continues the record deletion attempt. Cross-user association writes need RLS on both `documents` and `document_programs`.
+
+## 5. Identity, provenance and admissions authority
+
+Program statuses (researching/applying/submitted/decision), deadlines, attached document statuses (draft/final) and university names are applicant-entered state. No source owner verifies a program's scholarship, international tuition coverage, deadline cutoff or submitted receipt. A "submitted" status is not proof of portal acceptance.
+
+## 6. Reusable methods and cross-repo distinctions
+
+Reuse structured program/requirements and private document attachment design; Supabase session helper, per-UID query constraints and explicit program-document edges are stronger than a global public JSON GitHub sync. Replace public URL usage with signed short-lived access and add receipt-backed applicant activity, versioned source evidence and transactional association updates.
+
+## 7. Tests and observed operations
+
+`tests/app.spec.ts` asserts app/program/documents pages redirect unauthenticated browsers to sign-in; `tests/auth.spec.ts` covers form validation/navigation. They do **not** demonstrate storage bucket private visibility, authenticated cross-user RLS, safe signed URLs, file deletion atomicity or reliable application submission. No test was executed in this audit. Upstream default branch was inspected; license was not recognized in GitHub metadata.
+
+## 8. Verdict and remaining validation
+
+**ADAPT ONLY AFTER PRIVATE STORAGE AND TRANSACTION REPAIRS**. Verify bucket policies and RLS through controlled dummy accounts, test cross-user relation writes, expiry of signed file links, failed storage operations, backup/restore and audit logs. Independently check official program eligibility, funding and deadlines. No applicant document, personal contact or university live application was accessed.
+
+Pinned source links: [documents hook](https://github.com/drPod/phd-application-tracker/blob/9f04c013a45f1abec598deda4fe6cb5ff78346fc/lib/hooks/useDocuments.ts), [storage](https://github.com/drPod/phd-application-tracker/blob/9f04c013a45f1abec598deda4fe6cb5ff78346fc/lib/supabase/storage.ts), [program hook](https://github.com/drPod/phd-application-tracker/blob/9f04c013a45f1abec598deda4fe6cb5ff78346fc/lib/hooks/usePrograms.ts), [middleware](https://github.com/drPod/phd-application-tracker/blob/9f04c013a45f1abec598deda4fe6cb5ff78346fc/lib/supabase/middleware.ts), [UI tests](https://github.com/drPod/phd-application-tracker/blob/9f04c013a45f1abec598deda4fe6cb5ff78346fc/tests/app.spec.ts).
