@@ -1,6 +1,6 @@
 # PhD Admissions Intelligence & Execution
 
-**Evidence snapshot:** 12 November 2026, main `988a9491ccf6` · **State:** 404 candidate identities screened; deep-source audit, independent verification and application research remain **incomplete**
+**Evidence snapshot:** 12 November 2026, live canonical main inventory · **State:** 404 candidate identities screened; deep-source audit, independent verification and application research remain **incomplete**
 
 A public, reproducible research workspace for fully funded doctoral admissions in **Canada, the United Kingdom, Ireland, Luxembourg, Switzerland, Norway, New Zealand, and Australia**, with **global** GitHub resource investigation. Scientific target areas: inertial and visual-inertial estimation, SLAM, navigation, robot perception, physics-informed learning and autonomous systems.
 
@@ -29,8 +29,8 @@ The objective is a credible **fully funded offer as early as possible**, screeni
 |---|---:|---|
 | Raw GitHub candidate identities | **404** | Unique repository strings from sampled queries and selected referrals; **includes noise** |
 | Reviewed repositories | **228** | A dated, source-revision-specific individual record |
-| Eight-section deep static reviews | **109** | Inspected relevant code/docs, provenance, method, comparisons and limitations; **runtime tests not executed** |
-| Preliminary bounded reviews | **119** | Not yet satisfying the full research-review contract |
+| Eight-section deep static reviews | **122** | Inspected relevant code/docs, provenance, method, comparisons and limitations; **runtime tests not executed** |
+| Preliminary bounded reviews | **106** | Not yet satisfying the full research-review contract |
 | Screened exclusions | **176** | Documented exclusion rationale and provenance |
 | Included for subsequent review | **0** | Relevant initial screening, individual deep review pending |
 | Untriaged discovery candidates | **0** | Every discovered identity has a review or evidence-coded exclusion; depth varies |
