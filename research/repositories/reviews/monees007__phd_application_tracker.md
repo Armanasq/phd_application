@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-11  
 **Pinned upstream commit:** [`e4a8d1c5050a2cbaa49c376e6811e4b02bcf145d`](https://github.com/monees007/phd_application_tracker/commit/e4a8d1c5050a2cbaa49c376e6811e4b02bcf145d)  
-**Review state:** PRELIMINARY_FOCUSED. Substantive static inspection, not full-file exhaustive review or independent runtime validation.  
+**Review state:** DEEP_REVIEW_DOCUMENTED. Risk-focused static implementation inspection, not full-file exhaustive review or independent runtime validation.  
 **Applicability:** mobile_application_capture  
 **Primary risk:** model_confidence_bypasses_source_truth_and_automatic_import  
 **Reuse decision:** original methods only; no unreviewed code adoption
@@ -56,3 +56,11 @@ Inspected source files linked below at the specified commit, including Flutter q
 2. Run tests with pinned toolchain in a sandbox; capture commands, fixtures, exit codes and outputs.
 3. Verify each admissions, fee, funding and applicant eligibility claim against authoritative live sources for the correct cycle.
 4. Record conflicting claims, reviewer authorization and revisions; never infer an application was sent or an offer obtained.
+
+## Additional pinned implementation reinspection — 2026-11-12
+
+**Confirmed code paths at `e4a8d1c5050a2cbaa49c376e6811e4b02bcf145d` (default branch `master`):** `lib/services/import_queue_service.dart` (543 lines) maintains recoverable `PendingImport` records in local SharedPreferences, supports retry, interruption recovery and undo, and checks `FirebaseAuth.instance.currentUser?.uid` when constructing the Firestore service. `_isConfident(ExtractedPosition e)` only requires `e.confidence != 'low'` and a nonempty university name; neither a quoted official vacancy, current-cycle deadline, funding terms nor applicant eligibility is required before `_autoSave`. Text explicitly pasted through `runWithText` disables silent auto-save, a useful boundary that is *not* extended to all shared pages. The fallback note preserves unverified source text for review.
+
+`lib/services/gemini_service.dart` (376 lines) defines optional fields, a `deadlineYearExplicit` flag, a model-provided `confidence`, and requests schema-structured extraction via the Gemini API; schema validation is not source-owner authentication. `chrome_extension/background.js` captures a browser-rendered page or selected text via user action, converts it into the same save-or-note workflow, and records whether deadline year was assumed. `lib/services/firestore_service.dart` uses user-scoped Firebase documents; deployed Firestore rules were **not** examined. `test/position_test.dart` tests local date/status-bucket urgency but not LLM extraction truthfulness, official-source validation, cross-user database authorization or automatic-save safety. No live tests run.
+
+**Transfer:** adopt resumable queue, user-triggered DOM capture, nullable typed claims, deadline-year uncertainty, notes with manual retry, undo and per-user storage. Require an explicit `UNVERIFIED_SOURCE` state and human confirmation of official original source/date/fees/funding before promoting any scholarship or funded position to an actionable verified offer. GitHub metadata at inspection: no open upstream PR or issue; no license recognized by GitHub; last upstream push 2026-09-22. [queue](https://github.com/monees007/phd_application_tracker/blob/e4a8d1c5050a2cbaa49c376e6811e4b02bcf145d/lib/services/import_queue_service.dart), [extractor](https://github.com/monees007/phd_application_tracker/blob/e4a8d1c5050a2cbaa49c376e6811e4b02bcf145d/lib/services/gemini_service.dart), [extension](https://github.com/monees007/phd_application_tracker/blob/e4a8d1c5050a2cbaa49c376e6811e4b02bcf145d/chrome_extension/background.js), [tests](https://github.com/monees007/phd_application_tracker/blob/e4a8d1c5050a2cbaa49c376e6811e4b02bcf145d/test/position_test.dart).

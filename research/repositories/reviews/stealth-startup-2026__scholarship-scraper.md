@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-11  
 **Pinned upstream commit:** [`dee3edaa40ed8c06821d337721259e146d79caf7`](https://github.com/stealth-startup-2026/scholarship-scraper/commit/dee3edaa40ed8c06821d337721259e146d79caf7)  
-**Review state:** PRELIMINARY_FOCUSED. Substantive static inspection, not full-file exhaustive review or independent runtime validation.  
+**Review state:** DEEP_REVIEW_DOCUMENTED. Risk-focused static implementation inspection, not full-file exhaustive review or independent runtime validation.  
 **Applicability:** australia_scholarship_structured_scraping  
 **Primary risk:** absence_of_citizenship_rule_treated_as_international_eligible  
 **Reuse decision:** original methods only; no unreviewed code adoption
@@ -55,3 +55,11 @@ Inspected USyd/UNSW scrapers, canonical CSV, LLM extraction/classification, inte
 2. Run tests with pinned toolchain in a sandbox; capture commands, fixtures, exit codes and outputs.
 3. Verify each admissions, fee, funding and applicant eligibility claim against authoritative live sources for the correct cycle.
 4. Record conflicting claims, reviewer authorization and revisions; never infer an application was sent or an offer obtained.
+
+## Additional pinned implementation reinspection — 2026-11-12
+
+**Confirmed code paths at `dee3edaa40ed8c06821d337721259e146d79caf7`:** `usyd/usyd_scraper.py` (572 lines) and `unsw/unsw_scraper.py` (464 lines) implement source-specific listing/detail extraction, amount and highlight/date parsing, citizenship and funding-type classification, and multi-award parent/child bundle splitting. A useful provenance distinction is retained: `source_last_synced_at` comes from the actual page fetch, while `last_verified_at` is left blank for later independent verification. The 127-line `tests/test_stamps.py` has fixtures for CSV shape, distinct page timestamps, failed fetch not yielding fresh records, and child awards inheriting the parent's fetch stamp without an independent verification timestamp; **tests were inspected, not run**.
+
+The key semantic failure in `unsw/verify_international.py` (273 lines) is its LLM prompt: it allows `is_international=true` when the text *does not mention* a citizenship or residency restriction. Unknown eligibility therefore becomes positive eligibility without affirmative issuer language. Conversely missing source text or model failures are written as `is_international=false`, which is not proof of ineligibility either. Use a ternary `ELIGIBLE | INELIGIBLE | UNKNOWN` tied to a literal issuer excerpt, exact award/term and nationality scope; separately verify stipend period, tuition coverage and intake deadline. No live award or model call performed.
+
+**Transfer:** source-scoped adapters; parent/child awards; fetch-versus-verified timestamps; negative HTTP fixtures. Reject binary eligibility inferred from absent conditions. GitHub metadata at inspection: no license recognized; latest upstream push 2026-11-05; one open upstream PR (#1, Helm workflow integration) that was **not** merged into the pinned default branch. [USyd](https://github.com/stealth-startup-2026/scholarship-scraper/blob/dee3edaa40ed8c06821d337721259e146d79caf7/usyd/usyd_scraper.py), [UNSW](https://github.com/stealth-startup-2026/scholarship-scraper/blob/dee3edaa40ed8c06821d337721259e146d79caf7/unsw/unsw_scraper.py), [international classifier](https://github.com/stealth-startup-2026/scholarship-scraper/blob/dee3edaa40ed8c06821d337721259e146d79caf7/unsw/verify_international.py), [stamp tests](https://github.com/stealth-startup-2026/scholarship-scraper/blob/dee3edaa40ed8c06821d337721259e146d79caf7/tests/test_stamps.py).
