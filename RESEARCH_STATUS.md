@@ -5,7 +5,7 @@
 | Workstream | State | Evidence accomplished | Completion blocker |
 |---|---|---|---|
 | Global repository discovery | INITIAL_SCREENING_COMPLETE | 404 unique discovered candidates; all classified (reviewed or excluded) | discovery saturation, broader pagination/topic/fork coverage and live-source rechecks remain unproven |
-| Individual GitHub repository audits | IN PROGRESS | 228 source-pinned review records: 122 deep static reviews, 106 preliminary; 176 documented exclusions | upgrade 106 preliminary investigations; run/verify independent source and methodology checks |
+| Individual GitHub repository audits | IN PROGRESS | 228 source-pinned review records: 124 deep static reviews, 104 preliminary; 176 documented exclusions | upgrade 104 preliminary investigations; run/verify independent source and methodology checks |
 | Source/repository dependence | EVIDENCE_COLLECTED | 6 evidenced relationships, 21-source ledger, 26 claim records | canonicalize more shared guides and verify original claims independently |
 | Eight country dossiers | EVIDENCE_COLLECTED | All eight source-linked national assessments, including policy and funding contrasts | national lab/vacancy coverage, visas, tuition and 2027 recruiting completeness |
 | Funding and available programs | IN PROGRESS | 20 differentiated leads with official-source and tuition/offer gates | employer form rechecks, offer terms and candidate-specific fee/eligibility |
@@ -20,7 +20,7 @@
 
 The public [source ledger](data/sources.jsonl) contains 21 distinct URLs supporting 26 recorded claim items. **Every ledger record currently reads `independent_recheck: NOT_PERFORMED`**. Primary-official retrieval is a stronger source type than an anecdote, but the dual-source independently confirmed stage is not met.
 
-**Canonical CSV screening states (recomputed 12 November 2026):** 0 untriaged; 0 screened-in awaiting review; 176 excluded with reasons; 228 review records (122 deep static and 106 preliminary). Exactly 404 discovered identities; initial inventory disposition is complete, independent testing and discovery saturation are not.
+**Canonical CSV screening states (recomputed 12 November 2026):** 0 untriaged; 0 screened-in awaiting review; 176 excluded with reasons; 228 review records (124 deep static and 104 preliminary). Exactly 404 discovered identities; initial inventory disposition is complete, independent testing and discovery saturation are not.
 
 ## Offer and communication status
 
