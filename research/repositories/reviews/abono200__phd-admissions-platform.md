@@ -3,7 +3,7 @@
 - **Review date:** 2026-11-11
 - **Pinned upstream commit:** [6e5fd0ff3416f3ee7926636d1369ffa46e26c48b](https://github.com/abono200/phd-admissions-platform/commit/6e5fd0ff3416f3ee7926636d1369ffa46e26c48b); latest commit observed 2026-07-12.
 - **Category:** static university dossier catalog and client-side application dashboard.
-- **Review state:** PRELIMINARY_FOCUSED. Inspected handbook, sample dossiers, parser, generated JSON and React application; no runtime tests.
+- **Review state:** DEEP_REVIEW_DOCUMENTED. Inspected handbook, sample dossiers, parser, generated JSON and React application; no runtime tests.
 - **License:** no explicit license metadata or license file confirmed.
 
 ## 1. Problem and intended user
@@ -46,3 +46,13 @@ The repository includes a personal applicant profile and tailored application na
 ## 8. Unresolved work
 
 Verify every deadline, stipend, tuition and English requirement against current official pages; build a structured schema and YAML parser; add field-level citations, evidence dates and contradiction handling; test local export/import and migration; redesign the calculator as transparent criteria scoring rather than probability.
+
+## Additional code-and-claim trace — 2026-11-12
+
+At `6e5fd0ff3416f3ee7926636d1369ffa46e26c48b`, inspected the 267-line `PhD_Admissions_Handbook.md`, one representative institutional dossier `dossiers/mit.md`, `platform/scripts/parse_dossiers.js` (127 lines), the 19-object `platform/src/data/db.json` generated catalog (schema and non-personal sample fields), and targeted source regions of the 1,500+ line `platform/src/App.tsx` (not all 75 kB line-by-line). The Node parser transforms YAML-like per-school frontmatter into JSON without a current authoritative policy source registry or field-level official claim spans. Dossiers contain hard-coded `funding_guaranteed: true`, stipend amounts, tuition coverage, GRE and English waiver assertions; these are author-compiled claims, **not verified 2026/27 university rules**. Applicant-specific personal facts were deliberately not reproduced in this review.
+
+**Critical metric validity:** `App.tsx` lines 205–232 implement a user-facing “Compute Admissions Probability” calculator as a hard-coded score: start at 50; add 10/20 for GPA bands, 15 for MPhil, 8 per publication (capped 25), 3 per research year (capped 10), 5/10 for subjective letters; set `admissionProb=Math.min(score,99)` and `fundingProb=Math.min(score+10,100)`. No enrollment outcomes, target university acceptance denominators, calibration procedure, likelihood model, or funding-offer observation supports these percentages. The statement `// Funding is guaranteed if admitted` is not universally true across countries, programs, sponsors or applicant categories. Displayed probabilities should **not** influence funding/applicant decisions; replace them with clearly qualitative, uncertainty-aware readiness flags or a validated statistical model with disclosed cohort scope.
+
+The React UI persists admission status, CRM notes, document state and application details in browser `localStorage`; these are self-reported user workflow fields rather than university-verified submission receipts. An introductory “full waiver + stipend for all” UI label conflates nominal program funding policy with applicant-specific award entitlement. No live official policy recheck, CV privacy test, React build, admissions outcomes evaluation or runtime execution occurred.
+
+**Transfer:** reproducible source-to-schema parsing for 19 university dossiers, program comparison, applicant tracking and research-methodology fit notes. Do not carry over quantitative acceptance/funding percentages, hard-coded guarantees or personalized admissions data. Require per-school, per-cycle official URL, exact excerpt, region/international fee coverage, deadline/timezone and last verification. [calculator](https://github.com/abono200/phd-admissions-platform/blob/6e5fd0ff3416f3ee7926636d1369ffa46e26c48b/platform/src/App.tsx#L205-L232), [parser](https://github.com/abono200/phd-admissions-platform/blob/6e5fd0ff3416f3ee7926636d1369ffa46e26c48b/platform/scripts/parse_dossiers.js), [example dossier](https://github.com/abono200/phd-admissions-platform/blob/6e5fd0ff3416f3ee7926636d1369ffa46e26c48b/dossiers/mit.md).
