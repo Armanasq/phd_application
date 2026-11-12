@@ -2,7 +2,7 @@
 
 Source: `data/repositories.csv`. Generated deterministically; do not edit directly.
 
-**Rows:** 166. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
+**Rows:** 172. Only entries explicitly labeled `DEEP_REVIEW_DOCUMENTED` have the structured eight-part analysis. Other rows are bounded preliminary notes, not final exhaustive reviews.
 
 | Repository | Category | Review state | Evidence record |
 |---|---|---|---|
@@ -37,6 +37,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [bodzioney/phd-applications](https://github.com/bodzioney/phd-applications) | international_program_faculty_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/bodzioney__phd-applications.md) |
 | [borekda/phd-list](https://github.com/borekda/phd-list) | vacancy_datasets | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/borekda__phd-list.md) |
 | [BrainPhD-CN/handbook](https://github.com/BrainPhD-CN/handbook) | firsthand_multilingual_guide | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/brainphd-cn__handbook.md) |
+| [buguen/PhD](https://github.com/buguen/PhD) | historical_single_phd_posting_pdf | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/buguen__phd.md) |
 | [bvbvbmnb/scholarship-scraper](https://github.com/bvbvbmnb/scholarship-scraper) | scholarship_discovery_and_tracking | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/bvbvbmnb__scholarship-scraper.md) |
 | [centrixsol/phd-applicant](https://github.com/centrixsol/phd-applicant) | agentic_phd_application_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/centrixsol__phd-applicant.md) |
 | [chapkovski/hnet](https://github.com/chapkovski/hnet) | academic_vacancy_scraper | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/chapkovski__hnet.md) |
@@ -95,6 +96,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [KaiserWhoLearns/CS-PhD-Application-fee-waivers](https://github.com/KaiserWhoLearns/CS-PhD-Application-fee-waivers) | funding_lists | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/kaiserwholearns--cs-phd-application-fee-waivers.md) |
 | [KeithBH/phd-positions](https://github.com/KeithBH/phd-positions) | european_industrial_ai_doctoral_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/keithbh__phd-positions.md) |
 | [KhanShaheb34/profreach](https://github.com/KhanShaheb34/profreach) | supervisor_crm | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/khanshaheb34__profreach.md) |
+| [Kingjose05/physapp](https://github.com/Kingjose05/physapp) | compiled_physics_phd_tracker | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/kingjose05__physapp.md) |
 | [kirankaranth1/ApplicationStatusFetcher](https://github.com/kirankaranth1/ApplicationStatusFetcher) | legacy_selenium_portal_status_automation | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/kirankaranth1__application-status-fetcher.md) |
 | [KnowMe777/scholarship-scraper](https://github.com/KnowMe777/scholarship-scraper) | scholarship_ingestion_prototype | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/knowme777__scholarship-scraper.md) |
 | [knwoke/ScholarshipWebScraper](https://github.com/knwoke/ScholarshipWebScraper) | historical_scholarship_scraper | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/knwoke__scholarshipwebscraper.md) |
@@ -117,6 +119,7 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [nishanchettri/PhD-positions-electronic-engineering](https://github.com/nishanchettri/PhD-positions-electronic-engineering) | historical_phd_vacancy_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/nishanchettri__phd-positions-electronic-engineering.md) |
 | [nocilladoluis616-a11y/scholarships_scraper](https://github.com/nocilladoluis616-a11y/scholarships_scraper) | llm_scholarship_extraction | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/nocilladoluis616__scholarships_scraper.md) |
 | [NoorMohammadTalukder/usa-masters-phd-scholarship-guide](https://github.com/NoorMohammadTalukder/usa-masters-phd-scholarship-guide) | firsthand_funding_application_advice | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/noormohammadtalukder__usa-masters-phd-scholarship-guide.md) |
+| [OpenSIST/OpenSIST.github.io](https://github.com/OpenSIST/OpenSIST.github.io) | self_reported_grad_admissions_platform | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/opensist__opensist-github-io.md) |
 | [owenlikecoding/scholarship-scraper1](https://github.com/owenlikecoding/scholarship-scraper1) | scholarship_discovery_crawler | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/owenlikecoding__scholarship-scraper1.md) |
 | [PeiMu/findPhdPositions](https://github.com/PeiMu/findPhdPositions) | supervisor_discovery | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/peimu--findphdpositions.md) |
 | [pliang279/awesome-phd-advice](https://github.com/pliang279/awesome-phd-advice) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/pliang279--awesome-phd-advice.md) |
@@ -144,12 +147,14 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [siddu1998/Graduate-Admissions](https://github.com/siddu1998/Graduate-Admissions) | personal_admissions_artifact_corpus | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/siddu1998__graduate-admissions.md) |
 | [SihengTao/phd-application-planner](https://github.com/SihengTao/phd-application-planner) | research_planning | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sihengtao__phd-application-planner.md) |
 | [simitii/CS-Grad-School-Applications-Reading-List](https://github.com/simitii/CS-Grad-School-Applications-Reading-List) | historical_admissions_reading_list | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/simitii__cs-grad-school-applications-reading-list.md) |
+| [sqykonwnothing/GDIIST-Admissions-2026](https://github.com/sqykonwnothing/GDIIST-Admissions-2026) | historical_2026_joint_phd_call | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sqykonwnothing__gdiist-admissions-2026.md) |
 | [ssine/willow](https://github.com/ssine/willow) | historical_graduate_admission_statistics | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/ssine__willow.md) |
 | [stealth-startup-2026/scholarship-scraper](https://github.com/stealth-startup-2026/scholarship-scraper) | australia_scholarship_structured_scraping | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stealth-startup-2026__scholarship-scraper.md) |
 | [stevanoryan/scholarship-atlas](https://github.com/stevanoryan/scholarship-atlas) | historical_and_2026_scholarship_aggregation | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/stevanoryan__scholarship-atlas.md) |
 | [sushil3710/PHD_Admission_Portal](https://github.com/sushil3710/PHD_Admission_Portal) | institutional_doctoral_admissions_portal | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/sushil3710__phd-admission-portal.md) |
 | [swadhinbiswas/fundmystudy-scraper](https://github.com/swadhinbiswas/fundmystudy-scraper) | multi_source_opportunity_ingestion | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/swadhinbiswas__fundmystudy-scraper.md) |
 | [Swapnil-Gandhi/SoP-Template](https://github.com/Swapnil-Gandhi/SoP-Template) | application_documents | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/swapnil-gandhi--sop-template.md) |
+| [syfantid/Greek-CS-Student-Opportunities](https://github.com/syfantid/Greek-CS-Student-Opportunities) | historical_curated_opportunity_directory | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/syfantid__greek-cs-student-opportunities.md) |
 | [TalehMalikov/phd-application-tracker](https://github.com/TalehMalikov/phd-application-tracker) | local_first_phd_application_tracker | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/talehmalikov__phd-application-tracker.md) |
 | [tasseff/grfp](https://github.com/tasseff/grfp) | fellowship_application_templates | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/tasseff__grfp.md) |
 | [TSTS09/Grad-Admission-Agent](https://github.com/TSTS09/Grad-Admission-Agent) | multi_source_admissions_agent | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/tsts09__grad-admission-agent.md) |
@@ -171,4 +176,5 @@ Source: `data/repositories.csv`. Generated deterministically; do not edit direct
 | [zhijing-jin/nlp-phd-global-equality](https://github.com/zhijing-jin/nlp-phd-global-equality) | curated_guides | PRELIMINARY_FOCUSED | [Review](../../docs/github/reviews/zhijing-jin--nlp-phd-global-equality.md) |
 | [zhoujasper/phd-atlas](https://github.com/zhoujasper/phd-atlas) | application_trackers | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/zhoujasper__phd-atlas.md) |
 | [zll-hust/Business2CEEPhD](https://github.com/zll-hust/Business2CEEPhD) | cross_discipline_phd_application_experience | PRELIMINARY_FOCUSED | [Review](../../research/repositories/reviews/zll-hust__business2ceephd.md) |
+| [zohairahmedai/uestc-scholarship](https://github.com/zohairahmedai/uestc-scholarship) | historical_2026_doctoral_scholarship_advert | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/zohairahmedai__uestc-scholarship.md) |
 | [zxcgzx/phd-application-tracker](https://github.com/zxcgzx/phd-application-tracker) | application_trackers | DEEP_REVIEW_DOCUMENTED | [Review](../../research/repositories/reviews/zxcgzx__phd-application-tracker.md) |
