@@ -29,8 +29,8 @@ The objective is a credible **fully funded offer as early as possible**, screeni
 |---|---:|---|
 | Raw GitHub candidate identities | **404** | Unique repository strings from sampled queries and selected referrals; **includes noise** |
 | Reviewed repositories | **228** | A dated, source-revision-specific individual record |
-| Eight-section deep static reviews | **122** | Inspected relevant code/docs, provenance, method, comparisons and limitations; **runtime tests not executed** |
-| Preliminary bounded reviews | **106** | Not yet satisfying the full research-review contract |
+| Eight-section deep static reviews | **124** | Inspected relevant code/docs, provenance, method, comparisons and limitations; **runtime tests not executed** |
+| Preliminary bounded reviews | **104** | Not yet satisfying the full research-review contract |
 | Screened exclusions | **176** | Documented exclusion rationale and provenance |
 | Included for subsequent review | **0** | Relevant initial screening, individual deep review pending |
 | Untriaged discovery candidates | **0** | Every discovered identity has a review or evidence-coded exclusion; depth varies |
