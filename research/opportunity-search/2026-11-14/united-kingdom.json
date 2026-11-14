@@ -1,0 +1,846 @@
+{
+ "agent": "united-kingdom",
+ "scope": "UK-only; overseas-fee-status screening of CDTs/DTPs, university international scholarships and advertised navigation/robot-perception studentships beyond oxford-cs, reading-robotics-2027, surrey-smart-optics-2027",
+ "searches_run": [
+  {
+   "query": "visual inertial navigation SLAM international UK 2027",
+   "engine": "WebSearch",
+   "result_note": "UCL cooperative nav (home only), Cranfield, Southampton subsea, Strathclyde, Surrey hits"
+  },
+  {
+   "query": "EPSRC DTP international 30% 2027",
+   "engine": "WebSearch",
+   "result_note": "UKRI 30% rule; UCL UELA, Edinburgh E5 pages"
+  },
+  {
+   "query": "Cranfield navigation sensor fusion studentship",
+   "engine": "WebSearch",
+   "result_note": "Cranfield pages Home fee only"
+  },
+  {
+   "query": "E5 DTP Edinburgh 2027 deadline",
+   "engine": "WebSearch",
+   "result_note": "2 Dec 2026 noon"
+  },
+  {
+   "query": "Edinburgh Informatics CDT robotics 2027",
+   "engine": "WebSearch",
+   "result_note": "IGS, SPADS, CDT list"
+  },
+  {
+   "query": "Imperial President's PhD 2027",
+   "engine": "WebSearch",
+   "result_note": "deadlines 2 Nov 2026 / 11 Jan / 1 Mar 2027"
+  },
+  {
+   "query": "UCL GRS ORS 2027",
+   "engine": "WebSearch",
+   "result_note": "UCL blocked; snippets only"
+  },
+  {
+   "query": "CDT-D2AIR 2027",
+   "engine": "WebSearch",
+   "result_note": "no 2027 page found"
+  },
+  {
+   "query": "Heriot-Watt OSL studentship",
+   "engine": "WebSearch",
+   "result_note": "none found"
+  },
+  {
+   "query": "Bristol Interactive AI CDT",
+   "engine": "WebSearch",
+   "result_note": "closed; PrO-AI successor"
+  },
+  {
+   "query": "Oxford ORI DPhil funding 2027",
+   "engine": "WebSearch",
+   "result_note": "AIMS industry studentships, RAINZ"
+  },
+  {
+   "query": "Heriot-Watt James Watt",
+   "engine": "WebSearch",
+   "result_note": "no 2027"
+  },
+  {
+   "query": "Cambridge Trust 2027",
+   "engine": "WebSearch",
+   "result_note": "per-course funding deadlines"
+  },
+  {
+   "query": "Manchester Presidential Doctoral Scholarship",
+   "engine": "WebSearch",
+   "result_note": "18 Dec 2026"
+  },
+  {
+   "query": "Southampton Presidential",
+   "engine": "WebSearch",
+   "result_note": "fee-gap bursary"
+  },
+  {
+   "query": "Imperial Dyson robotics scholarships",
+   "engine": "WebSearch",
+   "result_note": "Imperial Computing area studentships, Kormushev"
+  },
+  {
+   "query": "Oxford Trigoni Markham inertial",
+   "engine": "WebSearch",
+   "result_note": "old 2017 ad"
+  },
+  {
+   "query": "Cambridge Engineering Lasenby funding",
+   "engine": "WebSearch",
+   "result_note": "course page deadlines"
+  },
+  {
+   "query": "Edinburgh Global Research Scholarship",
+   "engine": "WebSearch",
+   "result_note": "replaced by Doctoral College scholarships"
+  },
+  {
+   "query": "Leeds/Nottingham/Glasgow scholarships",
+   "engine": "WebSearch",
+   "result_note": "no official 2027 info"
+  },
+  {
+   "query": "Surrey CVSSP 2027",
+   "engine": "WebSearch",
+   "result_note": "no project-specific 2027"
+  },
+  {
+   "query": "AUV nav PhD UK 2027",
+   "engine": "WebSearch",
+   "result_note": "Southampton stale"
+  },
+  {
+   "query": "Surrey AWARE; Surrey RAS 30%",
+   "engine": "WebSearch",
+   "result_note": "search budget exhausted"
+  },
+  {
+   "query": "informatics.ed.ac.uk IGS funding",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "study.ed.ac.uk IPAB",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "imperial presidents-phd",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "imperial computing scholarships",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "imperial alex fortescue",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "se.manchester.ac.uk PDS",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "bristol proai apply+funding",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "e5-dtp selection and eligibility",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "study.ed.ac.uk SPADS CDT + hw.ac.uk SPADS",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "student-funding.cam.ac.uk",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "cambridge engineering course page",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "foaicdt.site.ox.ac.uk",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "aims.robots.ox.ac.uk industry-studentships",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "cranfield attitude/self-evolving",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "strath robust perception",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "southampton projects and presidential bursary",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "gla.ac.uk phdopportunities",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "cs.ox.ac.uk positioning and Trigoni",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "imperial robot-intelligence, BOLD, DEPS 2026/27, Shawki Saad",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  },
+  {
+   "query": "UCL pages (403)",
+   "engine": "WebFetch",
+   "result_note": "fetched or attempted; see leads/unverified"
+  }
+ ],
+ "leads": [
+  {
+   "id": "edinburgh-informatics-igs-2027",
+   "institution": "University of Edinburgh (School of Informatics)",
+   "title": "Informatics Graduate School PhD studentships, September 2027 start (round 1, open to all fee statuses; includes IPAB robotics/vision PhD route)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2026-11-30 23:59",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "Tuition fees for 3 years (Home or Overseas rate) plus stipend at UKRI level, GBP 21,805 for 2026/27 entry (subject to annual increment), for 3.5 years. Visa, IHS and relocation NOT included. Usually 6-8 awards (number for this entry not yet known).",
+   "international_tuition": "COVERED: 'Tuition fees for three years (Home or Overseas rate)'; applications considered 'regardless of their fee status'.",
+   "research_fit": "high",
+   "fit_reason": "Edinburgh Informatics hosts the IPAB Robotics, Computer Vision group; an Institute-led PhD there matches SLAM/visual-inertial/perception work, but the funding page itself does not name IPAB.",
+   "url": "https://informatics.ed.ac.uk/postgraduate/fees/research-scholarships/informatics-global-phd-scholarships",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "Complete application via EUCLID for an Institute-led (or Cyber Security) PhD with September 2027 start. NOT eligible: MScR, CDT programme applications, other start dates, incomplete applications. Typical entry UK 2:1 or international equivalent (IPAB programme page).",
+   "required_materials": "Complete EUCLID application (details per programme page; references etc. not itemised on funding page).",
+   "offer_timing": "Selectors meet early 2027; 'We will aim to communicate outcomes by April 2027.' (funding decision; academic offer timing separate).",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Submit your application via EUCLID by Monday 30 November 2026 at 23:59",
+     "locator": "Informatics Graduate School funding opportunities, Round 1"
+    },
+    {
+     "fact": "fees",
+     "quote": "Tuition fees for three years (Home or Overseas rate)",
+     "locator": "Funding section"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "regardless of their fee status",
+     "locator": "Eligibility, complete applications for September 2027"
+    },
+    {
+     "fact": "funding",
+     "quote": "Stipend at UKRI level (£21,805 for 2026/27 entry, subject to annual increment) for three and a half years",
+     "locator": "Funding section"
+    },
+    {
+     "fact": "deadline",
+     "quote": "Funding deadline for International and Home applicants: 30 November 2026 23:59.",
+     "locator": "IPAB Robotics/CV/Graphics programme page, study.ed.ac.uk/programmes/postgraduate-research/495-informatics-ipab-robotics-computer-vision-computer-graphics"
+    }
+   ],
+   "risk": "Only 6-8 studentships across all Informatics institutes; deadline is 16 days away; 23:59 timezone presumed UK local (page does not state a zone). Round 2 (early 2027) is Home-only.",
+   "next_action": "If applying, submit complete EUCLID application to the IPAB (or most relevant institute) PhD by 2026-11-30 23:59 UK time; identify IPAB supervisors from group pages first.",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  },
+  {
+   "id": "imperial-presidents-phd-2027",
+   "institution": "Imperial College London",
+   "title": "President's PhD Scholarships 2027/28 (round 2 deadline 11 Jan 2027; final round 1 Mar 2027)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2027-01-11 23:59",
+   "start_date": "between 2027-08-01 and 2027-11-01",
+   "status": "open_verified",
+   "funding": "Full tuition fees; stipend GBP 27,036/year (2027-28 rate); consumables GBP 2,000/year for first 3 years; 3.5 years.",
+   "international_tuition": "COVERED: 'Full funding for tuition fees' with no nationality restriction (some departments may be unable to support international candidates).",
+   "research_fit": "high",
+   "fit_reason": "Any Imperial department can host; Dyson School Design Engineering (Robot Intelligence), Computing, EEE and Aeronautics have suitable navigation/robot-perception supervisors, but a supervisor must agree first.",
+   "url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/",
+   "source_type": "OFFICIAL_FUNDER",
+   "formal_eligibility": "Agreement from an Imperial supervisor (one scholar at a time per supervisor); standard PhD application; first-class/distinction-level expected by most departments; current Imperial PhD students ineligible.",
+   "required_materials": "Standard Imperial PhD application; two-page personal statement (motivation + research proposal); two academic referees (not the supervisor); tick President's PhD in funding section.",
+   "offer_timing": "Round 2 (11 Jan 2027): notified by 15 April 2027. Round 3 (1 Mar 2027): notified by 31 May 2027. Round 1 (2 Nov 2026) has passed. Cannot give an offer by 2026-12-31.",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "11 January 2027: notified by 15 April 2027.",
+     "locator": "Deadlines (2027 entry)"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "There are no restrictions on nationality, although some departments may be unable to support international candidates.",
+     "locator": "Eligibility"
+    },
+    {
+     "fact": "funding",
+     "quote": "A stipend of £27,036 per year (2027-28 rate)",
+     "locator": "Funding"
+    },
+    {
+     "fact": "funding",
+     "quote": "Full funding for tuition fees.",
+     "locator": "Funding"
+    }
+   ],
+   "risk": "Highly competitive (about 50 awards college-wide per prior cycle); needs supervisor buy-in before applying; the Robot Intelligence lab page says Dr Kormushev cannot take more President's candidates (that page may be dated).",
+   "next_action": "Shortlist Imperial supervisors in state estimation/robot perception, email for agreement, then apply for the 11 Jan 2027 or 1 Mar 2027 round.",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  },
+  {
+   "id": "imperial-computing-area-studentships-2027",
+   "institution": "Imperial College London (Department of Computing)",
+   "title": "Area-specific funded PhD studentships: Embodied AI for Dexterous Manipulation and 3D Vision; Human-centric Physical Intelligence; Visual World Models for Planning and Control; 3D Computer Vision and Generative Models for Digital Humans",
+   "type": "advertised_position",
+   "deadline_local": "rolling",
+   "start_date": "UNKNOWN (page lists no start date)",
+   "status": "rolling",
+   "funding": "Untaxed bursary GBP 23,805/year (2026/27 figure) plus fees, travel funds; duration not stated on page.",
+   "international_tuition": "COVERED_PER_TEXT_BUT_HEADER_AMBIGUOUS: text says 'available to home and international students' and 'covering tuition fees', yet some tab headers say 'home fees'. Confirm with department.",
+   "research_fit": "medium",
+   "fit_reason": "Robot learning / embodied AI / 3D vision studentships; adjacent to rather than inside inertial-visual state estimation.",
+   "url": "https://www.imperial.ac.uk/computing/prospective-students/courses/phd/scholarships/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "formal_eligibility": "First Class or Distinction Master's (or equivalent) expected; fluent English; apply via department PhD application naming project title and supervisor.",
+   "required_materials": "Department PhD application guidelines (not itemised on this page).",
+   "offer_timing": "UNKNOWN; page says 'Early applications are encouraged' and gives no deadline.",
+   "evidence": [
+    {
+     "fact": "eligibility",
+     "quote": "The position is available to home and international students.",
+     "locator": "Area-specific studentships, e.g. Embodied AI tab"
+    },
+    {
+     "fact": "funding",
+     "quote": "The position is fully funded, covering tuition fees, travel funds and a stipend/bursary.",
+     "locator": "Area-specific studentships"
+    },
+    {
+     "fact": "funding",
+     "quote": "untaxed bursary of £23,805 per year (2026/27 figure)",
+     "locator": "Area-specific studentships"
+    }
+   ],
+   "risk": "No deadline or start date; page header wording on fee level conflicts with body; studentships may be filled by earlier applicants; AI-generation topics (Bar, Kokkinos) are not inertial navigation.",
+   "next_action": "Read each studentship tab in full, email supervisor (Potamias, Kokkinos, Bar) with a robotics/state-estimation pitch, and ask the department to confirm overseas fee waiver in writing.",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  },
+  {
+   "id": "imperial-eee-alex-fortescue-2027",
+   "institution": "Imperial College London (Electrical and Electronic Engineering)",
+   "title": "Alex Fortescue PhD Scholarship 2027/28 (Human and Artificial Intelligence topics)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2027-03-01",
+   "start_date": "2027/28 academic year",
+   "status": "open_verified",
+   "funding": "Full tuition fees at Home or Overseas rate plus UKRI London-rate stipend for 3.5 years; one award.",
+   "international_tuition": "COVERED: 'Full tuition fees at Home or Overseas rate'; applicants of any nationality eligible.",
+   "research_fit": "low",
+   "fit_reason": "Project must align with Human and Artificial Intelligence topics in EEE; only relevant if an EEE supervisor accepts a sensing/inertial-learning topic.",
+   "url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/alex-fortescue-phd-scholarship-20272028.php",
+   "source_type": "OFFICIAL_FUNDER",
+   "formal_eligibility": "New entrants to an EEE PhD; no direct scholarship application; nominated by supervisor after PhD offer.",
+   "required_materials": "EEE PhD application by 1 March 2027.",
+   "offer_timing": "UNKNOWN; nomination after PhD offer.",
+   "evidence": [
+    {
+     "fact": "funding",
+     "quote": "Full tuition fees at Home or Overseas rate and UKRI London rate stipend for 3.5 years.",
+     "locator": "Value"
+    },
+    {
+     "fact": "deadline",
+     "quote": "by 1st March 2027",
+     "locator": "How to apply"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Applicants of any nationality are eligible for consideration",
+     "locator": "Eligibility"
+    }
+   ],
+   "risk": "Single award; narrow topic scope.",
+   "next_action": "Only pursue if an EEE supervisor offers a fitting AI/sensing project.",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  },
+  {
+   "id": "manchester-presidents-doctoral-scholarship-2027",
+   "institution": "University of Manchester (Faculty of Science and Engineering)",
+   "title": "President's Doctoral Scholarship 2027/28 (8-10 four-year projects; project-based application)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2026-12-18",
+   "start_date": "2027 (no exact date on page)",
+   "status": "open_verified",
+   "funding": "Four-year studentship: stipend = UKRI minimum (GBP 21,805 for 2026/27) plus GBP 1,000/year enhancement; tuition at home or international rate; RTSG up to GBP 20,000.",
+   "international_tuition": "COVERED: 'Open to all nationalities'; tuition 'at the home or international rate' is funded.",
+   "research_fit": "medium",
+   "fit_reason": "Fit depends entirely on which of the 8-10 announced projects (FindAPhD) are in robotics/navigation; I did not obtain the project list.",
+   "url": "https://www.se.manchester.ac.uk/study/postgraduate-research/fees-and-funding/search-for-funding/presidents-doctoral-scholarship/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "formal_eligibility": "First Class or 2:1 UK honours (or international equivalent); master's merit/distinction preferred; research experience.",
+   "required_materials": "Full project name and supervisor(s), previous study, two referees, personal statement, CV via online portal.",
+   "offer_timing": "Faculty interviews likely w/c 1 March 2027; offer after that (not by 2026-12-31).",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "application deadline is 18 December 2026",
+     "locator": "Key dates"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Open to all nationalities and across all research disciplines.",
+     "locator": "Eligibility"
+    },
+    {
+     "fact": "funding",
+     "quote": "Four year fully-funded studentship.",
+     "locator": "Funding"
+    }
+   ],
+   "risk": "Deadline in 34 days; needs a matching project; closing time not stated.",
+   "next_action": "Open the project list (FindAPhD via the page), filter for robotics/navigation/sensing, contact supervisors before 18 Dec 2026.",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  },
+  {
+   "id": "bristol-proai-cdt-2027",
+   "institution": "University of Bristol (UKRI AI CDT in Practice-Oriented AI)",
+   "title": "Practice-Oriented AI CDT PhD, September 2027 entry (round 2: 26 Feb 2027; final round: 14 May 2027)",
+   "type": "doctoral_program",
+   "deadline_local": "2027-02-26",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "International studentships: standard UKRI stipend (GBP 21,805 in 2026/27) + GBP 3,385 enhancement; tuition fees and training allowance paid. Home UKRI-eligible stipend GBP 30,000 for 2027/28.",
+   "international_tuition": "COVERED for 'the small number of international studentships available'; no cap number stated.",
+   "research_fit": "medium",
+   "fit_reason": "Bristol AI CDT with practice-oriented/robotics-adjacent projects; not specific to inertial navigation.",
+   "url": "https://www.bristol.ac.uk/cdt/practice-oriented-ai/apply/",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "Minimum upper second (or international equivalent); English Profile E if applicable.",
+   "required_materials": "Per apply page (not itemised in fetched text).",
+   "offer_timing": "Interviews 13-14 April 2027 (round 2); 22-23 June 2027 (final round). Round 1 (30 Oct 2026) has passed.",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "2nd round deadline: 26 February 2027.",
+     "locator": "Apply page, September 2027 entry"
+    },
+    {
+     "fact": "funding",
+     "quote": "the small number of international studentships available",
+     "locator": "Funding page"
+    },
+    {
+     "fact": "funding",
+     "quote": "the standard UKRI stipend (£21,805 in 2026/27) + £3,385 enhancement",
+     "locator": "Funding page, international"
+    }
+   ],
+   "risk": "Very few international places; broad AI topics.",
+   "next_action": "Check Bristol Robotics Lab supervisors and PrO-AI project list; email proai-cdt-admissions@bristol.ac.uk about international places.",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  },
+  {
+   "id": "edinburgh-heriotwatt-spads-cdt-2027",
+   "institution": "University of Edinburgh / Heriot-Watt University (SPADS CDT)",
+   "title": "Sensing, Processing and AI for Defence and Security CDT (themes include autonomous sensing platforms, sensor signal processing)",
+   "type": "doctoral_program",
+   "deadline_local": "rolling",
+   "start_date": "2027-09",
+   "status": "verification_needed",
+   "funding": "Studentship covers tuition fees plus tax-free stipend; international 2026/27 stipend GBP 24,245 (2027/28 amount not stated); home-fee students GBP 30,000 (TechFirst).",
+   "international_tuition": "COVERED_FOR_LIMITED_PLACES: 'A limited number of international studentships are available.'",
+   "research_fit": "medium",
+   "fit_reason": "Autonomous sensing platforms and sensor signal processing themes match sensor-fusion/navigation, but defence framing and security conditions apply.",
+   "url": "https://study.ed.ac.uk/programmes/postgraduate-research/1120-centre-for-doctoral-training-sensing-processing-and-ai-for",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "UK 2:1 or equivalent; applicants requiring ATAS clearance cannot apply; BPSS security check for offer holders.",
+   "required_materials": "UNKNOWN (EUCLID data unavailable).",
+   "offer_timing": "Applications considered at end of each month until places filled (after first round).",
+   "evidence": [
+    {
+     "fact": "fees",
+     "quote": "A limited number of international studentships are available.",
+     "locator": "Funding / international"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "we are unable to accept applications from those requiring ATAS clearance.",
+     "locator": "Eligibility"
+    }
+   ],
+   "risk": "ATAS is required for many non-UK nationals in sensitive subjects: applicant nationality UNKNOWN so eligibility may be blocked outright; no deadline stated.",
+   "next_action": "Check ATAS requirement for applicant's nationality first; only then email cdt team via eng.ed.ac.uk/spads-cdt/how-to-apply.",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  },
+  {
+   "id": "cambridge-trust-international-scholarship-2027",
+   "institution": "University of Cambridge (Cambridge Trust)",
+   "title": "Cambridge International Scholarship (PhD, overseas fee status; applies to Engineering PhD)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "",
+   "start_date": "2027-10-01",
+   "status": "verification_needed",
+   "funding": "International fees, maintenance and Student immigration health surcharge; approx 63 awards (2026/27 award year page).",
+   "international_tuition": "COVERED: Fee status 'Overseas'; 'Fees (International), maintenance'.",
+   "research_fit": "medium",
+   "fit_reason": "Engineering PhD (Control/Information engineering) supervisors work on navigation/estimation, but scholarship is course-level, not project-specific.",
+   "url": "https://www.student-funding.cam.ac.uk/fund/cambridge-international-scholarship-2025",
+   "source_type": "OFFICIAL_FUNDER",
+   "formal_eligibility": "Applicants from countries other than UK or Ireland, highly ranked by their Department.",
+   "required_materials": "No separate application; funding deadline of the course applies.",
+   "offer_timing": "Awards period beginning of March to end of July (page, 2026/27 cycle).",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Same as funding deadline for the course.",
+     "locator": "Deadline"
+    },
+    {
+     "fact": "fees",
+     "quote": "Fees (International), maintenance",
+     "locator": "What is covered"
+    },
+    {
+     "fact": "deadline",
+     "quote": "Dec. 8, 2026",
+     "locator": "Cambridge Engineering PhD course page funding deadlines, labelled 'Gates Cambridge US round only'; an unlabelled Oct 14, 2026 also listed"
+    }
+   ],
+   "risk": "Funding deadline for Engineering PhD for Michaelmas 2027 could not be resolved (page lists Dec 8 2026 labelled Gates US-only and an unlabelled Oct 14 2026; Engineering last year used early Dec). Page fetched is the 2026/27 record. Application deadline 13 May 2027 but funding earlier.",
+   "next_action": "Confirm the Cambridge Trust funding deadline for PhD in Engineering via postgraduate.study.cam.ac.uk deadlines page immediately (INFERENCE: early Dec 2026 to early Jan 2027).",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  },
+  {
+   "id": "oxford-eit-fundamentals-of-ai-cdt-2027",
+   "institution": "University of Oxford (EIT CDT in the Fundamentals of AI)",
+   "title": "Fully funded 4-year studentships, Fundamentals of AI CDT, 2027/28 entry (home or overseas fee status)",
+   "type": "doctoral_program",
+   "deadline_local": "",
+   "start_date": "2027-10",
+   "status": "verification_needed",
+   "funding": "Course fees, enhanced tax-free stipend GBP 31,805 (2026-27), IHS and visa support, project/training/travel funds, laptop; 4 years.",
+   "international_tuition": "COVERED: 'home or overseas fee status'.",
+   "research_fit": "low",
+   "fit_reason": "Foundational AI/ML CDT; only relevant for physics-informed/learning-theory side of the profile, not navigation.",
+   "url": "https://foaicdt.site.ox.ac.uk/funding-how-apply",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "Apply via Oxford admissions portal; no supervisor contact or proposal required; 3 referees; transcripts; GBP 20 fee unless waived.",
+   "required_materials": "Statement of purpose (250/400/400 words), CV details in form, 3 referees, transcripts.",
+   "offer_timing": "Interviews online typically Feb or March.",
+   "evidence": [
+    {
+     "fact": "fees",
+     "quote": "home or overseas fee status",
+     "locator": "Funding"
+    },
+    {
+     "fact": "funding",
+     "quote": "enhanced tax-free stipend (£31,805 for 2026-27)",
+     "locator": "Stipend"
+    },
+    {
+     "fact": "deadline",
+     "quote": "expected to open between late 2026 and early 2027",
+     "locator": "Deadlines for 2027 entry"
+    }
+   ],
+   "risk": "Exact deadline not published on page; low topical fit; extremely competitive.",
+   "next_action": "Watch Oxford admissions page for FoAI CDT deadline (INFERENCE: Jan 2027).",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  },
+  {
+   "id": "edinburgh-e5-dtp-2027",
+   "institution": "University of Edinburgh (E5 DTP)",
+   "title": "E5 Doctoral Training Partnership 2027 entry (funder and subject scope not stated on pages fetched)",
+   "type": "doctoral_program",
+   "deadline_local": "2026-12-02 12:00",
+   "start_date": "2027-09 (INFERENCE)",
+   "status": "open_verified",
+   "funding": "UKRI stipend GBP 21,805 (2026/27) for up to four years; Edinburgh waives Home vs international fee difference; visa/IHS/flights not covered.",
+   "international_tuition": "WAIVED: 'will waive the difference between Home and international fees'; 30% international cap.",
+   "research_fit": "low",
+   "fit_reason": "Page references NERC; likely environmental-science scope, so relevant only for environmental sensing/geoscience-navigation projects.",
+   "url": "https://e5-dtp.ed.ac.uk/e5-dtp-application-for-2027-opening-soon/selection-process",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "'welcome applications ... of all nationalities'; meet University PhD entry and E5 criteria.",
+   "required_materials": "Per E5 how-to-apply (not fetched).",
+   "offer_timing": "First offers from 5 March 2027; interviews 22-24 Feb 2027; acceptance deadline 16 March 2027.",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "2 December 2026 - 12 noon GMT",
+     "locator": "Selection process timeline"
+    },
+    {
+     "fact": "fees",
+     "quote": "will waive the difference between Home and international fees",
+     "locator": "Entry and eligibility criteria"
+    },
+    {
+     "fact": "fees",
+     "quote": "UKRI limits the proportion of international students recruited to the DTP to 30% of the overall intake.",
+     "locator": "Entry and eligibility criteria"
+    }
+   ],
+   "risk": "Subject scope unconfirmed (likely not robotics); 30% international cap.",
+   "next_action": "Browse advertised E5 projects for any sensing/navigation project before deciding; otherwise skip.",
+   "country": "United Kingdom",
+   "verified_on": "2026-11-14",
+   "timezone": "Europe/London"
+  }
+ ],
+ "labs": [
+  {
+   "pi": "Niki Trigoni and Andrew Markham",
+   "institution": "University of Oxford (Department of Computer Science)",
+   "group": "Cyber-Physical Systems / Positioning in GPS-denied Environments",
+   "group_url": "https://www.cs.ox.ac.uk/activities/indoor_positioning/",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "DeepTIO: A Deep Thermal-Inertial Odometry with Visual Hallucination",
+     "year": 2020,
+     "url": "https://www.cs.ox.ac.uk/publications/publication13786-abstract.html"
+    },
+    {
+     "title": "Learning Monocular Visual Odometry through Geometry-Aware Curriculum Learning",
+     "year": 2019,
+     "url": "https://www.cs.ox.ac.uk/publications/publication12492-abstract.html"
+    }
+   ],
+   "hiring_channel_url": "https://www.cs.ox.ac.uk/people/Niki.Trigoni",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Page says fusing visual, inertial, radio and magnetic sensing with learning; Trigoni directs Oxford AIMS CDT. Statement 'we currently have a number of funded open positions' is on a dated profile page; no 2027 call found. Fee funding for overseas not stated; AIMS stipend may be home-fee only (UNVERIFIED)."
+  },
+  {
+   "pi": "Petar Kormushev",
+   "institution": "Imperial College London (Dyson School of Design Engineering)",
+   "group": "Robot Intelligence Lab",
+   "group_url": "https://www.imperial.ac.uk/robot-intelligence/opportunities/phd/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.imperial.ac.uk/robot-intelligence/opportunities/phd/",
+   "hiring_state": "ROLLING",
+   "caveat": "Says contact first; lists scholarships and says President's PhD slot not currently available through this supervisor. Robot learning, not state estimation."
+  },
+  {
+   "pi": "Antoine Cully",
+   "institution": "Imperial College London (Computing)",
+   "group": "BOLD lab (formerly AIRL)",
+   "group_url": "https://www.imperial.ac.uk/adaptive-intelligent-robotics/join-us/phd-applications/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.imperial.ac.uk/adaptive-intelligent-robotics/join-us/phd-applications/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Applications 'will open soon'; funding and international terms not stated; register interest."
+  },
+  {
+   "pi": "Rolandos Potamias, Iason Kokkinos, Amir Bar",
+   "institution": "Imperial College London (Computing)",
+   "group": "Dexterous manipulation / physical intelligence / world models",
+   "group_url": "https://www.imperial.ac.uk/computing/prospective-students/courses/phd/scholarships/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.imperial.ac.uk/computing/prospective-students/courses/phd/scholarships/",
+   "hiring_state": "OPEN",
+   "caveat": "Each has an advertised funded studentship open to international students per page text; topics are embodied AI/vision, not inertial."
+  }
+ ],
+ "recurring_cycles": [
+  {
+   "program": "Design Engineering PhD Scholarships (DEPS), Dyson School",
+   "institution": "Imperial College London",
+   "url": "https://imperial.ac.uk/study/fees-and-funding/scholarships-search/design-engineering-phd-scholarship-deps-20262027.php",
+   "last_observed_deadline": "2026-01-12 (HISTORICAL; page prints 12/01/2026, 2026/27 entry, marked closed)",
+   "expected_next_window": "January 2027 for 2027/28 (INFERENCE; 2027/28 page not found, 404)",
+   "funding_note": "3 awards, 'one for full home fees, two for full overseas fees', stipend GBP 21,237/year for 3.5 years (2026/27 page). Dyson School hosts Robot Intelligence Lab."
+  },
+  {
+   "program": "James Watt School of Engineering scholarships (Autonomous Systems and Connectivity etc.)",
+   "institution": "University of Glasgow",
+   "url": "https://gla.ac.uk/schools/engineering/phdopportunities",
+   "last_observed_deadline": "2026-05-31 for 2026/27 start (HISTORICAL); CSC closing 2026-01-31",
+   "expected_next_window": "Unknown for 2027/28; likely early-to-mid 2027 (INFERENCE)",
+   "funding_note": "Limited School/EPSRC/Mary Gibb Dunlop scholarships for 'excellent home and international candidates'; amount and fee coverage not stated; supervisor letter required."
+  },
+  {
+   "program": "Departmental doctoral teaching scholarships (up to four, at least one for overseas)",
+   "institution": "Imperial College London (Computing)",
+   "url": "https://www.imperial.ac.uk/computing/prospective-students/courses/phd/scholarships/",
+   "last_observed_deadline": "Apply by 15 February or 15 April (recommended dates, 2026/27 page; HISTORICAL)",
+   "expected_next_window": "15 Feb / 15 Apr 2027 (INFERENCE)",
+   "funding_note": "About GBP 31,380/year total, covers full fees, 4.5 years, teaching commitment."
+  },
+  {
+   "program": "AIMS CDT industry-linked studentships (Oxford)",
+   "institution": "University of Oxford",
+   "url": "https://aims.robots.ox.ac.uk/study/industry-studentships",
+   "last_observed_deadline": "2025-01-29 (HISTORICAL, Oct 2025 start). Current: 2027-01-27 for two Oct 2027 studentships (AI governance; LLM code generation), international eligibility not stated",
+   "expected_next_window": "Late January 2028 (INFERENCE)",
+   "funding_note": "Fully funded 4 years (fees plus stipend); topics on current posts are off-profile."
+  },
+  {
+   "program": "Informatics Graduate School studentships round 2",
+   "institution": "University of Edinburgh",
+   "url": "https://informatics.ed.ac.uk/postgraduate/fees/research-scholarships/informatics-global-phd-scholarships",
+   "last_observed_deadline": "Round 2 planned early 2027, Home applicants only (not fixed)",
+   "expected_next_window": "Not open to international (per page)",
+   "funding_note": "Use round 1 (30 Nov 2026) for international."
+  }
+ ],
+ "ineligible_or_partial": [
+  {
+   "title": "Southampton Presidential Bursary (PhD, international)",
+   "url": "https://www.southampton.ac.uk/study/fees-funding/scholarships/postgraduate-uk/presidential-bursaries",
+   "restriction_clause": "'The difference between UK and international tuition fees'; start 1 Aug 2027-31 Jan 2028; no deadline, first come first served",
+   "why_excluded": "Fee-gap only, no stipend; needs a separate stipend source. Useful only as a top-up if a UKRI/home-fee studentship at Southampton is won. Page contradicts itself on start year."
+  },
+  {
+   "title": "Cranfield: Attitude and Orbit Control PhD (Jan 2027)",
+   "url": "https://www.cranfield.ac.uk/research/phd/attitude-and-orbit-control",
+   "restriction_clause": "Eligibility 'UK'; 'must be classified as a Home fee status student'. Deadline 02 Dec 2026, start 25 Jan 2027, up to GBP 24,500/year",
+   "why_excluded": "Home fee status only."
+  },
+  {
+   "title": "Cranfield: Self-evolving multi-agent systems PhD",
+   "url": "https://www.cranfield.ac.uk/research/phd/self-evolving-multi-agent-systems",
+   "restriction_clause": "'This is a self funded PhD.' Deadline 7 Apr 2027",
+   "why_excluded": "No funding."
+  },
+  {
+   "title": "Strathclyde: Robust perception for robot navigation in dynamic manufacturing environments (SLAM)",
+   "url": "https://www.strath.ac.uk/studywithus/postgraduateresearchphdopportunities/engineering/designmanufacturingengineeringmanagement/robustperceptionforimprovingrobotnavigationinhighlydynamicmanufacturingenvironments/",
+   "restriction_clause": "'International applicants are strongly encouraged to apply and to seek funding to cover the difference.' Deadline 'Monday 27 July 2026'",
+   "why_excluded": "Home tuition fees only, deadline passed. Right topic though; strong lab signal."
+  },
+  {
+   "title": "Southampton subsea navigation (SLAM) and multi-robot perception projects",
+   "url": "https://www.southampton.ac.uk/study/postgraduate-research/projects/improving-subsea-navigation-for-long-term-autonomy",
+   "restriction_clause": "'Fully funded (UK only)' / stipend for UK students; deadlines 2022-2023",
+   "why_excluded": "Expired and UK only. Blair Thornton remains a relevant PI."
+  },
+  {
+   "title": "Imperial EPSRC Doctoral Landscape Award (Computing, 5 places, Oct 2027)",
+   "url": "https://www.imperial.ac.uk/computing/prospective-students/phd/scholarships/",
+   "restriction_clause": "Award 'is for UK students and EU students who meet the EPSRC residency criteria'; home fees only",
+   "why_excluded": "Home-fee status needed."
+  },
+  {
+   "title": "Imperial Design Engineering listed PhDs (Faraday battery, LISS DTP game engagement)",
+   "url": "https://www.imperial.ac.uk/design-engineering/study/phd/funding-opportunities/design-engineering-scholarships/other-phd-scholarships-available-in-design-engineering-/",
+   "restriction_clause": "'open to home students only'; 'only pays home tuition fees'",
+   "why_excluded": "Home only; off-topic."
+  },
+  {
+   "title": "Edinburgh CDT in Robotics and Autonomous Systems (RAS)",
+   "url": "https://www.edinburgh-robotics.org/node/1",
+   "restriction_clause": "'no longer accepting applications'",
+   "why_excluded": "Closed (final cohort 2023)."
+  }
+ ],
+ "unverified_leads": [
+  {
+   "title": "UCL EPSRC Doctoral Landscape Award (UELA) 2027/28 and UCL Dynamic Systems Lab 'Cooperative Navigation for Open Multi-agent Systems'",
+   "url_tried": "https://www.ucl.ac.uk/epsrc-doctoral-training/prospective-students/apply-ucl-epsrc-landscape-award-uela-studentship",
+   "reason": "UCL pages return HTTP 403 to WebFetch and curl. Search snippets (unfetched) say deadline 8 Jan 2027 12:00 UK, 30% international cap with UCL covering fee difference for UELA, but the cooperative navigation project is Home fees only. Highly topical (SLAM/state estimation); check manually."
+  },
+  {
+   "title": "UCL Graduate Research Scholarships",
+   "url_tried": "https://www.ucl.ac.uk/scholarships/graduate-research-scholarships",
+   "reason": "HTTP 403. Snippet: deadline 8 Jan 2027 (unverified)."
+  },
+  {
+   "title": "Edinburgh Doctoral College Scholarships 2027/28",
+   "url_tried": "https://registryservices.ed.ac.uk/student-funding/postgraduate/international/doctoral-college",
+   "reason": "Fetched but page says funding 'still being confirmed', no deadline table, does not say tuition is at international rate. Snippet claims 22 Jan 2027 (unverified)."
+  },
+  {
+   "title": "CDT-D2AIR (Heriot-Watt/Edinburgh, AI for robotics)",
+   "url_tried": "https://edinburgh-robotics.org/cdt-d2air",
+   "reason": "404; Edinburgh CDT list (2024 text) says open but gives no 2027 dates or fee terms; search budget ran out before official apply page was found."
+  },
+  {
+   "title": "Surrey AWARE: Adaptive World Models for Robust Robot Learning and Deployment, and warehouse robotics world-models studentship",
+   "url_tried": "https://www.surrey.ac.uk/fees-and-funding/studentships/aware-adaptive-world-models-robust-robot-learning-and-deployment",
+   "reason": "URL returns the generic studentship listing, not the project; neither project appears in it, deadlines and fee terms unknown. Surrey general 30% international clause only from snippets."
+  },
+  {
+   "title": "Manchester RAINZ CDT (Robotics and AI for Net Zero), 2027",
+   "url_tried": "https://www.manchester.ac.uk/study/postgraduate-research/programmes/list/21636/phd-robotics-and-artificial-intelligence/",
+   "reason": "Fetched page has no funding/deadline; snippets suggest home-fee funded with limited overseas support (unverified)."
+  },
+  {
+   "title": "Oxford AIMS CDT main DPhil (2027-28) and Oxford Engineering Science DPhil/ORI studentships",
+   "url_tried": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-engineering-science",
+   "reason": "403; AIMS study page gives no deadline/fee info; two AIMS industry studentships (27 Jan 2027) are off-topic and silent on fee status."
+  },
+  {
+   "title": "Cranfield Ubiquitous Cognitive Navigation with AI Based Systems (Spirent/EPSRC)",
+   "url_tried": "https://www.cranfield.ac.uk/research/phd/ubiquitous-cognitive-navigation-with-ai-based-systems-phd",
+   "reason": "404 on fetch; snippets: deadline 30 Sep 2026 (passed), Home fee status, start 25 Jan 2027. Excluded on that evidence but unverified."
+  },
+  {
+   "title": "Durham: Efficient Physical AI for Real-World Robotics (Intel)",
+   "url_tried": "https://www.jobs.ac.uk/job/DTI242/efficient-physical-ai-for-real-world-robotics-funded-phd-studentship",
+   "reason": "Not fetched; snippet says closes 19 Jan 2027 but UK-only home tuition."
+  },
+  {
+   "title": "Leeds School of EEE scholarship (Institute of Robotics, Autonomous Systems and Sensing)",
+   "url_tried": "https://phd.leeds.ac.uk/funding/217-school-of-electronic-electrical-engineering-scholarship-2026-27-february-2026",
+   "reason": "HTTP 403; 2026/27 cycle only; snippet says international fee rate GBP 32,000 covered. Check for 2027/28 successor."
+  },
+  {
+   "title": "Nottingham, Sheffield, Bath, Loughborough, Newcastle, Warwick, Birmingham international scholarships",
+   "url_tried": "n/a",
+   "reason": "No official 2027 pages found; WebSearch budget exhausted before these were investigated; aggregator-only hits."
+  },
+  {
+   "title": "Heriot-Watt James Watt Scholarships and Ocean Systems Lab studentships",
+   "url_tried": "https://www.hw.ac.uk/uk/schools/engineering-physical-sciences/research/james-watt.htm",
+   "reason": "No 2027 call located; fee terms vary per project."
+  }
+ ],
+ "corrections_to_existing_repo": [],
+ "yield_note": "Saturated: advertised UK navigation/SLAM/INS studentships found (UCL, Cranfield, Strathclyde, Southampton, Durham, Reading) are Home-fee only or expired; none found with verified international fee coverage. Real international routes are scholarship/CDT-level: Edinburgh Informatics (30 Nov 2026), Imperial President's (11 Jan / 1 Mar 2027), Manchester PDS (18 Dec 2026), Bristol PrO-AI (26 Feb 2027), Cambridge Trust, SPADS. No UK route can yield an offer by 2026-12-31. Not covered because WebSearch budget ran out and UCL/Oxford pages return 403: UCL UELA/GRS, Oxford Engineering Science, Surrey AWARE, Leeds, Nottingham, Sheffield, Bath, Loughborough, Newcastle, Warwick, Birmingham, Heriot-Watt OSL, Cranfield current calls. Applicant nationality UNKNOWN matters for ATAS (SPADS, other defence-linked posts) and EU/home status would unlock UKRI-funded studentships only if UK settled/pre-settled."
+}

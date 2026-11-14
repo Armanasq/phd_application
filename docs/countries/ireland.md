@@ -21,3 +21,6 @@ No independently corroborated first-person Ireland-specific applicant cohort has
 
 ## Action
 Track institutional Empower-funded advertisements after Jan/Mar 2027 and immediately screen department-specific project vacancies. Require university page confirming open application + fee/stipend before Portfolio A/B entry. Ireland remains strategic, not ruled out by absence of presently verified funded calls.
+
+## 2026-11-14 update
+Only one funded post was verified (Tyndall, low fit, 27 Nov 2026); two TU Dublin UWB posts are self-funded and should not be tracked as funded. Research Ireland Empower stays invitation-only with notifications in January 2027. No Irish supervisor was verified. Source detail: [opportunity search synthesis](../../synthesis/opportunity-search-2026-11-14.md); fetch-summary evidence needs live-page recheck.

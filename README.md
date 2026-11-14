@@ -13,7 +13,7 @@ The objective is a credible **fully funded offer as early as possible**, screeni
 | **Actual research status and blockers** | [Research status](RESEARCH_STATUS.md) |
 | 2026–27 application decisions and deadlines | [Corrected application campaign](strategy/2026-2027-corrected.md), [research-fit priority table](strategy/research-fit-priorities.md), [deadline/approval checklist](docs/operations/november-2026-readiness.md) |
 | Country-specific institutional policy | [Eight country dossiers](docs/countries/README.md) |
-| Officially sourced vacancies, scholarships, programs | [20 opportunity/route leads](data/opportunities.csv) and [individual funding, fee and offer-date gates](data/opportunity_assessments.csv) |
+| Officially sourced vacancies, scholarships, programs | [78 opportunity/route leads](data/opportunities.csv) ([14 Nov 2026 search](synthesis/opportunity-search-2026-11-14.md), [lab radar](research/supervisors/radar-2026-11-14.md)) and [individual funding, fee and offer-date gates](data/opportunity_assessments.csv) |
 | Global GitHub reviews | [Canonical repository index](research/repositories/index.md), [228 reviewed record metadata](data/repositories.csv) |
 | Global GitHub candidate inventory | [404 raw discovered identities](data/github_discovery_candidates.csv), [176 screened exclusions](data/exclusions.csv) |
 | Transparent search/research method | [Protocol](METHODOLOGY.md), [source policy](SOURCE_POLICY.md), [discovery log](data/discovery_log.jsonl) |
@@ -35,7 +35,7 @@ The objective is a credible **fully funded offer as early as possible**, screeni
 | Included for subsequent review | **0** | Relevant initial screening, individual deep review pending |
 | Untriaged discovery candidates | **0** | Every discovered identity has a review or evidence-coded exclusion; depth varies |
 | Country dossiers | **8** | Official-source national assessments; not nationwide vacancy exhaustiveness |
-| Program/position/scholarship leads | **20** | Heterogeneous opportunity classes; **not 20 verified funded offers** |
+| Program/position/scholarship leads | **78** | 20 from 11 Nov plus 58 from the 14 Nov parallel official-source search; heterogeneous classes, **not 78 verified funded offers**; new rows carry a fetch-summary recheck flag |
 | Claim records / canonical sources | **26 / 21** | Claim-specific source references; independent semantic recheck still pending |
 | Applicant experience cases | **6** | Source-classified anecdotes, **not representative admissions statistics** |
 

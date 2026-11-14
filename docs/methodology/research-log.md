@@ -123,3 +123,9 @@ No credible search saturation, 353 unscreened candidates, 27 non-deep preliminar
 - Registered 5 additional evidence-coded exclusions; 4 previously screened identities were preserved without change. Every still-screened item retains pinned commit/source evidence or a verified GitHub empty-repository API state.
 - This is admissions-scope screening, not a claim that the software is unsuitable for its own purpose. No external code or private content was executed/read.
 - Canonical 404 = 148 reviewed (52 deep static and 96 preliminary) + 128 excluded + 128 untriaged + 0 screened included.
+
+## 2026-11-14 — Parallel opportunity search and branch reconciliation
+- Seven agents searched official sources by region and theme (Switzerland, UK, Ireland/Luxembourg/Norway, Canada, Australia/New Zealand, cross-border funders, supervisor radar). Every search run and finding is preserved in `research/opportunity-search/2026-11-14/`.
+- Added 58 leads (20 → 78), 57 radar labs, corrections to eth-3d, usn-ai, usn-systems, ubc-cs-2027, uzh-rpg-2026, eth-rsl-rolling, eth-siplab-neuromotor, epfl-edic, wellington-doctoral-2027 and otago-doctoral-review. Synthesis: [opportunity-search-2026-11-14](../../synthesis/opportunity-search-2026-11-14.md).
+- Limits: fetch tool returned summaries, search quotas ran out in every agent, several sites blocked automation; independent semantic recheck NOT_PERFORMED. No application, contact or offer.
+- Branch reconciliation: 18 stale `research/*` branches were merged by ancestry. Their data rows were already on main; 14 divergent session notes were kept as `.variant-*` files beside the canonical versions. Nothing was deleted.

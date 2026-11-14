@@ -16,3 +16,6 @@ Check prior degree equivalency, research thesis background, English test or exem
 
 ## Strategy and gaps
 Portfolio B: research a Wellington advisor before March 2027; Otago rolling scholarship only after confirming scholarship review outcome/policy status; additional labs require current project positions. No claim every NZ PhD is funded.
+
+## 2026-11-14 update
+NZ government rule, stated on Auckland, Otago and government pages: international PhD students pay domestic fees only if resident in NZ for the whole enrolment. Auckland doctoral scholarship rounds (1 Feb 2027) and Canterbury (15 May, year inferred) were added; no NZ supervisor was verified. Source detail: [opportunity search synthesis](../../synthesis/opportunity-search-2026-11-14.md); fetch-summary evidence needs live-page recheck.

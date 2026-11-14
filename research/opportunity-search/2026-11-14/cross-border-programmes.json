@@ -1,0 +1,417 @@
+{
+  "agent": "cross-border-programmes",
+  "scope": "Funder-level and multi-country routes into the eight target countries: (1) MSCA Doctoral Networks / Horizon Europe / SERI-funded doctoral posts; (2) national doctoral funders open to international applicants (Swiss ESKAS and ETH ESOP, Luxembourg FNR AFR/AFdoc/PRIDE, Norway RCN, Ireland Research Ireland/GOIPG/Empower, Australian RTP at several universities, NZ Auckland doctoral scholarship, Canada CGRS-D/Vanier/Vector/OGS); (3) industry/defence/space-agency routes (ESA NPI/OSIP co-funded PhDs, armasuisse, FFI, Dstl, UK EPSRC DLA). NOTE: the WebSearch quota ran out mid-session, so Norway and industry/defence sub-searches are incomplete; several university sites (UCL, Southampton, QUT, EURAXESS, jobbnorge) returned HTTP 403/404 to the fetch tool and are therefore listed as unverified. Quotes below are taken from the WebFetch tool output; where the tool returned a paraphrase rather than page text the locator says 'fetch summary'.",
+  "searches_run": [
+    {"query": "MSCA Doctoral Network inertial navigation sensor fusion doctoral candidate position 2026", "engine": "WebSearch", "result_note": "No matching DN vacancy; MSCA 2026 call is for consortia (deadline 24 Nov 2026 TBC)."},
+    {"query": "MSCA DN visual-inertial / SLAM / UAV / navigation euraxess 2026", "engine": "WebSearch", "result_note": "Hits only in Germany/Italy/Finland or already closed (ENGAGE TUM Oct 2025, WildBotics 7 Jan 2026, CAVECORE)."},
+    {"query": "MSCA doctoral network robotics perception ETH/Zurich/Dublin/Luxembourg/Oslo", "engine": "WebSearch", "result_note": "Nothing in target cities."},
+    {"query": "MSCA doctoral network UAV drone GNSS-denied; space/maritime navigation DN", "engine": "WebSearch", "result_note": "SPARE (Heriot-Watt/Thales Alenia Space PNT-LEO) closed 9 Jan 2026; BlueOcean Southampton closed 4 Nov 2026."},
+    {"query": "MSCA doctoral candidate Switzerland SERI funded ETH/EPFL/PSI", "engine": "WebSearch", "result_note": "Only bio/energy/soft-robotics DN posts (Print4Life, ENDOTRAIN, MiningBrines, SLICE, RAPTORplus, SAM3 closed 15 Jul 2026); none navigation."},
+    {"query": "MSCA doctoral network Ireland/Norway/Luxembourg robotics ML sensing", "engine": "WebSearch", "result_note": "No open candidate posts found."},
+    {"query": "https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-doctoral-networks-2026", "engine": "WebFetch", "result_note": "Call launch 28 May 2026, deadline 24 Nov 2026 (both TBC); no candidate mobility rule on that page."},
+    {"query": "https://euraxess.ec.europa.eu/jobs/search?keywords=MSCA doctoral network robotics", "engine": "WebFetch", "result_note": "HTTP 403; EURAXESS not directly searchable by this tool."},
+    {"query": "https://cordis.europa.eu/project/id/101312043 (BlueOcean)", "engine": "WebFetch", "result_note": "Coordinator DTU; start 1 Oct 2026; 9 beneficiaries incl. Norway and UK."},
+    {"query": "http://www.jobs.ac.uk/job/DTE958 (BlueOcean Southampton)", "engine": "WebFetch", "result_note": "Closing 4 Nov 2026 (passed); mobility rule and any-nationality clause recorded."},
+    {"query": "https://microwaves.site.hw.ac.uk/?p=3153 (SPARE DN)", "engine": "WebFetch", "result_note": "Deadline 9 Jan 2026 (passed); mobility rule not stated on page."},
+    {"query": "FNR AFR / PRIDE / industrial fellowships / AFdoc", "engine": "WebSearch + WebFetch", "result_note": "AFR discontinued; PRIDE last call 15 Oct 2025; AFdoc first call 25 Nov 2026 requires Luxembourg link; industrial fellowships call closed 29 Apr 2026."},
+    {"query": "https://www.fnr.lu/funding-programmes/afr/ ; /funding-instruments/pride/ ; /funding-programmes/afdoc/ ; /launch-2026-1-industrial-fellowships-call/", "engine": "WebFetch", "result_note": "All fetched; details in recurring_cycles / ineligible_or_partial."},
+    {"query": "Swiss Government Excellence Scholarships doctoral 2027-2028; ETH ESOP", "engine": "WebSearch + WebFetch", "result_note": "sbfi.admin.ch/scholarships_en fetched (no closing date on page, PhD not named, supervisor in CH required, age max 35, CHF 2,450/month). ETH ESOP is Master's only."},
+    {"query": "Research Council of Norway PhD schemes", "engine": "WebSearch + WebFetch", "result_note": "forskningsradet.no fetched; no individual PhD scholarship scheme shown; RCN funds PhDs inside institution/project grants. Listings found were all closed or aggregators."},
+    {"query": "Norway PhD robotics/SLAM/state estimation open Dec 2026-Jan 2027", "engine": "WebSearch + WebFetch", "result_note": "arbeidsplassen/jobbnorge detail pages now 404; snippets show deadlines already passed. No verified open Norwegian lead. Further searches blocked by quota."},
+    {"query": "Research Ireland GOIPG / Empower", "engine": "WebSearch + WebFetch", "result_note": "GOIPG closed and integrated into invite-only institutional Empower (deadline 6 Nov 2026, grants start Mar 2027)."},
+    {"query": "Canada CGRS-D / Vanier / Vector / OGS / Trillium", "engine": "WebSearch + WebFetch", "result_note": "CGRS-D official page fetched (15% international cap, registered students only). Vanier archived. Vector is master's, nomination only. OGS Waterloo page fetched."},
+    {"query": "Australian RTP international: Sydney, UQ, ANU, UWA, UTS, UNSW, QUT", "engine": "WebSearch + WebFetch", "result_note": "Sydney (R3/4 closes 18 Dec 2026), UQ (R1 25 Jan 2027), ANU (R2 15 Apr annual) official pages fetched; UWA/UQ-international 2027 rounds already closed; UNSW/QUT/UTS pages 403/404."},
+    {"query": "NZ doctoral scholarships (Auckland, Canterbury, Massey, Waikato)", "engine": "WebSearch + WebFetch", "result_note": "Auckland official page fetched (rounds 1 Nov/1 Feb/1 May/1 Aug). Canterbury page 404."},
+    {"query": "ESA NPI / OSIP co-funded PhD", "engine": "WebSearch + WebFetch", "result_note": "ESA NPI FAQ page (no nationality restriction, boards June/Nov) and OSIP page fetched; UK NPI page is archive content (2018); OSIP idea portal needs login."},
+    {"query": "armasuisse / FFI / Dstl PhD", "engine": "WebSearch + WebFetch", "result_note": "No open doctoral call found; armasuisse pages 404; FFI roles require security clearance (snippet only); Dstl gov.uk page has no studentship info."},
+    {"query": "UK EPSRC DLA/DTP studentships for international students (UCL, Sheffield, Manchester)", "engine": "WebSearch + WebFetch", "result_note": "Sheffield and Manchester pages fetched; UCL 403."},
+    {"query": "UK robotics/navigation studentships 2027 (UCL, Southampton, Strathclyde, Durham, KCL, Nottingham)", "engine": "WebSearch + WebFetch", "result_note": "Strathclyde fetched (closed 27 Jul 2026); UCL/Southampton 403; KCL/Nottingham 404."}
+  ],
+  "leads": [
+    {
+      "id": "usyd-rtp-international-2027-rp34-acfr",
+      "country": "Australia",
+      "institution": "University of Sydney",
+      "title": "International RTP / USydIS stipend and fee scholarship, Research Periods 3 and 4 2027 (use with ACFR robotics PhD projects)",
+      "type": "competitive_scholarship_round",
+      "deadline_local": "2026-12-18",
+      "timezone": "Australia/Sydney",
+      "start_date": "Research Periods 3 or 4 of 2027 (exact calendar dates not stated on fetched page)",
+      "status": "open_verified",
+      "funding": "Stipend AUD 44,293 per year (2027 rate) plus relocation and thesis allowance; RTP Fee Offset or University Tuition Fee Scholarship covers 100% of tuition for up to 14 research periods; RTP Fee Offset lists OSHC. Competitive, not guaranteed.",
+      "international_tuition": "COVERED if awarded: 'cover 100% of tuition fees for up to 14 research periods' (fetch summary). Receiving a stipend automatically awards the matching fee scholarship.",
+      "research_fit": "high",
+      "fit_reason": "The ACFR (same university) lists PhD projects on SLAM in dynamic environments, visual-acoustic marine SLAM and sensor fusion for perception and tracking, which match the applicant's SLAM/sensor-fusion profile.",
+      "url": "https://sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+      "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+      "verified_on": "2026-11-14",
+      "formal_eligibility": "Must be an international student commencing or enrolled in a higher degree by research; commencing students must apply for admission and submit the scholarship form by the deadline; preference to PhD-intending applicants without a prior scholarship at the same level. Admission itself needs a supervisor agreement (not verified here).",
+      "required_materials": "Admission application plus scholarship form by the deadline (detailed document list not on the fetched page).",
+      "offer_timing": "Outcomes issued from 26 Feb 2027; offshore applicants finalised by 18 May 2027; onshore by 30 Jun 2027. An offer by end of Mar 2027 is possible but not guaranteed.",
+      "evidence": [
+        {"fact": "deadline", "quote": "Research Periods 3 and 4, 2027: Applications close 18 December 2026. Outcomes are issued from 26 February 2027.", "locator": "closing dates section (fetch summary)"},
+        {"fact": "funding", "quote": "$44,293 per year, plus a relocation and thesis allowance", "locator": "stipend (2027 rate), fetch summary"},
+        {"fact": "fees", "quote": "each cover 100% of tuition fees for up to 14 research periods", "locator": "tuition section, fetch summary"},
+        {"fact": "eligibility", "quote": "Commencing or enrolled in a higher degree by research", "locator": "international eligibility"}
+      ],
+      "risk": "Time of day and timezone of the 18 Dec 2026 closing are not stated on the page; the scholarship needs a prior admission application, which in turn normally needs supervisor support. Only 4 days of margin after typical supervisor contact time.",
+      "next_action": "Open the ACFR join-us page, shortlist the SLAM/marine/dynamic-world projects, confirm the exact closing time and the admission+scholarship form steps on the Sydney page before 18 Dec 2026."
+    },
+    {
+      "id": "uq-uqgrss-round1-2027",
+      "country": "Australia",
+      "institution": "University of Queensland",
+      "title": "UQ Graduate School Scholarships (UQGSS, includes RTP), Round 1 2027",
+      "type": "competitive_scholarship_round",
+      "deadline_local": "2027-01-25",
+      "timezone": "Australia/Brisbane",
+      "start_date": "Q3 and Q4 2027, Q1 2028 commencement quarters",
+      "status": "upcoming_confirmed",
+      "funding": "Living stipend AUD 39,220 per annum tax free (2026 rate, indexed annually), includes Single OSHC; 3.5 years with possible extension.",
+      "international_tuition": "UNKNOWN: page lists 'Tuition fees' as a funding type but does not state what it covers for international candidates.",
+      "research_fit": "medium",
+      "fit_reason": "Generic university-wide scholarship; fit depends on a UQ school/supervisor in robotics or vision, which was not identified here.",
+      "url": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
+      "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+      "verified_on": "2026-11-14",
+      "formal_eligibility": "Must be nominated by an enrolling UQ school or institute and assessed by the Graduate Research School as meeting all admission conditions; domestic and international applicants.",
+      "required_materials": "UNKNOWN on fetched page; application via UQ HDR admission.",
+      "offer_timing": "Round 1 outcomes sent 6 April 2027 (so not before 2027-03).",
+      "evidence": [
+        {"fact": "deadline", "quote": "Round 1 | 25 January 2027 | 6 April 2027 | Q3 and Q4 2027, Q1 2028", "locator": "Round closing dates table (fetch summary)"},
+        {"fact": "funding", "quote": "Living stipend of $39,220 per annum tax free (2026 rate), indexed annually.", "locator": "Stipend"},
+        {"fact": "eligibility", "quote": "nominated by an enrolling UQ school or institute", "locator": "eligibility (fetch summary)"}
+      ],
+      "risk": "Outcome after March 2027; the international-specific round (closing 19 Oct 2026) has already passed, so the applicant would be in the mixed Round 1 pool; tuition coverage for international students not stated.",
+      "next_action": "Find a UQ supervisor in robotics/vision willing to nominate before the 25 Jan 2027 closing; check tuition coverage with UQ Graduate School."
+    },
+    {
+      "id": "sheffield-epsrc-dla-2027",
+      "country": "United Kingdom",
+      "institution": "University of Sheffield",
+      "title": "EPSRC Doctoral Landscape Award PhD studentships, 2027 entry (about 50 funded projects in science and engineering)",
+      "type": "competitive_scholarship_round",
+      "deadline_local": "2027-01-13 17:00",
+      "timezone": "Europe/London",
+      "start_date": "2027-10-01",
+      "status": "open_verified",
+      "funding": "UKRI-funded studentship; EPSRC funds tuition only to Home level and the university covers the Home to International fee difference for successful international candidates; stipend amount not stated on the fetched page.",
+      "international_tuition": "COVERED for successful international candidates by the university (fee difference), but only within an EPSRC cap of 30% international awards.",
+      "research_fit": "medium",
+      "fit_reason": "Broad engineering scheme; the project list (FindAPhD widget) did not load, so robotics/navigation projects could not be confirmed.",
+      "url": "https://sheffield.ac.uk/postgraduate/phd/scholarships/science-engineering/apply",
+      "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+      "verified_on": "2026-11-14",
+      "formal_eligibility": "Must apply through the EPSRC DLA online form (standard PhD applications not accepted); up to two projects chosen by code; three 300-word answers; start date 1 October 2027; AI-use disclosure required.",
+      "required_materials": "DLA online form with three questions (max 300 words each); project codes; supervisor discussion strongly encouraged.",
+      "offer_timing": "Home shortlisted interviews expected mid-February 2027; international shortlisted interviews late March 2027, so offers for international applicants come after the end of March 2027.",
+      "evidence": [
+        {"fact": "deadline", "quote": "will close for applications at 5pm UK time on Wednesday 13 January 2027", "locator": "Apply page intro"},
+        {"fact": "eligibility", "quote": "The EPSRC only allows a maximum of 30% of all available studentships to be awarded to international applicants.", "locator": "International applicants"},
+        {"fact": "fees", "quote": "The EPSRC only funds tuition fees to the Home fee level.", "locator": "Fees"}
+      ],
+      "risk": "Home candidates are considered first; international applicants only after remaining places, interviews in late March; stipend not stated; no offer before March 2027.",
+      "next_action": "Browse the project directory on the FindAPhD widget (sheffield.ac.uk/postgraduate/phd/projects) for robotics/navigation/ML projects and contact supervisors before 13 Jan 2027."
+    },
+    {
+      "id": "auckland-doctoral-scholarship-2027-rounds",
+      "country": "New Zealand",
+      "institution": "University of Auckland",
+      "title": "University of Auckland Doctoral Scholarship (rounds close 1 Nov, 1 Feb, 1 May, 1 Aug)",
+      "type": "competitive_scholarship_round",
+      "deadline_local": "2027-02-01",
+      "timezone": "Pacific/Auckland",
+      "start_date": "UNKNOWN (study may begin during the year)",
+      "status": "upcoming_confirmed",
+      "funding": "Tax-free stipend of up to NZD 35,468 per annum (2026 figure, CPI-adjusted annually); tuition for international students eligible under the domestic fees policy plus the single-student Health Insurance charge; up to 42 months.",
+      "international_tuition": "COVERED per fetch summary for international doctoral students 'eligible to study under the domestic fees policy' (page links to that policy; confirm status).",
+      "research_fit": "medium",
+      "fit_reason": "University-wide scholarship; engineering/robotics supervisors at Auckland (e.g. ECE, mechatronics) were not identified in this run.",
+      "url": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/scholarships-for-international-students/doctoral-scholarships-for-international-students.html",
+      "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+      "verified_on": "2026-11-14",
+      "formal_eligibility": "Considered at the time of applying for a doctoral place; can be considered before an offer of place; indicate interest in the scholarship when applying for admission.",
+      "required_materials": "Doctoral admission application with scholarship consideration ticked; faculty websites advertise specific opportunities.",
+      "offer_timing": "UNKNOWN.",
+      "evidence": [
+        {"fact": "deadline", "quote": "apply for the programme by either 1 November, 1 February, 1 May, or 1 August", "locator": "How to apply (fetch summary)"},
+        {"fact": "funding", "quote": "tax-free stipend of up to $35,468 pa", "locator": "Stipend (2026)"},
+        {"fact": "fees", "quote": "eligible to study under the domestic fees policy", "locator": "Eligibility/fees"}
+      ],
+      "risk": "The page gives no year-specific dates; the 1 Feb 2027 date is the stated rule applied to 2027 (INFERENCE for the year). The 1 Nov 2026 round has just passed. Offer timing and award rate unknown.",
+      "next_action": "Confirm the 1 Feb 2027 round and offer timing with the Auckland scholarships office; identify an Auckland supervisor first."
+    },
+    {
+      "id": "esa-student-led-cofunded-phd-npi-osip",
+      "country": "Multi (ESA Member State host university: Switzerland, Norway, Ireland, Luxembourg, UK, plus Canada as cooperating state UNVERIFIED)",
+      "institution": "European Space Agency (via a host university)",
+      "title": "ESA co-funded PhD (formerly Networking Partnering Initiative) - student-led proposal, Selection Boards June and November",
+      "type": "fellowship",
+      "deadline_local": "rolling: selection file due two weeks before each board (boards 'usually in June and November')",
+      "timezone": "Europe/Paris",
+      "start_date": "UNKNOWN",
+      "status": "verification_needed",
+      "funding": "ESA co-funds up to 50% of the cost, up to EUR 30,000 per year, doctorate max 3 years (2018 archive page); the student is employed by the university.",
+      "international_tuition": "UNKNOWN: funding goes to the host university; fee treatment depends on the host.",
+      "research_fit": "high",
+      "fit_reason": "Space navigation, GNSS-denied and onboard state estimation topics are eligible technical domains; the applicant would have to propose a topic with a university and industrial support.",
+      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Networking_Partnering_Initiative_FAQs_for_students",
+      "source_type": "OFFICIAL_FUNDER",
+      "verified_on": "2026-11-14",
+      "formal_eligibility": "No nationality restriction stated on the FAQ page; contract is between ESA and the co-funding university in an ESA Member State; student must come up with a topic with university and industrial support.",
+      "required_materials": "Selection file processed at ESA two weeks before the board; details not on page; contact ecsatnpi@esa.int per the UK archive page.",
+      "offer_timing": "Boards June and November; UNKNOWN whether the November 2026 board is still receiving files (two-week lead).",
+      "evidence": [
+        {"fact": "deadline", "quote": "Selection Boards take place twice in a year, usually in June and November.", "locator": "NPI FAQs for students (fetch summary)"},
+        {"fact": "eligibility", "quote": "it is up to the student to come up with a topic, with their university and industrial support.", "locator": "NPI FAQs for students"},
+        {"fact": "funding", "quote": "co-funding of up to 50%, or EUR 30,000 per year", "locator": "ESA UK NPI page, marked ARCHIVE CONTENT 2018 (fetch summary)"}
+      ],
+      "risk": "The FAQ page is undated and the UK NPI page is archive content from 2018; a search summary said NPI no longer funds PhDs directly and the channel moved to OSIP (ESA co-funded research), and the OSIP idea portal requires login. This is a route needing a host university, not a vacancy.",
+      "next_action": "Do not contact yet (per brief). If pursued, confirm with ESA whether the NPI/OSIP co-funded PhD channel is open to student-initiated proposals and the next board date."
+    },
+    {
+      "id": "eskas-swiss-government-excellence-2027-28",
+      "country": "Switzerland",
+      "institution": "Federal Commission for Scholarships for Foreign Students (SERI / FCS-ESKAS)",
+      "title": "Swiss Government Excellence Scholarships for Foreign Scholars 2027-2028 (research scholarship, postgraduate researchers)",
+      "type": "competitive_scholarship_round",
+      "deadline_local": "",
+      "timezone": "Europe/Zurich",
+      "start_date": "2027-09-01 (per secondary sources; not on fetched official page)",
+      "status": "verification_needed",
+      "funding": "CHF 2,450 per month (page does not mention tuition, travel or other allowances).",
+      "international_tuition": "UNKNOWN: page silent on tuition.",
+      "research_fit": "medium",
+      "fit_reason": "A Swiss host (e.g. ETH/EPFL/UZH robotics group) must back the application; stipend is below typical Swiss doctoral salaries so this is a fallback, not a primary route.",
+      "url": "https://www.sbfi.admin.ch/scholarships_en",
+      "source_type": "OFFICIAL_FUNDER",
+      "verified_on": "2026-11-14",
+      "formal_eligibility": "Early-career researchers from abroad with a completed Master's; open to applicants from 183 countries (country list published separately); maximum age 35; application must be backed by an academic supervisor in Switzerland.",
+      "required_materials": "UNKNOWN on fetched page (online GO ESKAS portal per secondary sources).",
+      "offer_timing": "Decisions announced by end of May 2027 at the latest.",
+      "evidence": [
+        {"fact": "eligibility", "quote": "the scholarship application must be backed by an academic supervisor in Switzerland.", "locator": "Prerequisite (fetch summary)"},
+        {"fact": "funding", "quote": "CHF 2450.--/month", "locator": "Funding"},
+        {"fact": "deadline", "quote": "Information on application deadlines... will be published here in August 2026", "locator": "Deadlines (no date on fetched page)"}
+      ],
+      "risk": "Fetched page does not name PhD/doctoral study explicitly; closing dates are country-specific and were not visible; applicant nationality must be on the eligible list; decision only by end of May 2027 so no early offer.",
+      "next_action": "Check the country-specific deadline for the applicant's nationality via sgs@sbfi.admin.ch or the official FCS page; only pursue if a Swiss supervisor agrees."
+    }
+  ],
+  "labs": [
+    {
+      "pi": "UNKNOWN (page names no staff; a search snippet attributes the group to Viorela Ila, not fetched)",
+      "institution": "University of Sydney (ACFR)",
+      "group": "Robotic Perception group, Australian Centre for Field Robotics",
+      "group_url": "https://robotics.sydney.edu.au/our-research/robotic-perception/",
+      "alignment": "high",
+      "recent_work": [],
+      "hiring_channel_url": "https://robotics.sydney.edu.au/join-us/phd-research-projects-at-acfr/",
+      "hiring_state": "ROLLING",
+      "caveat": "ACFR says it is 'frequently looking for new students'; the project page lists SLAM in dynamic environments, visual-acoustic marine SLAM and sensor fusion for perception/tracking; no inertial project listed; no deadline or international eligibility on that page; funding only stated for the Robotic Imaging project ('full tuition, stipend, and top-up scholarships')."
+    },
+    {
+      "pi": "Panpan Zhou",
+      "institution": "University of Galway",
+      "group": "School of Engineering, Mechanical Engineering",
+      "group_url": "https://research.universityofgalway.ie/en/persons/panpan-zhou/",
+      "alignment": "medium",
+      "recent_work": [],
+      "hiring_channel_url": "https://research.universityofgalway.ie/en/persons/panpan-zhou/",
+      "hiring_state": "UNKNOWN",
+      "caveat": "Official profile says 'Accepting PhD Students' and lists multi-agent systems, embodied intelligence, modelling and control, autonomous systems and robotics. The funded September 2027 PhD advert (stipend EUR 25,000 claimed) was seen only on aggregators, so it is NOT verified; Do not treat as an open funded lead until a university page is found."
+    },
+    {
+      "pi": "Erfu Yang (with industrial supervisor Hao Lu, Kudan Limited UK)",
+      "institution": "University of Strathclyde",
+      "group": "DMEM robust perception for robot navigation (SLAM)",
+      "group_url": "https://www.strath.ac.uk/studywithus/postgraduateresearchphdopportunities/engineering/designmanufacturingengineeringmanagement/robustperceptionforimprovingrobotnavigationinhighlydynamicmanufacturingenvironments/",
+      "alignment": "high",
+      "recent_work": [],
+      "hiring_channel_url": "https://www.strath.ac.uk/studywithus/postgraduateresearchphdopportunities/engineering/designmanufacturingengineeringmanagement/robustperceptionforimprovingrobotnavigationinhighlydynamicmanufacturingenvironments/",
+      "hiring_state": "NO_PUBLIC_CALL",
+      "caveat": "The John Anderson Research Studentship (JARSS) advert closed 27 July 2026 and is home-fee only (international applicants must seek the fee difference). The Kudan (SLAM company) tie makes the group a good cold-contact lead for later JARSS rounds."
+    }
+  ],
+  "recurring_cycles": [
+    {
+      "program": "Canada Graduate Research Scholarship - Doctoral (CGRS-D, replaces Vanier CGS and NSERC PGS-D)",
+      "institution": "NSERC/CIHR/SSHRC (Government of Canada)",
+      "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/canada-graduate-research-scholarship-doctoral-program",
+      "last_observed_deadline": "Direct-to-agency deadline 'before 8:00 pm (ET) on October 17' each year; October 2026 competition closed (HISTORICAL)",
+      "expected_next_window": "Mid-October 2027, with earlier institutional deadlines (INFERENCE from stated annual rule); results by 30 April",
+      "funding_note": "CAD 40,000 per year for 36 months; up to 15% of awards to international applicants but the applicant must already be registered in a doctoral program at an eligible Canadian institution at the deadline; award can only be held in Canada by non-citizens. Not an entry-route for a 2027 intake; a first-year-PhD top-up."
+    },
+    {
+      "program": "University of Sydney International RTP / USydIS (Research Periods 1 and 2)",
+      "institution": "University of Sydney",
+      "url": "https://sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+      "last_observed_deadline": "11 September 2026 for Research Periods 1 and 2 of 2027 (HISTORICAL); outcomes finalised by 17 Dec 2026",
+      "expected_next_window": "10 September 2027 for Research Periods 1 and 2 of 2028 (stated on page); Research Periods 3 and 4 of 2028 estimated mid-December 2027",
+      "funding_note": "AUD 44,293 per year (2027 rate), 100% tuition fee scholarship."
+    },
+    {
+      "program": "ANU HDR scholarships (international Round 1 and Round 2)",
+      "institution": "Australian National University",
+      "url": "https://systems.anu.edu.au/study/postgraduate-research/hdr-scholarships-and-awards",
+      "last_observed_deadline": "Round 1 (international main round) 31 August each year, results towards end of October (HISTORICAL for 2026)",
+      "expected_next_window": "Round 2 (international and domestic) closes 15 April, commencement by 31 August (applied to 2027 = INFERENCE: 15 April 2027)",
+      "funding_note": "Stipend and fee amounts not stated on fetched page; incomplete applications not assessed; applications submitted with admission application."
+    },
+    {
+      "program": "UWA International RTP stipend and tuition fee scholarships",
+      "institution": "University of Western Australia",
+      "url": "https://www.uwa.edu.au/study/research/research-scholarships",
+      "last_observed_deadline": "2027 International Scholarship Round closed 15 September 2026 11:59pm AWST; offers from November 2026 (HISTORICAL)",
+      "expected_next_window": "About September 2027 for 2028 (INFERENCE; page lists no later dates)",
+      "funding_note": "RTP stipend AUD 39,253 per annum (2027); international fee offset competitive, coverage percentage not stated."
+    },
+    {
+      "program": "UQ Graduate School Scholarships - international round",
+      "institution": "University of Queensland",
+      "url": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
+      "last_observed_deadline": "19 October 2026 (closed international round, HISTORICAL)",
+      "expected_next_window": "Further 2027 rounds on 31 May and 4 October 2027 are stated on the page; an international-only round around October 2027 is an INFERENCE",
+      "funding_note": "AUD 39,220 per annum (2026 rate)."
+    },
+    {
+      "program": "FNR PRIDE Doctoral Training Units",
+      "institution": "Luxembourg National Research Fund",
+      "url": "https://www.fnr.lu/funding-instruments/pride/",
+      "last_observed_deadline": "15 October 2025 14:00 CET (full proposal, HISTORICAL)",
+      "expected_next_window": "No 2026 or 2027 PRIDE call shown on the page (UNKNOWN)",
+      "funding_note": "Each PhD grant = 4-year employment contract plus EUR 6,500 training/mobility allowance; applicants are DTUs, and 'prospective PhD candidates apply directly to the successful DTUs'; apply to funded DTUs, which were not enumerated (results page 404)."
+    },
+    {
+      "program": "FNR AFdoc (successor of AFR)",
+      "institution": "Luxembourg National Research Fund",
+      "url": "https://www.fnr.lu/funding-programmes/afdoc/",
+      "last_observed_deadline": "25 November 2026 14:00 CET (first call; still upcoming)",
+      "expected_next_window": "From 2027 two calls a year, April deadline 28-04-2027 14:00 CET (stated on page)",
+      "funding_note": "Max annual salary contribution EUR 54,574 incl. employer charges, up to 4 years; but requires 'a clear link to Luxembourg' (see ineligible_or_partial)."
+    },
+    {
+      "program": "Ontario Graduate Scholarship (OGS), e.g. Waterloo",
+      "institution": "Province of Ontario / Ontario universities",
+      "url": "https://uwaterloo.ca/current-graduate-students/current-students/awards-and-funding/OGS-QEII",
+      "last_observed_deadline": "Waterloo: Intent to Apply 14 Jan 2027 4pm ET; application 1 Feb 2027 4pm ET (upcoming but only for registered students)",
+      "expected_next_window": "Mid-January to early February each year (INFERENCE)",
+      "funding_note": "CAD 5,000 per term up to CAD 15,000 per year; separate international competition, valid study permit and registration by 1 Feb 2027 required; 'Prospective students are not eligible to apply'."
+    },
+    {
+      "program": "MSCA Doctoral Networks call (consortium call, not candidate applications)",
+      "institution": "European Commission",
+      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-doctoral-networks-2026",
+      "last_observed_deadline": "24 November 2026 proposal deadline (TBC on page; for consortia)",
+      "expected_next_window": "Funded 2026-call networks sign grants in 2027; their DC vacancies would appear on EURAXESS from about mid-2027 (INFERENCE)",
+      "funding_note": "Candidates need DN-specific mobility compliance; the 12-months-in-36 rule was seen on the BlueOcean Southampton advert (see ineligible_or_partial) but not on the EU call page."
+    },
+    {
+      "program": "ESA co-funded PhD Selection Boards",
+      "institution": "ESA",
+      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Networking_Partnering_Initiative_FAQs_for_students",
+      "last_observed_deadline": "Boards 'usually in June and November' (stated, year not given)",
+      "expected_next_window": "June 2027 board (INFERENCE)",
+      "funding_note": "See lead esa-student-led-cofunded-phd-npi-osip."
+    }
+  ],
+  "ineligible_or_partial": [
+    {
+      "title": "FNR AFR individual PhD grants (Luxembourg)",
+      "url": "https://www.fnr.lu/funding-programmes/afr/",
+      "restriction_clause": "This programme is discontinued, the information on this page is only for ongoing projects. 'No further calls will be launched.'",
+      "why_excluded": "Last call closed 11 March 2026 (results 29 Jul 2026); replaced by AFdoc. Do not treat AFR as an open route."
+    },
+    {
+      "title": "FNR AFdoc (first call 25 Nov 2026)",
+      "url": "https://www.fnr.lu/funding-programmes/afdoc/",
+      "restriction_clause": "Applicant needs 'a clear link to Luxembourg (see guidelines for the full definition)'; must be enrolled in a PhD programme by project start; funding goes to the host institution.",
+      "why_excluded": "Aimed at doctoral candidates with a Luxembourg link doing the PhD abroad or in Luxembourg R&D companies; the link definition was not visible, and the applicant has no known link. Partial at best; closing 25 Nov 2026 14:00 CET is only 11 days away."
+    },
+    {
+      "title": "FNR Industrial Fellowships (2026-1 call)",
+      "url": "https://www.fnr.lu/launch-2026-1-industrial-fellowships-call/",
+      "restriction_clause": "Call deadline 29 April 2026 14:00 CET; researcher's PhD/postdoc training 'in collaboration with a company in Luxembourg'; menu lists the instrument as 'Discontinued'.",
+      "why_excluded": "Deadline passed and instrument appears discontinued; page does not state nationality or funding."
+    },
+    {
+      "title": "Research Ireland Government of Ireland Postgraduate Scholarship (GOIPG) and Empower",
+      "url": "https://www.researchireland.ie/funding/empower/",
+      "restriction_clause": "GOIPG page: 'now closed and has been integrated into the newly established Empower programme'. Empower: 'This is an invited call only', open to 18 eligible HEIs with one institutional application each.",
+      "why_excluded": "Individuals cannot apply. Empower deadline was 6 Nov 2026 13:00 Irish time, notifications January 2027, grants start March 2027, 72 months, with PhD studentships a 'key focus'. Watch Irish HEI pages from about Feb 2027 for studentships advertised under it; fee/international treatment is unknown."
+    },
+    {
+      "title": "Vanier Canada Graduate Scholarships",
+      "url": "https://www.vanier.gc.ca/en/eligibility-admissibilite.html",
+      "restriction_clause": "'The Vanier Canada Graduate Scholarships is no longer accepting applications.' Points to CGRS-D.",
+      "why_excluded": "Program archived; see CGRS-D under recurring_cycles. Any 'Vanier 30 October' date seen on aggregators is not usable."
+    },
+    {
+      "title": "Vector Scholarship in Artificial Intelligence (Ontario)",
+      "url": "https://vectorinstitute.ai/scholarships/",
+      "restriction_clause": "Recognizes 'exceptional students pursuing AI master's programs in Ontario'; students cannot apply themselves, programs nominate.",
+      "why_excluded": "Master's-level and nomination-only (per fetched page); a search summary says value CAD 17,500 and 2027-28 dates to be announced Fall 2026 but that was not confirmed on the official page."
+    },
+    {
+      "title": "ETH Zurich Excellence Scholarship and Opportunity Programme (ESOP)",
+      "url": "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html",
+      "restriction_clause": "Master's students only; not eligible if already holding a Master's degree ('you are not eligible for ESOP').",
+      "why_excluded": "Not a doctoral scheme; applicant already holds Master's degrees. Window 1-30 Nov 2026 is for Master's HS27 entry."
+    },
+    {
+      "title": "Canada CGRS-D and OGS for entering students",
+      "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/canada-graduate-research-scholarship-doctoral-program",
+      "restriction_clause": "CGRS-D: non-citizens 'must be registered in your doctoral program of study at an eligible Canadian institution by the application deadline'; up to 15% of awards to international applicants. OGS (Waterloo): 'Prospective students are not eligible to apply.'",
+      "why_excluded": "Top-ups for already-registered students; not an entry funding route and not fully funded on their own (OGS up to CAD 15,000 per year)."
+    },
+    {
+      "title": "University of Manchester EPSRC DTP 2027/28 (Faculty of Biology, Medicine and Health)",
+      "url": "https://www.bmh.manchester.ac.uk/study/research/funding-fees/funded-programmes/epsrc-dtp/",
+      "restriction_clause": "'Applications are open for 2027/28 until Monday, 16 November 2026.' 'One of the three studentships will be available to applicants outside the UK.'",
+      "why_excluded": "Low research fit (health-faculty projects), one international place among three, and the deadline is two days away; fully funded 3.5 years with fees covered at home or international rate and UKRI-rate stipend."
+    },
+    {
+      "title": "University of Strathclyde JARSS PhD: Robust perception for robot navigation (SLAM, Kudan)",
+      "url": "https://www.strath.ac.uk/studywithus/postgraduateresearchphdopportunities/engineering/designmanufacturingengineeringmanagement/robustperceptionforimprovingrobotnavigationinhighlydynamicmanufacturingenvironments/",
+      "restriction_clause": "Deadline 'Monday 27 July 2026'; award 'covers UK home tuition fees'; international applicants 'strongly encouraged' to seek funding for the fee difference.",
+      "why_excluded": "Deadline passed and home-fee-only; useful only as a group lead."
+    },
+    {
+      "title": "BlueOcean MSCA DN PhD at Southampton (underwater robotic place recognition and change detection)",
+      "url": "http://www.jobs.ac.uk/job/DTE958",
+      "restriction_clause": "Closing date 4 Nov 2026; mobility rule: candidate 'must not have resided or carried out their main activity (work, studies, etc.) in the UK for more than 12 months in the 36 months immediately before their recruitment date'; 'can be of any nationality'; salary GBP 43,994 to 47,279.",
+      "why_excluded": "Closed 10 days ago; aggregator page (jobs.ac.uk), official Southampton page returned 403. Recorded as the only fetched example of MSCA-DN mobility wording and as evidence that a UK-resident applicant would fail the rule."
+    },
+    {
+      "title": "SPARE MSCA Industrial Doctoral Network (Heriot-Watt, Thales Alenia Space; PNT using LEO signals of opportunity)",
+      "url": "https://microwaves.site.hw.ac.uk/?p=3153",
+      "restriction_clause": "Application 'by 9 January 2026'; per-position hosts, mobility rule and nationality not stated on the fetched page.",
+      "why_excluded": "Deadline passed; closest topical MSCA DN to navigation, so a signal that re-advertised or follow-on posts may appear."
+    },
+    {
+      "title": "Swiss Government Excellence Scholarship at ETH-level doctoral salary comparison",
+      "url": "https://www.sbfi.admin.ch/scholarships_en",
+      "restriction_clause": "CHF 2,450 per month; maximum age 35; requires Swiss supervisor.",
+      "why_excluded": "Listed as a lead (verification_needed); noted here because the amount is well below a salaried ETH/EPFL doctoral position, so prefer direct lab positions."
+    }
+  ],
+  "unverified_leads": [
+    {"title": "UCL Dynamic Systems Lab: Cooperative Navigation for Open Multi-agent Systems (UELA 2027/28)", "url_tried": "https://www.ucl.ac.uk/engineering/research/centres-institutes-and-labs/dynamic-systems-lab/dynamic-systems-lab-vacancies/cooperative-navigation-open-multi-agent-systems", "reason": "HTTP 403 for WebFetch and curl. Search snippet only: deadline 8 Jan 2027 12:00 UK, 4-year EPSRC studentship, 'Home fees candidates only'. Treat as home-fee-only until the page is read; UCL's own DTP page (also 403) says international places are capped at 30% with UCL covering fee difference."},
+    {"title": "Southampton PhD: Integrating quantum and classical sensors for long-duration inertial navigation", "url_tried": "https://www.southampton.ac.uk/study/postgraduate-research/projects/integrating-quantum-classical-sensors-for-long-duration", "reason": "HTTP 403; snippet only says competition funded; high fit but funding/eligibility/deadline unknown."},
+    {"title": "Southampton PhD: Autonomous close-proximity spacecraft operations, event cameras (Dstl)", "url_tried": "https://www.southampton.ac.uk/study/postgraduate-research/projects/autonomous-close-proximity-spacecraft-operations-hardware-in", "reason": "404/403; snippet says UK nationals only with Dstl vetting, so likely ineligible."},
+    {"title": "Southampton PhD: Improving subsea navigation using environment observations / for long-term autonomy", "url_tried": "https://southampton.ac.uk/study/postgraduate-research/projects/improving-subsea-navigation-using-environment-observations", "reason": "Not fetched (site returns 403); topic is high fit for navigation; need funding and deadline."},
+    {"title": "Edinburgh PhD studentship in robust ego-motion estimation with deep dynamic sensor fusion", "url_tried": "https://www.findaphd.com/phds/project/phd-studentship-in-robust-ego-motion-estimation-with-deep-dynamic-sensor-fusion/?p132745", "reason": "Aggregator only in search results (findaphd); not fetched; deadline/funding/eligibility unknown. Very high fit."},
+    {"title": "Maynooth University / Lero PhD: Computer vision for autonomous vehicles", "url_tried": "https://maynoothuniversity.ie/node/433979", "reason": "HTTP 403; snippet says 4-year studentship via Lero with Tier 1 automotive vision supplier; international eligibility and deadline unknown."},
+    {"title": "University of Galway fully funded PhD in embodied AI / multi-agent systems and robotics (Sept 2027)", "url_tried": "https://research.universityofgalway.ie/en/persons/panpan-zhou/", "reason": "Only the staff profile (accepting students) was fetched; the funded advert exists only on aggregators with no deadline; claims of EUR 25,000 stipend unverified."},
+    {"title": "Norway: NTNU/UiO/OsloMet embodied-AI and navigation PhDs under the Norwegian Centre for Embodied AI", "url_tried": "https://arbeidsplassen.nav.no/stillinger/stilling/beae33dc-7a56-4ff4-85cf-36f13c758d14", "reason": "Detail pages returned 404 (likely expired); search snippets show 2025-26 deadlines already passed. No open Norwegian vacancy verified; jobbnorge.no list pages could not be fetched and further searches were blocked by the quota."},
+    {"title": "armasuisse Science and Technology: Research Program Security / Innosuisse dual-use call", "url_tried": "https://www.armasuisse.ch/en/science-and-technology/", "reason": "404; search snippets describe a project programme and an industry call (pre-proposals to end Oct 2026), not a doctoral call."},
+    {"title": "FFI (Norwegian Defence Research Establishment) PhD routes", "url_tried": "https://www.regjeringen.no/contentassets/d6bc16d5daf7487fadd78e304deb8b71/tildelingsbrev-ffi-2026.pdf", "reason": "Not fetched; snippet says FFI-linked roles require NATO Secret clearance (likely a barrier for a non-Norwegian)."},
+    {"title": "Dstl PhD / CASE studentships", "url_tried": "https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory", "reason": "Page fetched but lists no studentship scheme; Dstl-sponsored PhDs appear on host-university pages and often require UK nationality/vetting."},
+    {"title": "University of Luxembourg SnT UBIX / robotics (postdoc UOL08227 and R&D specialist)", "url_tried": "https://www.uni.lu/en/about/work/explore-our-jobs/", "reason": "Jobs portal is dynamic (empty fetch); snippets show only postdoc/staff roles in GNSS-denied navigation, no PhD."},
+    {"title": "EURAXESS job search for MSCA DN posts", "url_tried": "https://euraxess.ec.europa.eu/jobs/search?keywords=MSCA%20doctoral%20network%20robotics", "reason": "HTTP 403 for this tool; EURAXESS is an aggregator anyway, so official network/host pages are required."},
+    {"title": "Ontario Trillium Scholarship 2027", "url_tried": "https://scholyhub.com/scholarships/ontario-trillium-scholarship-ots/", "reason": "No official OTS page fetched; aggregator date 15 Jan 2027 unverified; OTS is nomination by the university with admission, not a direct application."},
+    {"title": "QUT Centre for Robotics, UNSW, UTS IRTP international rounds", "url_tried": "https://www.qut.edu.au/research/study-with-us/scholarships-and-funding/higher-degree-research-scholarships", "reason": "QUT 403; UNSW/UTS pages 404; third-party sources suggest 2027 international rounds closed mid-2026 (UNSW 14 Aug 2026) and a next round around April 2027 (unconfirmed)."}
+  ],
+  "corrections_to_existing_repo": [],
+  "yield_note": "Saturated or confirmed low-yield: (a) MSCA DN candidate posts - the 2026 call (deadline 24 Nov 2026) is for consortia and no open DN vacancy in inertial/SLAM/UAV/navigation in the eight countries was verifiable (SPARE closed Jan 2026, BlueOcean closed 4 Nov 2026, SERI-funded Swiss DN posts were in bio/energy/soft robotics); a 2027 DN vacancy wave is expected only after grant signature (INFERENCE). (b) National funders: FNR AFR is discontinued, PRIDE has no 2026/27 call visible, AFdoc requires a Luxembourg link, Irish GOIPG is replaced by invite-only institutional Empower, Vanier is archived, CGRS-D/OGS/Vector are for already-registered or Master's students, ETH ESOP is Master's only; these should NOT be presented as direct fully funded routes. Best newly found actionable items are institution-run scholarship rounds with deadlines after 14 Nov 2026: USyd International RTP Research Periods 3/4 (18 Dec 2026, outcomes from 26 Feb 2027), Sheffield EPSRC DLA (13 Jan 2027, intl interviews late March), UQ UQGSS Round 1 (25 Jan 2027, outcomes April), Auckland (1 Feb 2027 round). Remaining/unfinished: Norway (no verified open vacancy; jobbnorge/NTNU lists not fetchable and search quota exhausted), industry/defence (armasuisse, FFI, Dstl, Thales/Safran/Airbus/Zurich Instruments/u-blox/Honeywell not searched after quota limit), UK navigation studentships on 403 sites (UCL, Southampton) which may be worth manual checking, Canada direct lab posts, Swiss ESKAS country deadline. Evidence caveat: WebFetch returns model-written summaries; quotes marked 'fetch summary' are paraphrases from the tool output and should be re-checked on the live page before outreach."
+}

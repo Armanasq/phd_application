@@ -1,0 +1,599 @@
+{
+ "agent": "ireland-luxembourg-norway",
+ "scope": "Ireland, Luxembourg, Norway. Norway covered by scanning Jobbnorge ad PDFs for IDs 308700-311820 (about 3,100 ads, all employers), filtering PhD/stipendiat ads with deadlines on or after 2026-11-14. Ireland and Luxembourg limited by fetch blocks and an exhausted WebSearch budget.",
+ "searches_run": [
+  {
+   "query": "jobbnorge.no/en/available-jobs/job/311077 and /311057 (HTML)",
+   "engine": "WebFetch",
+   "result_note": "JavaScript shell only, no ad text"
+  },
+  {
+   "query": "jobbnorge.no/ledige-stillinger/joblisting/pdf/311077 and 311057",
+   "engine": "WebFetch",
+   "result_note": "Saved PDF; pdftotext shows Soknadsfrist 15.12.2026, salary code 1017 NOK 550,800; generated 14 Nov 2026"
+  },
+  {
+   "query": "jobbnorge PhD research fellow NTNU robotics navigation autonomous 2026 deadline",
+   "engine": "WebSearch",
+   "result_note": "Only closed 2026 NTNU robotics ads; Jobbnorge PDF URL pattern revealed"
+  },
+  {
+   "query": "PhD research fellow sensor fusion SLAM University of Oslo OR NTNU OR NORCE OR SINTEF December 2026",
+   "engine": "WebSearch",
+   "result_note": "Old/closed ads only"
+  },
+  {
+   "query": "curl jobbnorge.no/en/available-jobs/joblisting/pdf/<id> for ids 308700-311820, pdftotext, filter",
+   "engine": "WebFetch",
+   "result_note": "Plain HTTP GET of public ad PDFs; about 3,100 ads text-extracted and filtered by keyword and deadline"
+  },
+  {
+   "query": "uni.lu/en/jobs/* and about/work",
+   "engine": "WebFetch",
+   "result_note": "AWS WAF challenge, empty body; recruitmentplatform.uni.lu 502"
+  },
+  {
+   "query": "University of Luxembourg doctoral researcher PhD SnT 2026",
+   "engine": "WebSearch",
+   "result_note": "Refused: search budget used up"
+  },
+  {
+   "query": "researchireland.ie/funding/empower and /government-ireland-postgraduate",
+   "engine": "WebFetch",
+   "result_note": "Empower invite-only, institution deadline 2026-11-06 closed; GOI postgraduate closed"
+  },
+  {
+   "query": "euraxess.ec.europa.eu/jobs/447557 and 447600",
+   "engine": "WebFetch",
+   "result_note": "Both self-funded"
+  },
+  {
+   "query": "tyndall.ie careers and PhD balun page",
+   "engine": "WebFetch",
+   "result_note": "Funded EUR 25,000 stipend plus fees, deadline 2026-11-27"
+  },
+  {
+   "query": "lero.ie/careers, adaptcentre.ie/careers, insight-centre.org/careers, tudublin vacancies, tcd/ucd/galway/maynooth/dcu/ul PhD pages",
+   "engine": "WebFetch",
+   "result_note": "404/403 or no PhD listings"
+  }
+ ],
+ "leads": [
+  {
+   "country": "Norway",
+   "timezone": "Europe/Oslo",
+   "verified_on": "2026-11-14",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "type": "advertised_position",
+   "id": "ntnu-itk-cuas-drone-detection-310944",
+   "institution": "NTNU Department of Engineering Cybernetics (UAV-lab)",
+   "title": "PhD Candidate in Drone Detection and Interception Solutions (Jobbnorge 310944)",
+   "deadline_local": "2026-11-20",
+   "start_date": "UNKNOWN (master's degree must be completed by 2027-08-27)",
+   "status": "open_verified",
+   "funding": "Norwegian state scale PhD research fellow, position code 1017; gross from NOK 580,000/yr; 3 years doctoral work plus up to 1 year career-promotion work; 2% pension deduction",
+   "international_tuition": "NOT_APPLICABLE_EMPLOYED: salaried employee; ad requires admission to Engineering Cybernetics PhD programme within 3 months. No tuition clause found.",
+   "research_fit": "medium",
+   "fit_reason": "Core topics include guidance/navigation/control, aerial robotics and sensor detection/tracking on real UAV hardware, adjacent to inertial/visual state estimation, but the application is counter-drone systems.",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/310944",
+   "formal_eligibility": "Master's in control/cybernetics/aerospace/electronics/mechatronics (5-year Norwegian equivalent, 120 ECTS), B or better average; knowledge of at least one of GNC, aerial robotics/UAS, sensor detection and tracking. Security clearance assessed during employment; export control applies. Norwegian/Scandinavian A2 preferred.",
+   "required_materials": "Transcripts and diplomas, CV, copy of master's thesis, 400-word motivation letter naming preferred C-UAS subsystem, publications, 2-3 referees, language self-assessment if non-Scandinavian, diploma supplement / HK-dir statement if held.",
+   "offer_timing": "UNKNOWN; deadline in 6 days from 2026-11-14",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline: 20.11.2026",
+     "locator": "Jobbnorge header, PDF p1"
+    },
+    {
+     "fact": "funding",
+     "quote": "PhD Candidate, code 1017, your gross salary will normally be from NOK 580 000 per annum",
+     "locator": "Salary and conditions"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "candidates from non-EEA or non-NATO countries cannot expect to obtain a security clearance",
+     "locator": "Preferred selection criteria"
+    }
+   ],
+   "risk": "Security-clearance clause is a real risk for a non-EEA/non-NATO citizen (clearance is stated as assessed during employment, listed under preferred criteria, but export-control rejection is also stated). Defence-flavoured topic; Norwegian A2 'good presentation skills' wording. Six days left.",
+   "next_action": "Decide within 48h whether the C-UAS topic is acceptable; if yes prepare 400-word letter and apply via Jobbnorge before 2026-11-20. Applicant citizenship needed to judge clearance risk."
+  },
+  {
+   "country": "Norway",
+   "timezone": "Europe/Oslo",
+   "verified_on": "2026-11-14",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "type": "advertised_position",
+   "id": "ntnu-iir-multirobot-planning-311117",
+   "institution": "NTNU Alesund, Department of ICT and Natural Sciences (CPS Lab)",
+   "title": "PhD Candidate in Multi-Robot Informative Planning for Coastal Monitoring (Jobbnorge 311117)",
+   "deadline_local": "2026-11-30",
+   "start_date": "UNKNOWN (not stated; master must be documented before start)",
+   "status": "open_verified",
+   "funding": "Norwegian state scale PhD research fellow, position code 1017; gross NOK 580,000/yr; 3-year doctoral period (check ad for any 4th career-promotion year); 2% pension deduction",
+   "international_tuition": "NOT_APPLICABLE_EMPLOYED: salaried; admission to Engineering Cybernetics doctoral programme required. No tuition clause found.",
+   "research_fit": "medium",
+   "fit_reason": "Cooperating USV/UAV teams with probabilistic mapping, distributed estimation and learning-based planning; emphasis can be on estimation and mapping, overlapping robot perception and sensor fusion.",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311117",
+   "formal_eligibility": "Master's in engineering cybernetics/robotics/control/marine technology/mechatronics or CS/maths/data science with robotics, optimisation or ML experience; B or better; programming (Python/C++); non-European non-English-speaking applicants need TOEFL 92 / IELTS 6.5 / CAE-CPE B. Security restrictions possible.",
+   "required_materials": "Standard NTNU package via Jobbnorge (transcripts, CV, thesis, motivation letter, referees); see ad.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline: 30.11.2026",
+     "locator": "Jobbnorge header"
+    },
+    {
+     "fact": "funding",
+     "quote": "code 1017, your gross salary will normally be NOK 580 000,-per annum",
+     "locator": "Salary and conditions"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "candidates from non-EEA or non-NATO countries can not expect to obtain a security clearance",
+     "locator": "Preferred selection criteria"
+    }
+   ],
+   "risk": "Same non-EEA/non-NATO clearance sentence as other NTNU posts; field work needs presence in Alesund; fit is planning/mapping rather than inertial estimation.",
+   "next_action": "Reasonable fit if estimation/mapping emphasis is acceptable; prepare documents for Jobbnorge by 2026-11-30."
+  },
+  {
+   "country": "Norway",
+   "timezone": "Europe/Oslo",
+   "verified_on": "2026-11-14",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "type": "advertised_position",
+   "id": "ntnu-itk-mai-navigation-route-planning-311584",
+   "institution": "NTNU Department of Engineering Cybernetics (Norwegian Maritime AI Centre)",
+   "title": "PhD Candidate in Intelligent Navigation and Risk Based Route Planning (Jobbnorge 311584)",
+   "deadline_local": "2026-12-01",
+   "start_date": "UNKNOWN (not stated)",
+   "status": "open_verified",
+   "funding": "Norwegian state scale PhD research fellow, position code 1017; gross NOK 580,000/yr; 3 years; centre funded by Research Council of Norway 2026-2030",
+   "international_tuition": "NOT_APPLICABLE_EMPLOYED: salaried; admission to Engineering Cybernetics PhD programme within 3 months.",
+   "research_fit": "medium",
+   "fit_reason": "Cybernetics plus machine learning for navigational situational awareness with vessel position/motion and uncertainty; navigation-flavoured but route-risk planning rather than inertial or visual state estimation.",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311584",
+   "formal_eligibility": "Master's in engineering cybernetics, robotics, control, applied maths or related; strong dynamical systems/control and ML; Python/MATLAB/C++; B or better; English proof (e.g. TOEFL) if native language not English or Scandinavian. Supervisor Assoc. Prof. Borge Rokseth.",
+   "required_materials": "Transcripts and diplomas, CV, master's thesis (draft allowed), 400-word motivation letter, publications, 2+ referees, diploma supplement.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline: 01.12.2026",
+     "locator": "Jobbnorge header"
+    },
+    {
+     "fact": "funding",
+     "quote": "code 1017, your gross salary will normally be from NOK 580 000 NOK per annum",
+     "locator": "Salary and conditions"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "You must have a strong foundation in engineering cybernetics, including mathematical modelling, dynamical systems and control theory, together with competence in machine learning",
+     "locator": "Required selection criteria"
+    }
+   ],
+   "risk": "Maritime AI Centre (about 25 PhDs) positions elsewhere carry an export-control and EU/NATO citizenship ranking clause (see 311698); this ad text did not contain it but a general export-control clause applies.",
+   "next_action": "Apply before 2026-12-01 if navigation/ML for vessels is acceptable; tailor letter to uncertainty-aware navigation."
+  },
+  {
+   "country": "Norway",
+   "timezone": "Europe/Oslo",
+   "verified_on": "2026-11-14",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "type": "advertised_position",
+   "id": "ntnu-imt-mai-battery-pinn-skjetne-311698",
+   "institution": "NTNU Department of Marine Technology (MESA group, Prof. Roger Skjetne; Maritime AI Centre)",
+   "title": "PhD Candidate in Marine Cybernetics on AI-based Energy and Battery Management for Ships and Ports (Jobbnorge 311698)",
+   "deadline_local": "2026-12-15",
+   "start_date": "UNKNOWN (master's degree must be completed by 2027-07-31)",
+   "status": "open_verified",
+   "funding": "Norwegian state scale PhD research fellow, position code 1017; gross NOK 580,000/yr; funded directly by Maritime AI Centre; 3 years assumed per NTNU standard (check ad)",
+   "international_tuition": "NOT_APPLICABLE_EMPLOYED: salaried; engineering faculty PhD admission required.",
+   "research_fit": "medium",
+   "fit_reason": "Ad explicitly lists physics-informed neural networks and agentic AI/RL for marine battery state monitoring; PINN match, but domain is energy systems, not navigation.",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311698",
+   "formal_eligibility": "MSc in control/cybernetics/CS (30 ECTS thesis), B or better, ML/agentic AI/control or power-systems background, Python/C++ and ROS an advantage. EXPORT CONTROL CLAUSE: candidates with citizenship from outside EU/NATO may be ranked lower or disqualified.",
+   "required_materials": "Standard NTNU application via Jobbnorge; see ad.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline: 15.12.2026",
+     "locator": "Jobbnorge header"
+    },
+    {
+     "fact": "funding",
+     "quote": "code 1017, your gross salary will normally be NOK 580 000,- per annum",
+     "locator": "Salary and conditions"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Candidates with citizenship from outside EU/NATO ... are very uncertain to get necessary access ... and may thus be ranked lower or disqualified",
+     "locator": "Required selection criteria"
+    }
+   ],
+   "risk": "Explicit EU/NATO citizenship-based ranking penalty; applicant EU/EEA/NATO status UNKNOWN and decisive here.",
+   "next_action": "If applicant is EU/EEA or NATO citizen, rank this as best PINN-matched Norwegian lead (deadline 2026-12-15); otherwise treat as low-probability."
+  },
+  {
+   "country": "Norway",
+   "timezone": "Europe/Oslo",
+   "verified_on": "2026-11-14",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "type": "advertised_position",
+   "id": "uit-idbi-multimodal-ai-infrastructure-311364",
+   "institution": "UiT The Arctic University of Norway, Narvik (Dept. of Computer Science and Computational Engineering, IDBI)",
+   "title": "PhD Fellow in Multimodal AI for Intelligent Infrastructure (Jobbnorge 311364)",
+   "deadline_local": "2026-12-16",
+   "start_date": "UNKNOWN; start 'within a reasonable time after receiving the offer'",
+   "status": "open_verified",
+   "funding": "Norwegian state scale PhD research fellow, position code 1017; NOK 580,000/yr with 3% yearly increase; 4 years (25% duties in years 2-4 per ad); statutory pension contribution 2%",
+   "international_tuition": "NOT_APPLICABLE_EMPLOYED: salaried; provisional admission to PhD programme; final admission to be applied within 2 months of taking the post.",
+   "research_fit": "medium",
+   "fit_reason": "AI-based heterogeneous multi-sensor fusion and state estimation for cyber-physical systems, with multimodal and scene-understanding methods; sensor fusion matches though infrastructure/geophysical rather than robot navigation.",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311364",
+   "formal_eligibility": "Master's in CS/AI/ML/data science/computational engineering/maths; strong programming and ML; English fluency documented; UiT admission requires 4-year bachelor + master equivalence (Lisbon Convention countries normally accepted); master's near completion allowed.",
+   "required_materials": "Project description max 2 pages (topic, research questions, methods) plus standard transcripts/CV via Jobbnorge; see ad.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline: 16.12.2026",
+     "locator": "Jobbnorge header"
+    },
+    {
+     "fact": "funding",
+     "quote": "PhD Fellows are normally given a salary of 580 000 NOK/year with a 3% yearly increase",
+     "locator": "We offer"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "The project description shall not exceed 2 pages, literature references included.",
+     "locator": "Position's field of research"
+    }
+   ],
+   "risk": "Infrastructure/DAS domain rather than robotics; required 2-page project description. No clearance clause seen.",
+   "next_action": "Draft 2-page proposal around learned multi-sensor state estimation; submit by 2026-12-16."
+  },
+  {
+   "country": "Norway",
+   "timezone": "Europe/Oslo",
+   "verified_on": "2026-11-14",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "type": "advertised_position",
+   "id": "nmbu-prevail-safe-ai-robotics-311563",
+   "institution": "NMBU Robotics Group",
+   "title": "PhD position in Safe AI for Robotic Autonomous Systems (PREVAIL, Jobbnorge 311563)",
+   "deadline_local": "2026-12-01",
+   "start_date": "UNKNOWN (ad text says desired start 1 January 2026, apparently a stale year)",
+   "status": "verification_needed",
+   "funding": "Position code 1017, NOK 550,800; 3 years; funded by Research Council of Norway defence-transfer scheme",
+   "international_tuition": "NOT_APPLICABLE_EMPLOYED (salaried); not separately stated",
+   "research_fit": "medium",
+   "fit_reason": "Robotics with ROS 2 and runtime verification of AI-enabled autonomous systems; robot-adjacent but verification focus, not state estimation.",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311563",
+   "formal_eligibility": "Master's in robotics/CS/cybernetics/formal methods, B or better; MUST be eligible for security clearance at minimum level SECRET and export-control licences.",
+   "required_materials": "See ad.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline: 01.12.2026",
+     "locator": "Jobbnorge header"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "The funding scheme requires candidates to be eligible for security clearance at a minimum level of \"Secret\".",
+     "locator": "About the position"
+    }
+   ],
+   "risk": "SECRET-level clearance requirement is likely to exclude most non-NATO/EU citizens; date inconsistency in the ad.",
+   "next_action": "Only pursue if applicant is NATO/EU/EEA national; confirm start date with NMBU."
+  },
+  {
+   "country": "Norway",
+   "timezone": "Europe/Oslo",
+   "verified_on": "2026-11-14",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "type": "advertised_position",
+   "id": "uis-lifelong-ml-har-demrozi-311300",
+   "institution": "University of Stavanger, Dept. of Electrical Engineering and Computer Science (Florenc Demrozi group)",
+   "title": "PhD Fellowship in Lifelong Machine Learning for Human Activity Recognition (Jobbnorge 311300)",
+   "deadline_local": "",
+   "start_date": "spring 2027",
+   "status": "verification_needed",
+   "funding": "Norwegian state scale PhD research fellow, position code 1017; NOK 580,000 gross/yr, 3 years (4 with career-promoting work); relocation support",
+   "international_tuition": "NOT_APPLICABLE_EMPLOYED: salaried PhD fellow admitted to the Science and Technology PhD programme",
+   "research_fit": "medium",
+   "fit_reason": "Continual and federated learning on wearable and object-interaction sensor streams; IMU time-series in a learning setting, though activity recognition rather than navigation.",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311300",
+   "formal_eligibility": "Five-year master's in CS/data science/EE/maths; thesis and average grade B or better; English test (TOEFL 90, IELTS 6.5, PTE 62) unless exempt. Security/export-control awareness stated.",
+   "required_materials": "Motivation letter (max 2 pages) with own project ideas, full master's thesis, CV, diploma and transcript, diploma supplement, publications, references.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline: Ongoing",
+     "locator": "Jobbnorge header"
+    },
+    {
+     "fact": "funding",
+     "quote": "State Salary Scale, code 1017, NOK 580 000 gross per year",
+     "locator": "We offer"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Your master's thesis grade and weighted average grade for the master's degree must both correspond to a grade of B or better.",
+     "locator": "Qualifications"
+    }
+   ],
+   "risk": "Deadline field reads 'Ongoing' which does not tell whether the call is open or when it closes; the PDF text still refers to 'when the application deadline expires'. UiS posted several other 'Ongoing' ads. DEADLINE_NOT_STATED: Jobbnorge header shows Ongoing.",
+   "next_action": "Open the Jobbnorge ad in a JavaScript browser to read the real deadline before preparing.",
+   "deadline_as_reported": "Jobbnorge header says 'Ongoing'; exact date NOT shown"
+  },
+  {
+   "country": "Norway",
+   "timezone": "Europe/Oslo",
+   "verified_on": "2026-11-14",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "type": "advertised_position",
+   "id": "uio-integreat-structured-vlm-310559",
+   "institution": "University of Oslo, Dept. of Informatics (Integreat centre)",
+   "title": "PhD Research Fellow in Structured Vision-Language Models (Jobbnorge 310559)",
+   "deadline_local": "2026-11-18",
+   "start_date": "January 2027 and upon individual agreement",
+   "status": "open_verified",
+   "funding": "Position code 1017, salary range NOK 550,800-595,000; 3 years (4th year with 25% duties possible)",
+   "international_tuition": "NOT_APPLICABLE_EMPLOYED: salaried fellowship",
+   "research_fit": "low",
+   "fit_reason": "Vision-language models and scene graphs from superpixels; computer vision but no geometry, inertial or navigation content.",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/310559",
+   "formal_eligibility": "MSc in CS/ML/maths/EE or related; foreign degree equal to at least four Norwegian years; programming; English requirements for non-EU/EEA applicants.",
+   "required_materials": "See ad.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline: 18.11.2026",
+     "locator": "Jobbnorge header"
+    },
+    {
+     "fact": "funding",
+     "quote": "position code 1017 in salary range NOK 550 800 - 595 000",
+     "locator": "We offer / salary"
+    }
+   ],
+   "risk": "Deadline in four days; weak research fit.",
+   "next_action": "List only as backup; skip unless vision-language direction is acceptable."
+  },
+  {
+   "country": "Norway",
+   "timezone": "Europe/Oslo",
+   "verified_on": "2026-11-14",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "type": "advertised_position",
+   "id": "usn-celect-learning-ecosystem-311089",
+   "institution": "University of South-Eastern Norway, Kongsberg (SFI CELECT)",
+   "title": "PhD Research Fellow in Systems Engineering - Learning Ecosystem (Jobbnorge 311089)",
+   "deadline_local": "2026-12-15",
+   "start_date": "expected May 2027 like sister posts (not verified for this ad)",
+   "status": "open_verified",
+   "funding": "Norwegian state scale PhD research fellow, position code 1017; sister ads state NOK 550,800; not read for this ad",
+   "international_tuition": "NOT_APPLICABLE_EMPLOYED",
+   "research_fit": "low",
+   "fit_reason": "Systems-engineering competence development with AI and business innovation; no perception or estimation content.",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311089",
+   "formal_eligibility": "Same CELECT template as 311077/311057 (export licence and restricted-level authorisation). Not independently read in full.",
+   "required_materials": "As CELECT sister posts.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline: 15.12.2026",
+     "locator": "Jobbnorge header"
+    }
+   ],
+   "risk": "Low fit and partial read only.",
+   "next_action": "Ignore unless broadening beyond robotics."
+  },
+  {
+   "id": "tyndall-wideband-balun-ic-packaging",
+   "country": "Ireland",
+   "institution": "Tyndall National Institute (UCC)",
+   "title": "PhD: Wideband Balun Technologies and Advanced IC Packaging",
+   "type": "advertised_position",
+   "deadline_local": "2026-11-27 13:00",
+   "timezone": "Europe/Dublin",
+   "start_date": "UNKNOWN",
+   "status": "open_verified",
+   "funding": "EUR 25,000 tax-free stipend per year, 4 years, annual tuition fees paid by Tyndall",
+   "international_tuition": "PAID_BY_TYNDALL per page ('annual tuition fees will be paid'); non-EU rate not separately specified, treat as UNKNOWN until confirmed",
+   "research_fit": "low",
+   "fit_reason": "RF/mm-wave circuit and packaging research; no overlap with inertial estimation or SLAM.",
+   "url": "https://www.tyndall.ie/job/phd-wideband-balun-technologies-and-advanced-ic-packaging/",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "First-class honours degree (or equivalent) in electrical/electronic engineering, physics or related; electromagnetics/RF foundation; English proof per UCC rules.",
+   "required_materials": "CV and short motivation letter addressing essential criteria.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "1pm on Friday 27th November 2026",
+     "locator": "closing date"
+    },
+    {
+     "fact": "funding",
+     "quote": "Full PhD funding, including tuition fees and a tax-free stipend",
+     "locator": "page body"
+    }
+   ],
+   "risk": "Low research fit; the only fully funded Irish post verified. Page fetched via summariser, not raw text.",
+   "next_action": "List as exceptional-funding low-fit only."
+  }
+ ],
+ "labs": [
+  {
+   "pi": "Roger Skjetne (supervisor named in ad 311698)",
+   "institution": "NTNU",
+   "group": "Marine Energy Systems and Autonomics (MESA), Dept. of Marine Technology",
+   "group_url": "https://www.ntnu.edu/imt",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311698",
+   "hiring_state": "OPEN",
+   "caveat": "Open ad is battery/energy PINN, not navigation. EU/NATO citizenship ranking clause. AMOS/Fossen/Johansen groups not found with open posts in 2,700 Jobbnorge ads scanned."
+  },
+  {
+   "pi": "NTNU UAV-lab (head of department is line manager)",
+   "institution": "NTNU Engineering Cybernetics",
+   "group": "UAV-lab, counter-drone project",
+   "group_url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/310944",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/310944",
+   "hiring_state": "OPEN",
+   "caveat": "Deadline 2026-11-20; security clearance clause."
+  },
+  {
+   "pi": "Florenc Demrozi",
+   "institution": "University of Stavanger",
+   "group": "Lifelong learning for HAR, SOSC sensing infrastructure",
+   "group_url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311300",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311300",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Deadline field says Ongoing."
+  },
+  {
+   "pi": "Borge Rokseth",
+   "institution": "NTNU",
+   "group": "Norwegian Maritime AI Centre (about 25 PhD scholarships planned 2026-2030)",
+   "group_url": "https://www.ntnu.edu/mai",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311584",
+   "hiring_state": "ROLLING",
+   "caveat": "Centre states about 25 doctoral scholarships; more posts likely during 2027; watch Jobbnorge for navigation/perception topics."
+  }
+ ],
+ "recurring_cycles": [
+  {
+   "program": "Research Ireland Empower (institutional PhD studentship funding)",
+   "institution": "Research Ireland / 18 invited Irish HEIs",
+   "url": "https://www.researchireland.ie/funding/empower/",
+   "last_observed_deadline": "Institutional deadline 2026-11-06 13:00 Irish time, call closed (HISTORICAL)",
+   "expected_next_window": "Notifications January 2027, grants start March 2027; HEI-run PhD postings may follow in spring 2027 (INFERENCE)",
+   "funding_note": "Invited-call only; page does not address non-EU eligibility; PhD studentships a key focus; 72-month grants."
+  },
+  {
+   "program": "Jobbnorge stipendiat postings at NTNU/UiO/UiT/UiS",
+   "institution": "Norwegian universities",
+   "url": "https://www.jobbnorge.no/en/available-jobs",
+   "last_observed_deadline": "2026-11 to 2027-01 cluster of PhD deadlines (HISTORICAL snapshot of 2026-11-14)",
+   "expected_next_window": "Further NTNU/UiO PhD ads typically appear Jan-Mar 2027 for autumn start (INFERENCE)",
+   "funding_note": "All Norwegian PhD ads seen are salaried, code 1017, NOK 550,800-595,000."
+  }
+ ],
+ "ineligible_or_partial": [
+  {
+   "title": "TU Dublin: PhD Project AI-Enabled UWB Indoor Positioning for Industrial Robotics (EURAXESS 447557)",
+   "url": "https://euraxess.ec.europa.eu/jobs/447557",
+   "restriction_clause": "Scholarship not available. Fees & Materials to be paid by the student.",
+   "why_excluded": "Self-funded; deadline 2026-12-24 17:25 Dublin; page shows STATUS: EXPIRED. Good topic (UWB, sensor fusion) but no funding. Aggregator only."
+  },
+  {
+   "title": "TU Dublin: PhD Project Safe Human-Robot Collaboration Using UWB and AI (EURAXESS 447600)",
+   "url": "https://euraxess.ec.europa.eu/jobs/447600",
+   "restriction_clause": "Self Funded (Scholarship not available. Fees & Materials to be paid by the student.)",
+   "why_excluded": "Self-funded; deadline 2026-12-31 17:19; STATUS: EXPIRED. Aggregator only."
+  },
+  {
+   "title": "NTNU Alesund: PhD Candidate Control Systems Nuclear Reactors on Ships (Jobbnorge 311239)",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311239",
+   "restriction_clause": "only candidates who are citizens of a NATO member state or an EU member state ... can be considered",
+   "why_excluded": "Citizenship-restricted; deadline 2026-12-31; low fit."
+  },
+  {
+   "title": "NMBU PREVAIL Safe AI for Robotic Autonomous Systems (also listed as lead, verification_needed)",
+   "url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311563",
+   "restriction_clause": "eligible for security clearance at a minimum level of Secret",
+   "why_excluded": "Clearance-contingent; kept as lead with warning."
+  }
+ ],
+ "unverified_leads": [
+  {
+   "title": "Uni.lu CVI2 Doctoral Researcher in Computer Vision (UOL08044), lux-cvi2-vision",
+   "url_tried": "https://www.uni.lu/en/jobs/doctoral-researcher-in-computer-vision/",
+   "reason": "CloudFront returns HTTP 202 with x-amzn-waf-action: challenge and an empty body to curl and WebFetch; cannot read page. No bypass attempted."
+  },
+  {
+   "title": "Uni.lu SnT SPARC radar spontaneous applications (UOL05451), lux-sparc-radar",
+   "url_tried": "https://www.uni.lu/en/jobs/phd-candidates-spontaneous-applications-for-next-generation-radar-sensing-networks/",
+   "reason": "Same WAF challenge, empty body."
+  },
+  {
+   "title": "Uni.lu job portal listing (SnT ARG, SpaceR, other faculties)",
+   "url_tried": "https://www.uni.lu/en/about/work/",
+   "reason": "Same WAF challenge; also recruitmentplatform.uni.lu returned HTTP 502 Bad Gateway to curl on 2026-11-14."
+  },
+  {
+   "title": "FNR PRIDE doctoral training units, LIST, LISER",
+   "url_tried": "not fetched",
+   "reason": "WebSearch budget exhausted before these were reached; not checked."
+  },
+  {
+   "title": "NTNU Autonomous Robots Lab (Kostas Alexis) PhD ads (underwater foundation models, soft aerial robotics)",
+   "url_tried": "search snippets only (applykite, jobbnorge pdf 291026)",
+   "reason": "Snippets show 2026 deadlines already passed (25 Aug 2026 / 1 Feb 2026); never fetched; lab remains a supervisor lead only."
+  },
+  {
+   "title": "Irish university posts (TCD, UCD, Galway, UCC, DCU, Maynooth, UL) and Insight/ADAPT/CONNECT",
+   "url_tried": "tcd.ie scholarships, adaptcentre.ie/careers, insight-centre.org, lero.ie/careers, tudublin.ie vacancies",
+   "reason": "Pages returned 404/403 or no PhD listings (Lero shows only a research assistant, ADAPT shows no open positions); WebSearch budget exhausted so no search-based discovery."
+  },
+  {
+   "title": "OsloMet PhD fellowships in embodied AI and autonomous robotic systems",
+   "url_tried": "https://www.oslomet.no/en/work/job-openings/phd-fellowships-in-embodied-artificial-intelligence-and-autonomous-robotic-systems",
+   "reason": "404 on fetch; search snippet suggested a May 2026 listing; no current OsloMet robotics ad in the Jobbnorge ID scan."
+  }
+ ],
+ "corrections_to_existing_repo": [
+  {
+   "opportunity_id": "usn-ai",
+   "issue": "EXPIRED conflict resolved: employer portal ad is current. Jobbnorge 311077 text generated 2026-11-14 shows Soknadsfrist 15.12.2026. Real title 'PhD Research Fellow in Systems Engineering - AI tools for early validation and development of complex integrated systems' (SFI CELECT, Kongsberg, supervisor Kristin Falk). Salary code 1017 NOK 550,800. Start May 2027, latest Aug 2027. 3 years. Export licence and authorisation for restricted required; passport copy required; HK-dir recognition of foreign degrees must be applied for before deadline; 500-word motivation letter; B or better. Research fit is low (systems engineering, digital twins), not medium.",
+   "evidence_url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311077",
+   "quote": "Salary in accordance with the Norwegian State salary scale for PhD research fellows (position code 1017) NOK 550,800."
+  },
+  {
+   "opportunity_id": "usn-systems",
+   "issue": "EXPIRED conflict resolved: Jobbnorge 311057 shows Soknadsfrist 15.12.2026 (live as of 2026-11-14). Title 'PhD Research Fellow Systems Engineering - Early systems integration in AI-enabled systems-of-systems' (CELECT PhD1.5, Kongsberg). NOK 550,800, code 1017; same export licence, restricted-level authorisation, passport and HK-dir requirements; methods are largely qualitative; preferred Norwegian industry experience. Fit low.",
+   "evidence_url": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/311057",
+   "quote": "The applicant must meet the requirements for authorization for restricted ... an export licence is also required"
+  },
+  {
+   "opportunity_id": "usn-ai / usn-systems (caveat)",
+   "issue": "Jobbnorge HTML pages need JavaScript; confirmation came from the Jobbnorge-generated PDF of the ad (generated 2026-11-14 02:47), so the Apply-button state was not directly observed.",
+   "evidence_url": "https://www.jobbnorge.no/en/available-jobs/job/311077",
+   "quote": "Jobbnorge.no needs JavaScript for all functions to work properly."
+  },
+  {
+   "opportunity_id": "docs/countries/ireland.md (TU Dublin 447557 and 447600)",
+   "issue": "Both TU Dublin posts are self-funded with no stipend; should not be tracked as funded candidates.",
+   "evidence_url": "https://euraxess.ec.europa.eu/jobs/447557",
+   "quote": "Scholarship not available. Fees & Materials to be paid by the student."
+  },
+  {
+   "opportunity_id": "lux-cvi2-vision / lux-sparc-radar",
+   "issue": "Uni.lu pages are behind an AWS WAF challenge for non-browser clients, so automated checks cannot verify status; recruitmentplatform.uni.lu returned HTTP 502.",
+   "evidence_url": "https://www.uni.lu/en/jobs/doctoral-researcher-in-computer-vision/",
+   "quote": "x-amzn-waf-action: challenge (HTTP 202, empty body)"
+  }
+ ],
+ "yield_note": "Norway: the Jobbnorge ID scan is near-saturated for ads live on 2026-11-14 (IDs 308700-311820); no AMOS (Fossen/Johansen), geomatics, UiO ROBIN/RITMO, UiB, SINTEF or NORCE robotics/estimation PhD ad was found open with deadline on or after 2026-11-14; closest are NTNU drone, multi-robot, maritime-AI and UiT sensor-fusion posts. Many NTNU ads close 20-30 Nov, so action is urgent. Maritime AI Centre plans about 25 PhDs, so more ads may follow. Ireland: no verified funded robotics/inertial post; Empower postings expected after Jan-Mar 2027; coverage thin because WebSearch was exhausted. Luxembourg: blocked by WAF, nothing verified; needs a browser-based check. Stipendiat salary 2026 scale: code 1017, NOK 550,800 (floor) to 580,000 (NTNU/UiT/UiS typical)."
+}

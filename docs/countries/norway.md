@@ -21,3 +21,6 @@ Job applications may require certified translations, grade records, five-year de
 
 ## Strategy and gaps
 Target salaried open PhD positions and publication-matched supervisors, but prioritize verifying Jobbnorge status first. Need formal salary in NOK (if verified from employer), recruitment lifecycle dates, relevant labor contract/visa and security eligibility.
+
+## 2026-11-14 update
+Both USN posts show a live 15 Dec 2026 deadline on Jobbnorge (the EURAXESS EXPIRED label is not supported) but require an export licence and restricted-level authorisation and have low scientific fit. Five NTNU/UiT PhD ads with medium fit and deadlines from 20 Nov to 16 Dec 2026 were added; some state that non-EEA/non-NATO candidates cannot expect a security clearance. Source detail: [opportunity search synthesis](../../synthesis/opportunity-search-2026-11-14.md); fetch-summary evidence needs live-page recheck.

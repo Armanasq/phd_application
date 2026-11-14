@@ -15,7 +15,7 @@ The dry-run uses `:memory:` and never changes an existing user database. The sec
 - Eight country records and canonical institutional identities.
 - Discovered repository identities, revision-pinned audits, and documented dependence edges from the canonical CSV registers. Counts are computed at import time and may grow independently; `candidate_repositories`, `repo_audits`, and `repo_relations` represent distinct grains.
 - 26 claim records and their primary source linkages, with no independent verification inferred.
-- 20 opportunity/program/scholarship leads with separate tuition, funding, channel and offer-evidence rows. Monetary amounts are left as qualitative evidence strings rather than inventing safely comparable numeric amounts.
+- 78 opportunity/program/scholarship leads with separate tuition, funding, channel and offer-evidence rows. Monetary amounts are left as qualitative evidence strings rather than inventing safely comparable numeric amounts.
 - Six public applicant experience observations with source class and survivorship caveats.
 - One publisher-verified *Measurement* article DOI/publication record; unrelated preprint/poster claims are not imported as accepted journal papers.
 

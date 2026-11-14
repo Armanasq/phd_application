@@ -20,3 +20,6 @@ Employer fixed term contract can cover stipend/salary and social contributions, 
 
 ## Risks / strategy
 Potentially rolling direct-vacancy model and attractive applied sensing fit. University page lacks reliably evidenced open date in inspected excerpt; mark `verification_needed` until portal accepts new applications and HR confirms team budget and hiring. No 2026 offer date documented. Publication-level supervisor matching pending.
+
+## 2026-11-14 update
+Uni.lu pages sit behind a bot challenge and the recruitment platform returned 502, so lux-cvi2-vision and lux-sparc-radar remain unverified; check in a normal browser. FNR AFR is discontinued and AFdoc requires a Luxembourg link. Source detail: [opportunity search synthesis](../../synthesis/opportunity-search-2026-11-14.md); fetch-summary evidence needs live-page recheck.

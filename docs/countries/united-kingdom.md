@@ -25,3 +25,6 @@ Check UK qualification equivalency, English level/tests/exemptions, application 
 
 ## Strategy and unresolved
 Oxford Dec2 is a **program + competitive scholarship pathway**, not verified full-funding offer. Prefer explicitly international-funded project adverts, prove fee coverage and stipend. Need project-level screening, CDT rules, student visa timing, PI literature match, institution interview cycles and cost-of-living models. Not enough evidence for a credible offer **before 31 Dec 2026**.
+
+## 2026-11-14 update
+No UK navigation/SLAM/inertial studentship open to overseas-fee applicants was found; overseas routes are scholarships or CDT rounds: Edinburgh Informatics (30 Nov 2026), Manchester President's (18 Dec), Imperial President's (11 Jan 2027), Sheffield EPSRC DLA (13 Jan, 30% international cap), Bristol ProAI CDT (26 Feb). None can yield an offer before 2027. Source detail: [opportunity search synthesis](../../synthesis/opportunity-search-2026-11-14.md); fetch-summary evidence needs live-page recheck.
