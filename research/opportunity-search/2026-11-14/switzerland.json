@@ -1,0 +1,635 @@
+{
+ "agent": "switzerland",
+ "scope": "Switzerland only, beyond existing repo leads: ETH Zurich (jobs.ethz.ch portal index of 127 postings, RSL, ASL/V4RL, CVG, AIT, CVL, IDSC), EPFL doctoral schools (EDRS, EDEE, EDIC cross-check) and labs (ESO/Skaloud, CVLab, LASA, LIS, MOBOTS, VITA, Biorob), Idiap, UZH, Bern, Basel/USI/SUPSI-IDSIA/ZHAW/UNIGE (partly blocked), national schemes (Swiss Government Excellence Scholarships, ELLIS, MPI-ETH CLS, ETH AI Center), industry-linked (Empa, armasuisse, Disney, Fixposition). Plus re-verification of uzh-rpg-2026, eth-rsl-rolling, eth-3d, eth-siplab-neuromotor, and cross-checks of eth-robotx and eth-soft. NOTE: the WebSearch budget ran out mid-run, so Basel, USI, Verity, ANYbotics, Leica, CSEM, Sensirion and Disney Research were not searched beyond the early industry queries.",
+ "searches_run": [
+  {
+   "query": "https://rpg.ifi.uzh.ch/positions.html",
+   "engine": "WebFetch",
+   "result_note": "Four fully funded PhD/postdoc topics; deadline sentence Oct 27 2026 plus screening until filled; form-only applications."
+  },
+  {
+   "query": "https://rpg.ifi.uzh.ch/apply_phd.html",
+   "engine": "WebFetch",
+   "result_note": "First fetch HTTP 503; second fetch returned heading 'Application for PhD Student Position at RPG', no form fields rendered, no closing notice."
+  },
+  {
+   "query": "https://rsl.ethz.ch/the-lab/open-positions.html",
+   "engine": "WebFetch",
+   "result_note": "Continuous PhD search; external softfactors form; no deadline or funding stated."
+  },
+  {
+   "query": "https://euraxess.ec.europa.eu/jobs/477410",
+   "engine": "WebFetch",
+   "result_note": "Aggregator copy: deadline 31 Jan 2027 22:59 UTC but 'STATUS: EXPIRED'; apply link to academicpositions.com."
+  },
+  {
+   "query": "https://www.jobs.ethz.ch/ (portal index and ?page=2)",
+   "engine": "WebFetch",
+   "result_note": "127 postings listed incl. hrefs; used to map all robotics/vision/ML doctoral posts and find the official 3D heritage posting JOPG_ethz_VHL83kyFBbwBQD0AfO. No ASL, V4RL, CVG, IDSC or CVL doctoral posting present."
+  },
+  {
+   "query": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_VHL83kyFBbwBQD0AfO",
+   "engine": "WebFetch",
+   "result_note": "Official ETH posting: fully funded 4-year, no deadline stated, apply button live."
+  },
+  {
+   "query": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_fEsJT6dU0XVbGPtHhO",
+   "engine": "WebFetch",
+   "result_note": "SIPLAB: open until filled, rolling, earliest start Fall 2026, no salary figure."
+  },
+  {
+   "query": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_d3lDgHgDI4ewDFQ1Fb and JOPG_ethz_zBtPwWHnM0fumyTFso",
+   "engine": "WebFetch",
+   "result_note": "Soft Robotics rolling until 30 Nov 2026; RobotX deadline 27 Nov 2026; both confirmed as in repo."
+  },
+  {
+   "query": "jobs.ethz.ch postings AUmT7tc75KfdQZK3sA, fV3FNoofTG427Xo88T, RXOaQH0DOpiNTKwE75, KsDZEfdFynQBP2lze3, osPAfgMWNM4uQUVsCP, ZF4mlOLPIchYWMlg8s, VZneg8EpZWNgwwRVyD",
+   "engine": "WebFetch",
+   "result_note": "Mapped deadlines/fit: IDEAL ML design (Jan 15 2027), Haller nonlinear dynamics (no deadline), debris flow (closed Oct 1), biocementation (Dec 15, architecture), Singapore soft robotics researcher (not PhD), geodesy LiDAR staff role, endoscopy ML 8-month role."
+  },
+  {
+   "query": "asl.ethz.ch, asl.ethz.ch/v4rl.html, cvg.ethz.ch, cvg.ethz.ch/opportunities, ait.ethz.ch/jobs, vision.ee.ethz.ch, idsc.ethz.ch",
+   "engine": "WebFetch",
+   "result_note": "No public PhD call for ASL/V4RL/IDSC/CVL; CVG requires first-author ECCV/CVPR/ICCV papers; AIT says no job openings."
+  },
+  {
+   "query": "EPFL EDRS applicants page, EDEE how-to-apply, EPFL admission criteria, applications FAQs",
+   "engine": "WebFetch",
+   "result_note": "EDRS deadlines Apr 15 / Dec 15; EDEE Apr 15 / Dec 1; enrolment conditional on supervisor and secure funding; no application fee."
+  },
+  {
+   "query": "EPFL labs: CVLab employment, LASA prospective students, LIS, MOBOTS, VITA, ESO open-positions and publications, Biorob openings",
+   "engine": "WebFetch",
+   "result_note": "No dedicated PhD vacancies; all route through doctoral school. CVLab page still cites Dec 15 for EDIC (outdated vs Dec 1)."
+  },
+  {
+   "query": "Idiap werecruit offers (ergodic control, shared autonomy, human motor control)",
+   "engine": "WebFetch",
+   "result_note": "All state 'This position has been filled'."
+  },
+  {
+   "query": "cvg.unibe.ch/vacancies and /project-2",
+   "engine": "WebFetch",
+   "result_note": "2 PhD + 2 postdoc, fully funded, no deadline, reviewed until excellent candidates found, start Oct 1 2026; current openness not stated."
+  },
+  {
+   "query": "supsi.ch/lavora-con-noi, bando26_5044, bando26_5040",
+   "engine": "WebFetch",
+   "result_note": "IDSIA AI PhD (causal modelling/multi-agent) deadline 22 Nov 2026; robotics assistant (non-PhD) deadline 25 Nov 2026."
+  },
+  {
+   "query": "ellis.eu call 2026; learning-systems.org/apply; Swiss Government Excellence Scholarships page; robotx.ethz.ch open-positions",
+   "engine": "WebFetch",
+   "result_note": "ELLIS closed 31 Oct 2026; CLS 2027 phase closed; SGES applications opened Aug 20 2026, country-specific deadlines; RobotX 'open until November 27 each year'."
+  },
+  {
+   "query": "ETH AI Center doctoral fellowships 2027 deadline",
+   "engine": "WebSearch",
+   "result_note": "Only aggregators give Oct 27 2026 16:00 CET; official ai.ethz.ch page not reachable (404)."
+  },
+  {
+   "query": "IDSIA USI SUPSI robotics PhD; Bern/Basel PhD; Empa/CSEM/Disney; armasuisse; UZH informatics; INI neuromorphic",
+   "engine": "WebSearch",
+   "result_note": "Mostly closed or non-PhD or aggregator-only; see unverified_leads. Search budget then exhausted."
+  },
+  {
+   "query": "USI PhD informatics page, USI jobs, UNIGE jobs, Basel jobs, UZH jobs portal, careers.epfl.ch, empa.ch jobs, ZHAW listing, Refline Empa listing",
+   "engine": "WebFetch",
+   "result_note": "403/404/maintenance/removed; recorded in unverified_leads."
+  }
+ ],
+ "leads": [
+  {
+   "id": "epfl-edrs-robotics-doctoral-school",
+   "country": "Switzerland",
+   "institution": "EPFL",
+   "title": "EDRS Robotics, Control and Intelligent Systems doctoral program admission (Dec 15 round)",
+   "type": "doctoral_program",
+   "deadline_local": "2026-12-15",
+   "timezone": "Europe/Zurich",
+   "start_date": "UNKNOWN (typically following autumn; EPFL says admitted candidates get a year to find an advisor)",
+   "status": "verification_needed",
+   "funding": "Admission itself carries no stated salary. EPFL: enrolment depends on a thesis topic, supervisor and secure funding; if an EPFL lab hires you, an employment contract is issued. No salary figure on pages fetched.",
+   "international_tuition": "UNKNOWN (no tuition or fee information on the pages fetched; application itself has no fee)",
+   "research_fit": "high",
+   "fit_reason": "EDRS is the door to EPFL robotics labs; ESO (Skaloud, GNSS/inertial/image-LiDAR sensor fusion), LASA and Biorob accept PhD candidates via EDRS or EDIC.",
+   "url": "https://epfl.ch/education/phd/programs/edrs-robotics_control_and_intelligent_systems/edrs-applicants",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Complete validated file: passport copy, bachelor and master diplomas and grades, statement of purpose, CV, 3 recommendation letters. English requirement not stated on this page. Supervisor not required at application.",
+   "required_materials": "Passport copy, 3 letters of recommendation (late letters push file to next deadline), BSc/MSc diplomas and grades, statement of purpose, CV.",
+   "offer_timing": "Decisions about a month and a half after deadline (page); funding/lab hire is a separate later decision.",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "yearly deadlines of April 15 and December 15",
+     "locator": "EDRS applicants page"
+    },
+    {
+     "fact": "funding",
+     "quote": "conditional to the choice of a thesis topic, a supervisor and a secure funding",
+     "locator": "EPFL PhD admission criteria page"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "If admitted, the candidate has one year to find an advisor who will hire them in their lab (as extracted)",
+     "locator": "EDRS applicants page"
+    }
+   ],
+   "risk": "Page states 'yearly' deadlines without a year; admission is not a funded offer. Admission-only outcome possible if no lab hires within a year.",
+   "next_action": "Confirm Dec 15 2026 on the live phd.epfl.ch portal; shortlist ESO (Skaloud), LASA, VITA in the statement of purpose; check whether EDIC (Dec 1) or EDRS suits better. Line up 3 referees now."
+  },
+  {
+   "id": "epfl-edee-electrical-engineering-doctoral-school",
+   "country": "Switzerland",
+   "institution": "EPFL",
+   "title": "EDEE Electrical Engineering doctoral program admission (Dec 1 round)",
+   "type": "doctoral_program",
+   "deadline_local": "2026-12-01",
+   "timezone": "Europe/Zurich",
+   "start_date": "UNKNOWN",
+   "status": "verification_needed",
+   "funding": "Not stated on the EDEE page; EPFL general page makes enrolment conditional on supervisor and secure funding.",
+   "international_tuition": "UNKNOWN",
+   "research_fit": "medium",
+   "fit_reason": "Signal processing, sensing and ML-on-signals labs and Idiap-hosted robotics PhDs enrol through EDEE; relevant to inertial/sensor-fusion learning.",
+   "url": "https://www.epfl.ch/education/phd/edee-electrical-engineering/edee-how-to-apply/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Page links to the general EPFL admission page; three letters of recommendation expected (from search summary, not confirmed on fetched page).",
+   "required_materials": "UNKNOWN from fetched page",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "two deadlines: 15th April and 1st December (year not stated)",
+     "locator": "EDEE how to apply page"
+    }
+   ],
+   "risk": "No year on the page; funding not stated; EDIC and EDRS are likelier routes for robotics labs.",
+   "next_action": "Treat as backup to EDRS/EDIC; confirm year and documents on phd.epfl.ch."
+  },
+  {
+   "id": "eth-ideal-ml-engineering-design",
+   "country": "Switzerland",
+   "institution": "ETH Zurich",
+   "title": "Doctoral Position in Machine Learning for Engineering Design (IDEAL lab, Prof. Mark Fuge)",
+   "type": "advertised_position",
+   "deadline_local": "2027-01-15",
+   "timezone": "Europe/Zurich",
+   "start_date": "Negotiable, earliest May 2027, latest October 2027",
+   "status": "open_verified",
+   "funding": "100% fixed-term ETH employment in Zurich; amount and funding source not stated on page.",
+   "international_tuition": "UNKNOWN (employed ETH doctoral position; no fee clause on page)",
+   "research_fit": "low",
+   "fit_reason": "ML, simulation, optimisation and robotics are lab themes, but topic is engineering design rather than inertial or visual state estimation.",
+   "url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_AUmT7tc75KfdQZK3sA",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Open to engineering, maths, CS, physics backgrounds; strong English; publications a plus not required.",
+   "required_materials": "CV, 1-2 page research statement, transcripts, cover letter with Zoom availability weeks of Jan 25 and Feb 1, two references.",
+   "offer_timing": "Interviews and final decisions expected before March 1 2027.",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "by January 15th, 2027",
+     "locator": "Application section"
+    },
+    {
+     "fact": "offer timing",
+     "quote": "Interviews and final decisions are expected before March 1st (as extracted)",
+     "locator": "Application section"
+    }
+   ],
+   "risk": "Low topic fit; decision date is Q1 2027, not December 2026.",
+   "next_action": "Only pursue if willing to pivot to ML for design; otherwise skip."
+  },
+  {
+   "id": "eth-haller-nonlinear-dynamics-data",
+   "country": "Switzerland",
+   "institution": "ETH Zurich",
+   "title": "PhD position in Modeling and Control of Nonlinear Dynamical Systems from Data (Chair of Nonlinear Dynamics, Prof. George Haller)",
+   "type": "advertised_position",
+   "deadline_local": "",
+   "timezone": "Europe/Zurich",
+   "start_date": "Flexible, early start preferred",
+   "status": "verification_needed",
+   "funding": "100% fixed-term ETH employment in Zurich; salary and funding source not stated.",
+   "international_tuition": "UNKNOWN",
+   "research_fit": "medium",
+   "fit_reason": "Data-driven model reduction and control of nonlinear dynamics is adjacent to physics-informed learning for dynamics, though domain is fluids/vibrations.",
+   "url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_fV3FNoofTG427Xo88T",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "MSc in mechanical engineering, applied maths, physics or related; strong maths; prior research in fluid mechanics, vibrations, model reduction or control expected.",
+   "required_materials": "CV, BSc and MSc transcripts, contact details of at least two references; portal only.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "eligibility",
+     "quote": "Strong mathematical skills (evidenced by high grades) are required and will be tested in technical interviews.",
+     "locator": "Requirements"
+    },
+    {
+     "fact": "deadline",
+     "quote": "No application deadline stated on the page; portal index summary showed a 06.07.2026 closing date (unreliable extraction)",
+     "locator": "posting vs index"
+    }
+   ],
+   "risk": "Conflicting closing information; posting is still listed in portal index. Domain expectation (fluids/vibrations) is a gap.",
+   "next_action": "Re-open the portal listing in a browser to see whether the Apply button is live before investing."
+  },
+  {
+   "id": "supsi-idsia-ai-causal-multiagent-phd",
+   "country": "Switzerland",
+   "institution": "SUPSI / IDSIA (USI-SUPSI)",
+   "title": "Dottorando in Intelligenza Artificiale: causal modelling and multi-agent systems (SUPSI 26_5044)",
+   "type": "advertised_position",
+   "deadline_local": "2026-11-22",
+   "timezone": "Europe/Zurich",
+   "start_date": "2027-02-01 or by agreement",
+   "status": "open_verified",
+   "funding": "100% fixed-term SNSF-funded project employment; salary and duration not stated.",
+   "international_tuition": "UNKNOWN (hiring conditional on admission to a USI or USI-SUPSI PhD program)",
+   "research_fit": "low",
+   "fit_reason": "Causal-probabilistic modelling and multi-agent simulation for human-AI interaction; not inertial/visual estimation.",
+   "url": "https://www.supsi.ch/bando26_5044",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Master in informatics, AI, maths, data science or related; excellent English; admission to PhD programme at USI or USI-SUPSI.",
+   "required_materials": "1-2 page motivation letter, CV with publications and thesis link, BSc/MSc transcripts, three referees; online form.",
+   "offer_timing": "UNKNOWN (start Feb 1 2027)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "entro il 22 novembre 2026",
+     "locator": "Application section"
+    },
+    {
+     "fact": "funding",
+     "quote": "finanziato dal Fondo nazionale svizzero (FNS)",
+     "locator": "Project description"
+    }
+   ],
+   "risk": "Low fit; 8 days left; Italian-language posting.",
+   "next_action": "Low priority; only if open to a pivot to causal/agent-based AI."
+  },
+  {
+   "id": "unibe-cvg-deep-learning-world-models",
+   "country": "Switzerland",
+   "institution": "University of Bern",
+   "title": "PhD positions: Collaborative World Models / Self-Supervised and Meta-Learning (Computer Vision Group)",
+   "type": "advertised_position",
+   "deadline_local": "rolling",
+   "timezone": "Europe/Zurich",
+   "start_date": "2026-10-01 or by agreement",
+   "status": "verification_needed",
+   "funding": "All positions fully funded within their projects; Project 2 funded four years; pay per University of Bern regulations (extra pay for teaching).",
+   "international_tuition": "UNKNOWN",
+   "research_fit": "medium",
+   "fit_reason": "World models and embodied/robotics-adjacent learning; but core is fundamental ML, not state estimation.",
+   "url": "https://cvg.unibe.ch/vacancies/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Master in CS, engineering, maths or related, completed or expected by start; strong interest in fundamental ML/AI.",
+   "required_materials": "Online portal per project; email applications not considered.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Applications will be reviewed until excellent candidates are found.",
+     "locator": "Vacancies page"
+    },
+    {
+     "fact": "funding",
+     "quote": "All positions are fully funded within their respective projects.",
+     "locator": "Vacancies page"
+    }
+   ],
+   "risk": "Original Oct 1 2026 start suggests recruitment may be near complete; page does not say whether still open.",
+   "next_action": "Check project pages for a live form; low effort email-free portal application if open."
+  }
+ ],
+ "labs": [
+  {
+   "pi": "Jan Skaloud",
+   "institution": "EPFL",
+   "group": "ESO (Geodetic Engineering / airborne sensing), ENAC",
+   "group_url": "https://www.epfl.ch/labs/eso/",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "Extraction of Image-to-Lidar Correspondences and their Impact on Optimal Sensor Fusion",
+     "year": 2026,
+     "url": "https://infoscience.epfl.ch/items/cd293d46-69fa-4d13-bda0-c20d298aba41"
+    },
+    {
+     "title": "Concurrent adjustment of active and passive optical sensors with GNSS and raw inertial data (K. Mouzakidou thesis)",
+     "year": 2025,
+     "url": "https://www.epfl.ch/labs/eso/thesis/"
+    }
+   ],
+   "hiring_channel_url": "https://www.epfl.ch/labs/eso/open-positions/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "PhD candidates must apply to an EPFL doctoral school (EDRS, EDIC or EDCE) and mention Prof. Skaloud; no funding or deadline stated on lab page."
+  },
+  {
+   "pi": "Pascal Fua",
+   "institution": "EPFL",
+   "group": "CVLab",
+   "group_url": "https://www.epfl.ch/labs/cvlab/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.epfl.ch/labs/cvlab/employment/",
+   "hiring_state": "ROLLING",
+   "caveat": "Employment page says apply to the EDIC program and name CVLab; it still cites 'December 15th or April 15th', which conflicts with EDIC's new Dec 1 round. Topics listed are microscopy, AR and people tracking, not SLAM."
+  },
+  {
+   "pi": "Alexandre Alahi",
+   "institution": "EPFL",
+   "group": "VITA lab",
+   "group_url": "https://www.epfl.ch/labs/vita/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.epfl.ch/labs/vita/open-positions/",
+   "hiring_state": "ROLLING",
+   "caveat": "Page says lab is looking for PhD, postdoc and thesis candidates and invites an application email to the PI; the brief forbids contacting, and EPFL doctoral-school admission is still required. Perceive-predict-plan for autonomous mobility."
+  },
+  {
+   "pi": "Aude Billard",
+   "institution": "EPFL",
+   "group": "LASA",
+   "group_url": "https://www.epfl.ch/labs/lasa/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.epfl.ch/labs/lasa/prospective-students/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "LASA does not consider spontaneous applications not screened by EDRS or EDIC."
+  },
+  {
+   "pi": "Dario Floreano",
+   "institution": "EPFL",
+   "group": "LIS (Laboratory of Intelligent Systems)",
+   "group_url": "https://www.epfl.ch/labs/lis/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.epfl.ch/labs/lis/open-positions/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Open positions page lists only a postdoc fellowship in avian-inspired drones; no PhD opening."
+  },
+  {
+   "pi": "Alcherio Martinoli",
+   "institution": "EPFL",
+   "group": "MOBOTS",
+   "group_url": "https://www.epfl.ch/labs/mobots/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.epfl.ch/labs/mobots/open-positions/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Open positions section says 'None'."
+  },
+  {
+   "pi": "Margarita Chli",
+   "institution": "ETH Zurich / University of Zurich",
+   "group": "V4RL (Vision for Robotics Lab), within ASL",
+   "group_url": "https://asl.ethz.ch/v4rl.html",
+   "alignment": "very_high",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.jobs.ethz.ch/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "V4RL page has no join-us section; no V4RL or ASL doctoral posting in the 127-item ETH job portal index on 2026-11-14. Alignment is from the lab's stated focus on vision-based robot perception."
+  },
+  {
+   "pi": "Roland Siegwart / Cesar Cadena",
+   "institution": "ETH Zurich",
+   "group": "Autonomous Systems Lab (ASL)",
+   "group_url": "https://asl.ethz.ch/",
+   "alignment": "very_high",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.jobs.ethz.ch/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "asl.ethz.ch/jobs.html is 404 and homepage has no jobs link; no ASL doctoral posting in portal index. Monitor portal; may also recruit via RobotX."
+  },
+  {
+   "pi": "Marc Pollefeys",
+   "institution": "ETH Zurich",
+   "group": "Computer Vision and Geometry Group (CVG)",
+   "group_url": "https://cvg.ethz.ch/opportunities",
+   "alignment": "high",
+   "recent_work": [],
+   "hiring_channel_url": "https://cvg.ethz.ch/opportunities",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Page: 'We are currently only considering candidates with first-author publications at ECCV/CVPR/ICCV.' Unqualified applications get no response."
+  },
+  {
+   "pi": "Otmar Hilliges",
+   "institution": "ETH Zurich",
+   "group": "AIT Lab",
+   "group_url": "https://ait.ethz.ch/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://ait.ethz.ch/jobs/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Jobs page states 'we do not have any job openings at the moment' (as extracted)."
+  },
+  {
+   "pi": "Tomislav Medic",
+   "institution": "ETH Zurich",
+   "group": "Chair of Geosensors and Engineering Geodesy",
+   "group_url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_VHL83kyFBbwBQD0AfO",
+   "alignment": "high",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_VHL83kyFBbwBQD0AfO",
+   "hiring_state": "OPEN",
+   "caveat": "Two live postings: the doctoral heritage 3D-reconstruction role (see corrections for eth-3d) and a 4-year staff role in LiDAR/3D capture with optional doctorate (see ineligible_or_partial)."
+  }
+ ],
+ "recurring_cycles": [
+  {
+   "program": "EPFL doctoral school rounds (EDRS, EDEE, EDIC)",
+   "institution": "EPFL",
+   "url": "https://epfl.ch/education/phd/programs/edrs-robotics_control_and_intelligent_systems/edrs-applicants",
+   "last_observed_deadline": "April 15 and December 15 (EDRS); April 15 and December 1 (EDEE) - HISTORICAL/yearly as stated, year not given",
+   "expected_next_window": "April 15 2027 round (INFERENCE); Dec 2027 round",
+   "funding_note": "Admission is not a funded offer; enrolment conditional on supervisor and funding."
+  },
+  {
+   "program": "Swiss Government Excellence Scholarships (research scholarship, foreign scholars)",
+   "institution": "Swiss State Secretariat for Education, Research and Innovation (SERI)",
+   "url": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
+   "last_observed_deadline": "Applications opened 2026-08-20; country-specific deadlines published August 2026; decisions end of May (HISTORICAL)",
+   "expected_next_window": "Applications open about Aug 2027 for 2028-29 (INFERENCE); not usable for 2027 intake already past",
+   "funding_note": "CHF 2450/month per page, max age 35, supervisor in Switzerland must back application; page does not name a PhD category; applications via Swiss embassies."
+  },
+  {
+   "program": "ELLIS PhD Program",
+   "institution": "ELLIS (European advisors)",
+   "url": "https://ellis.eu/news/ellis-phd-program-call-for-applications-2026",
+   "last_observed_deadline": "2026-10-31 23:59 AoE; portal closed (HISTORICAL)",
+   "expected_next_window": "Oct 2027 (INFERENCE)",
+   "funding_note": "No salary on page; page does not name Swiss institutions; page text (as extracted) says the degree must come from a European institution - verify wording."
+  },
+  {
+   "program": "Max Planck ETH Center for Learning Systems (CLS) PhD fellowships",
+   "institution": "ETH Zurich / MPI",
+   "url": "https://learning-systems.org/apply",
+   "last_observed_deadline": "2027 cohort application phase closed (official); aggregators say 2 Nov 2026 23:59 CET and 5 Nov 2025 for previous cycle (HISTORICAL)",
+   "expected_next_window": "Oct/Nov 2027 (INFERENCE)",
+   "funding_note": "Official page: master's required; 12-month exchange at partner site; selection symposium Mar 1-2 2027; stipend not stated."
+  },
+  {
+   "program": "ETH AI Center Doctoral Fellowships",
+   "institution": "ETH Zurich",
+   "url": "https://ai.ethz.ch/",
+   "last_observed_deadline": "Aggregators only: 2026-10-27 16:00 CET (HISTORICAL; official page not fetched)",
+   "expected_next_window": "Oct 2027 (INFERENCE)",
+   "funding_note": "Salaried ETH position per aggregators; unverified."
+  },
+  {
+   "program": "ETH RobotX PhD fellowship",
+   "institution": "ETH Zurich",
+   "url": "https://robotx.ethz.ch/education/open-positions.html",
+   "last_observed_deadline": "Page: 'Applications are open until November 27 each year'; decisions by Feb 15 (current round is open, see existing eth-robotx)",
+   "expected_next_window": "Nov 27 2027 (INFERENCE)",
+   "funding_note": "Funding not stated on this page; employer notice states ETH salary."
+  }
+ ],
+ "ineligible_or_partial": [
+  {
+   "title": "ETH CVG (Pollefeys) PhD applications",
+   "url": "https://cvg.ethz.ch/opportunities",
+   "restriction_clause": "We are currently only considering candidates with first-author publications at ECCV/CVPR/ICCV.",
+   "why_excluded": "Publication gate likely excludes the applicant (published in Measurement; arXiv PINN preprint); no deadline or funding stated."
+  },
+  {
+   "title": "ETH scientific staff member, Engineering Geodesy (3D Capture & LiDAR)",
+   "url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_ZF4mlOLPIchYWMlg8s",
+   "restriction_clause": "Staff position, 4 years, 80-100%; combining with a doctorate optional and subject to admission; German and English at least B2.",
+   "why_excluded": "Not a PhD position; ideal start 1 March 2027, applications reviewed on a rolling basis. Possible route into a doctorate but German B2 may be a barrier."
+  },
+  {
+   "title": "SUPSI/IDSIA Assistente con Master in Robotica (26_5040)",
+   "url": "https://www.supsi.ch/bando26_5040",
+   "restriction_clause": "Posting does not offer PhD enrolment; 2-year contract; deadline 25.11.2026; start 2027-01-01.",
+   "why_excluded": "Research assistant role (navigation, perception, ROS2 for self-balancing robots), strong fit but not a PhD; could serve as a stepping stone."
+  },
+  {
+   "title": "ETH Researcher (ML focus) in Soft Robotics Systems, Singapore",
+   "url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_osPAfgMWNM4uQUVsCP",
+   "restriction_clause": "Master's or PhD, two-year researcher role, Singapore-based, project funded by Civil Aviation Authority of Singapore June 2026 to Nov 2028.",
+   "why_excluded": "Not a PhD; located in Singapore."
+  },
+  {
+   "title": "ETH Doctoral Position in Debris Flow Monitoring",
+   "url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_RXOaQH0DOpiNTKwE75",
+   "restriction_clause": "Applications will be accepted until October 1, 2026.",
+   "why_excluded": "Deadline passed; geology degree required."
+  },
+  {
+   "title": "ETH Doctoral position in robotic spraying for biocementation",
+   "url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_KsDZEfdFynQBP2lze3",
+   "restriction_clause": "Master's in architecture or closely related field with digital fabrication portfolio; deadline December 15 (year not stated).",
+   "why_excluded": "Degree/field mismatch."
+  },
+  {
+   "title": "ETH Scientific Assistant in Real-Time Generative Models (Biomedical Image Computing / CVL)",
+   "url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_VZneg8EpZWNgwwRVyD",
+   "restriction_clause": "Initially limited to 8 months.",
+   "why_excluded": "Not a PhD."
+  },
+  {
+   "title": "Idiap PhD postings (ergodic control, shared autonomy, human motor control)",
+   "url": "https://careers.werecruit.io/en/idiap/offers/phd-student-doctoral-researcher-in-ergodic-control-for-robotics087a63",
+   "restriction_clause": "This position has been filled.",
+   "why_excluded": "Filled; useful only as evidence of how Idiap recruits (requires EDEE/EDRS enrolment)."
+  }
+ ],
+ "unverified_leads": [
+  {
+   "title": "ETH AI Center Doctoral Fellowships 2027",
+   "url_tried": "https://ai.ethz.ch/education/doctoral-fellowships.html",
+   "reason": "404; only aggregators report 27 Oct 2026 16:00 CET (already passed); not on jobs.ethz.ch index."
+  },
+  {
+   "title": "ETH Advanced Manufacturing Lab (am|z) PhD in humanoid robotics, 3D perception, embodied AI",
+   "url_tried": "web search snippet only",
+   "reason": "Aggregator says open until filled; no matching posting in the 127-item ETH job index, so likely closed or filled."
+  },
+  {
+   "title": "ETH PhD position in vehicle sensor and remote sensing analysis for road safety",
+   "url_tried": "https://academicpositions.com/ad/eth-zurich/2026/phd-position-in-vehicle-sensor-and-remote-sensing-analysis-for-road-safety/249455",
+   "reason": "HTTP 403 and absent from ETH portal index."
+  },
+  {
+   "title": "SUPSI/IDSIA AI-based neuromorphic nanorobotics PhD (event + frame VIO)",
+   "url_tried": "applyindex.com listing (search snippet)",
+   "reason": "Aggregator only, deadline 30.09.2025; closed. Topic is excellent for VIO, so monitor IDSIA/INI for repeat."
+  },
+  {
+   "title": "ZHAW Human-Centric and Explainable Robot Learning for Mobile Manipulation",
+   "url_tried": "https://www.zhaw.ch/en/jobs/vacant-positions/job-details/job/detail/3747472",
+   "reason": "404; ZHAW vacancy index shows no robotics PhD."
+  },
+  {
+   "title": "Empa PhD Autonomous Velocimetry (multi-agent camera-positioning RL)",
+   "url_tried": "https://apply.refline.ch/673276/2145/pub/en",
+   "reason": "Page says the position is not available."
+  },
+  {
+   "title": "UZH jobs portal, Basel jobs, UNIGE jobs, USI PhD pages, careers.epfl.ch, empa.ch/jobs",
+   "url_tried": "jobs.uzh.ch/job-vacancies; unibas.ch job offers; unige.ch/rh; usi.ch",
+   "reason": "404, 403, security block or maintenance; not audited. WebSearch budget exhausted so Verity, ANYbotics, Leica, CSEM, Sensirion, Disney Research and Basel were not searched."
+  }
+ ],
+ "corrections_to_existing_repo": [
+  {
+   "opportunity_id": "uzh-rpg-2026",
+   "issue": "Status on 2026-11-14: positions page still online and unchanged in substance: four fully funded PhD/postdoc topics (event+frame+IMU world models, vision-based recursive self-improvement, navigation without state estimation with NUS, spatial-AI for blind navigation). It states Oct 27 2026 plus screening until filled. The PhD form page apply_phd.html is reachable (first fetch returned HTTP 503, second returned the heading and instructions) but no form fields rendered and no 'closed' notice appears, so acceptance cannot be confirmed from text alone. Recommend status stays verification_needed; the page does not distinguish PhD from postdoc topics and gives no salary.",
+   "evidence_url": "https://rpg.ifi.uzh.ch/positions.html",
+   "quote": "The deadline is October 27, 2026 but the screening of applications will continue until all the positions are filled."
+  },
+  {
+   "opportunity_id": "uzh-rpg-2026",
+   "issue": "Form-only rule: emailed applications are not considered.",
+   "evidence_url": "https://rpg.ifi.uzh.ch/apply_phd.html",
+   "quote": "Unsolicited applications not submitted through the form will be ignored."
+  },
+  {
+   "opportunity_id": "eth-rsl-rolling",
+   "issue": "Confirmed: page reachable and lists five PhD topic areas including environment perception and navigation planning; external form at emea2.softfactors.com; page states no deadline and no funding or salary; PostDoc section is copied PhD wording. Fit note: topic list has C++/ROS skills but no explicit VIO/IMU item.",
+   "evidence_url": "https://rsl.ethz.ch/the-lab/open-positions.html",
+   "quote": "Incomplete applications or applications through email will not be evaluated."
+  },
+  {
+   "opportunity_id": "eth-3d",
+   "issue": "Official ETH posting found: jobs.ethz.ch JOPG_ethz_VHL83kyFBbwBQD0AfO, chair of Geosensors and Engineering Geodesy (supervisor Tomislav Medic, HC3 project with Prof. Flatt). It is still listed in the ETH portal index with a live apply button. The official page states NO deadline; the EURAXESS copy shows 31 Jan 2027 22:59 UTC but also 'STATUS: EXPIRED' and routes to academicpositions.com, so the Jan 31 2027 deadline in the repo is only an aggregator value and the portal index summary hinted at a 02.11.2026 closing date (unreliable). Funding confirmed fully funded 4 years. Topic is stone-heritage digital twins requiring monument fieldwork; research fit is medium (2D/3D perception, parameter estimation, laser scanning), not high. Two references, CV with publications, cover letter, MSc copy. Update url to the official page and set status to verification_needed (deadline unknown), source_type OFFICIAL.",
+   "evidence_url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_VHL83kyFBbwBQD0AfO",
+   "quote": "A fully funded four-year doctoral position"
+  },
+  {
+   "opportunity_id": "eth-siplab-neuromotor",
+   "issue": "Official ETH posting is still listed on jobs.ethz.ch and the page states it is open until filled with rolling review (no hard deadline, no salary figure). The page's 'Earliest start: Fall 2026' is now in the past, suggesting the ad text is stale. Status can be upgraded from verification_needed to rolling/open, with fit still medium (multimodal egocentric vision + EMG; ML on signals).",
+   "evidence_url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_fEsJT6dU0XVbGPtHhO",
+   "quote": "fully funded PhD position"
+  },
+  {
+   "opportunity_id": "eth-robotx",
+   "issue": "Cross-check OK: employer notice still shows 27 November 2026 and 'completed by August 2027' master's requirement; robotx.ethz.ch states applications open until Nov 27 each year and decisions by Feb 15 following year.",
+   "evidence_url": "https://robotx.ethz.ch/education/open-positions.html",
+   "quote": "Applications are open until November 27 each year."
+  },
+  {
+   "opportunity_id": "eth-soft",
+   "issue": "Cross-check OK: rolling review until November 30 2026, 18-month initial contract extended annually, fully funded at ETH doctoral rate.",
+   "evidence_url": "https://www.jobs.ethz.ch/job/view/JOPG_ethz_d3lDgHgDI4ewDFQ1Fb",
+   "quote": "rolling basis until November 30, 2026"
+  },
+  {
+   "opportunity_id": "epfl-edic",
+   "issue": "EPFL CVLab employment page still tells applicants to apply by December 15th or April 15th, while EDIC moved to December 1 23:59 CET from 2026; EDRS is Dec 15 and EDEE Dec 1. Use the EDIC page. Also, EPFL's general admission page says enrolment is conditional on thesis topic, supervisor and secure funding, so 'all admitted are supported' should be read with that qualifier.",
+   "evidence_url": "https://www.epfl.ch/labs/cvlab/employment/",
+   "quote": "Apply by December 15th or April 15th to our doctoral program."
+  }
+ ],
+ "yield_note": "Saturated: ETH jobs.ethz.ch (all 127 portal postings read by title and the robotics/vision/ML doctoral ones fetched), EPFL doctoral-school deadlines and robotics/vision lab pages, Idiap (all PhD offers filled), Bern CVG, SUPSI/IDSIA index, national programmes (ELLIS, CLS, SGES; all 2027 cycles closed). Net yield is small: few new fully funded high-fit postings exist with deadlines on or after 2026-11-14; the real action remains ETH RobotX (Nov 27), ETH Soft Robotics (Nov 30), EPFL EDIC (Dec 1) and EDRS (Dec 15), plus the lab-level RPG/RSL channels. Not done: Basel, USI PhD pages (403), UNIGE (blocked), UZH general portal (404), careers.epfl.ch (maintenance), and industry-linked PhDs (Verity, ANYbotics, Leica, CSEM, Sensirion, Disney Research, armasuisse) because the WebSearch budget ran out; armasuisse-linked PhD found was seismic and closed (Jul 31 2026). Recommend a follow-up pass on those once search is available."
+}

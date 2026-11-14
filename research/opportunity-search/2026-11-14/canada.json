@@ -1,0 +1,1105 @@
+{
+ "agent": "canada",
+ "scope": "Canada beyond ubc-cs-2027: U of T, UBC, SFU, Alberta, McGill/Mila/UdeM, Waterloo, Western, TMU, UQO/Polytechnique/Sherbrooke labs; Vanier/CGRS-D, Vector, PBEEE",
+ "searches_run": [
+  {
+   "query": "UofT UTIAS PhD admissions deadline international tuition funding 2027",
+   "engine": "WebSearch",
+   "result_note": "UTIAS pages located"
+  },
+  {
+   "query": "Vector Scholarship AI eligibility international 2027",
+   "engine": "WebSearch",
+   "result_note": "Master's-only; nomination"
+  },
+  {
+   "query": "McGill CS PhD deadline international funding",
+   "engine": "WebSearch",
+   "result_note": "conflicting dates"
+  },
+  {
+   "query": "PBEEE 2026-2027 date limite",
+   "engine": "WebSearch",
+   "result_note": "2027-28 final Dec 2 2026; preselection passed"
+  },
+  {
+   "query": "Vanier CGS 2027-28 nomination deadline",
+   "engine": "WebSearch",
+   "result_note": "Vanier closed; CGRS-D"
+  },
+  {
+   "query": "CGRS-D foreign citizens deadline",
+   "engine": "WebSearch",
+   "result_note": "must be enrolled; values $40k x3"
+  },
+  {
+   "query": "UBC ECE PhD deadline Sept 2027",
+   "engine": "WebSearch",
+   "result_note": "fetched official page"
+  },
+  {
+   "query": "SFU CS PhD deadline Fall 2027",
+   "engine": "WebSearch",
+   "result_note": "fetched official page: Jan 19 2027"
+  },
+  {
+   "query": "Alberta CS PhD deadline Fall 2027",
+   "engine": "WebSearch",
+   "result_note": "Dec 15 2026"
+  },
+  {
+   "query": "UdeM DIRO doctorat 2027",
+   "engine": "WebSearch",
+   "result_note": "supervision prerequisite"
+  },
+  {
+   "query": "SLAM/VIO PhD Canada 2027",
+   "engine": "WebSearch",
+   "result_note": "UQO LaRSA aggregator ads"
+  },
+  {
+   "query": "Waterloo ECE PhD Fall 2027",
+   "engine": "WebSearch",
+   "result_note": "Feb 1"
+  },
+  {
+   "query": "Memorial ISL January 2027",
+   "engine": "WebSearch",
+   "result_note": "LinkedIn only"
+  },
+  {
+   "query": "Polytechnique MIST lab",
+   "engine": "WebSearch",
+   "result_note": "recruiting statement"
+  },
+  {
+   "query": "Fetched: utias.utoronto.ca/admissions, ?p=47092, web.cs.toronto.edu/graduate/phd, funding-tuition-awards, how-to-apply, gradstudies.engineering how-to-apply, ece.utoronto.ca/graduates",
+   "engine": "WebFetch",
+   "result_note": "Deadlines/funding extracted"
+  },
+  {
+   "query": "Fetched: grad.ubc.ca ECE/MECH/CS; cs.ubc.ca funding",
+   "engine": "WebFetch",
+   "result_note": "Deadlines/fees/funding"
+  },
+  {
+   "query": "Fetched: sfu phd-computing, FAS funding, grad Q&A; ualberta FAQ; mila request; umontreal; mcgill gradapplicants/cs; uwaterloo ECE, funding, Zelek, RIPL; larsa; mistlab; starslab; queensu offroad; mun ISL; western ECE; TMU; frq PBEEE PDFs",
+   "engine": "WebFetch",
+   "result_note": "See leads"
+  },
+  {
+   "query": "Further Canadian-university searches (Laval etc.)",
+   "engine": "WebSearch",
+   "result_note": "search budget exhausted - not run"
+  }
+ ],
+ "leads": [
+  {
+   "id": "utoronto-utias-phd-2027",
+   "institution": "University of Toronto (UTIAS)",
+   "title": "UTIAS research-stream PhD, September 2027 (STARS Lab / ASRL robotics, state estimation)",
+   "type": "doctoral_program",
+   "deadline_local": "2027-01-15",
+   "timezone": "America/Toronto",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "Guaranteed funding: minimum $40,000 CAD/yr total INCLUDING tuition and fees for PhD students (2026-27 table), plus UHIP health insurance for international students. Direct-entry PhD guaranteed first four years (12 sessions); MASc-to-PhD transfers five years total. Duration beyond that set with supervisor.",
+   "international_tuition": "COVERED: tuition and fees sit inside the $40,000 minimum total; UHIP added for international students. Per-category international table did not extract; confirm with UTIAS grad office. U of T has charged most international research PhDs the domestic tuition rate since fall 2018 (utoronto.ca news).",
+   "research_fit": "high",
+   "fit_reason": "UTIAS hosts Kelly's STARS Lab (aided inertial navigation, visual-inertial, learned estimation) and Barfoot's ASRL (SLAM, state estimation) - direct match to IMU/VIO/SLAM work.",
+   "url": "https://utias.utoronto.ca/admissions",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "English proficiency unless exempt-country degree; supervisor listed as 'Required' for research stream; other academic requirements not extracted.",
+   "required_materials": "SGS online application (fee $135 CAD for Sept 2027 starts); UTIAS requires submission by Jan 15; SGS payment by Jan 8 per engineering page. Other materials not extracted.",
+   "offer_timing": "UNKNOWN (UTIAS page does not state a decision date)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Application deadline for Fall start (September 2027)... January 15, 2027, domestic and international",
+     "locator": "utias.utoronto.ca/admissions, Degrees at a Glance / deadline"
+    },
+    {
+     "fact": "deadline",
+     "quote": "Aerospace (UTIAS): January 8, 2027 for payment to SGS; January 15 for submission to UTIAS",
+     "locator": "gradstudies.engineering.utoronto.ca/prospective-students/how-to-apply/ MASc/PhD Sept 2027 table"
+    },
+    {
+     "fact": "funding",
+     "quote": "$40,000 total including tuition and fees for PhD students",
+     "locator": "utias.utoronto.ca/?p=47092 2026-27 Funding and Financial Support"
+    },
+    {
+     "fact": "funding",
+     "quote": "the first four years (twelve sessions)",
+     "locator": "same page, direct-entry guarantee"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "supervisor ... 'Required' for the research stream",
+     "locator": "utias.utoronto.ca/admissions Degrees at a Glance"
+    },
+    {
+     "fact": "fees",
+     "quote": "application fee of $135.00 CAD for programs starting September 2027",
+     "locator": "www.sgs.utoronto.ca/admissions/frequently-asked-questions-faqs/"
+    }
+   ],
+   "risk": "Supervisor is marked Required so cold-contacting Kelly/Barfoot/Waslander-type PIs before Jan 8-15 matters; the funding table was summarised from a page extract; minimum is guarantee not stipend split. No offer date published.",
+   "next_action": "Email STARS Lab (starslab.ca/join-us says apply via Aerospace and state the lab as interest) and ASRL PI before early Jan; confirm international funding table with UTIAS grad office.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "utoronto-cs-phd-2027",
+   "institution": "University of Toronto (Computer Science)",
+   "title": "Computer Science PhD, Fall 2027 (Robotics Institute / Vector-affiliated faculty)",
+   "type": "doctoral_program",
+   "deadline_local": "2026-12-01",
+   "timezone": "America/Toronto",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "Admitted 2026-27 international PhD: Faculty of Arts & Science minimum support package $41,122 CAD (includes tuition, RA, TA) plus Department enhanced package up to an additional $7,948 aimed at ~$39,500 take-home after tuition/incidentals. Guarantee 44 months (UofT MSc), 48 months (master's elsewhere), 60 months (direct entry), conditional on progress. Figures are for 2026-27 admits; 2027 figures UNKNOWN.",
+   "international_tuition": "COVERED: package 'includes tuition'; international PhD tuition listed $9,570.39 CAD 2026-27 (about domestic level). Confirm which guarantee length applies to international admits (page does not say).",
+   "research_fit": "high",
+   "fit_reason": "Robotics/vision/learning faculty (Robotics Institute, Vector) with strong state-estimation and perception groups; broad CS route complements UTIAS.",
+   "url": "https://web.cs.toronto.edu/graduate/phd",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "Not fully extracted; applicants rank faculty and name them in statement of purpose. Supervisor not pre-identified: 'All PhD students are assigned a supervisor or research group'.",
+   "required_materials": "SGS application with fee $135 CAD (Sept 2027 start); statement naming faculty of interest. Others not extracted.",
+   "offer_timing": "Notified 'between February and the end of April' (how-to-apply page)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Apply by December 1, 2026. ... close on December 1, 2026",
+     "locator": "web.cs.toronto.edu/graduate/phd"
+    },
+    {
+     "fact": "deadline",
+     "quote": "This deadline is firm",
+     "locator": "web.cs.toronto.edu/graduate/how-to-apply"
+    },
+    {
+     "fact": "funding",
+     "quote": "basic package 'includes tuition, research, and teaching assistantships'; $41,122",
+     "locator": "web.cs.toronto.edu/graduate/funding-tuition-awards table 2026-2027"
+    },
+    {
+     "fact": "fees",
+     "quote": "$9,570.39 CAD ... Includes incidental and ancillary fees (international PhD, 2026-27)",
+     "locator": "same page"
+    },
+    {
+     "fact": "fees",
+     "quote": "application fee of $135.00 CAD (programs starting September 2027)",
+     "locator": "sgs.utoronto.ca FAQ"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Interest from a faculty member does not guarantee admission.",
+     "locator": "web.cs.toronto.edu/graduate/how-to-apply"
+    }
+   ],
+   "risk": "Closes in 17 days (Dec 1, firm). Extremely competitive; no supervisor pre-commitment possible. Funding figures are 2026-27.",
+   "next_action": "Prepare SGS application and rank robotics/estimation faculty; pay fee only when application is complete.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "utoronto-ece-phd-2027",
+   "institution": "University of Toronto (ECE)",
+   "title": "ECE MASc/PhD research stream, September 2027",
+   "type": "doctoral_program",
+   "deadline_local": "2027-01-07",
+   "timezone": "America/Toronto",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "'MASc & PhD students receive guaranteed funding to complete their degree'; no amount published on the extracted page. University-wide funded-cohort PhD minimum was raised to $40,000 total incl. tuition from fall 2025 (per search summary of UTIAS-type page; not confirmed on ECE page).",
+   "international_tuition": "UNKNOWN for ECE specifically; see UTIAS/CS entries for U of T-wide domestic-equivalent PhD tuition.",
+   "research_fit": "medium",
+   "fit_reason": "Control/estimation/perception faculty within ECE and Robotics Institute; less direct than UTIAS but same deadline culture.",
+   "url": "https://www.ece.utoronto.ca/graduates/",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "Supervisor listed Required for research stream, but FAQ: if you apply before the deadline you are not required to find a supervisor (after deadline you need a willing professor).",
+   "required_materials": "SGS fee $135 CAD; ECE charges no supplementary fee; Master's supervisor must be a referee if master's completed.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Application deadline for Fall / Winter start (September 2027/ January 2028) ... January 7, 2027",
+     "locator": "ece.utoronto.ca/graduates/"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "if you apply prior to the deadline, you are not required to find a supervisor",
+     "locator": "ece.utoronto.ca/graduates/ FAQ"
+    },
+    {
+     "fact": "funding",
+     "quote": "MASc & PhD students receive guaranteed funding to complete their degree",
+     "locator": "ece.utoronto.ca/graduates/"
+    },
+    {
+     "fact": "fees",
+     "quote": "ECE 'does not charge a supplementary application fee'",
+     "locator": "www.ece.utoronto.ca/?p=898"
+    }
+   ],
+   "risk": "No funding amount on ECE page. A January 2027 ECE start is not offered with open dates (engineering table shows 'January 7, 2026' for Jan 2027, appears stale; entry dates for Jan 2027 UNKNOWN/closed).",
+   "next_action": "Use as second U of T route; confirm funding amount with grad.admissions.ece@utoronto.ca.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "utoronto-mie-phd-2027",
+   "institution": "University of Toronto (Mechanical & Industrial Engineering)",
+   "title": "MIE MASc/PhD research stream, September 2027",
+   "type": "doctoral_program",
+   "deadline_local": "2027-01-15",
+   "timezone": "America/Toronto",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "UNKNOWN on fetched page (U of T Engineering PhD minimum $40,000 incl. tuition stated for UTIAS; MIE not verified).",
+   "international_tuition": "UNKNOWN for MIE; U of T-wide domestic-rate policy for most international research PhDs since 2018.",
+   "research_fit": "medium",
+   "fit_reason": "Robotics/mechatronics/control groups; fits estimation/dynamics learning.",
+   "url": "https://gradstudies.engineering.utoronto.ca/prospective-students/how-to-apply/",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "Supervisor 'Required' for research stream.",
+   "required_materials": "SGS fee $135 CAD; documents by Jan 15.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Mechanical & Industrial Engineering: January 1, 2027 for payment to SGS; January 15 for document deadline",
+     "locator": "how-to-apply MASc/PhD Sept 2027 table"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Research stream (MASc, PhD): A supervisor is required (table: Required)",
+     "locator": "how-to-apply table"
+    }
+   ],
+   "risk": "Funding/tuition for MIE not verified. Jan 2027 start for MIE closed (Oct 1, 2026 payment / Oct 15 documents).",
+   "next_action": "Only pursue if a MIE PI in robotics/estimation replies; verify funding.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "mila-supervision-request-fall2027",
+   "institution": "Mila (with Universite de Montreal / McGill / Polytechnique affiliated professors)",
+   "title": "Mila supervision request for MSc/PhD, Fall 2027 admission",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2026-12-01",
+   "timezone": "America/Toronto",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "UNKNOWN - Mila page gives no funding information; funding comes from supervisor/university program.",
+   "international_tuition": "UNKNOWN - not addressed; see university-specific entries.",
+   "research_fit": "high",
+   "fit_reason": "Mila-affiliated robotics/embodied-AI PIs (Paull, Berseth REAL lab at UdeM; Dudek/Meger MRL at McGill) work on SLAM, estimation, world models.",
+   "url": "https://mila.quebec/en/prospective-students-and-postdocs/research-programs/request-supervisor",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "'To be a research student at Mila, you must be supervised by one of its affiliated professors'; up to three senior Mila professors can be selected. Separate university application still required; acceptance by Mila is not admission.",
+   "required_materials": "Supervision Request form on MyMila portal; then application to the professor's university.",
+   "offer_timing": "'Selected applicants are notified between January and April.'",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Deadline : December 1, 2026.",
+     "locator": "mila.quebec/en/?p=37865 banner"
+    },
+    {
+     "fact": "deadline",
+     "quote": "The application period goes from October 15 to December 1 each year.",
+     "locator": "request-supervisor page"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "A notice of acceptance from Mila does not by itself constitute admission to the affiliated university or school.",
+     "locator": "request-supervisor page"
+    }
+   ],
+   "risk": "Does not guarantee admission or funding. Quebec international tuition/exemption unresolved. Mila fee, if any, UNKNOWN.",
+   "next_action": "Submit request by Dec 1 naming Paull/Berseth/Dudek/Meger-type robotics PIs; separately prepare UdeM/McGill application.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "udem-diro-phd-2027",
+   "institution": "Universite de Montreal (DIRO)",
+   "title": "PhD in Computer Science, summer/fall 2027 (supervision confirmation required)",
+   "type": "doctoral_program",
+   "deadline_local": "2027-02-01",
+   "timezone": "America/Toronto",
+   "start_date": "2027-05 or 2027-08/09 (page unclear which window maps to which term)",
+   "status": "verification_needed",
+   "funding": "Page: 'all PhD candidates are guaranteed funding'; DIRO funding described for first four years full-time. Amount UNKNOWN.",
+   "international_tuition": "UNKNOWN. Page estimate (2025-26) for international full-time session of 15 credits: $10,283.02 total ($9,581.40 tuition) vs $2,260.42 for Quebec residents. Whether PhD differential fees are exempted or funded is not stated - critical to verify.",
+   "research_fit": "high",
+   "fit_reason": "Hosts Mila robotics/embodied AI (REAL lab: Paull, Berseth) incl. SLAM/estimation heritage.",
+   "url": "https://admission.umontreal.ca/en/programs/phd-in-computer-science/",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "'Confirmation of supervision by an eligible faculty member is a prerequisite for admission.' Winter session start listed is January 2028 (not 2027).",
+   "required_materials": "Online application, application fee (amount not shown), supervision confirmation.",
+   "offer_timing": "UNKNOWN; Mila pathway notifies Jan-Apr",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "from August 1, 2026 to February 1, 2027 (listed for Summer 2027 and Fall 2027 windows)",
+     "locator": "admission.umontreal.ca program page, application dates"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Confirmation of supervision by an eligible faculty member is a prerequisite for admission",
+     "locator": "Advice section"
+    },
+    {
+     "fact": "funding",
+     "quote": "all PhD candidates are guaranteed funding",
+     "locator": "program page"
+    },
+    {
+     "fact": "fees",
+     "quote": "International total $10,283.02 per full-time session (2025-26 estimate)",
+     "locator": "program page tuition table"
+    }
+   ],
+   "risk": "Supervisor must be pre-identified; term-to-window mapping unclear; international differential fee treatment unknown (could be ~USD-scale burden if not exempted).",
+   "next_action": "Pair with Mila request (Dec 1); ask DIRO/target PI about international fee exemption and funding amount in writing.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "ubc-ece-phd-2027",
+   "institution": "University of British Columbia (ECE, Vancouver)",
+   "title": "PhD Electrical and Computer Engineering, September 2027",
+   "type": "doctoral_program",
+   "deadline_local": "2027-01-15",
+   "timezone": "America/Vancouver",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "UBC-Vancouver PhD funding package of at least $40,000 CAD/yr for first four years from Sept 2026; program median $44,572 (2024-25 data, before tuition/fees).",
+   "international_tuition": "UNKNOWN/PARTIAL: tuition $10,081.65/yr (+2-5% annual rise); International Tuition Award $3,200/yr 'for eligible individuals only'. Unclear whether the $40,000 minimum covers tuition for ECE (UBC CS explicitly includes it).",
+   "research_fit": "high",
+   "fit_reason": "ECE robotics/estimation/vision faculty at UBC; fits IMU, SLAM, sensor fusion.",
+   "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-electrical-computer-engineering",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "No supervisor commitment required: 'No commitment from a supervisor prior to applying is necessary, but contacting faculty members is encouraged.' English test if degrees not from English-speaking country.",
+   "required_materials": "Online application by Jan 15; transcripts and referees by Jan 31, 2027; application fee $168.25 international ($120.75 Canadian).",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Application deadline 15 January 2027; transcript 31 January 2027; referee 31 January 2027",
+     "locator": "grad.ubc.ca program page"
+    },
+    {
+     "fact": "fees",
+     "quote": "International $168.25; Canadian $120.75",
+     "locator": "same page"
+    },
+    {
+     "fact": "funding",
+     "quote": "provided with a funding package of at least $40,000 for each of the first four years",
+     "locator": "same page"
+    }
+   ],
+   "risk": "Tuition coverage for international students not explicit for ECE; no Jan/May 2027 intake listed.",
+   "next_action": "Shortlist ECE PIs in estimation/robotics; ask whether package nets international tuition.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "ubc-mech-phd-2027",
+   "institution": "University of British Columbia (Mechanical Engineering)",
+   "title": "PhD Mechanical Engineering, September 2027",
+   "type": "doctoral_program",
+   "deadline_local": "2027-01-31",
+   "timezone": "America/Vancouver",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "Package of at least $40,000/yr for first four years from Sept 2026; historic median $48,138 before tuition/fees.",
+   "international_tuition": "PARTIAL/UNKNOWN: international tuition $10,081.65/yr; package coverage of tuition not explicit.",
+   "research_fit": "medium",
+   "fit_reason": "Mechatronics/robot dynamics and control groups; physics-informed dynamics learning could fit.",
+   "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mechanical-engineering",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "No supervisor commitment required; list faculty of interest.",
+   "required_materials": "Application by 31 Jan 2027; transcripts and referees 15 Feb 2027; fee $168.25 international.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Application deadline 31 January 2027; transcript and referee 15 February 2027",
+     "locator": "grad.ubc.ca MECH page"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "No commitment from a supervisor prior to applying is necessary",
+     "locator": "same page"
+    }
+   ],
+   "risk": "Later deadline but unclear tuition coverage.",
+   "next_action": "Consider if ECE/CS fail to match PIs.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "sfu-cs-phd-2027",
+   "institution": "Simon Fraser University (Computing Science)",
+   "title": "PhD Computing Science, Fall 2027 intake",
+   "type": "doctoral_program",
+   "deadline_local": "2027-01-19",
+   "timezone": "America/Vancouver",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "'Every PhD student is guaranteed a minimum funding of $30,000 per year for four years' (program page); SFU FAS funding page: $30,000/yr for four years.",
+   "international_tuition": "LIKELY_SAME_AS_DOMESTIC (not a waiver): SFU grad studies says Canadian and international students 'pay the same tuition for most research-based' programs; CS page gives no amount.",
+   "research_fit": "medium",
+   "fit_reason": "SFU Autonomy Lab (Vaughan), Mechatronic Systems Eng and CS vision/graphics groups; robotics breadth.",
+   "url": "https://www.sfu.ca/fas/study/future-graduates/programs/phd-computing.html",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "Supervisor chosen 'by mutual consent'; committee by end of year 1. Other admission rules not extracted.",
+   "required_materials": "Not extracted (fee amount not shown).",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Applications are now open for the Fall 2027 intake. Apply by January 19, 2027.",
+     "locator": "sfu.ca/fas/study/future-graduates/programs/phd-computing.html"
+    },
+    {
+     "fact": "funding",
+     "quote": "Every PhD student is guaranteed a minimum funding of $30,000 per year for four years.",
+     "locator": "same page"
+    },
+    {
+     "fact": "fees",
+     "quote": "Canadian & International students pay the same tuition for most research-based",
+     "locator": "sfu.ca/gradstudies/apply/common-questions-answers-applicants.html"
+    }
+   ],
+   "risk": "Lower guarantee than Toronto/UBC; fee and exact intl tuition unverified.",
+   "next_action": "Check Mechatronic Systems Engineering PhD deadline separately (not extracted).",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "ualberta-cs-phd-2027",
+   "institution": "University of Alberta (Computing Science)",
+   "title": "PhD Computing Science, 2027/28 academic year (AMII/RLAI ecosystem)",
+   "type": "doctoral_program",
+   "deadline_local": "2026-12-15",
+   "timezone": "America/Edmonton",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "'Most students in the PhD and M.Sc Thesis programs are admitted with a guaranteed funding rate in the form of a TA or RA'; typically 5 guaranteed terms. Amount UNKNOWN.",
+   "international_tuition": "UNKNOWN: no international tuition award described; funding discussed with supervisor. Do not assume coverage.",
+   "research_fit": "medium",
+   "fit_reason": "RL/robot learning and AMII ecosystem; fewer classical state-estimation groups verified.",
+   "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/frequently-asked-questions.html",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "PhD requires M.Sc. in Computing Science or related; must name up to 3 potential supervisors; 'Students will only be admitted if a professor agrees to supervise.' Documents by Jan 15, 2027. Decisions rolling Dec-April.",
+   "required_materials": "Statement of purpose (2 pages), M.Sc. thesis abstract, English test if required; GPS fee $135 CAD (page titled Fall 2026 - confirm).",
+   "offer_timing": "Rolling December-April",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "The deadline to apply for an MSc or PhD program in the 2027/28 academic year is December 15, 2026.",
+     "locator": "FAQ"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Students will only be admitted if a professor agrees to supervise.",
+     "locator": "FAQ / applications page"
+    },
+    {
+     "fact": "fees",
+     "quote": "non-refundable application fee of $135 CAD",
+     "locator": "FAQ"
+    },
+    {
+     "fact": "funding",
+     "quote": "admitted with a guaranteed funding rate in the form of a TA or RA",
+     "locator": "FAQ"
+    }
+   ],
+   "risk": "Supervisor agreement is mandatory; international tuition support unknown.",
+   "next_action": "Contact 1-3 AMII/robotics PIs before Dec 15.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "mcgill-cs-phd-2027",
+   "institution": "McGill University (School of Computer Science)",
+   "title": "PhD Computer Science, Fall 2027 (Mobile Robotics Lab, Mila-affiliated)",
+   "type": "doctoral_program",
+   "deadline_local": "2026-12-15",
+   "timezone": "America/Toronto",
+   "start_date": "2027-09",
+   "status": "verification_needed",
+   "funding": "UNKNOWN: School says funding is an admission consideration; no package published on fetched pages. Older School page says GRE needed for McGill scholarship consideration if not studied in Canada.",
+   "international_tuition": "UNKNOWN: not addressed (Quebec differential fees apply to international students unless exempted).",
+   "research_fit": "high",
+   "fit_reason": "Mobile Robotics Lab (Dudek, Meger, Lin) in CS and Mila: perception, state estimation, world models, field robotics.",
+   "url": "https://www.mcgill.ca/gradapplicants/program/computer-science-phd",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "M.Sc. in CS or closely related, min 3.2/4.0 CGPA; TOEFL 100 or IELTS 6.5 if required; School requires a list of at least 3 proposed supervisors.",
+   "required_materials": "Online application, proposed supervisors, language test; fee amount not shown.",
+   "offer_timing": "UNKNOWN (reviewed Jan-Mar per School page)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Fall: applications open September 15; international deadline December 15; domestic February 15",
+     "locator": "mcgill.ca/gradapplicants/program/computer-science-phd table"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "the School requires a list of at least 3 proposed supervisors",
+     "locator": "cs.mcgill.ca/graduate/future/applying/"
+    },
+    {
+     "fact": "deadline",
+     "quote": "the deadlines for our graduate programs are much earlier than the McGill default deadlines",
+     "locator": "cs.mcgill.ca/graduate/future/phdadmission/"
+    }
+   ],
+   "risk": "School-level deadline may be earlier than the Dec 15 default; conflicting older School page cites Jan 1 / Mar 1. No funding data.",
+   "next_action": "Email grad.cs@mcgill.ca to confirm the exact Fall 2027 PhD deadline and funding; apply through Mila route as well.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "uwaterloo-ece-phd-2027",
+   "institution": "University of Waterloo (ECE)",
+   "title": "ECE PhD, September 2027 (Control, Robotics, Autonomous Systems)",
+   "type": "doctoral_program",
+   "deadline_local": "2027-02-01",
+   "timezone": "America/Toronto",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "University minimum for full-time doctoral students: $29,145 CAD/yr (effective May 1, 2026) for up to four years; mostly supervisor-funded.",
+   "international_tuition": "PARTIAL: international PhD students receive an International Doctoral Student Award, 'approximately the difference between full-time domestic PhD tuition and full-time international PhD tuition' (university-wide page); effectively domestic rate.",
+   "research_fit": "high",
+   "fit_reason": "Robotics/autonomous systems area; WATonomous-type and perception groups; multiple PI-posted routes below.",
+   "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-doctor-philosophy-phd",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "'A supervisor is required to receive an offer of admission.' Fall deadline 'February 1' (year inferred 2027); Winter 'June 1' and Spring 'October 1' already passed for Jan/May 2027.",
+   "required_materials": "Fee $125 CAD per program (ECE FAQ); other materials not extracted.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Fall (September) February 1; Winter (January) June 1; Spring (May) October 1",
+     "locator": "uwaterloo.ca ECE PhD program page"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "A supervisor is required to receive an offer of admission.",
+     "locator": "same page"
+    },
+    {
+     "fact": "funding",
+     "quote": "minimum funding of $29,145 per year (effective May 1, 2026) for up to four years",
+     "locator": "uwaterloo.ca/future-graduate-students/funding/funding-research-based-graduate-programs"
+    },
+    {
+     "fact": "fees",
+     "quote": "International Doctoral Student Award (IDSA) ... approximately the difference between full-time domestic PhD tuition and full-time international PhD tuition",
+     "locator": "same page"
+    },
+    {
+     "fact": "fees",
+     "quote": "non-refundable $125 CAD application fee for each program",
+     "locator": "uwaterloo.ca/electrical-computer-engineering/graduate-studies/future-students/faq"
+    }
+   ],
+   "risk": "Supervisor must be secured; minimum funding is low relative to Toronto/UBC; IDSA wording on a different faculty page said eligibility may vary by faculty.",
+   "next_action": "Email Waterloo PIs (see RIPL, Zelek leads); confirm IDSA for ECE.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "uwaterloo-zelek-vip-3dslam-eoi",
+   "institution": "University of Waterloo (Systems Design Engineering, VIP Lab, John Zelek)",
+   "title": "Real-time 3D monocular camera map reconstruction (SLAM mapping) and physics simulation - PhD expressions of interest",
+   "type": "advertised_position",
+   "deadline_local": "rolling",
+   "timezone": "America/Toronto",
+   "start_date": "winter 2027, spring 2027 or fall 2027 terms",
+   "status": "rolling",
+   "funding": "UNKNOWN: page lists no stipend; Waterloo university minimum $29,145/yr applies to admitted doctoral students.",
+   "international_tuition": "UNKNOWN for this posting; Waterloo IDSA applies at university level (see uwaterloo-ece entry).",
+   "research_fit": "high",
+   "fit_reason": "Real-time 3D SLAM mapping, monocular camera, RL and control for navigation - direct SLAM/perception fit.",
+   "url": "https://uwaterloo.ca/future-graduate-students/catalogs/future-graduate-student-research-opportunities/real-time-3d-monocular-camera-map-reconstruction-and-physics",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "formal_eligibility": "Must meet program minimum admission requirements; desired: publications at CVPR/ECCV/ICRA/IROS and 'A+' academic record; fields 3D vision, ML, photogrammetry, RL, control. Linked program: PhD Systems Design Engineering.",
+   "required_materials": "Online express-interest form: name, email, citizenship (incl. International), previous institution and average, CV PDF, profile link, optional intro.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "accepting expressions of interest for the winter 2027, spring 2027 and fall 2027 terms",
+     "locator": "posting"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Express interest form asks citizenship: Domestic - Ontario, Domestic - Out-of-Province, or International",
+     "locator": "posting form description"
+    }
+   ],
+   "risk": "Expression of interest only, not a funded offer; funding unstated; a formal Waterloo application still needed (SYDE deadlines not checked).",
+   "next_action": "Submit expression-of-interest form with CV highlighting VIO/PINN work; check SYDE PhD deadline.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "uwaterloo-ripl-phd-email",
+   "institution": "University of Waterloo (RIPL Lab)",
+   "title": "Robotics PhD opportunities - email application (robot perception/learning)",
+   "type": "lab_recruitment_lead",
+   "deadline_local": "rolling",
+   "timezone": "America/Toronto",
+   "start_date": "UNKNOWN",
+   "status": "rolling",
+   "funding": "Page: PhDs 'come with funding' (4 years, primarily full-time research); amount UNKNOWN.",
+   "international_tuition": "UNKNOWN; no international restriction stated for PhD (MASc: no funding for international).",
+   "research_fit": "medium",
+   "fit_reason": "Advanced robotics lab with mapping/perception projects; state-estimation topics suggested only by an aggregator repost (unverified).",
+   "url": "https://www.ripl-lab.com/open-positions",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "formal_eligibility": "Cover letter must state domestic/international and intended Waterloo degree.",
+   "required_materials": "Email to russell.buchanan@uwaterloo.ca, subject 'PhD Opportunities', CV and cover letter.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "funding",
+     "quote": "PhDs at Waterloo are 4 years, primarily full-time research (come with funding)",
+     "locator": "ripl-lab.com/open-positions PhD section"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Unfortunately, I do not have funding for international Master's students at this time.",
+     "locator": "MASc section (PhD has no such restriction)"
+    }
+   ],
+   "risk": "No deadline, topic or funding specifics; admission still requires Waterloo application.",
+   "next_action": "Email with CV and cover letter after reviewing lab publications.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "uqo-larsa-berkane-lab",
+   "institution": "Universite du Quebec en Outaouais (LaRSA)",
+   "title": "LaRSA lab (Berkane): state estimation and navigation - contact for graduate positions",
+   "type": "lab_recruitment_lead",
+   "deadline_local": "",
+   "timezone": "America/Toronto",
+   "start_date": "UNKNOWN",
+   "status": "verification_needed",
+   "funding": "UNKNOWN on official pages. Aggregator copies of earlier PhD ads (VI-SLAM for UAVs; cooperative AUV localization) could not be fetched.",
+   "international_tuition": "UNKNOWN (Quebec differential fees; check UQO and PBEEE).",
+   "research_fit": "high",
+   "fit_reason": "Lab's stated focus: 'state estimation, safe navigation, and coordination'; includes multi-UAV active SLAM and VI-SLAM - near-perfect topical match.",
+   "url": "https://larsa.uqo.ca/prospective-members/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "formal_eligibility": "UQO PhD program admission rules not extracted.",
+   "required_materials": "CV, academic transcripts, cover letter on research interests, emailed to soulaimane.berkane@uqo.ca.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "eligibility",
+     "quote": "Applicants asked for: curriculum vitae, academic transcripts, a cover letter describing research interests",
+     "locator": "larsa.uqo.ca/prospective-members/"
+    },
+    {
+     "fact": "funding",
+     "quote": "March 2, 2023: NOVA-FRQNT-NSERC project (about $300,000) funding multi-UAV active SLAM",
+     "locator": "larsa.uqo.ca/all-news/"
+    }
+   ],
+   "risk": "No public call on official site; ads seen only on IEEE CSS aggregator, undated.",
+   "next_action": "Email Prof. Berkane now; ask about open PhD funding, UQO fee exemption and next intake.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "polymtl-mist-lab-recruiting",
+   "institution": "Polytechnique Montreal (MIST Lab, Beltrame)",
+   "title": "MIST Lab: funded PhD/MSc candidates, field robotics and collaborative SLAM",
+   "type": "lab_recruitment_lead",
+   "deadline_local": "rolling",
+   "timezone": "America/Toronto",
+   "start_date": "UNKNOWN",
+   "status": "rolling",
+   "funding": "'Funded positions available' (no amounts).",
+   "international_tuition": "UNKNOWN (Quebec).",
+   "research_fit": "medium",
+   "fit_reason": "Spatial AI, collaborative SLAM and perception for swarms/space robotics (Beltrame, Pavlasek, Lajoie).",
+   "url": "https://mistlab.ca/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "formal_eligibility": "Polytechnique requires engineering degree equivalence (not extracted from lab page).",
+   "required_materials": "Contact by email (giovanni.beltrame@polymtl.ca, jana.pavlasek@polymtl.ca, pierre-yves.lajoie@polymtl.ca).",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "funding",
+     "quote": "We're always looking for motivated PhD and MSc candidates passionate about autonomous systems, field robotics, and space applications. Funded positions available.",
+     "locator": "mistlab.ca"
+    }
+   ],
+   "risk": "Generic call; formal Polytechnique deadlines not verified (search suggested international deadlines March 1 / June 1 / Nov 15, unverified).",
+   "next_action": "Email Lajoie/Pavlasek (SLAM-related) with CV.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "western-ece-phd-summer2027",
+   "institution": "Western University (ECE)",
+   "title": "ECE PhD: Summer 2027 (May) international window and Fall 2027",
+   "type": "doctoral_program",
+   "deadline_local": "2026-12-31",
+   "timezone": "America/Toronto",
+   "start_date": "2027-05 (Summer) / 2027-09 (Fall)",
+   "status": "open_verified",
+   "funding": "UNKNOWN on fetched page.",
+   "international_tuition": "UNKNOWN.",
+   "research_fit": "medium",
+   "fit_reason": "Western ECE/robotics faculty; one of few programs with an open international May 2027 start.",
+   "url": "https://www.eng.uwo.ca/electrical/graduate/future_students/How-to-apply.html",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "'Applicants to these programs must be admitted by a faculty supervisor'; supervisor not required to apply.",
+   "required_materials": "Not extracted; fee not shown. Contact ecegrad@uwo.ca.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "International: Summer 2027: Currently open. Closes December 31, 2026. Fall 2027: Currently open.",
+     "locator": "Western ECE how-to-apply"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Applicants do not have to have a supervisor in place to apply to the program.",
+     "locator": "same page"
+    }
+   ],
+   "risk": "Funding and fee status unknown; Winter 2027 (Jan) international closed Aug 31, 2026.",
+   "next_action": "Check Western robotics PIs; ask ecegrad@uwo.ca about funding.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  },
+  {
+   "id": "tmu-ece-mie-phd-2027",
+   "institution": "Toronto Metropolitan University (ECE/MIE/CS)",
+   "title": "PhD Fall 2027 - international preferred deadline Dec 1, 2026",
+   "type": "doctoral_program",
+   "deadline_local": "2026-12-01",
+   "timezone": "America/Toronto",
+   "start_date": "2027-09",
+   "status": "open_verified",
+   "funding": "UNKNOWN.",
+   "international_tuition": "UNKNOWN.",
+   "research_fit": "low",
+   "fit_reason": "Generic PhD route; lab fit not verified.",
+   "url": "https://www.torontomu.ca/graduate/future-students/application-dates/",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "formal_eligibility": "Not extracted.",
+   "required_materials": "Not extracted.",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Engineering programs: preferred international deadline December 1, 2026; first consideration January 22, 2027; international closing March 12, 2027",
+     "locator": "TMU application dates"
+    }
+   ],
+   "risk": "No funding data.",
+   "next_action": "Low priority unless a TMU PI replies.",
+   "country": "Canada",
+   "verified_on": "2026-11-14"
+  }
+ ],
+ "labs": [
+  {
+   "pi": "Jonathan Kelly",
+   "institution": "University of Toronto (UTIAS)",
+   "group": "STARS Laboratory",
+   "group_url": "https://starslab.ca",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "Lost in Time? Continuous Symmetry and Identifiability in Aided Inertial Navigation with Unknown Measurement Delays (MFI 2026 Best Paper)",
+     "year": 2026,
+     "url": "https://starslab.ca/2026/09/09/best-paper-award-at-mfi-2026-in-pilsen/"
+    }
+   ],
+   "hiring_channel_url": "https://starslab.ca/join-us",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Graduate applicants apply via Aerospace (UTIAS) and indicate the lab; lab actively seeks postdocs. No named PhD vacancy."
+  },
+  {
+   "pi": "Tim Barfoot",
+   "institution": "University of Toronto (UTIAS)",
+   "group": "Autonomous Space Robotics Lab (ASRL)",
+   "group_url": "https://asrl.utias.utoronto.ca/~tdb/",
+   "alignment": "very_high",
+   "recent_work": [],
+   "hiring_channel_url": "https://utias.utoronto.ca/admissions",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Site not fetched (recent works unverified). Robotics Institute article (Nov 11, 2025) lists Barfoot application tips for MASc/MSc/PhD; body not retrieved. Waslander reportedly new Robotics Institute director from Sept 2026 (search snippet)."
+  },
+  {
+   "pi": "Soulaimane Berkane",
+   "institution": "Universite du Quebec en Outaouais",
+   "group": "LaRSA (Laboratory of Robotics and Autonomous Systems)",
+   "group_url": "https://larsa.uqo.ca",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "NOVA-FRQNT-NSERC project: multi-UAV active SLAM in unknown indoor environments",
+     "year": 2023,
+     "url": "https://larsa.uqo.ca/all-news/"
+    }
+   ],
+   "hiring_channel_url": "https://larsa.uqo.ca/prospective-members/",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Observer/estimation-on-manifolds fit (with Tayebi). Page updated Nov 2026; no public call."
+  },
+  {
+   "pi": "Abdelhamid Tayebi",
+   "institution": "Lakehead University",
+   "group": "Control systems and robotics group",
+   "group_url": "https://atayebi.lakeheadu.ca",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "Nonlinear Observers Design for Vision-Aided Inertial Navigation Systems, IEEE TAC 67(4) (per search snippet, not fetched)",
+     "year": 2022,
+     "url": "https://atayebi.lakeheadu.ca"
+    }
+   ],
+   "hiring_channel_url": "https://atayebi.lakeheadu.ca",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Page states focus on 'estimation and control algorithms, with provable stability guarantees' and vision-aided inertial navigation; 2019 recruiting notice only; email atayebi@Lakeheadu.ca. Lakehead PhD deadlines not checked."
+  },
+  {
+   "pi": "Joshua Marshall",
+   "institution": "Queen's University",
+   "group": "Offroad Robotics",
+   "group_url": "https://www.queensu.ca/offroad-robotics/",
+   "alignment": "high",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.queensu.ca/offroad-robotics/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Page: 'mobile robotics, state estimation, and systems control engineering'. Queen's grad deadlines not checked."
+  },
+  {
+   "pi": "Oscar De Silva (and George Mann, Ray Gosine, Andrew Vardy)",
+   "institution": "Memorial University",
+   "group": "Intelligent Systems Laboratory",
+   "group_url": "https://www.mun.ca/engineering/research/centres-and-facilities/research-laboratories/mechanical-engineering/intelligent-systems-laboratory/",
+   "alignment": "high",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.mun.ca/engineering/research/centres-and-facilities/research-laboratories/mechanical-engineering/intelligent-systems-laboratory/",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Page (last updated Jan 2022): adaptive state estimation for MAVs, visual-lidar odometry. A LinkedIn post (unfetchable) reportedly recruits funded PhDs for Jan 2027 - see unverified_leads."
+  },
+  {
+   "pi": "Giovanni Beltrame",
+   "institution": "Polytechnique Montreal",
+   "group": "MIST Lab",
+   "group_url": "https://mistlab.ca/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://mistlab.ca/",
+   "hiring_state": "ROLLING",
+   "caveat": "Generic recruiting statement."
+  },
+  {
+   "pi": "Liam Paull / Glen Berseth",
+   "institution": "Universite de Montreal / Mila",
+   "group": "Robotics and Embodied AI Lab (REAL)",
+   "group_url": "https://mila.quebec/en/liam-paull",
+   "alignment": "high",
+   "recent_work": [],
+   "hiring_channel_url": "https://mila.quebec/en/prospective-students-and-postdocs/research-programs/request-supervisor",
+   "hiring_state": "OPEN",
+   "caveat": "Via Mila request (Dec 1). Lab details from search only; postings seen were postdoc."
+  },
+  {
+   "pi": "Gregory Dudek, David Meger, Hsiu-Chin Lin",
+   "institution": "McGill University",
+   "group": "Mobile Robotics Lab",
+   "group_url": "https://www.cim.mcgill.ca/~mrl/",
+   "alignment": "high",
+   "recent_work": [],
+   "hiring_channel_url": "https://www.mcgill.ca/gradapplicants/program/computer-science-phd",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Page fetch failed (503); description from search result. Apply via CS and state lab interest."
+  },
+  {
+   "pi": "John Zelek",
+   "institution": "University of Waterloo",
+   "group": "Vision and Image Processing (VIP) Lab",
+   "group_url": "https://uwaterloo.ca/future-graduate-students/catalogs/future-graduate-student-research-opportunities/real-time-3d-monocular-camera-map-reconstruction-and-physics",
+   "alignment": "high",
+   "recent_work": [],
+   "hiring_channel_url": "same",
+   "hiring_state": "ROLLING",
+   "caveat": "Expression of interest for 2027 terms."
+  },
+  {
+   "pi": "Francois Michaud",
+   "institution": "Universite de Sherbrooke",
+   "group": "IntRoLab (RTAB-Map)",
+   "group_url": "http://introlab.3it.usherbrooke.ca/index.php/Main_Page",
+   "alignment": "high",
+   "recent_work": [],
+   "hiring_channel_url": "http://introlab.3it.usherbrooke.ca/index.php/Main_Page",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Page lists RTAB-Map (SLAM) project; no openings; contact francois.michaud@usherbrooke.ca. Sherbrooke project postings seen via search only."
+  }
+ ],
+ "recurring_cycles": [
+  {
+   "program": "Quebec PBEEE doctoral scholarship (open stream V1, all countries)",
+   "institution": "Fonds de recherche du Quebec / Quebec universities",
+   "url": "https://frq.gouv.qc.ca/app/uploads/2025/07/8.pbeee_2026-2027_vf-approuvee_abida-1.pdf",
+   "last_observed_deadline": "2026-27 competition: FRQ submission of preselected candidates 23 Oct 2025 16:00; applications 2 Dec 2025 16:00 EST (HISTORICAL). 2027-28: university preselection Jun-Sep 2026; final 2 Dec 2026 16:00 (candidates must already be preselected by a Quebec university - cycle effectively closed for this applicant).",
+   "expected_next_window": "2028-29 competition: preselection roughly Jun-Sep 2027, final early Dec 2027 (INFERENCE); applicant starting Sept 2027 could be nominated if eligible.",
+   "funding_note": "$25,000/yr for first 9 sessions (max 12 sessions, $87,000) plus exemption from international differential fees and RAMQ health coverage. Doctoral eligibility = first nine PhD sessions; open to all countries (plus Brazil, China, India, Israel, Wallonia streams). Awards announced April."
+  },
+  {
+   "program": "Canada Graduate Research Scholarship - Doctoral (CGRS-D; replaces Vanier/CGS-D)",
+   "institution": "NSERC/SSHRC/CIHR via universities",
+   "url": "http://www.gsa.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/canada-graduate-research-scholarships-doctoral-cgrs-d.html",
+   "last_observed_deadline": "Fall 2026 cycle: university deadlines Sept 16-Oct 5, 2026; agency NSERC Oct 17, SSHRC Oct 19, CIHR Nov 23, 2026 (HISTORICAL/ closed; Alberta quote: 'international must be enrolled by September 1, 2026').",
+   "expected_next_window": "Fall 2027 cycle with similar Sept-Oct internal deadlines (INFERENCE); applicant would already be enrolled in a Canadian PhD from Sept 2027.",
+   "funding_note": "$40,000/yr for 3 years. Foreign citizens must already be enrolled in the doctoral program at application. Max 36 months FTE doctoral study by Dec 31 of application year."
+  },
+  {
+   "program": "Mila supervision request (annual)",
+   "institution": "Mila",
+   "url": "https://mila.quebec/en/prospective-students-and-postdocs/research-programs/request-supervisor",
+   "last_observed_deadline": "Oct 15 - Dec 1, 2026 (current, open)",
+   "expected_next_window": "Oct 15 - Dec 1, 2027 (INFERENCE)",
+   "funding_note": "No funding stated."
+  },
+  {
+   "program": "Waterloo International Doctoral Student Award (IDSA)",
+   "institution": "University of Waterloo",
+   "url": "https://uwaterloo.ca/environment/graduate/future-graduate-students/funding-packages/funding-international-doctoral-students",
+   "last_observed_deadline": "Faculty of Environment page: complete application by Feb 1, 2027 (current)",
+   "expected_next_window": "Annual, tied to program deadline (INFERENCE)",
+   "funding_note": "Roughly $5,100 per term for most recipients per Environment page; automatic for eligible full-time international doctoral students; other faculties may differ."
+  }
+ ],
+ "ineligible_or_partial": [
+  {
+   "title": "Vector Scholarship in Artificial Intelligence 2027-28",
+   "url": "https://www.vectorinstitute.ai/information-for-prospective-students/",
+   "restriction_clause": "Entering a full-time master's program in an AI-related field at an Ontario university in the 2027-28 academic year; nomination by program only (March 17, 2027); $21,000 entrance award",
+   "why_excluded": "Master's-only; applicant already holds two master's and targets PhD. PhD not mentioned. Not a PhD funder."
+  },
+  {
+   "title": "Vanier Canada Graduate Scholarships",
+   "url": "https://vanier.gc.ca/en/home-accueil.html",
+   "restriction_clause": "We are no longer accepting applications for the Vanier Canada Graduate Scholarships.",
+   "why_excluded": "Program closed and replaced by CGRS-D; repo/brief assumption of Vanier nomination for international applicants is stale."
+  },
+  {
+   "title": "CGRS-D for incoming international students",
+   "url": "http://www.gsa.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/canada-graduate-research-scholarships-doctoral-cgrs-d.html",
+   "restriction_clause": "Applicants who are not Canadian citizens, permanent residents, or protected persons must already be enrolled in their doctoral program",
+   "why_excluded": "Not available before enrolment; fall 2026 round closed. Possible only after Sept 2027 entry."
+  },
+  {
+   "title": "PBEEE 2027-28 competition",
+   "url": "https://frq.gouv.qc.ca/app/uploads/2026/07/pbeee_2027-2028_instructions_preselection.pdf",
+   "restriction_clause": "Seuls les candidats presélectionnés par un établissement universitaire québécois ... peuvent soumettre une candidature",
+   "why_excluded": "University preselection deadlines (Jun-Sep 2026) have passed; not a direct application route."
+  },
+  {
+   "title": "Waterloo Active and Interactive Robotics Lab graduate openings",
+   "url": "https://uwaterloo.ca/active-and-interactive-robotics-lab/opportunities-0",
+   "restriction_clause": "we do not currently have explicit openings; only students with a scholarship/prospective scholarship considered; not considering international MASc",
+   "why_excluded": "No open position; funding for international applicants depends on availability."
+  },
+  {
+   "title": "Memorial University CRC Tier 2 AI-driven navigation (April 2026)",
+   "url": "https://www.mun.ca/vpacademic/media/production/memorial/administrative/office-of-the-provost-and-vice-president-academic/CRC_Tier 2 Ad_AI-driven Navigation_FINAL_April 1 2026.pdf",
+   "restriction_clause": "Eligibility limited to current Memorial employees (per search summary; PDF not fetched)",
+   "why_excluded": "Faculty post, not PhD; internal only."
+  },
+  {
+   "title": "Jan 2027 and May 2027 starts (UdeM, McGill, Waterloo, TMU, Western winter, UofT)",
+   "url": "https://admission.umontreal.ca/en/programs/phd-in-computer-science/",
+   "restriction_clause": "UdeM Jan 2027 window closed Sept 1, 2026 (search summary); McGill Winter intl deadline Aug 1; Western Winter 2027 intl closed Aug 31, 2026; Waterloo Winter June 1; Waterloo Spring Oct 1; UofT MIE Jan 2027 payment Oct 1, 2026",
+   "why_excluded": "Deadlines passed. Exceptions: Western Summer 2027 (intl closes 2026-12-31)."
+  }
+ ],
+ "unverified_leads": [
+  {
+   "title": "UQO LaRSA PhD: visual-inertial SLAM for UAVs (UQO/McGill/Queen's project)",
+   "url_tried": "https://state-space.ieeecss.org/d/3135-phd-position-in-visual-inertial-slam-at-uqo-canada",
+   "reason": "HTTP 503 on fetch; aggregator (IEEE CSS) only; undated per search summary."
+  },
+  {
+   "title": "UQO LaRSA PhD: cooperative localization for AUVs (Impossible Metals)",
+   "url_tried": "https://state-space.ieeecss.org/d/3134-phd-position-in-cooperative-localization-for-auvs-at-uqo-canada",
+   "reason": "HTTP 503; aggregator; undated."
+  },
+  {
+   "title": "Memorial Intelligent Systems Lab: funded PhD/research master's, January 2027 start (Dowden LinkedIn post)",
+   "url_tried": "https://ca.linkedin.com/in/brdowden",
+   "reason": "LinkedIn HTTP 999; no official Memorial posting found; deadline unknown."
+  },
+  {
+   "title": "Polytechnique Montreal fully funded PhD (IEEE CSS 4379) and joint PhD with LAMIH",
+   "url_tried": "https://state-space.ieeecss.org/d/4379-fully-funded-phd-position-at-polytechnique-montreal-canada",
+   "reason": "HTTP 503; Polytechnique pages returned empty; start Sept 2026/Jan 2027 likely stale."
+  },
+  {
+   "title": "Sherbrooke SAFiR field-robotics doctoral project (3IT)",
+   "url_tried": "https://www.usherbrooke.ca/recherche/fr/repertoire-de-projets-de-recherche/projet/773",
+   "reason": "Page fetched was a mobility-assistance robot project (Girard; funding 'Oui', no deadline); SAFiR navigation project seen only in search snippet. Sherbrooke deadlines not verified."
+  },
+  {
+   "title": "McGill Mobile Robotics Lab prospective-student page",
+   "url_tried": "https://www.cim.mcgill.ca/~mrl/",
+   "reason": "HTTP 503."
+  },
+  {
+   "title": "Laval, York, Carleton, Ottawa, Calgary, Dalhousie, Victoria, Concordia, Queen's grad deadlines",
+   "url_tried": "n/a",
+   "reason": "WebSearch budget exhausted before these could be located; not checked."
+  },
+  {
+   "title": "Polytechnique Montreal / SFU Autonomy Lab / Alberta NODE lab current calls",
+   "url_tried": "https://www.polymtl.ca/admission/en/graduate-studies",
+   "reason": "Polytechnique fetch empty; SFU and Alberta labs not located."
+  }
+ ],
+ "corrections_to_existing_repo": [
+  {
+   "opportunity_id": "ubc-cs-2027",
+   "issue": "Funding/tuition status 'VERIFY_PERSONAL_TUITION_AWARD' can be resolved: UBC CS page states international package $46,236/yr includes International Tuition Award; also UBC-wide minimum $40,000. International application fee $168.25 (not $120.75). Supervisor not required to apply. Page is internally inconsistent: 'first 60 months' vs 'first four years'.",
+   "evidence_url": "https://www.cs.ubc.ca/students/grad/prospective/funding/financial",
+   "quote": "amounting to $46,236 per year for international students ... includes all tuition awards, including the International Tuition Award"
+  },
+  {
+   "opportunity_id": "ubc-cs-2027",
+   "issue": "Deadlines re-confirmed Dec 15, 2026 application; transcript 16 Dec; referee 15 Jan 2027.",
+   "evidence_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+   "quote": "Application Deadline: 15 December 2026"
+  },
+  {
+   "opportunity_id": "docs/countries/canada.md",
+   "issue": "Brief mentions Vanier nomination for international applicants; Vanier is closed and replaced by CGRS-D, which requires foreign citizens to be already enrolled. Also dossier lists UBC as only confirmed route; many more Canadian deadlines (UofT Dec 1, UBC ECE Jan 15, SFU Jan 19, Alberta Dec 15, Mila Dec 1) now exist.",
+   "evidence_url": "https://vanier.gc.ca/en/home-accueil.html",
+   "quote": "We are no longer accepting applications for the Vanier Canada Graduate Scholarships."
+  }
+ ],
+ "yield_note": "Saturated: program-level deadlines/funding for U of T (CS, UTIAS, ECE, MIE), UBC (CS, ECE, MECH), SFU CS, Alberta CS, Waterloo ECE, McGill CS, UdeM, Mila, plus national/provincial schemes (Vanier closed->CGRS-D, Vector master's-only, PBEEE preselected). PI-posted openings with public deadlines are scarce: only Waterloo Zelek (rolling EOI) and RIPL (email, rolling) were official; UQO LaRSA/Memorial/Polytechnique ads were aggregator or unfetchable. Key gap: Quebec international differential fees (McGill, UdeM, UQO, Polytechnique) not resolved. Not covered (WebSearch budget exhausted): Laval, Calgary, Queen's/Ottawa/Carleton/York/Concordia/Dalhousie/Victoria deadlines, SFU Autonomy Lab, Alberta NODE lab, Lakehead PhD deadline, UTIAS Barfoot lab details. Jan/May 2027 starts are effectively closed except Western Summer 2027 (intl closes 2026-12-31). Earliest hard deadlines: Mila Dec 1, U of T CS Dec 1, TMU preferred Dec 1, Alberta/UBC CS Dec 15, McGill Dec 15 (verify). No offer before 2026-12-31 expected anywhere; decisions Jan-Apr 2027. WebFetch outputs are model-summarised extracts; quotes should be re-checked on pages before relying."
+}

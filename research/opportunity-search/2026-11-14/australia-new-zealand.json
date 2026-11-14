@@ -1,0 +1,1122 @@
+{
+ "agent": "australia-new-zealand",
+ "scope": "Australia and New Zealand: RTP/institutional international scholarship rounds with 2027 dates, robotics/state-estimation lab leads (ANU, Sydney ACFR, QUT), CSIRO/Data61/DSTG, NZ doctoral scholarships (Auckland, Canterbury, Waikato, AUT, Otago, VUW), NZ PhD fee treatment, Marsden/MBIE posts. Search budget (web search) ran out before a second pass on Melbourne, QUT 2027 round and NZ project postings.",
+ "searches_run": [
+  {
+   "query": "University of Auckland doctoral scholarship 2027 closing dates international",
+   "engine": "WebSearch",
+   "result_note": "UoADS rounds 1 Nov 2026 / 1 Feb / 1 May / 1 Aug 2027"
+  },
+  {
+   "query": "QUT Centre for Robotics PhD scholarship 2027 round international",
+   "engine": "WebSearch",
+   "result_note": "no 2027 official dates in snippets; QUT pages 403"
+  },
+  {
+   "query": "ANU HDR scholarships 2027 international closing date",
+   "engine": "WebSearch",
+   "result_note": "R1 intl 31 Aug, R2 15 Apr"
+  },
+  {
+   "query": "University of Sydney Australian Centre for Robotics PhD scholarship 2027 state estimation",
+   "engine": "WebSearch",
+   "result_note": "van Goor 29 Mar 2026 call; CSIRO Emesent project domestic-only"
+  },
+  {
+   "query": "QUT HDR scholarship round 2027 closing date international stipend",
+   "engine": "WebSearch",
+   "result_note": "third-party: intl closed 31 Jul 2026"
+  },
+  {
+   "query": "NZ PhD international students domestic tuition fees",
+   "engine": "WebSearch",
+   "result_note": "domestic fee with residence condition"
+  },
+  {
+   "query": "University of Sydney research scholarship international 2027 closing date",
+   "engine": "WebSearch",
+   "result_note": "RTP intl RP3&4 18 Dec 2026; AUD 44,293"
+  },
+  {
+   "query": "Robert Mahony Pieter van Goor ANU equivariant filter PhD position 2027",
+   "engine": "WebSearch",
+   "result_note": "no ANU call; van Goor now at Sydney"
+  },
+  {
+   "query": "UNSW PhD scholarship 2027 international",
+   "engine": "WebSearch",
+   "result_note": "UNSW rounds; Scientia domestic"
+  },
+  {
+   "query": "UNSW HDR scholarships closing dates 2027",
+   "engine": "WebSearch",
+   "result_note": "July 2027 release 16 Apr 2027"
+  },
+  {
+   "query": "UQ Graduate School scholarship international 2027",
+   "engine": "WebSearch",
+   "result_note": "UQGRSS Round 1 25 Jan 2027"
+  },
+  {
+   "query": "University of Adelaide PhD scholarship 2027 AIML robotics",
+   "engine": "WebSearch",
+   "result_note": "AIML scholarship US/UK/AU citizens only; Graduate Research Talent restrictions"
+  },
+  {
+   "query": "UTS PhD scholarship 2027 international robotics",
+   "engine": "WebSearch",
+   "result_note": "UTS deadlines"
+  },
+  {
+   "query": "CSIRO Data61 Collaborative PhD top-up 2027",
+   "engine": "WebSearch",
+   "result_note": "no 2027 Data61 call"
+  },
+  {
+   "query": "CSIRO Industry PhD 2027 projects",
+   "engine": "WebSearch",
+   "result_note": "domestic-only; EOI 1 Feb 2027"
+  },
+  {
+   "query": "University of Melbourne graduate research scholarship international 2027",
+   "engine": "WebSearch",
+   "result_note": "official pages 403"
+  },
+  {
+   "query": "UWA 2027 international RTP",
+   "engine": "WebSearch",
+   "result_note": "closed Sep 2026"
+  },
+  {
+   "query": "Curtin PhD scholarship 2027 international",
+   "engine": "WebSearch",
+   "result_note": "aggregators only"
+  },
+  {
+   "query": "ANU University Research Scholarship international round 2",
+   "engine": "WebSearch",
+   "result_note": "15 Apr"
+  },
+  {
+   "query": "ANU School of Engineering PhD Mahony",
+   "engine": "WebSearch",
+   "result_note": "no PhD call"
+  },
+  {
+   "query": "Galilean State Estimation arXiv",
+   "engine": "WebSearch",
+   "result_note": "arXiv 2605.13266"
+  },
+  {
+   "query": "ACFR PhD scholarships supervisors",
+   "engine": "WebSearch",
+   "result_note": "ACFR projects page"
+  },
+  {
+   "query": "DSTG PhD scholarship international inertial navigation 2027",
+   "engine": "WebSearch",
+   "result_note": "Swinburne COMBS aggregator listing; nothing official"
+  },
+  {
+   "query": "Swinburne PhD inertial sensing optical frequency combs",
+   "engine": "WebSearch",
+   "result_note": "aggregator only"
+  },
+  {
+   "query": "PhD VIO SLAM state estimation Australia 2027 international",
+   "engine": "WebSearch",
+   "result_note": "only domestic/old posts"
+  },
+  {
+   "query": "Canterbury PhD scholarship robotics 2027",
+   "engine": "WebSearch",
+   "result_note": "UC doctoral rounds"
+  },
+  {
+   "query": "Auckland Bioengineering Institute PhD robotics 2027",
+   "engine": "WebSearch",
+   "result_note": "ABI scholarship; Industrial AI posts"
+  },
+  {
+   "query": "Massey PhD scholarship 2027",
+   "engine": "WebSearch",
+   "result_note": "alumni scholarship; Marsden maths post"
+  },
+  {
+   "query": "UC Doctoral Scholarship closing dates",
+   "engine": "WebSearch",
+   "result_note": "15 Oct / 15 May"
+  },
+  {
+   "query": "Waikato doctoral scholarship 2027",
+   "engine": "WebSearch",
+   "result_note": "four rounds"
+  },
+  {
+   "query": "AUT doctoral scholarship 2027",
+   "engine": "WebSearch",
+   "result_note": "AUT page 403"
+  },
+  {
+   "query": "Marsden Fund funded PhD NZ robotics",
+   "engine": "WebSearch",
+   "result_note": "Canterbury maths PhD closed"
+  },
+  {
+   "query": "Otago doctoral scholarship under review",
+   "engine": "WebSearch",
+   "result_note": "strategic review underway"
+  },
+  {
+   "query": "AUT doctoral scholarship 1 March 2027",
+   "engine": "WebSearch",
+   "result_note": "2026 dates only"
+  },
+  {
+   "query": "VUW PhD scholarship robotics",
+   "engine": "WebSearch",
+   "result_note": "ECS pages"
+  },
+  {
+   "query": "Sydney ACFR PhD localisation 2027",
+   "engine": "WebSearch",
+   "result_note": "ACFR projects page"
+  },
+  {
+   "query": "Monash PhD robotics 2027",
+   "engine": "WebSearch",
+   "result_note": "general scholarships; 403"
+  },
+  {
+   "query": "Griffith PhD robotics 2027",
+   "engine": "WebSearch",
+   "result_note": "CSIRO iPhD humanoid closed 25 Sep 2026"
+  },
+  {
+   "query": "RMIT / Deakin PhD robotics 2027",
+   "engine": "WebSearch",
+   "result_note": "RMIT and Deakin rounds"
+  },
+  {
+   "query": "ARC Training Centre robotics PhD 2027",
+   "engine": "WebSearch",
+   "result_note": "AVR3 (QUT) only via aggregators"
+  },
+  {
+   "query": "UWA HDR scholarship round 2 2027",
+   "engine": "WebSearch",
+   "result_note": "conflicting"
+  },
+  {
+   "query": "UNSW robotics PhD inertial",
+   "engine": "WebSearch",
+   "result_note": "none"
+  },
+  {
+   "query": "UTAS PhD autonomous 2027",
+   "engine": "WebSearch",
+   "result_note": "UTAS 403"
+  },
+  {
+   "query": "UTAS/Wollongong/Newcastle/Macquarie PhD UAV 2027",
+   "engine": "WebSearch",
+   "result_note": "old posts"
+  },
+  {
+   "query": "https://www.auckland.ac.nz/en/for/current-students/cs-scholarships-and-awards/doctoral-scholarships/university-of-auckland-doctoral-scholarships.html",
+   "engine": "WebFetch",
+   "result_note": "fetched; rounds, stipend, fees"
+  },
+  {
+   "query": "https://sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+   "engine": "WebFetch",
+   "result_note": "fetched; 18 Dec 2026"
+  },
+  {
+   "query": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://study.anu.edu.au/scholarships/find-scholarship/research-training-program-rtp-international-fee-offset-scholarship",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://research.anu.edu.au/postgraduate-research-candidates/research-degree-scholarships",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
+   "engine": "WebFetch",
+   "result_note": "fetched twice"
+  },
+  {
+   "query": "https://www.unsw.edu.au/research/hdr/application",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://www.uts.edu.au/research-and-teaching/research-degrees/applying-uts/application-deadlines",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://www.rmit.edu.au/research/research-degrees/scholarships",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://www.adelaide.edu.au/graduate-research/scholarships and /adelaide-scholarships-international",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://research.qut.edu.au/qcr/engagement/study-with-us/ and /phd-topics/ and /perception-localisation/ and people pages",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://www.qut.edu.au/... (applying-for-scholarships, RTP stipend, student-topics)",
+   "engine": "WebFetch",
+   "result_note": "HTTP 403 Cloudflare (WebFetch and curl)"
+  },
+  {
+   "query": "https://www.canterbury.ac.nz/.../uc-doctoral-scholarships",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://www.waikato.ac.nz/.../university-of-waikato-doctoral-scholarship/",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://www.wgtn.ac.nz/scholarships/current/wellington-doctoral-scholarships",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://auckland.ac.nz/.../doctoral-fees.html and PhD domestic tuition fee policy",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://blog.studywithnewzealand.govt.nz/...",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://ask.otago.ac.nz/knowledgebase/article/KA-10000286",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://www.otago.ac.nz/... doctoral scholarship pages and policy",
+   "engine": "WebFetch",
+   "result_note": "HTTP 403"
+  },
+  {
+   "query": "https://www.aut.ac.nz/... doctoral-scholarships",
+   "engine": "WebFetch",
+   "result_note": "HTTP 403"
+  },
+  {
+   "query": "https://pvangoor.github.io/ and PhD_position_open.html and EqF page",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://arxiv.org/abs/2605.13266",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://robotics.sydney.edu.au/ join-us, open positions, PhD projects, perception, seminar",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://www.csiro.au/.../University-Brochure-2027...txt",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://cares.blogs.auckland.ac.nz/scholarships/",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "https://www.math.canterbury.ac.nz/~p.wacker/position",
+   "engine": "WebFetch",
+   "result_note": "fetched"
+  },
+  {
+   "query": "Monash, Melbourne, Deakin, UTAS, UWA portal, Data61 pages",
+   "engine": "WebFetch",
+   "result_note": "403/404/410"
+  }
+ ],
+ "leads": [
+  {
+   "id": "usyd-rtp-international-rp34-2027",
+   "country": "Australia",
+   "institution": "University of Sydney",
+   "title": "RTP Stipend / USYDIS International Stipend Scholarship, Research Periods 3 and 4 2027 (with 100% tuition fee offset)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2026-12-18",
+   "timezone": "Australia/Sydney",
+   "start_date": "Research Periods 3 and 4, 2027 (second half of 2027; exact start dates UNKNOWN)",
+   "status": "open_verified",
+   "funding": "AUD 44,293 p.a. (2027 rate), indexed each 1 January; includes relocation and thesis allowance; RTP Fee Offset / Tuition Fee Scholarship covers 100% tuition for up to 14 research periods; duration beyond that not fetched",
+   "international_tuition": "COVERED - fee offset scholarship awarded automatically with the matching stipend scholarship; stipend itself is competitive",
+   "research_fit": "high",
+   "fit_reason": "Sydney hosts the Australian Centre for Robotics/ACFR (SLAM, multi-sensor estimation) and Pieter van Goor (equivariant/geometric estimation for aerial robots); the round itself is discipline-agnostic so fit depends on securing an ACFR supervisor.",
+   "url": "https://sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "International students commencing or enrolled in a higher degree by research; competitively awarded. Admission application and all documents must also be submitted via Sydney Courses by the same deadline. Specific degree/English thresholds not on this page.",
+   "required_materials": "Admission application plus all required documents via Sydney Courses, then the 'Submit RTP form' scholarship application, both by the deadline",
+   "offer_timing": "UNKNOWN (page fetched shows no outcome date for this round)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Research Periods 3 and 4, 2027: 18 December 2026",
+     "locator": "RTP International page, closing dates list (as extracted)"
+    },
+    {
+     "fact": "funding",
+     "quote": "$44,293 p.a. (2027 rate)",
+     "locator": "RTP International page, stipend line"
+    },
+    {
+     "fact": "fees",
+     "quote": "100% tuition fees for up to 14 research periods",
+     "locator": "RTP Fee Offset / Tuition Fee Scholarship line"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Apply for admission and submit all required documents through Sydney Courses by the deadlines",
+     "locator": "How to apply, commencing students"
+    }
+   ],
+   "risk": "34 days left; admission application plus documents (transcripts, English, referees) must be complete by 18 Dec; no supervisor is named by the round, and USyd may expect a supervisor to be agreed. Applicant degree equivalence and English status unverified. Round 1/2 deadline (11 Sep 2026) already passed.",
+   "next_action": "Decide go/no-go this week; if go, identify an ACFR / AMME supervisor (van Goor, Ila) only with applicant consent, and assemble admission documents before 18 Dec 2026."
+  },
+  {
+   "id": "anu-rtp-urs-round2-2027",
+   "country": "Australia",
+   "institution": "Australian National University",
+   "title": "ANU RTP Stipend + RTP International Fee Offset (central Round 2, international and domestic)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2027-04-15",
+   "timezone": "Australia/Canberra",
+   "start_date": "Commencement by 31 August 2027 (ANU Semester 2 2027)",
+   "status": "upcoming_confirmed",
+   "funding": "RTP stipend AUD 40,475 p.a. (2027 base RTP rate), paid fortnightly for 3.5 years; RTP International Fee Offset covers tuition for program duration (4 years PhD) plus OSHC for student and immediate family; dependent child allowance for international students",
+   "international_tuition": "COVERED - RTP International Fee Offset is offered concurrently with the RTP Stipend; no fee offset without a stipend award",
+   "research_fit": "high",
+   "fit_reason": "ANU School of Engineering (Mahony, Systems Theory and Robotics Group) is the home of nonlinear attitude estimation, equivariant filters and INS state estimation, directly matching the applicant's IMU attitude-estimation work.",
+   "url": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "HDR applicants, domestic or international; academic merit ranking; depends on a qualified supervisor, available space and resources, and research aligned with ANU strategy. No separate scholarship form: tick 'Australia: ANU - Other Scholarship' on the HDR admission application. Application must be complete incl. referee reports by the deadline.",
+   "required_materials": "Complete HDR admission application with transcripts, referee reports (submit 2-3 weeks early), research proposal as per ANU school requirements",
+   "offer_timing": "UNKNOWN; Round 2 take-up by end of August 2027",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Closing 15 April each year",
+     "locator": "Research degree scholarships page, round table (Round 2 International and Domestic)"
+    },
+    {
+     "fact": "funding",
+     "quote": "$40,475 per year, based on the full-time base RTP stipend rate for 2027",
+     "locator": "RTP Stipend page, Stipend"
+    },
+    {
+     "fact": "funding",
+     "quote": "Payments made for 3.5 years.",
+     "locator": "RTP Stipend page, Duration"
+    },
+    {
+     "fact": "fees",
+     "quote": "tuition fees for program duration (4 years for PhD, 2 years for MPhil)",
+     "locator": "RTP International Fee Offset page, What's covered"
+    }
+   ],
+   "risk": "Round 2 is described as usually a smaller round; year 2027 inferred from 'each year' wording, not printed as a dated 2027 line. Competitive; needs a confirmed ANU supervisor. Round 1 international (31 Aug 2026) already closed so offer by 2026-12-31 is not possible via this route.",
+   "next_action": "With applicant consent, prepare an enquiry to Mahony's group and ANU School of Engineering HDR convenor well before April; complete admission file by early April."
+  },
+  {
+   "id": "uq-uqgrss-round1-2027",
+   "country": "Australia",
+   "institution": "University of Queensland",
+   "title": "UQ Graduate Research School Scholarships (UQGRSS, includes RTP) Round 1 2027, domestic and international",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2027-01-25",
+   "timezone": "Australia/Brisbane",
+   "start_date": "Research Quarters 3 and 4 2027 and Quarter 1 2028",
+   "status": "open_verified",
+   "funding": "Living stipend AUD 39,220 p.a. tax free (2026 rate), indexed annually; Single OSHC; duration not on fetched page",
+   "international_tuition": "UNKNOWN - page lists 'Tuition fees' as a funding type but does not state international fee offset; page also refers to 'a tuition fee scholarship' in addition to the stipend for domestic EOI route",
+   "research_fit": "medium",
+   "fit_reason": "General university-wide scholarship at UQ (robotics/vision groups exist but no specific supervisor verified); fits only if a UQ supervisor and school nominate the applicant.",
+   "url": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Nominated by an enrolling school or institute at UQ; assessed by the Graduate Research School as meeting all admission conditions; complete application, supported by a Principal Advisor and endorsed by the enrolling unit by the closing date",
+   "required_materials": "Complete UQ HDR application, Principal Advisor support, school endorsement",
+   "offer_timing": "Outcomes sent 6 April 2027 (Round 1)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "Round 1 | 25 January 2027 | 6 April 2027",
+     "locator": "2027 rounds table"
+    },
+    {
+     "fact": "funding",
+     "quote": "Living stipend of $39,220 per annum tax free (2026 rate), indexed annually.",
+     "locator": "Funding section"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "nominated by an enrolling school or institute at UQ",
+     "locator": "Eligibility"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Domestic and international applicants (upcoming 2027 rounds - applications open now)",
+     "locator": "Round headings"
+    }
+   ],
+   "risk": "International tuition coverage not stated; the earlier international-only round closed 19 Oct 2026 (page says closed); applicant must obtain school nomination, which needs a supervisor first. Rounds 2 (31 May 2027) and 3 (4 Oct 2027) also listed.",
+   "next_action": "Find a UQ principal advisor whose work matches (with applicant consent); confirm with UQ Graduate School whether round 1 includes the international fee offset."
+  },
+  {
+   "id": "auckland-doctoral-scholarship-feb-2027",
+   "country": "New Zealand",
+   "institution": "University of Auckland",
+   "title": "University of Auckland Doctoral Scholarship, 1 February 2027 round (also 1 May and 1 August 2027)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2027-02-01",
+   "timezone": "Pacific/Auckland",
+   "start_date": "Rolling; enrol after notification (PhD can start at any time of year)",
+   "status": "open_verified",
+   "funding": "Tax-free stipend NZD 35,468 p.a. (2026 rate, CPI-adjusted each 1 January), tuition fees up to 42 months FTE, single-student health insurance charge if applicable",
+   "international_tuition": "COVERED - scholarship covers tuition fees; international PhD students pay the domestic PhD fee (NZD 9,378 in 2027 plus ~NZD 1,158 student services fee) only if they reside in NZ for the whole programme (max 12 months overseas)",
+   "research_fit": "medium",
+   "fit_reason": "Auckland Faculty of Engineering offers Mechatronics/Robotics doctoral study (CARES, Industrial AI, ABI); scholarship is student-based so fit depends on finding a supervisor in robotics/perception.",
+   "url": "https://www.auckland.ac.nz/en/for/current-students/cs-scholarships-and-awards/doctoral-scholarships/university-of-auckland-doctoral-scholarships.html",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Anyone offered a doctoral place is considered; no separate scholarship application (tick on doctoral application). International applicants who have not held an NZ student visa are advised to apply in rounds 1 and 2; later-round scholarship chances may be significantly reduced. Guaranteed awards only for Maori/Pacific with NZ GPA>=7.0.",
+   "required_materials": "Doctoral programme application (research proposal, supervisor agreement per faculty), indicate scholarship consideration",
+   "offer_timing": "Offers dated 1 April 2027 for the 1 Feb round (page lists offers on 1 Feb, 1 Apr, 1 Jul, 1 Oct 2027)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "2027 rounds: 1 November 2026, and 1 February, 1 May, and 1 August 2027",
+     "locator": "UoA Doctoral Scholarships page, closing dates (as extracted)"
+    },
+    {
+     "fact": "funding",
+     "quote": "tax-free stipend of $35,468 per annum",
+     "locator": "Value"
+    },
+    {
+     "fact": "fees",
+     "quote": "To be eligible for the domestic PhD fee, you must reside in New Zealand for the duration of your doctoral programme.",
+     "locator": "Doctoral fees page"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "strongly advised to apply in rounds 1 and 2",
+     "locator": "Faculty of Arts and Education selection page (visa advice)"
+    }
+   ],
+   "risk": "1 November 2026 round closed 13 days ago. Admission (supervisor, proposal) must usually precede or accompany; the Industrial AI posts (robot skill learning, factory automation) are 404 / stale. Stipend figure is 2026; 2027 CPI figure UNKNOWN.",
+   "next_action": "Identify an Auckland engineering supervisor (e.g. CARES, Industrial AI group) and start doctoral application well before 1 Feb 2027."
+  },
+  {
+   "id": "canterbury-doctoral-scholarship-may-2027",
+   "country": "New Zealand",
+   "institution": "University of Canterbury",
+   "title": "UC Doctoral Scholarship, May round (for students starting second half of 2027)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2027-05-15",
+   "timezone": "Pacific/Auckland",
+   "start_date": "Second half of 2027",
+   "status": "verification_needed",
+   "funding": "NZD 32,650 per 120 points (about one year) plus tuition fees for thesis-only enrolment, up to 360 points; prestige top-ups of NZD 5,000 exist; UC Commitments adds NZD 5,000 research expenses",
+   "international_tuition": "UNKNOWN - page does not say whether international students are covered; NZ domestic-rate PhD fee for residents would apply to the tuition component",
+   "research_fit": "medium",
+   "fit_reason": "UC has a Mechatronics/Electrical group and AI Robotics collaborators, but no specific supervisor verified; the scholarship is generic.",
+   "url": "https://www.canterbury.ac.nz/study/getting-started/scholarships/doctoral-scholarships/uc-doctoral-scholarships",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Enrolment in a research doctoral degree at UC; doctoral admission application must be submitted in myUC before the scholarship closing date; UC Doctoral Scholarship application form",
+   "required_materials": "myUC admission application plus UC Doctoral Scholarship form",
+   "offer_timing": "UNKNOWN (core scholarship offer timing not stated)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "May round: Opens 20 March, closes 15 May. For students starting in the second half of 2027.",
+     "locator": "UC Doctoral Scholarships page (year not printed)"
+    },
+    {
+     "fact": "funding",
+     "quote": "$32,650 per 120 points",
+     "locator": "Stipend"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "You must also submit your separate doctoral admission application in myUC before the scholarship closing date.",
+     "locator": "How to apply"
+    }
+   ],
+   "risk": "Year of May round not printed; October 2026 round closed 15 Oct 2026. International eligibility unstated. Scholarships subject to funding availability. DEADLINE_YEAR_INFERRED: page prints no year.",
+   "next_action": "Confirm 2027 date and international eligibility with UC Graduate School before relying on it.",
+   "deadline_as_reported": "05-15 (year not printed on page; presumably 2027-05-15)"
+  },
+  {
+   "id": "waikato-doctoral-scholarship-rounds",
+   "country": "New Zealand",
+   "institution": "University of Waikato",
+   "title": "University of Waikato Doctoral Scholarship (four rounds a year)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "rolling",
+   "timezone": "Pacific/Auckland",
+   "start_date": "UNKNOWN",
+   "status": "verification_needed",
+   "funding": "Up to NZD 33,000 per year for up to 36 months plus domestic tuition fees and Student Services Fee",
+   "international_tuition": "UNKNOWN - page names domestic tuition fees only and does not state international eligibility; NZ domestic PhD fee rule for resident international students may apply",
+   "research_fit": "low",
+   "fit_reason": "Generic scholarship; no verified robotics/state-estimation supervisor at Waikato was found.",
+   "url": "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/university-of-waikato-doctoral-scholarship/",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Offer of Place in a doctoral programme required first; apply via MyWaikato Scholarships tab",
+   "required_materials": "Enrolment application then scholarship application in MyWaikato",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "funding",
+     "quote": "Up to $33,000 per year for up to 36 months + domestic tuition fees and Student Services Fee.",
+     "locator": "Value field"
+    },
+    {
+     "fact": "deadline",
+     "quote": "considered in four rounds each year",
+     "locator": "Round description (no dates)"
+    }
+   ],
+   "risk": "No dates, no verified international eligibility, no supervisor.",
+   "next_action": "Low priority; check regulations PDF for international eligibility only if Waikato supervisor emerges.",
+   "deadline_as_reported": "rolling in four rounds; exact 2027 dates not on page"
+  },
+  {
+   "id": "unsw-hdr-july-2027-release",
+   "country": "Australia",
+   "institution": "University of New South Wales",
+   "title": "UNSW 2027 July Release (international scholarships considered; Term 1 2028 start)",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2027-04-16",
+   "timezone": "Australia/Sydney",
+   "start_date": "Term 1 2028",
+   "status": "upcoming_confirmed",
+   "funding": "UIPA (RTP Fees Offset or Tuition Fee Scholarship plus UNSW-funded stipend) and RTP International; amounts not on fetched page (third-party figure AUD 39,206 for 2026 is unverified)",
+   "international_tuition": "UNKNOWN on the page fetched; UIPA/RTPI packages are described by search summaries as including fees offset (not confirmed by fetched official page)",
+   "research_fit": "medium",
+   "fit_reason": "UNSW robotics research exists, but no verified estimation/SLAM project; the page lists only 3D robot sensor visualisation (Sammut) as a nearby unfunded-or-maybe-stipend project.",
+   "url": "https://www.unsw.edu.au/research/hdr/application",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "International scholarship considered in this release; supervisor and admission requirements per UNSW HDR; CSC round is Chinese nationals only",
+   "required_materials": "UNSW HDR application with supervisor support",
+   "offer_timing": "Offers from 23 July 2027 (initial release may take 2 weeks)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "UNSW 2027 July Release | Term 1 2028 | 16 Apr 2027 | 23 Jul 2027",
+     "locator": "HDR application page, international scholarship rounds table"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Only applicable for Chinese Nationals.",
+     "locator": "CSC round row (not applicable)"
+    }
+   ],
+   "risk": "Start is 2028, so no offer by 2026-12-31; November 2026 release (14 Aug 2026) already closed.",
+   "next_action": "Low urgency; keep as fallback."
+  },
+  {
+   "id": "uts-irtp-2028-session1",
+   "country": "Australia",
+   "institution": "University of Technology Sydney",
+   "title": "UTS international research scholarship round, 2028 Research Session 1",
+   "type": "competitive_scholarship_round",
+   "deadline_local": "2027-06-02",
+   "timezone": "Australia/Sydney",
+   "start_date": "2028 Research Session 1 (Jan-May 2028)",
+   "status": "upcoming_confirmed",
+   "funding": "UNKNOWN on fetched page (IRTP and President's Scholarship terms not fetched)",
+   "international_tuition": "UNKNOWN - not fetched",
+   "research_fit": "medium",
+   "fit_reason": "UTS Robotics Institute exists but no specific supervisor was verified.",
+   "url": "https://www.uts.edu.au/research-and-teaching/research-degrees/applying-uts/application-deadlines",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "International applicants for research degree and scholarship; details on scholarship pages not fetched",
+   "required_materials": "UNKNOWN",
+   "offer_timing": "Outcome available 26 July 2027",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "2028 Research Session 1 | 2 June 2027 | 26 July 2027 | Jan-May 2028",
+     "locator": "International students table (as extracted)"
+    }
+   ],
+   "risk": "2027 Research Session 2 international round closed 7 Oct 2026; the application portal closed 2 Nov 2026 for a transition, new form due mid-late January 2027 per page. Start is 2028.",
+   "next_action": "Fallback only."
+  },
+  {
+   "id": "qut-centre-for-robotics-eoi-rolling",
+   "country": "Australia",
+   "institution": "QUT Centre for Robotics",
+   "title": "QCR PhD expression of interest (accepted at any time) and annual scholarship round route",
+   "type": "lab_recruitment_lead",
+   "deadline_local": "rolling",
+   "timezone": "Australia/Brisbane",
+   "start_date": "UNKNOWN (QUT scholarship outcomes may consider ability to start by end of July 2027 per search summary, unverified)",
+   "status": "rolling",
+   "funding": "Supervisor/grant-provided scholarships (via specific projects) or central RTP Stipend / QUTPRA in the annual round; amounts not on fetched page (older QCR FAQ listed AUD 33,637 + 5,000 CoR top-up, 2025 rate; QUT stipend page 403)",
+   "international_tuition": "UNKNOWN on fetched page; older QCR FAQ stated a fee waiver comes with the scholarship (not re-verified)",
+   "research_fit": "high",
+   "fit_reason": "Milford (SLAM, positioning, navigation), Fischer (SLAM, event vision) and the QCR PhD topic list include 'Dark visual odometry for drone navigation', 'UAV navigation in GPS-denied environments' and 'Estimation and control of networked cyberphysical systems'.",
+   "url": "https://research.qut.edu.au/qcr/engagement/study-with-us/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Pick topic and supervisor, obtain supervisor support, research proposal approved by supervisor; entry requirements and documents; EOI online, then invited to final application",
+   "required_materials": "EOI form, research proposal, supporting documents; QUT says EOI plus final application takes about six to eight weeks",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "at any time for consideration",
+     "locator": "How to apply, EOI"
+    },
+    {
+     "fact": "funding",
+     "quote": "Centrally funded QUT scholarships in the annual round: RTP Stipend, QUT Postgraduate Research Award (QUTPRA)",
+     "locator": "Scholarship types"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "Pick a topic and supervisor, and get their support before applying.",
+     "locator": "How to apply, step 1"
+    }
+   ],
+   "risk": "Official QUT scholarship round pages return 403 (Cloudflare) so 2027 annual-round dates could not be verified; a third-party site reported the international 2027 round closed 31 July 2026 (UNVERIFIED). Supervisor-funded scholarships are the realistic route. Topic pages are marked under construction with no supervisors or funding statements.",
+   "next_action": "With consent, email robotics@qut.edu.au / the relevant CI to ask whether any grant-funded PhD place for 2027 remains; confirm annual-round dates from a browser session.",
+   "deadline_as_reported": "rolling (EOI at any time); annual scholarship round dates not verifiable"
+  },
+  {
+   "id": "usyd-acfr-phd-projects-open",
+   "country": "Australia",
+   "institution": "University of Sydney - Australian Centre for Robotics (ACFR)",
+   "title": "ACFR PhD research projects page (SLAM in dynamic environments, marine SLAM, sensor fusion) with tuition+stipend+top-up language",
+   "type": "lab_recruitment_lead",
+   "deadline_local": "",
+   "timezone": "Australia/Sydney",
+   "start_date": "UNKNOWN",
+   "status": "verification_needed",
+   "funding": "Page says excellent candidates qualify for full tuition, stipend and top-up scholarships (Robotic Imaging project); no amounts",
+   "international_tuition": "UNKNOWN",
+   "research_fit": "high",
+   "fit_reason": "ACFR lists 'Simultaneous localization and mapping of dynamic environments', 'SLAM using both visual and acoustic data' and 'Sensor fusion for perception and tracking'.",
+   "url": "https://robotics.sydney.edu.au/join-us/phd-research-projects-at-acfr/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "UNKNOWN - page gives no how-to-apply details; contact emails only",
+   "required_materials": "UNKNOWN",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "funding",
+     "quote": "Excellent candidates will qualify for full tuition, stipend, and top-up scholarships.",
+     "locator": "Robotic Imaging project section"
+    },
+    {
+     "fact": "fit",
+     "quote": "Simultaneous localization and mapping of dynamic environments",
+     "locator": "Sensing and Mapping the Dynamic World project"
+    }
+   ],
+   "risk": "Page is old (search listed ~1,500 days), no dates; ACFR 'Open Positions' page lists only closed positions. Pair with the RTP round above.",
+   "next_action": "Use as supervisor-discovery list for the 18 Dec 2026 Sydney round; email only with applicant consent."
+  },
+  {
+   "id": "auckland-cares-social-robotics-phd",
+   "country": "New Zealand",
+   "institution": "University of Auckland - CARES",
+   "title": "CARES funded PhD in social robotics (robot facial expression/gesture generation) and other robotics topics",
+   "type": "lab_recruitment_lead",
+   "deadline_local": "",
+   "timezone": "Pacific/Auckland",
+   "start_date": "UNKNOWN",
+   "status": "verification_needed",
+   "funding": "'A funded PhD' (no amount); other topics: scholarships for living expenses and fees require high grades",
+   "international_tuition": "UNKNOWN (page silent on international status)",
+   "research_fit": "low",
+   "fit_reason": "Social robotics with machine vision; not state estimation, listed only because it is an advertised funded robotics PhD at an NZ university.",
+   "url": "https://cares.blogs.auckland.ac.nz/scholarships/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "High-quality first degree in EE/CS/mechatronics etc; strong machine vision, algorithms, C/C++; ROS, OpenCV, deep nets desirable",
+   "required_materials": "Cover letter, CV, evidence of qualifications, references",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "funding",
+     "quote": "a funded PhD",
+     "locator": "Open positions, social robotics"
+    },
+    {
+     "fact": "eligibility",
+     "quote": "strong practical skills in machine vision",
+     "locator": "Eligibility"
+    }
+   ],
+   "risk": "Undated page; posting may be stale; no deadline or stipend.",
+   "next_action": "Low priority; only if broader fit widens."
+  }
+ ],
+ "labs": [
+  {
+   "pi": "Robert Mahony",
+   "institution": "Australian National University",
+   "group": "Systems Theory and Robotics Group, ANU School of Engineering",
+   "group_url": "https://eng.anu.edu.au/people/robert-mahony",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "Galilean State Estimation for Inertial Navigation Systems with Unknown Time Delay (Delama, Scheiber, Ge, Hamel, Weiss, Mahony; RSS 2026)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2605.13266"
+    },
+    {
+     "title": "Galilean Symmetry in Robotics (Mahony, Kelly, Weiss) - seen in search results only, not fetched",
+     "year": 2025,
+     "url": "https://arxiv.org/pdf/2510.10468"
+    }
+   ],
+   "hiring_channel_url": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Faculty page lists non-linear attitude-estimation filters, visual state estimation, event-camera algorithms but no note about taking PhD students; contact is robert.mahony@anu.edu.au (public). A post-doc call exists (ARC Discovery) but that is not a PhD. Do not email without applicant authorization."
+  },
+  {
+   "pi": "Pieter van Goor",
+   "institution": "University of Sydney",
+   "group": "Geometric estimation and control, School of Aerospace, Mechanical and Mechatronic Engineering (ACFR)",
+   "group_url": "https://pvangoor.github.io/",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "Equivariant Filter (EqF), IEEE TAC (van Goor, Hamel, Mahony)",
+     "year": 2023,
+     "url": "https://pvangoor.github.io/publications/2023_eqf.html"
+    },
+    {
+     "title": "PhD position: geometric estimation and control for aerial robotics (call closed 29 Mar 2026)",
+     "year": 2026,
+     "url": "https://pvangoor.github.io/group/2026/03/10/PhD_position_open.html"
+    }
+   ],
+   "hiring_channel_url": "https://pvangoor.github.io/group/2026/03/10/PhD_position_open.html",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Lecturer at Sydney (earlier ANU research fellow, Twente postdoc). The advertised fully funded PhD closed 'Sunday 29 March 2026'; application was by email (cover letter <=1 page, CV with 3 references and GPA, transcripts). Funding details and international status were not stated. Watch for a new call; the USyd RTP round closes 18 Dec 2026."
+  },
+  {
+   "pi": "Viorela Ila",
+   "institution": "University of Sydney",
+   "group": "Robotic Perception, ACFR (SLAM in dynamic environments)",
+   "group_url": "https://robotics.sydney.edu.au/our-research/robotic-perception/",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "Seminar: The Importance of Coordinate Frames in Dynamic SLAM (Morris, Wang, Ila)",
+     "year": 2024,
+     "url": "https://robotics.sydney.edu.au/seminar-the-importance-of-coordinate-frames-in-dynamic-slam-28th-march-100pm/"
+    }
+   ],
+   "hiring_channel_url": "https://robotics.sydney.edu.au/join-us/phd-research-projects-at-acfr/",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Previous CSIRO Industry PhD with Emesent was domestic-only and a prior ACFR state-estimation project was email-based. Nieto, Sukkarieh, Fitch and Hoang were NOT found on the fetched ACFR perception page; no verified pages for them."
+  },
+  {
+   "pi": "Michael Milford / Tobias Fischer",
+   "institution": "Queensland University of Technology",
+   "group": "QUT Centre for Robotics, Perception and Localisation program",
+   "group_url": "https://research.qut.edu.au/qcr/perception-localisation/",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "QCR PhD topics list incl. 'Dark Visual odometry for drone navigation', 'UAV Navigation in GPS Denied Environments', 'Event-based localisation for ultra-fast systems'",
+     "year": 2026,
+     "url": "https://research.qut.edu.au/qcr/phd-topics/"
+    }
+   ],
+   "hiring_channel_url": "https://research.qut.edu.au/qcr/engagement/study-with-us/",
+   "hiring_state": "ROLLING",
+   "caveat": "EOIs accepted at any time but topic pages are under construction with no supervisors or funding; Milford's page and Fischer's page show no publication years for 2025-26. Sunderhauf and Roberts not individually verified."
+  },
+  {
+   "pi": "Bruce MacDonald / Ho Seok Ahn",
+   "institution": "University of Auckland",
+   "group": "CARES (Centre for Automation and Robotic Engineering Science)",
+   "group_url": "https://cares.blogs.auckland.ac.nz/scholarships/",
+   "alignment": "medium",
+   "recent_work": [],
+   "hiring_channel_url": "https://cares.blogs.auckland.ac.nz/scholarships/",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Undated page; social/healthcare robotics focus, not estimation. Industrial AI group posts (uoa-iai.github.io) returned 404 when fetched."
+  }
+ ],
+ "recurring_cycles": [
+  {
+   "program": "Sydney RTP/USYDIS international, Research Periods 1 and 2",
+   "institution": "University of Sydney",
+   "url": "https://sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+   "last_observed_deadline": "2026-09-11 for RP1&2 2027 (HISTORICAL)",
+   "expected_next_window": "around September 2027 for RP1&2 2028 and around December 2027 for RP3&4 (INFERENCE)",
+   "funding_note": "AUD 44,293 (2027 rate) + fee offset"
+  },
+  {
+   "program": "ANU RTP/URS Round 1",
+   "institution": "Australian National University",
+   "url": "https://research.anu.edu.au/postgraduate-research-candidates/research-degree-scholarships",
+   "last_observed_deadline": "31 Aug 2026 international / 26 Oct 2026 domestic (HISTORICAL)",
+   "expected_next_window": "31 Aug 2027 international for 2028 start (stated as 'each year'; 2027 date is INFERENCE)",
+   "funding_note": "RTP stipend 40,475 + fee offset"
+  },
+  {
+   "program": "UQ Graduate School Scholarships Rounds 2 and 3",
+   "institution": "University of Queensland",
+   "url": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
+   "last_observed_deadline": "International round closed 19 Oct 2026 (HISTORICAL)",
+   "expected_next_window": "Round 2 31 May 2027, Round 3 4 Oct 2027 (stated on page)",
+   "funding_note": "AUD 39,220 stipend (2026 rate); fees UNKNOWN"
+  },
+  {
+   "program": "UNSW HDR international scholarship releases",
+   "institution": "University of New South Wales",
+   "url": "https://www.unsw.edu.au/research/hdr/application",
+   "last_observed_deadline": "2026-08-14 (Nov 2026 release for Term 2/3 2027) (HISTORICAL)",
+   "expected_next_window": "16 Apr 2027 (stated); next after that around Aug 2027 (INFERENCE)",
+   "funding_note": "UIPA / RTPI; amounts not on page"
+  },
+  {
+   "program": "UTS international research sessions",
+   "institution": "University of Technology Sydney",
+   "url": "https://www.uts.edu.au/research-and-teaching/research-degrees/applying-uts/application-deadlines",
+   "last_observed_deadline": "2026-10-07 for 2027 Research Session 2 (HISTORICAL)",
+   "expected_next_window": "2 June 2027 (2028 S1) and 6 Oct 2027 (2028 S2) stated on page",
+   "funding_note": "Terms not fetched"
+  },
+  {
+   "program": "RMIT central research scholarship round (Stipend and Tuition Fee Scholarships)",
+   "institution": "RMIT University",
+   "url": "https://www.rmit.edu.au/research/research-degrees/scholarships",
+   "last_observed_deadline": "International EOI 30 Aug 2026, full application 30 Sep 2026; offers begin 23 Nov 2026 (HISTORICAL)",
+   "expected_next_window": "page mentions two rounds a year; 2027 mid-year round dates not on page (INFERENCE: mid-2027)",
+   "funding_note": "Stipend amounts not on fetched page"
+  },
+  {
+   "program": "University of Canterbury doctoral scholarship, October round",
+   "institution": "University of Canterbury",
+   "url": "https://www.canterbury.ac.nz/study/getting-started/scholarships/doctoral-scholarships/uc-doctoral-scholarships",
+   "last_observed_deadline": "2026-10-15 (HISTORICAL)",
+   "expected_next_window": "15 Oct 2027 (INFERENCE); May round 15 May",
+   "funding_note": "NZD 32,650 per 120 points + tuition"
+  },
+  {
+   "program": "University of Auckland Doctoral Scholarship",
+   "institution": "University of Auckland",
+   "url": "https://www.auckland.ac.nz/en/for/current-students/cs-scholarships-and-awards/doctoral-scholarships/university-of-auckland-doctoral-scholarships.html",
+   "last_observed_deadline": "2026-11-01 (HISTORICAL)",
+   "expected_next_window": "1 Feb, 1 May, 1 Aug 2027 (stated); 1 Nov 2027 (INFERENCE)",
+   "funding_note": "NZD 35,468 + tuition + insurance"
+  },
+  {
+   "program": "Victoria University of Wellington Doctoral Scholarship (existing repo lead)",
+   "institution": "Victoria University of Wellington",
+   "url": "https://www.wgtn.ac.nz/scholarships/current/wellington-doctoral-scholarships",
+   "last_observed_deadline": "1 Nov (HISTORICAL)",
+   "expected_next_window": "1 March, 1 July, 1 Nov (stated on page); offers approx six weeks after close",
+   "funding_note": "NZD 32,000 + domestic tuition"
+  }
+ ],
+ "ineligible_or_partial": [
+  {
+   "title": "CSIRO Industry PhD (iPhD) 2027 call",
+   "url": "https://www.csiro.au/-/media/Careers/Files/Industry-PhD/2027-revamp/University-Brochure-2027--CSIRO-Industry-PhD-iPhD-Program-accessible-text-version.txt",
+   "restriction_clause": "Projects must be 'limited to domestic students.' EOI opens from 1 Feb 2027",
+   "why_excluded": "Domestic only; scholarship AUD 50,998/yr. Includes SLAM-type projects (e.g. USyd/Emesent) but not open to international applicants without PR/NZ citizenship. Unknown whether applicant is domestic."
+  },
+  {
+   "title": "Adelaide University Graduate Research Talent rounds",
+   "url": "https://www.adelaide.edu.au/graduate-research/scholarships/adelaide-scholarships-international",
+   "restriction_clause": "International applicants require 'a relevant Australian or New Zealand qualification'; Round 1 closed 2 Nov 2026; next rounds open mid-Feb 2027 and mid-Jul 2027",
+   "why_excluded": "Master's degrees obtained elsewhere do not meet the Aus/NZ qualification condition; tuition waiver only with a major scholarship."
+  },
+  {
+   "title": "Adelaide AIML Industrial AI program scholarship",
+   "url": "https://scholarships.adelaide.edu.au/node/2750",
+   "restriction_clause": "Search summary: citizens of Australia, UK or US, or Australian PR (page not fetched in this run)",
+   "why_excluded": "Unfetched; reported residency restriction; verify before use."
+  },
+  {
+   "title": "UNSW China Scholarship Council round",
+   "url": "https://www.unsw.edu.au/research/hdr/application",
+   "restriction_clause": "Only applicable for Chinese Nationals.",
+   "why_excluded": "Nationality-restricted."
+  },
+  {
+   "title": "UNSW Scientia PhD Scholarship",
+   "url": "https://www.unsw.edu.au/research/hdr/find-a-project",
+   "restriction_clause": "UNSW is looking for high-quality domestic applicants to work on a supervisor-defined PhD project.",
+   "why_excluded": "Domestic only."
+  },
+  {
+   "title": "Pieter van Goor aerial robotics PhD (University of Sydney)",
+   "url": "https://pvangoor.github.io/group/2026/03/10/PhD_position_open.html",
+   "restriction_clause": "Deadline: Sunday 29 March 2026",
+   "why_excluded": "Closed; international status and funding amounts never stated. Kept as a lab lead."
+  },
+  {
+   "title": "University of Canterbury Marsden-funded Bayesian optimal experimental design PhD (Wacker)",
+   "url": "https://www.math.canterbury.ac.nz/~p.wacker/position",
+   "restriction_clause": "Application deadline 31 January 2026; NZD 35,000 p.a., 3 years, international welcome",
+   "why_excluded": "Closed; mathematics/statistics, stochastic filtering is a listed topic but not robotics."
+  },
+  {
+   "title": "Massey Alumni Doctoral Scholarship",
+   "url": "https://www.massey.ac.nz/study/scholarships-and-awards/massey-university-alumni-doctoral-scholarship",
+   "restriction_clause": "Search summary: applicants must be Massey graduates (page not fetched)",
+   "why_excluded": "Alumni-only; unfetched."
+  },
+  {
+   "title": "Griffith Round 2 open merit (international)",
+   "url": "https://www.griffith.edu.au/research-study/scholarships",
+   "restriction_clause": "Search summary: international Griffith pathway applicants only (closing 5 Feb 2027); page not fetched",
+   "why_excluded": "Reported restriction; unfetched."
+  }
+ ],
+ "unverified_leads": [
+  {
+   "title": "QUT annual scholarship round 2027 and QUT RTP stipend page (AUD 37,010 per a third-party summary)",
+   "url_tried": "https://www.qut.edu.au/research/study-with-us/scholarships-and-tuition/applying-for-scholarships",
+   "reason": "HTTP 403 Cloudflare challenge via WebFetch and curl; QUT annual round dates cannot be confirmed. A third-party site said international close 31 July 2026."
+  },
+  {
+   "title": "University of Melbourne Graduate Research Scholarships / Engineering round",
+   "url_tried": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
+   "reason": "HTTP 403. Third-party summaries mention an Engineering and IT round closing 20 Dec 2026 (not verifiable; do not rely)."
+  },
+  {
+   "title": "Monash Graduate Scholarship / Monash International Tuition Scholarship terms",
+   "url_tried": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/monash-graduate-scholarship-mgs",
+   "reason": "HTTP 403. Search summary: MGS 2027 stipend AUD 41,100, rounds close 28 Feb / 31 Aug, Maxwell King PhD AUD 55,537 closes 31 Oct (unverified)."
+  },
+  {
+   "title": "Deakin RTP and DUPRS",
+   "url_tried": "https://www.deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/rtp-and-duprs",
+   "reason": "HTTP 403. Search summary: 2027 international round closed 23 Aug 2026."
+  },
+  {
+   "title": "UWA 2027 International RTP Stipend and Tuition Fee Scholarships",
+   "url_tried": "https://researchdegrees.uwa.edu.au/scholarships/1xq575/2027-international-rtp-stipend-and-tuition-fee-scholarships",
+   "reason": "HTTP 404. Search summary: closed 15 Sep 2026 AWST; a Round 2 (1 Jun-4 Aug 2027) window appears on one UWA page and conflicts with askUWA ('no rounds currently scheduled')."
+  },
+  {
+   "title": "Curtin RTP / Forrest Research Foundation PhD scholarship 2027",
+   "url_tried": "search-only (aggregators)",
+   "reason": "No official Curtin page fetched; aggregator dates 30-31 Oct 2026 (likely passed)."
+  },
+  {
+   "title": "UTAS available PhD projects (AUV/autonomous projects, closing 1 March 2027, AUD 34,315, international eligible per search summary)",
+   "url_tried": "https://www.utas.edu.au/research/degrees/available-projects",
+   "reason": "HTTP 403; project page for AUV path replanning also 403. Worth manual check."
+  },
+  {
+   "title": "University of Otago Doctoral Scholarship (policy review status)",
+   "url_tried": "https://www.otago.ac.nz/courses/scholarships/university-of-otago-doctoral-scholarship and https://www.otago.ac.nz/courses/scholarships/phd/important-funding-announcement",
+   "reason": "HTTP 403 on both (never fetched; details come from search summaries only). Search summary of the official announcement says a strategic review of the Doctoral Scholarship Scheme is underway, quarterly rounds apply, and from 1 Jan 2027 master's research scholarships no longer upgrade to doctoral scholarships. Treat as still under review."
+  },
+  {
+   "title": "AUT Doctoral Scholarships (1 Mar / 15 Jul / 1 Nov rounds; VC Doctoral Scholarship rolling except 1 Dec-15 Jan; NZD 34,737 for 2026)",
+   "url_tried": "https://www.aut.ac.nz/study/fees-and-scholarships/scholarships-and-awards-at-aut/doctoral-scholarships",
+   "reason": "HTTP 403 (Cloudflare). All details from search summaries only; 2027 dates unknown."
+  },
+  {
+   "title": "Swinburne/COMBS PhD: Inertial sensing with optical frequency combs for resilient navigation (DSTG partner)",
+   "url_tried": "https://www.jobstralia.com/detail/8/6230a0f7246efa9f52419c9718f46ef4",
+   "reason": "Aggregator only; no deadline, stipend or international status; photonics rather than estimation (low fit)."
+  },
+  {
+   "title": "CSIRO Data61 PhD top-up scholarships",
+   "url_tried": "https://www.csiro.au/en/careers/Scholarships-student-opportunities/Postgraduate-programs-and-Scholarships/Data61-scholarships and https://research.csiro.au/d61students/data61-phd-scholarships",
+   "reason": "404 and 410 (program pages retired). No current 2027 Data61 top-up call found; older rounds were AUD 10,000 top-ups to a base scholarship."
+  },
+  {
+   "title": "University of Auckland Industrial AI group PhD posts (robot skill learning; collaborative factory automation)",
+   "url_tried": "https://uoa-iai.github.io/post/hiring_20251012/",
+   "reason": "HTTP 404 both URLs; search summary says start no later than Sept 2026 so likely closed."
+  },
+  {
+   "title": "Marsden-funded and MBIE-funded NZ PhD posts in robotics/estimation",
+   "url_tried": "search only",
+   "reason": "No 2027 robotics/estimation post found; only a closed Canterbury maths Marsden PhD and Massey applied-maths Marsden PhD (unfetched). Search budget exhausted before a second pass."
+  },
+  {
+   "title": "DSTG-linked PhD posts (UQ atom interferometry inertial sensing; RMIT target tracking)",
+   "url_tried": "https://smp.uq.edu.au/node/14871",
+   "reason": "Not fetched; physics/photonics rather than estimation; RMIT one reported closed 1 Aug 2026."
+  }
+ ],
+ "corrections_to_existing_repo": [
+  {
+   "opportunity_id": "wellington-doctoral-2027",
+   "issue": "Repo marks tuition treatment as needing confirmation. NZ rule (not VUW-specific): international PhD students pay the domestic PhD fee only if they reside in NZ for the whole enrolment; Auckland, Otago and the NZ government all state it. VUW page says 'domestic tuition fees'. VUW fee-policy page was not fetched. The old ECS page citing NZD 27,500 is outdated; current is NZD 32,000.",
+   "evidence_url": "https://auckland.ac.nz/en/about/the-university/how-university-works/policy-and-administration/teaching-and-learning/postgraduate-research/registration/phd---domestic-tuition-fees-policy-.html",
+   "quote": "Residence is required for the duration of PhD enrolment; up to 12 months overseas in total (Auckland PhD Domestic Tuition Fees Policy cl. 2-3, paraphrased)"
+  },
+  {
+   "opportunity_id": "new-zealand-fee-treatment",
+   "issue": "docs/countries/new-zealand.md says international fee treatment must be confirmed per award. Confirmed generally: NZ government states international PhD students pay domestic fees, with a residence-in-NZ condition set by NZ government.",
+   "evidence_url": "https://blog.studywithnewzealand.govt.nz/category/study/why-you-should-consider-studying-for-your-phd-in-new-zealand/",
+   "quote": "Since 2005, international PhD students have paid the same fees as domestic students in New Zealand."
+  },
+  {
+   "opportunity_id": "otago-doctoral-review",
+   "issue": "Could not re-fetch (HTTP 403). Search snippet from otago.ac.nz says the review is still underway and master's-to-doctoral scholarship upgrades end 1 Jan 2027; keep verification_needed.",
+   "evidence_url": "https://www.otago.ac.nz/courses/scholarships/phd/important-funding-announcement",
+   "quote": "NOT FETCHED - based on search summary only"
+  },
+  {
+   "opportunity_id": "monash-scholarship-2027",
+   "issue": "Round 1 closing 28 Feb 2027 for July 2027 start appears consistent with search summaries, but the Monash page returned 403 here; I could not re-verify. No change proposed.",
+   "evidence_url": "https://www.monash.edu/graduate-research/study/apply",
+   "quote": "NOT FETCHED (403)"
+  },
+  {
+   "opportunity_id": "docs/countries/australia.md",
+   "issue": "Document lists ANU, UNSW, Sydney, Queensland, Adelaide as unverified discovery targets. Now verified: Sydney RTP international RP3&4 closes 2026-12-18 (the only open mid-2027 international stipend round found); ANU Round 2 closes 15 Apr 2027; UQ Round 1 closes 25 Jan 2027; UNSW international round next closes 16 Apr 2027 (Term 1 2028). ANU international round 1 for 2027 closed 31 Aug 2026.",
+   "evidence_url": "https://sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+   "quote": "Research Periods 3 and 4, 2027: 18 December 2026"
+  }
+ ],
+ "yield_note": "Saturated: central international scholarship rounds for Sydney, ANU, UQ, UNSW, UTS, RMIT, Adelaide, Auckland, Canterbury, VUW. Key finding: almost every Australian international round for 2027 start has closed (ANU R1 31 Aug, UQ intl 19 Oct, UTS 7 Oct, UWA 15 Sep, RMIT 30 Sep, Sydney RP1&2 11 Sep, UNSW 14 Aug, Adelaide Talent 2 Nov); the only open mid-2027-start international stipend round found is Sydney RP3&4 closing 2026-12-18, then UQ R1 2027-01-25, Auckland 2027-02-01, VUW 2027-03-01 (existing), Monash R1 2027-02-28 (existing), ANU R2 2027-04-15. NZ funding is student-based (no salaried positions): no offer by 2026-12-31 is evidenced anywhere. No project-specific funded estimation/SLAM PhD advertised for 2027 that is open to internationals was found; ACFR, QCR, ANU/Sydney geometric-estimation groups have no live call except QCR rolling EOI. Remaining gaps: QUT, Monash, Melbourne, UTAS, Deakin, Otago and AUT official pages blocked (403); NZ Marsden/MBIE posts and Nieto/Sukkarieh/Sunderhauf/Roberts group pages unchecked (search budget exhausted). Not covered: Curtin/Griffith/Swinburne/Deakin project postings beyond search snippets."
+}
