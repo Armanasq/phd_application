@@ -1,0 +1,785 @@
+{
+ "agent": "supervisor-radar",
+ "scope": "Verified radar of PIs/labs in CA, UK, IE, LU, CH, NO, NZ, AU matching inertial/VIO/SLAM/state-estimation work; leads only where a lab/university channel was fetched.",
+ "searches_run": [
+  {
+   "query": "WebSearch: Mahony/van Goor equivariant filter 2025; Barfoot STARS students; Fossen/Johansen NTNU; Chli V4RL openings; QUT visual-inertial scholarship",
+   "engine": "WebSearch",
+   "result_note": "found arXiv 2503.03973/2507.04568, Barfoot ASRL application cycle, QUT DECRA email-only PhD offer"
+  },
+  {
+   "query": "WebSearch: ANU scholarship rounds; NZ/Ireland SLAM groups; Edinburgh SLAM; EPFL/ETH VIO labs",
+   "engine": "WebSearch",
+   "result_note": "only aggregators for ANU Round 2 and Auckland; Edinburgh Liang Zhao CDT snippet; no NZ/IE lab confirmed"
+  },
+  {
+   "query": "arXiv author searches (WebFetch) for Mahony, Fallon, Kelly, Voos, Johansen, Chli, Vidal-Calleja, Manchester, Davison, Chin, Petillot, Beltrame, Brekke, Williams, Ila, Lajoie, Milford, Siegwart, Michaud, Dooly, Fossen, Markham",
+   "engine": "WebFetch",
+   "result_note": "2024-2026 publication lists; abs pages opened for the cited items to confirm authors"
+  },
+  {
+   "query": "Official pages fetched: starslab.ca/join-us, asrl.utias.utoronto.ca/~tdb, utias.utoronto.ca/admissions, eng.anu.edu.au/people/robert-mahony, study.anu.edu.au URS, ntnu.edu employees/vacancies/phd, asl.ethz.ch, asl.ethz.ch/v4rl.html, cvg.ethz.ch, ori.ox.ac.uk, imperial Dyson Robotics Lab, mistlab.ca, researchportal.hw.ac.uk, sydney.edu.au ACFR, profiles.sydney/uts/adelaide, research.qut.edu.au/qcr, cris.ie",
+   "engine": "WebFetch",
+   "result_note": "see lab caveats; fails: mrl.cim.mcgill.ca (DNS), osl.eps.hw.ac.uk (503), snt/uni.lu (empty), ir.canterbury (403), maynoothuniversity (403)"
+  }
+ ],
+ "leads": [
+  {
+   "id": "utoronto-utias-phd-fall-2027",
+   "country": "Canada",
+   "institution": "University of Toronto (UTIAS)",
+   "title": "UTIAS PhD, Fall 2027 entry (STARS Lab Kelly, ASRL Barfoot and other robotics supervisors)",
+   "type": "doctoral_program",
+   "deadline_local": "2027-01-15",
+   "timezone": "America/Toronto",
+   "start_date": "September 2027 (per Barfoot and UTIAS cycle)",
+   "status": "upcoming_confirmed",
+   "funding": "UTIAS states a funded four-year PhD with guaranteed funding; stipend amount and international tuition treatment NOT stated on the fetched page.",
+   "international_tuition": "UNKNOWN; page says funding is guaranteed but does not say it covers international tuition",
+   "research_fit": "high",
+   "fit_reason": "Kelly's STARS Lab (aided inertial navigation, calibration) and Barfoot's ASRL (lidar/radar-inertial odometry) match the applicant's inertial estimation and fusion work.",
+   "url": "https://utias.utoronto.ca/admissions",
+   "source_type": "OFFICIAL_INSTITUTION_OR_LAB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Research stream requires a faculty supervisor; English proficiency evidence unless degree from listed English-speaking countries; test scores <2 years; GRE not required. Detailed academic criteria on the PhD admission page (not opened).",
+   "required_materials": "Two applications: School of Graduate Studies and UTIAS application system; letters of reference required (incomplete applications not considered).",
+   "offer_timing": "UNKNOWN (typically after the January deadline)",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "January 15, 2027, for both domestic and international applicants (WebFetch summary of page; verbatim quote not captured)",
+     "locator": "UTIAS admissions, Fall 2027 PhD"
+    },
+    {
+     "fact": "funding",
+     "quote": "funded, four-year, research-intensive program ... guaranteed funding to complete their degree",
+     "locator": "UTIAS admissions, PhD description"
+    },
+    {
+     "fact": "lab route",
+     "quote": "direct hiring is through Aerospace only",
+     "locator": "https://starslab.ca/join-us/"
+    }
+   ],
+   "risk": "Deadline is after 2026-12-31 so no offer in 2026; time zone and cut-off hour not stated; funding amount and international tuition coverage unconfirmed; supervisor must be matched.",
+   "next_action": "Open the UTIAS PhD admission and funding pages for stipend and international tuition; shortlist supervisors from labs[] (Kelly, Barfoot)."
+  },
+  {
+   "id": "qut-qcr-eoi-rolling",
+   "country": "Australia",
+   "institution": "Queensland University of Technology, Centre for Robotics",
+   "title": "QCR PhD expression of interest (rolling for international applicants) and annual scholarship round",
+   "type": "lab_recruitment_lead",
+   "deadline_local": "rolling",
+   "timezone": "Australia/Brisbane",
+   "start_date": "UNKNOWN",
+   "status": "rolling",
+   "funding": "Central options named: RTP Stipend, QUTPRA (Annual Scholarship Round); or supervisor/grant-funded project scholarships. Amounts, round dates and fee coverage NOT stated on the page.",
+   "international_tuition": "UNKNOWN",
+   "research_fit": "high",
+   "fit_reason": "QCR topics include UAV navigation in GPS-denied environments, 'dark' visual odometry, event-based localisation and neuromorphic place recognition.",
+   "url": "https://research.qut.edu.au/qcr/engagement/study-with-us/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Check academic entry and English language requirements; choose a topic and email the supervisor first; supervisor-approved research proposal.",
+   "required_materials": "Expression of interest via online form; final application if invited; research proposal approved by supervisor.",
+   "offer_timing": "EOI processing about 6 to 8 weeks to admission outcome; scholarship offers may take longer",
+   "evidence": [
+    {
+     "fact": "deadline",
+     "quote": "International Students can submit their EOI at any time for consideration.",
+     "locator": "Study with us, deadlines"
+    },
+    {
+     "fact": "funding",
+     "quote": "Research Training Program (RTP) Stipend; QUT Postgraduate Research Award (QUTPRA)",
+     "locator": "Study with us, scholarships"
+    }
+   ],
+   "risk": "No specific funded project fetched; scholarship competitiveness for international applicants unknown; topic list says it is under construction.",
+   "next_action": "Browse https://research.qut.edu.au/qcr/phd-topics/, match a topic (e.g. UAV navigation in GPS-denied environments) and obtain supervisor funding position before EOI."
+  },
+  {
+   "id": "imperial-dyson-lab-open-talent",
+   "country": "United Kingdom",
+   "institution": "Imperial College London, Dyson Robotics Lab",
+   "title": "Dyson Robotics Lab open call for PhD talent (full funding possible regardless of overseas status)",
+   "type": "lab_recruitment_lead",
+   "deadline_local": "rolling",
+   "timezone": "Europe/London",
+   "start_date": "UNKNOWN",
+   "status": "verification_needed",
+   "funding": "Not specified; page says full funding 'may be found' for the very best.",
+   "international_tuition": "UNKNOWN; page says funding may be found 'regardless of overseas status'",
+   "research_fit": "medium",
+   "fit_reason": "Davison's group publishes visual SLAM and visual odometry (Triangle Splatting SLAM 2026), without a strong inertial component.",
+   "url": "https://www.imperial.ac.uk/a-z-research/dyson-robotics-lab/work-with-us/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "Excellent academic background and a passion for computer vision; send CV and cover letter.",
+   "required_materials": "CV and cover letter explaining interest in the lab (to the lab contact on the page).",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "funding",
+     "quote": "for the very best, full funding may be found regardless of overseas status",
+     "locator": "Work with us page"
+    },
+    {
+     "fact": "openings",
+     "quote": "always looking for new talent to work inside the lab, at Masters, PhD and Post Doctoral level",
+     "locator": "Work with us page"
+    }
+   ],
+   "risk": "Page appears stale (latest job notice Feb 2021); no concrete funded studentship; Imperial formal admission and fee route not checked.",
+   "next_action": "Confirm current Imperial Department of Computing PhD scholarship rounds (not fetched) before relying on this."
+  },
+  {
+   "id": "polymtl-mist-open-recruitment",
+   "country": "Canada",
+   "institution": "Polytechnique Montreal, MIST Lab",
+   "title": "MIST Lab standing call for PhD/MSc candidates (funded positions stated)",
+   "type": "lab_recruitment_lead",
+   "deadline_local": "rolling",
+   "timezone": "America/Toronto",
+   "start_date": "UNKNOWN",
+   "status": "verification_needed",
+   "funding": "Page says funded positions are available; amounts and international fee waiver UNKNOWN.",
+   "international_tuition": "UNKNOWN",
+   "research_fit": "medium",
+   "fit_reason": "Collaborative SLAM, GPS-denied autonomy and field robotics (Beltrame, Lajoie).",
+   "url": "https://mistlab.ca/",
+   "source_type": "OFFICIAL_UNIVERSITY_LAB_OR_JOB",
+   "verified_on": "2026-11-14",
+   "formal_eligibility": "UNKNOWN",
+   "required_materials": "UNKNOWN",
+   "offer_timing": "UNKNOWN",
+   "evidence": [
+    {
+     "fact": "openings",
+     "quote": "We're always looking for motivated PhD and MSc candidates",
+     "locator": "Join us section (via WebFetch summary)"
+    }
+   ],
+   "risk": "Generic standing statement; no application mechanics; Quebec admissions timing and fees unverified.",
+   "next_action": "Read the lab's join page and Polytechnique graduate admissions pages for deadlines and international fee rules."
+  }
+ ],
+ "labs": [
+  {
+   "pi": "Robert Mahony (with Pieter van Goor as co-author)",
+   "institution": "Australian National University (Australia)",
+   "group": "Systems Theory and Robotics Group, School of Engineering",
+   "group_url": "https://eng.anu.edu.au/people/robert-mahony",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "The Difference between the Left and Right Invariant Extended Kalman Filter",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2507.04568"
+    },
+    {
+     "title": "Equivariant Filter Design for Range-only SLAM",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2503.03973"
+    },
+    {
+     "title": "Galilean State Estimation for Inertial Navigation Systems with Unknown Time Delay (arXiv listing, id 2605.13266; abs page not opened)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2605.13266"
+    },
+    {
+     "title": "Equivariant symmetries for inertial navigation systems (Automatica 181:112495; seen in search snippet only)",
+     "year": 2025,
+     "url": "https://doi.org/10.1016/j.automatica.2025.112495"
+    }
+   ],
+   "hiring_channel_url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-university-research-scholarships",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Group page and Mahony profile (fetched) contain no recruiting text. Equivariant filters / IMU / Lie-group observers are the closest published match to the applicant's inertial work. Funding route is the central ANU HDR scholarship (stipend AUD 40,475 pa 2027 base rate per ANU page; tuition coverage not stated on that page; international Round 1 deadline 31 Aug has passed; Round 2 date not stated). Supervisor capacity UNKNOWN. The DOI in the 4th item was not fetched; the 3 arXiv items are the verified ones (first two abs pages opened, third from arXiv author listing). Not verified here: Pieter van Goor's current affiliation (arXiv 2609.19742 lists him with Sydney's Williams, so he may have moved)."
+  },
+  {
+   "pi": "Jonathan Kelly",
+   "institution": "University of Toronto (Canada)",
+   "group": "STARS Lab (Space and Terrestrial Autonomous Robotic Systems), UTIAS",
+   "group_url": "https://starslab.ca/",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "Lost in Time? Continuous Symmetry and Identifiability in Aided Inertial Navigation with Unknown Measurement Delays (MFI 2026 Best Paper per lab page)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2607.03699"
+    },
+    {
+     "title": "A Sliding Window Filter on the Galilean Group for Consistent Aided Inertial Navigation with Unknown Measurement Delays",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2608.29514"
+    },
+    {
+     "title": "Galilean Robots, Aristotelian Sensors: Joint Spatiotemporal Trajectory Estimation and Extrinsic Calibration",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2611.12526"
+    }
+   ],
+   "hiring_channel_url": "https://starslab.ca/join-us/",
+   "hiring_state": "ROLLING",
+   "caveat": "Lab says applications are always welcome but hiring is only through UTIAS (Aerospace Studies), main-deadline cycle: Fall 2027 deadline 2027-01-15 (see lead utoronto-utias-phd-fall-2027). Individual funding capacity UNKNOWN; page encourages students to also seek NSERC/OGS."
+  },
+  {
+   "pi": "Timothy D. Barfoot",
+   "institution": "University of Toronto (Canada)",
+   "group": "Autonomous Space Robotics Lab (ASRL), UTIAS",
+   "group_url": "https://asrl.utias.utoronto.ca/~tdb/",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "IMU as an Input vs. a Measurement of the State in Inertial-Aided State Estimation (Robotica)",
+     "year": 2024,
+     "url": "https://arxiv.org/abs/2403.05968"
+    },
+    {
+     "title": "Continuous-Time Radar-Inertial and Lidar-Inertial Odometry using a Gaussian Process Motion Prior",
+     "year": 2024,
+     "url": "https://arxiv.org/abs/2402.06174"
+    },
+    {
+     "title": "Tunable Virtual IMU Frame by Weighted Averaging of Multiple Non-Collocated IMUs (arXiv author listing)",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2506.00371"
+    },
+    {
+     "title": "3DRO: Lidar-level SE(3) Direct Radar Odometry Using a 2D Imaging Radar and a Gyroscope (arXiv author listing)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2604.12027"
+    }
+   ],
+   "hiring_channel_url": "https://utias.utoronto.ca/admissions",
+   "hiring_state": "ROLLING",
+   "caveat": "Barfoot page says 'the normal cycle is to submit your application in January to start in September'; no named open position. Dates of the 2026 items come from the arXiv author listing and are consistent with this environment's date. Funding per student UNKNOWN; UTIAS states PhD funding is guaranteed (see lead)."
+  },
+  {
+   "pi": "Tor Arne Johansen (with Torleiv H. Bryne)",
+   "institution": "NTNU (Norway)",
+   "group": "Dept. of Engineering Cybernetics: navigation, UAV Lab, AMOS",
+   "group_url": "https://www.ntnu.edu/employees/tor.arne.johansen",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "Bluetooth Phased-array Aided Inertial Navigation Using Factor Graphs: Experimental Verification",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2602.17407"
+    },
+    {
+     "title": "Airborne Magnetic Anomaly Navigation with Neural-Network-Augmented Online Calibration",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2603.08265"
+    },
+    {
+     "title": "Robust phased-array radio system aided inertial navigation using factor graph optimisation (ECC 2025)",
+     "year": 2025,
+     "url": "https://doi.org/10.23919/ECC65951.2025.11186997"
+    }
+   ],
+   "hiring_channel_url": "https://www.ntnu.edu/vacancies",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Fetched NTNU vacancies page listed no PhD vacancies in cybernetics at fetch time (2026-11-14). NTNU advertises PhD posts continuously on that page and via the university-wide PhD page https://www.ntnu.edu/phd; exact salary, international eligibility and deadlines UNKNOWN until a post appears. Learned+classical aided INS (NN-augmented calibration) is a close fit."
+  },
+  {
+   "pi": "Roland Siegwart, Cesar Cadena, Helen Oleynikova (and Michael Pantic)",
+   "institution": "ETH Zurich (Switzerland)",
+   "group": "Autonomous Systems Lab (ASL), D-MAVT",
+   "group_url": "https://asl.ethz.ch/",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "BIEVR-LIO: Robust LiDAR-Inertial Odometry through Bump-Image-Enhanced Voxel Maps (Pfreundschuh, Le Gentil, Siegwart, Cadena, Oleynikova)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2604.14421"
+    },
+    {
+     "title": "When Your State Estimator Has Lost The Plot: Detecting Estimator Failures Via Spectral Analysis (Lanegger, Oleynikova, Siegwart, Pantic)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2608.10623"
+    }
+   ],
+   "hiring_channel_url": "https://asl.ethz.ch/",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "ASL homepage lists no openings or join link and does not name a PI (fetched). Positions are posted on the ETH job portal (https://www.jobs.ethz.ch) as salaried posts; none verified here. Distinct from the repo's eth-robotx / eth-rsl-rolling entries. Fault/failure detection in estimators matches the applicant's robust-estimation interest."
+  },
+  {
+   "pi": "Margarita Chli",
+   "institution": "ETH Zurich / University of Cyprus (Switzerland)",
+   "group": "Vision for Robotics Lab (V4RL)",
+   "group_url": "https://asl.ethz.ch/v4rl.html",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "EllipseLIO: Adaptive LiDAR Inertial Odometry with an Ellipsoid Representation (RA-L 2026)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2605.21150"
+    },
+    {
+     "title": "Hyperion: A fast, versatile symbolic Gaussian Belief Propagation framework for Continuous-Time SLAM",
+     "year": 2024,
+     "url": "https://arxiv.org/abs/2407.07074"
+    }
+   ],
+   "hiring_channel_url": "https://asl.ethz.ch/v4rl.html",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Lab page describes Chli as professor at the University of Cyprus and VISITING professor at ETH; ETH PhD supervision capacity is therefore UNCERTAIN (older PhD studentships were joint UCY/ETH under an ERC grant and are expired). No join text on page. Strong topical match (VIO/LIO, collaborative VI-SLAM)."
+  },
+  {
+   "pi": "Teresa Vidal-Calleja (with Cedric Le Gentil)",
+   "institution": "University of Technology Sydney (Australia)",
+   "group": "UTS Robotics Institute (perception, inertial fusion, SLAM)",
+   "group_url": "https://profiles.uts.edu.au/Teresa.VidalCalleja",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "Real-Time Truly-Coupled Lidar-Inertial Motion Correction and Spatiotemporal Dynamic Object Detection (IROS 2024)",
+     "year": 2024,
+     "url": "https://arxiv.org/abs/2410.05152"
+    },
+    {
+     "title": "Mag-Match: Magnetic Vector Field Features for Map Matching and Registration",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2508.15300"
+    }
+   ],
+   "hiring_channel_url": "https://www.uts.edu.au/research/graduate/future-research-students",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Profile lists 'Masters Research or PhD student supervision' availability and research areas 'inertial fusion, SLAM' and ARC Discovery on unconventional (magnetic/acoustic/event) sensors; no named project or funded studentship found. UTS scholarship page gives no deadlines/amounts in the fetched text. Fee/funding for international students UNKNOWN."
+  },
+  {
+   "pi": "Yvan Petillot",
+   "institution": "Heriot-Watt University (UK)",
+   "group": "Ocean Systems Lab / National Robotarium, Institute of Sensors, Signals and Systems",
+   "group_url": "https://researchportal.hw.ac.uk/en/persons/yvan-petillot",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "VISO: Robust Underwater Visual-Inertial-Sonar SLAM with Photometric Rendering for Dense 3D Reconstruction",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2601.01144"
+    },
+    {
+     "title": "InsSo3D: Inertial Navigation System and 3D Sonar SLAM for turbid environment inspection",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2601.05805"
+    }
+   ],
+   "hiring_channel_url": "https://researchportal.hw.ac.uk/en/persons/yvan-petillot",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Profile page lists no PhD opportunities; the OSL site (osl.eps.hw.ac.uk) returned HTTP 503 so was not verified. AUV inertial/sonar/visual SLAM is a direct sensor-fusion match. UK fee status: international candidates are typically 'overseas' fee; funding UNKNOWN."
+  },
+  {
+   "pi": "Holger Voos, Jose Luis Sanchez-Lopez",
+   "institution": "University of Luxembourg, SnT (Luxembourg)",
+   "group": "Automation and Robotics Research Group (ARG) / SpaceR",
+   "group_url": "https://www.uni.lu/snt-en/research-groups/arg/",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "MVP-SLAM: Multi-Camera Visual-Inertial Floorplan-Prior SLAM (Bikandi-Noya,...,Voos, Sanchez-Lopez)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2609.39596"
+    },
+    {
+     "title": "Marker-Constrained Pose-Graph Correction for Cross-Platform Georeferencing in GNSS-Denied Environments (arXiv author listing, id 2608.16281; authors not opened)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2608.16281"
+    }
+   ],
+   "hiring_channel_url": "https://www.uni.lu/jobs",
+   "hiring_state": "UNKNOWN",
+   "caveat": "The SnT ARG page and uni.lu/jobs returned empty content to the fetcher, so the group page and hiring state are NOT verified from the official site; only the MVP-SLAM abstract page was opened (authors confirmed). Only one publication is author-verified. Luxembourg doctoral posts are salaried when advertised (not verified here). Distinct from repo ids lux-sparc-radar / lux-cvi2-vision."
+  },
+  {
+   "pi": "Stefan B. Williams (with Pieter van Goor, Frank Dellaert)",
+   "institution": "University of Sydney, Australian Centre for Robotics (Australia)",
+   "group": "Marine Robotics / ACFR",
+   "group_url": "https://profiles.sydney.edu.au/stefan.williams",
+   "alignment": "very_high",
+   "recent_work": [
+    {
+     "title": "Equivariant Filter Design for Acoustic and Depth Aided Inertial Navigation Systems",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2609.19742"
+    },
+    {
+     "title": "SPADE: Sparsity Adaptive Depth Estimator for Zero-Shot, Real-Time, Monocular Depth Estimation in Underwater Environments (arXiv author listing; authors not opened)",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2510.25463"
+    }
+   ],
+   "hiring_channel_url": "https://www.sydney.edu.au/engineering/our-research/research-centres-and-institutes/australian-centre-for-robotics.html",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Centre page lists PIs (Manchester director, Williams, Ila, Bryson, Dansereau, Sukkarieh, Nebot, others) but no PhD text; profile only says 'Research supervision' available. Equivariant AUV INS paper is a very direct match. Funding/international scholarship route (e.g. Sydney international RTP-type awards) not verified. A CSIRO-linked 'Visual-LiDAR inertial localisation' Sydney industry PhD appeared in search snippets (2025 close, domestic-only per snippet) and was not fetched."
+  },
+  {
+   "pi": "Maurice Fallon",
+   "institution": "University of Oxford (UK)",
+   "group": "Dynamic Robot Systems Group, Oxford Robotics Institute",
+   "group_url": "https://ori.ox.ac.uk/people/maurice-fallon/",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "Hilti-Trimble-Oxford Dataset: 360 Visual-Inertial Benchmark With Floor Plan Priors for SLAM and Localization (RA-L 2026)",
+     "year": 2026,
+     "url": "http://doi.org/10.1109/lra.2026.3747660"
+    },
+    {
+     "title": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry (arXiv author listing)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2610.14951"
+    },
+    {
+     "title": "GrandTour: A Legged Robotics Dataset in the Wild for Multi-Modal Perception and State Estimation (arXiv author listing)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2602.18164"
+    }
+   ],
+   "hiring_channel_url": "https://ori.ox.ac.uk/study",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "ORI page says apply via Oxford Engineering Science graduate admissions; funding routes named are RAINZ CDT, Dept studentships, University funding (AIMS CDT mentioned); no 2027 deadlines or international eligibility on the fetched page. Fallon profile gives no info on accepting students. Oxford international studentships are highly competitive."
+  },
+  {
+   "pi": "Andrew Davison",
+   "institution": "Imperial College London (UK)",
+   "group": "Dyson Robotics Lab, Dept of Computing",
+   "group_url": "https://www.imperial.ac.uk/dyson-robotics-lab/",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "Triangle Splatting SLAM",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2605.31419"
+    },
+    {
+     "title": "PixVOD: Pixel-Distributed Direct Visual Odometry and Depth Estimation (arXiv author listing; authors not opened)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2606.03989"
+    },
+    {
+     "title": "KV-Tracker: Real-Time Pose Tracking with Transformers (arXiv author listing)",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2512.22581"
+    }
+   ],
+   "hiring_channel_url": "https://www.imperial.ac.uk/a-z-research/dyson-robotics-lab/work-with-us/",
+   "hiring_state": "ROLLING",
+   "caveat": "Visual SLAM / spatial AI rather than inertial. Work-with-us page (fetched) says lab is 'always looking for new talent' and 'full funding may be found regardless of overseas status' for the very best, but its job notices are from 2021, so the page may be stale. Leutenegger (formerly Imperial SLAM) is NOT checked and is believed to have moved out of the target countries."
+  },
+  {
+   "pi": "Viorela Ila",
+   "institution": "University of Sydney, Australian Centre for Robotics (Australia)",
+   "group": "SLAM / dynamic SLAM group",
+   "group_url": "https://profiles.sydney.edu.au/viorela.ila",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "DynoSAM: Open-Source Smoothing and Mapping Framework for Dynamic SLAM",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2501.11893"
+    },
+    {
+     "title": "Online Dynamic SLAM with Incremental Smoothing and Mapping (arXiv author listing)",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2509.08197"
+    }
+   ],
+   "hiring_channel_url": "https://profiles.sydney.edu.au/viorela.ila",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Profile says 'Research supervision' available; no student call. Factor-graph SLAM; inertial content not evidenced."
+  },
+  {
+   "pi": "Giovanni Beltrame, Pierre-Yves Lajoie",
+   "institution": "Polytechnique Montreal (Canada)",
+   "group": "MIST Lab",
+   "group_url": "https://mistlab.ca/",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "3D Foundation Model-Based Loop Closing for Decentralized Collaborative SLAM",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2602.02430"
+    },
+    {
+     "title": "DASH-SLAM: Calibration-Free Metric Monocular SLAM via Depth Scale Propagation (arXiv author listing)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2611.10239"
+    },
+    {
+     "title": "Multi-Robot Decentralized Collaborative SLAM in Planetary Analogue Environments: Dataset, Challenges, and Lessons Learned (arXiv author listing)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2601.21063"
+    }
+   ],
+   "hiring_channel_url": "https://mistlab.ca/",
+   "hiring_state": "OPEN",
+   "caveat": "Lab page says it is 'always looking for motivated PhD and MSc candidates' and that funded positions are available; no amounts, deadlines or international-fee treatment stated. Inertial content is secondary (collaborative SLAM focus)."
+  },
+  {
+   "pi": "Thor I. Fossen",
+   "institution": "NTNU (Norway)",
+   "group": "Guidance, navigation and control; Norwegian Centre for Embodied AI",
+   "group_url": "https://www.ntnu.edu/employees/thor.fossen",
+   "alignment": "medium",
+   "recent_work": [
+    {
+     "title": "A Spherical Amplitude-Phase Formulation for 3-D Adaptive Line-of-Sight (ALOS) Guidance with USGES Stability Guarantees (Automatica 192)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2505.08344"
+    },
+    {
+     "title": "A Uniform Semiglobal Exponential Stable ALOS Guidance Law for 3-D Path Following (Automatica 163)",
+     "year": 2024,
+     "url": "https://doi.org/10.1016/j.automatica.2024.111556"
+    }
+   ],
+   "hiring_channel_url": "https://www.ntnu.edu/vacancies",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Profile lists physics-informed recurrent neural networks (PI-RNN) as a research interest, but the recent publications retrieved are guidance/maneuvering, not estimation or PINNs, so alignment is capped at medium. No PhD text on page."
+  },
+  {
+   "pi": "Edmund F. Brekke",
+   "institution": "NTNU (Norway)",
+   "group": "Sensor fusion and maritime autonomy, Dept of Engineering Cybernetics",
+   "group_url": "https://www.ntnu.edu/employees/edmund.brekke",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "Histogram-Probabilistic Multi-Hypothesis Tracking with Integrated Target Existence",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2504.20526"
+    },
+    {
+     "title": "Near-Shore Mapping for Detection and Tracking of Vessels (arXiv author listing)",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2502.18368"
+    }
+   ],
+   "hiring_channel_url": "https://www.ntnu.edu/vacancies",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Profile states estimation for tracking, navigation and SLAM; page shows no 2024-26 publications and no openings. Maritime radar/target tracking is adjacent to, not identical with, IMU/VIO."
+  },
+  {
+   "pi": "Michael Milford, Tobias Fischer",
+   "institution": "Queensland University of Technology (Australia)",
+   "group": "QUT Centre for Robotics (perception and localisation)",
+   "group_url": "https://research.qut.edu.au/qcr/",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2603.05807"
+    },
+    {
+     "title": "Robust Scene Coordinate Regression via Geometrically-Consistent Global Descriptors (arXiv author listing)",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2512.17226"
+    }
+   ],
+   "hiring_channel_url": "https://research.qut.edu.au/qcr/engagement/study-with-us/",
+   "hiring_state": "ROLLING",
+   "caveat": "QUT page says international students can submit an EOI at any time; scholarships are supervisor/grant-funded or the central annual round (RTP stipend, QUTPRA) with no dates or amounts on the page. Their listed topics include event-camera localisation, UAV navigation in GPS-denied environments and 'dark' visual odometry; no visual-inertial-specific topic. Topic list says 'pages are under construction'."
+  },
+  {
+   "pi": "François Michaud",
+   "institution": "Universite de Sherbrooke (Canada)",
+   "group": "IntRoLab (Interdisciplinary Institute for Technological Innovation, 3IT)",
+   "group_url": "http://introlab.3it.usherbrooke.ca/index.php/Main_Page",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation",
+     "year": 2024,
+     "url": "https://arxiv.org/abs/2403.06341"
+    },
+    {
+     "title": "Online Global Loop Closure Detection for Large-Scale Multi-Session Graph-Based SLAM (arXiv author listing)",
+     "year": 2024,
+     "url": "https://arxiv.org/abs/2407.15305"
+    }
+   ],
+   "hiring_channel_url": "http://introlab.3it.usherbrooke.ca/index.php/Main_Page",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Homepage has no recruitment text, only a contact email; its news is last dated July 2023. Language of instruction at Sherbrooke and fee treatment not checked. Strong SLAM, little inertial."
+  },
+  {
+   "pi": "Marc Pollefeys",
+   "institution": "ETH Zurich (Switzerland)",
+   "group": "Computer Vision and Geometry Group (CVG)",
+   "group_url": "https://cvg.ethz.ch/",
+   "alignment": "high",
+   "recent_work": [
+    {
+     "title": "Benchmarking Egocentric Visual-Inertial SLAM at City Scale (LaMAria)",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2509.26639"
+    },
+    {
+     "title": "VIGS-SLAM: Visual Inertial Gaussian Splatting SLAM (Pollefeys is a co-author in arXiv listing; first-author group not Pollefeys's)",
+     "year": 2025,
+     "url": "https://arxiv.org/abs/2512.02293"
+    }
+   ],
+   "hiring_channel_url": "https://cvg.ethz.ch/opportunities",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Opportunities page not opened (only homepage link seen). Large-scale vision/geometry rather than inertial estimation; a second author-verified VIO paper was not obtained. Check Marc Pollefeys's ETH vs. Microsoft split before assuming PhD capacity."
+  },
+  {
+   "pi": "Niki Trigoni, Andrew Markham",
+   "institution": "University of Oxford (UK)",
+   "group": "Cyber-Physical Systems Group, Dept of Computer Science",
+   "group_url": "https://www.cs.ox.ac.uk/people/niki.trigoni/",
+   "alignment": "medium",
+   "recent_work": [
+    {
+     "title": "Deep Learning based Pedestrian Inertial Navigation: Methods, Dataset and On-Device Inference (older, not 2024+)",
+     "year": 2020,
+     "url": "https://arxiv.org/abs/2001.04061"
+    },
+    {
+     "title": "Graph-based Thermal-Inertial SLAM with Probabilistic Neural Networks (older)",
+     "year": 2021,
+     "url": "https://arxiv.org/abs/2104.07196"
+    }
+   ],
+   "hiring_channel_url": "https://www.cs.ox.ac.uk/people/niki.trigoni/",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Historically the closest group to learned inertial odometry, but I could NOT find 2024-2026 inertial publications for them (profile pages list nothing after 2023); the newest hits were 2023. Trigoni page says 'We currently have a number of funded open positions' but its only dated example is 2017-18. Treat as a historical lead requiring a fresh publication check."
+  },
+  {
+   "pi": "Tat-Jun Chin",
+   "institution": "University of Adelaide (Australia)",
+   "group": "AI for Space Group",
+   "group_url": "https://researchers.adelaide.edu.au/profile/tat-jun.chin",
+   "alignment": "medium",
+   "recent_work": [
+    {
+     "title": "Recurrent Vision Transformers for Event-Based Spacecraft Pose Estimation Under Slow Relative Motions",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2610.25622"
+    },
+    {
+     "title": "Event-RGB fusion for spacecraft pose estimation under harsh lighting (Aerospace Science and Technology, listed on profile; link not fetched)",
+     "year": 2025,
+     "url": "https://researchers.adelaide.edu.au/profile/tat-jun.chin"
+    }
+   ],
+   "hiring_channel_url": "https://researchers.adelaide.edu.au/profile/tat-jun.chin",
+   "hiring_state": "NO_PUBLIC_CALL",
+   "caveat": "Profile states he is 'not currently eligible to supervise and is at capacity' and asks prospective students to email. Event-camera pose estimation matches event-based interest; inertial content absent."
+  },
+  {
+   "pi": "Ian R. Manchester",
+   "institution": "University of Sydney, Australian Centre for Robotics (Australia)",
+   "group": "Centre director; learning, dynamics and control",
+   "group_url": "https://profiles.sydney.edu.au/ian.manchester",
+   "alignment": "medium",
+   "recent_work": [
+    {
+     "title": "Robustly Invertible Nonlinear Dynamics and the BiLipREN (arXiv author listing; authors not opened)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2607.10026"
+    },
+    {
+     "title": "Goal-Conditioned Neural ODEs with Guaranteed Safety and Stability for Learning-Based All-Pairs Motion Planning (arXiv author listing; authors not opened)",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2604.02821"
+    }
+   ],
+   "hiring_channel_url": "https://www.sydney.edu.au/engineering/our-research/research-centres-and-institutes/australian-centre-for-robotics.html",
+   "hiring_state": "UNKNOWN",
+   "caveat": "Entry rests on an arXiv author search only; profile page not fetched. Relevant to physics-/stability-constrained learned dynamics and robust estimation, not to IMU/VIO directly."
+  }
+ ],
+ "recurring_cycles": [
+  {
+   "program": "ANU University Research Scholarship (HDR), 2027 intake rounds",
+   "institution": "Australian National University",
+   "url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-university-research-scholarships",
+   "last_observed_deadline": "International Round 1: 31 August (year not stated on page, presumed 2026); domestic Round 1: 26 October 2026 11:59pm (HISTORICAL, passed)",
+   "expected_next_window": "Round 2 (start by end of August 2027): closing date not stated on the page; third-party aggregators suggest about 15 April 2027 (INFERENCE, unverified)",
+   "funding_note": "Stipend $40,475 per annum (2027 base rate) per ANU page; eligibility at least H1 or equivalent; international eligible; tuition coverage not stated on that page."
+  },
+  {
+   "program": "UTIAS PhD annual intake",
+   "institution": "University of Toronto",
+   "url": "https://utias.utoronto.ca/admissions",
+   "last_observed_deadline": "2027-01-15 for Fall 2027 (this is the current open cycle; prior cycles not fetched)",
+   "expected_next_window": "Mid-January each year for the following September (INFERENCE from the Barfoot page statement of a January cycle)",
+   "funding_note": "Guaranteed funding for PhD students stated; amounts not stated."
+  },
+  {
+   "program": "QUT annual scholarship round (RTP/QUTPRA)",
+   "institution": "Queensland University of Technology",
+   "url": "https://research.qut.edu.au/qcr/engagement/study-with-us/",
+   "last_observed_deadline": "UNKNOWN; page gives no dates",
+   "expected_next_window": "UNKNOWN; EOI is open year-round for international applicants",
+   "funding_note": "Stipend amounts not on the fetched page."
+  }
+ ],
+ "ineligible_or_partial": [],
+ "unverified_leads": [
+  {
+   "title": "University of Edinburgh CDT company-linked PhD: large-scale graph optimisation for SLAM (Dr Liang Zhao, Huawei co-funded)",
+   "url_tried": "https://informatics.ed.ac.uk/cdt-in-machine-learning-systems/apply/cdt-company-linked-studentships/efficient-algorithms-and",
+   "reason": "Found only in a search snippet; the page returned HTTP 404 on fetch; deadline and funding unknown."
+  },
+  {
+   "title": "University of Auckland Doctoral Scholarship (NZ$35,468 pa 2026 rate per aggregators; rounds 1 Feb, 1 May, 1 Aug 2027)",
+   "url_tried": "https://www.auckland.ac.nz/en/for/current-students/cs-scholarships-and-awards/doctoral-scholarships/university-of-auckland-doctoral-scholarships.html",
+   "reason": "Only aggregators gave dates/amounts; the official Auckland scholarship pages I fetched did not contain round dates; not in scope for labs but a likely NZ funding route (likely another agent's scope)."
+  },
+  {
+   "title": "CSIRO Industry PhD, University of Sydney: Visual-LiDAR inertial localisation (Emesent)",
+   "url_tried": "https://sydney.edu.au/scholarships/b/csiro-industry-phd-scholarship---visual-lidar-inertial-localisat.html",
+   "reason": "Seen in a search snippet only (reported 2025 close, domestic-only); not fetched. Likely closed and not international-eligible."
+  },
+  {
+   "title": "University of Limerick Centre for Robotics and Intelligent Systems (Gerard Dooly): UAV multi-sensor fusion",
+   "url_tried": "https://cris.ie/",
+   "reason": "Group page fetched and one 2024 paper verified (ICCMA 2024 'Multi-Sensor Fusion for Efficient and Robust UAV State Estimation', Irfan et al., via pure.ul.ie), but the cris.ie publications page showed no 2025-26 estimation papers and no hiring information; fewer than two verified recent publications, so not listed as a lab."
+  },
+  {
+   "title": "Maynooth University (John McDonald, SLAM) and University of Galway (Glavin/Jones, automotive sensor fusion)",
+   "url_tried": "https://www.maynoothuniversity.ie/people/john-mcdonald",
+   "reason": "Maynooth page returned HTTP 403; Galway evidence limited to search snippets (V2X LiDAR fusion, hyperspectral review), not fetched. Ireland has no verified lab in this radar."
+  },
+  {
+   "title": "University of Canterbury (NZ) visual-inertial odometry in windblown vegetation (S. Schofield thesis 2023)",
+   "url_tried": "https://ir.canterbury.ac.nz/items/40210315-29c2-4ad6-9d30-c6934452f610",
+   "reason": "Repository returned HTTP 403; thesis is 2023 and no current NZ group, supervisor or 2024-26 paper verified."
+  },
+  {
+   "title": "Victoria University of Wellington (Paihau-Robinson Research Institute) forest navigation / kidnapped-robot localisation",
+   "url_tried": "https://wgtn.ac.nz/robinson/research/robotics/projects/navigating-the-future",
+   "reason": "Project page fetched, describes lidar localisation work with a 2026 doctoral thesis but names no PI and lists no papers or PhD openings; cannot satisfy two-publication rule."
+  },
+  {
+   "title": "McGill Mobile Robotics Lab (Gregory Dudek, David Meger)",
+   "url_tried": "https://mrl.cim.mcgill.ca/",
+   "reason": "Host did not resolve in this session (network allowlist); arXiv author listings returned mostly learning/manipulation and name-collision papers, no verified state-estimation work."
+  },
+  {
+   "title": "UCL / Chris Xiaoxuan Lu (radar-inertial learning), EPFL VILAB (Amir Zamir), Waslander (Toronto TRAIL), Univ. Edinburgh Sethu Vijayakumar/Ramamoorthy",
+   "url_tried": "arXiv author searches",
+   "reason": "Affiliation or alignment could not be verified from official pages; arXiv listings showed only partial relevance (e.g. 2507.03938 VISC radar scene flow with visual-inertial supervision; Waslander/Schoellig 2610.29964 active perception). Not listed."
+  },
+  {
+   "title": "UZH RPG (Scaramuzza) and ETH RSL (Hutter)",
+   "url_tried": "https://rpg.ifi.uzh.ch/",
+   "reason": "Already in the repo. Observation only: RPG publications page confirms 2025-26 work including HDVIO2.0 (T-RO 2025) and DAPEVO event/frame VO (2026), strengthening the existing entry."
+  },
+  {
+   "title": "Direct SnT / uni.lu doctoral vacancies",
+   "url_tried": "https://www.uni.lu/jobs",
+   "reason": "Page returned empty content to the fetcher; no vacancy list could be read."
+  }
+ ],
+ "corrections_to_existing_repo": [],
+ "yield_note": "22 labs listed (CA 4, UK 4, CH 3, NO 3, LU 1, AU 7, IE 0, NZ 0) against a 25-40 target; country balance is NOT achieved for Ireland and NZ, where I found no lab satisfying the official-page plus two-recent-publications rule (candidates in unverified_leads). WebSearch quota ran out mid-run, so the last third of discovery used WebFetch only (arXiv author search listings plus official pages). Publication evidence: items marked 'abs page opened' were checked for author names on arxiv.org; items marked 'arXiv author listing' come from arXiv author search and may include name-collisions, so check before citing. Many official lab pages (UZH, ETH ASL, ANU, NTNU, Oxford) list no openings, so hiring_state is mostly NO_PUBLIC_CALL; only 4 'leads' were concrete channels. Saturated: ETH/UZH/NTNU/Sydney/Toronto cores. Remaining: McGill, Waterloo, Montreal (Mila), Edinburgh, Bristol, Cambridge, UCL, UNSW, UQ, Melbourne, EPFL, Auckland/Canterbury/Waikato/Massey and Irish groups; verify each from official lab pages, and check the Oxford AIMS CDT, Edinburgh CDTs and ETH job portal for dated calls."
+}

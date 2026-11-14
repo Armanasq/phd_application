@@ -25,7 +25,7 @@ Session-specific investigations from PR #6 and PR #7 have been integrated into `
 - **Selection bias:** curated Awesome lists and famous PhD guides overrepresent English-language CS and successful US applicants; Chinese and Turkish resource discovery remains incomplete.
 - **Source dependence:** GitHub derivative scrapers and multiple Awesome lists can all repeat one original account or employer vacancy; see [six recorded source relationships](../data/repository_relations.csv).
 - **Temporal errors:** a 2024/25 advertised vacancy is not a 2026 job, and a program with a Nov/Dec 2026 deadline may issue admission decisions only in 2027.
-- **Financial interpretation:** an admission portal is not a funded job; international tuition and stipend gaps matter. Twenty lead records span open channels, conditional awards, partially eligible and verification-needed roles.
+- **Financial interpretation:** an admission portal is not a funded job; international tuition and stipend gaps matter. 78 lead records (20 from 11 November and 58 from the 14 November parallel search, the latter flagged for live-page recheck) span open channels, conditional awards, partially eligible and verification-needed roles.
 - **Evidence:** 26 claim records refer to 21 distinct canonical source URLs, but **independent second-pass semantic verification is NOT PERFORMED**. CI structural validation cannot prove web source meaning.
 - **Country scope:** eight country-specific primary-source dossiers exist, but not a national census of laboratories, salary, immigration and vacancy cycles.
 - **Experience:** six public anecdotes, unrepresentative and largely anonymous; no causal conclusions or calibrated acceptance odds.
@@ -37,6 +37,6 @@ A documented saturation result needs (a) expanded pages and topic searches, (b) 
 
 ## Outstanding research operations
 
-Research official hiring portals before deadlines; apply evidence gates to employer job pages; inspect user qualifications privately; add additional relevant applicant accounts and contradictory records; deepen the 119 `PRELIMINARY_FOCUSED` reports, recheck excluded candidate status when upstream evidence changes, and use the live canonical CSVs rather than historical progress counts. Do not claim a complete or publication-equivalent systematic review.
+Research official hiring portals before deadlines; apply evidence gates to employer job pages; inspect user qualifications privately; add additional relevant applicant accounts and contradictory records; deepen the 104 `PRELIMINARY_FOCUSED` reports, recheck excluded candidate status when upstream evidence changes, and use the live canonical CSVs rather than historical progress counts. Do not claim a complete or publication-equivalent systematic review.
 
 See [research log](../docs/methodology/research-log.md) and [current status](../RESEARCH_STATUS.md).

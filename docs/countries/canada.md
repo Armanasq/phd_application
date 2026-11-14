@@ -18,3 +18,6 @@ Each program defines academic entry equivalence, official language tests/exempti
 
 ## Strategy
 UBC Dec15 is high-relevance **2027 funded pathway** to assess urgently, but no stated offer-before-Dec31. Pair formal applications with targeted recent-research supervisors; verify research fit from publications, awards and open intake rather than generic national rankings. No reliable individualized acceptance percentage.
+
+## 2026-11-14 update
+Vanier is closed and replaced by the Canada Graduate Research Scholarship – Doctoral, which requires international students to be already enrolled in a Canadian PhD, so it is not an entry route; Vector is Master's-only; the Quebec PBEEE round needed university pre-selection by September 2026. New deadline-bearing routes: Toronto CS and Mila (1 Dec), Alberta CS and McGill CS (15 Dec), UBC ECE and Toronto UTIAS (15 Jan 2027), SFU CS (19 Jan), Waterloo ECE (1 Feb). UBC CS lists an international package of $46,236/yr including an international tuition award. Quebec international tuition treatment remains unresolved. Source detail: [opportunity search synthesis](../../synthesis/opportunity-search-2026-11-14.md); fetch-summary evidence needs live-page recheck.

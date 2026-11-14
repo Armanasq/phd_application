@@ -20,3 +20,6 @@ Check research-equivalent degree/first-class honors, English exams and exemption
 
 ## Strategy
 Scientific fit high for embodied perception/SLAM (further 2026 paper matching needed), but 2026 offer probability unknown; maintain as Portfolio A verification/outreach lead and Portfolio B Feb2027 formal Monash scholarship route. Do not send application emails without approval.
+
+## 2026-11-14 update
+Sydney RTP International for Research Periods 3 and 4 2027 closes 18 Dec 2026 (AUD 44,293/yr plus full tuition offset) and is the only open mid-2027 international stipend round found; UQ Round 1 closes 25 Jan 2027 with outcomes in April; ANU Round 2 closes 15 Apr 2027; UNSW and UTS rounds are later. CSIRO iPhD is domestic-only. QUT Centre for Robotics takes expressions of interest year-round. Source detail: [opportunity search synthesis](../../synthesis/opportunity-search-2026-11-14.md); fetch-summary evidence needs live-page recheck.

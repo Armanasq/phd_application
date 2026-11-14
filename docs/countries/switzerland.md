@@ -32,3 +32,6 @@ Formal documents prioritize demonstrable research/hardware output, not mere pape
 Prioritize ETH Soft Robotics *if* applicant evidence fits hardware/physics/robot learning, ETH RobotX by 27 Nov with tailored 3-group selection, EPFL EDIC by 1 Dec as strong 2027 route. Distinguish 2026 application from 2027 employment and unknown decision date. Recheck jobs portals before submitting; validate applicant degrees, final dates, PDF contents and suitable faculty publication evidence.
 
 **Source class:** official current ETH job advertisements and EPFL EDIC program; future availability and applicant readiness still unverified.
+
+## 2026-11-14 update
+Most 2027 intake cycles had already closed. Added EPFL EDRS Robotics (15 Dec, year unprinted) and EDEE (1 Dec) as doctoral-school routes where enrolment is conditional on a supervisor and funding. ETH ASL, V4RL and CVL have no public PhD call; ETH CVG only considers first-author ECCV/CVPR/ICCV candidates. Source detail: [opportunity search synthesis](../../synthesis/opportunity-search-2026-11-14.md); fetch-summary evidence needs live-page recheck.
